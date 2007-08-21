@@ -1,0 +1,106 @@
+<html>
+<head>
+<link rel="stylesheet" href="/css/modencode.css">
+<title>The modENCODE Project</title>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script src="http://yui.yahooapis.com/2.2.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/prototype.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script> 
+   var balloon = new Balloon; 
+   balloon.delayTime = '500';
+   balloon.upLeftConnector    = '/images/balloons/blue_up_bottom_left.png';
+   balloon.upRightConnector   = '/images/balloons/blue_up_bottom_right.png';
+   balloon.downLeftConnector  = '/images/balloons/blue_down_top_left.png';
+   balloon.downRightConnector = '/images/balloons/blue_down_top_right.png';
+   balloon.upBalloon          = '/images/balloons/blue_up_top.png';
+   balloon.downBalloon        = '/images/balloons/blue_down_bottom.png';
+   balloon.balloonWidth       = '208px';
+   balloon.paddingTop         = '20px';
+   balloon.paddingLeft        = '15px';
+   balloon.paddingRight       = '15px';
+   balloon.paddingBottom      = '20px';
+   balloon.paddingConnector   = '48px';
+   balloon.hOffset            = 'left';
+ </script>
+</head>
+
+<!-- The center "main" panel will be populated with the introduction text on page load -->
+<body onload="getContents()" vlink='black' link='black'>
+
+<!-- Boilerplate -->
+<script>printBanner()</script>
+
+<!-- The Links that appear on the left part of the page -->
+<table width=100%>
+<tr valign=top>
+<td width=175px>
+<div class="Links">
+<h4><span>PROJECTS</span></h4>
+
+<span class=project><i>C. elegans</i></span>
+<li><a class=list id=Waterston 
+  onclick="getContents('Waterston');">The Transcriptome</a><br>
+<li><a class=list id=Lieb
+  onclick="getContents('Lieb')">Chromatin Function</a><br>
+<li><a class=list id=Henikoff
+  onclick="getContents('Henikoff')">Histone Variants</a><br>
+<li><a class=list id=Snyder
+  onclick="getContents('Snyder')">Regulatory Elements</a><br>
+<li><a class=list id=Piano
+  onclick="getContents('Piano')">The 3&#39; UTRome</a>
+
+<br><br>
+
+<span class=project><i>D. melanogaster</i></span>
+<li><a class=list id=Celniker 
+  onclick="getContents('Celniker')">The Transcriptome</a><br>
+<li><a class=list id=White
+  onclick="getContents('White')">Regulatory Elements</a><br>
+<li><a class=list id=Karpen
+  onclick="getContents('Karpen')">Chromosomal Proteins</a><br>
+<li><a class=list id=Lai
+  onclick="getContents('Lai')">Small RNAs and &mu;RNAs</a><br>
+<li><a class=list id=MacAlpine
+  onclick="getContents('MacAlpine')">Origins of Replication</a>
+
+</div>
+
+<div class=Links>
+<h4>RESOURCES</h4>
+<li><a class=list id=Stein
+  onclick="getContents('Stein')">Data Coordination Center</a>
+<br>
+<li><a class=list id=WIKI
+  onclick="getContents('WIKI')">modENCODE Wiki</a>
+<br>
+<li><a class=list id=Genomes
+  onclick="getContents('Genomes');">Browse Genomes</a>
+<br>
+<li><a class=list id=Contact
+  onclick="getContents('Contact');">Contact us</a>
+</div>
+
+<div class=Links>
+<h4>EXTERNAL LINKS</h4>
+<li><a class=list href="http://www.genome.gov/25521166">genome.gov</a><br>
+<li><a class=list href="http://www.flybase.org">FlyBase</a><br>
+<li><a class=list href="http://www.wormbase.org">WormBase</a><br>
+<li><a class=list href="/cgi-bin/gbrowse?standalone=1">GBrowse</a><br>
+</div>
+
+</td>
+
+<!-- This is where the content is loaded -->
+<td align=left>
+<div id="main">
+Loading...
+</div>
+</td>
+
+
+</tr>
+</table>
+</body>
+
+</html>
