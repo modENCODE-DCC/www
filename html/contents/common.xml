@@ -1,0 +1,35 @@
+<!-- Content shared by various pages -->
+<xml>
+ <section section_id="Banner">
+  <![CDATA[
+<table width=100%>
+<tr>
+<td valign=top width=250>
+  <img src="http://www.modencode.org/img/tlogo_small.png" width=175 alt="logo" border=0/>
+</td>
+<td valign=top align=center>
+<img src="/img/modbanner_small.png" border=0 usemap=#bannermap>
+<map name="bannermap">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Sheldon McKay -->
+<area shape="poly" coords="116,4,96,40,146,56,211,56,202,39,229,31,222,12,125,0,124,0,127,0"
+  alt="Go to wormbase"
+  onmouseover="balloon.showTooltip(event,&apos;<img src=/img/flybase.png height=40><br>\
+  <center>Go to FlyBase</center>&apos;)"
+  href="http://www.flybase.org" />
+<area shape="poly"
+  coords="388,14,408,37,408,38,434,43,431,77,453,94,481,81,487,65,477,62,451,75,443,71,446,54,443,33,430,24"
+  onmouseover="balloon.showTooltip(event,&apos;<img src=/img/wormbase.png height=27><br>\
+  <center>Go to WormBase</center>&apos;)"
+  href="http://www.wormbase.org" />
+</map>
+</td>
+</tr>
+</table>
+  ]]>
+
+  </section>
+</xml>
