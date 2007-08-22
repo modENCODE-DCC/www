@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Waterston')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+   
+  
+<h3>Global Identification of Transcribed Regions of the <i>C. elegans</i> Genome</h3>
+<table class=PI>
+<tr>
+<td width=250>
+<b>
+Robert Waterston (PI)<br>
+Mark Gerstein<br>
+Philip Green<br>
+Michael MacCoss<br>
+David Miller<br>
+Valerie Reinke<br>
+Frank Slack
+</b>
+</td>
+<td width=325>
+University of Washington<br>
+Yale University<br>
+University of Washington<br>
+University of Washington<br>
+Vanderbilt University<br>
+Yale University<br>
+Yale University
+</td>
+<td width=200 align=right><br>
+<a href="http://wiki.modencode.org/index.php/Waterston"
+   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
+Details...
+</a>
+</td></tr></table>
+<hr>
+Despite the complexity of the challenge, the goal of this proposal is to approach a complete description of the transcribed genome, 
+classified where possible by function such as likely acting as an RNA or protein. Where we cannot definitively classify a sequence, 
+we expect to provide estimates of the likelihood of its function.  We will combine all existing data for protein coding genes with gene models from GeneFinder, Twinscan and the current WormBase to define a set of confirmed exon-intron junctions and combine these into complete coding genes with their alternative splice forms. This thorough reannotation of the genome alone will move beyond the current WormBase gene set both by incorporating additional available data, including the emerging genome sequences of related nematodes, and by examining all the datasets across the entire genome.
+<p>
+We will in turn test predicted but unconfirmed exons including UTRs and their intron junctions by specific RT-PCR and RACE and sequence analysis of the products.
+<p>
+We will seek to find new evidence for transcribed regions, exploiting the recently commercially available genome tiling arrays for C. elegans. To maximize the chances for discovering stage and cell specific transcripts, we will use carefully staged populations, mutants lacking or overproducing certain cell types, purified embryonic cell populations and mRNA populations purified from specific post-embryonic cell types.
+<p>
+These data will in turn be added to existing data sets along with any other data emerging from the community to suggest additional gene models for both protein coding and non-coding transcripts. Again these results will guide further RT-PCR and RACE experiments. We expect these data will also be particularly valuable for suggesting previously undefined 5 and 3 prime UTRs.
+<p>
+Finally we will look for evidence of translation of small open reading frames from either single exon genes or spliced transcripts using mass-spectrometry. The overall result should be a usefully comprehensive set of transcripts, cataloged into protein-coding and non-coding RNAs that will aid in the identification of other functional elements in the worm genome as well as provide a resource for broader explorations of gene function in this incomparable worm.
+
+  
+ 
+ 
+
+
+
+</div>
+</td>
+</tr>
+</table>

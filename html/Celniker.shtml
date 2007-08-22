@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Celniker')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+<h3>Comprehensive characterization of the <i>Drosophila</i> transcriptome</h3>
+
+<table class=PI>
+<tr>
+<td width=250>
+<b>
+Susan Celniker (PI)<br>
+Michael Brent<br>
+Steven Brenner<br>
+Peter Cherbas<br>
+Thomas Gingeras<br>
+Brenton Gravely<br>
+Roger Hoskins 
+</b>
+</td>
+<td width=325>
+Lawrence Berkeley National Laboratory<br>
+Washington University<br>
+University of California, Berkeley<br>
+Indiana University<br>
+Affymetrix<br>
+University of Connecticut Health Systems<br> 
+Lawrence Berkeley National Laboratory
+</td>
+<td width=200 align=right><br>
+<a href="http://wiki.modencode.org/index.php/Celniker"
+   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
+Details...
+</a>
+</td></tr></table>
+<hr>
+
+
+This proposal responds to the modENCODE RFA to identify all of the sequence-based functional elements associated with transcribed sequences &quot;including both protein coding and non-protein coding sequences, specifically characterizing gene structures including transcription start sites (TSS), polyadenylation sites, and alternative transcripts in <I>Drosophila</I>&quot;. We propose to generate a comprehensive set of developmentally staged and tissue- and cell-specific RNAs for expression profiling using high-density genome tiling microarrays and 454 pyrosequencing of small RNAs. These expression data will be used for sophisticated transcript modeling that integrates extant EST and cDNA sequence and comparative data from the 12 sequenced Drosophila genomes. The models will serve as the foundation for experimental validation by sequencing of cDNA and RTPCR products, RACE to define TSSs, and for small non-protein coding RNAs (ncRNAs), by functional validation in RNAi assays. The experimental validation data will be incorporated into the informatics pipeline to produce improved transcript models. In our final product, these models will include comprehensive annotations of TSSs, exon/intron structures, polyadenylation sites and the cis-elements required for splicing. We have assembled a project management team to obtain the necessary infrastructure and expertise to complete the goals of the proposal. The managers and their roles and responsibilities are: Peter Cherbas (IU), RNA samples and evaluation of computational models; Thomas Gingeras (Affymetrix), microarray expression profiling and analysis; Michael Brent (WUSTL), data integration and transcript modeling; Roger Hoskins (LBNL), sequence-based validation; Brenton Graveley (UCHC), alternate splicing; and Norbert Perrimon (Harvard), function of ncRNAs.
+
+  
+ 
+
+
+ </div>
+</td>
+</tr>
+</table>

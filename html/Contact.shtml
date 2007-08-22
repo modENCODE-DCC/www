@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Contact')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+  <h3>modENCODE Data Coordination Center</h3>
+
+<table cellpadding=5 width="100%">
+<tr>
+<th colspan=2 style="padding-left:50px;text-align:left;background-color:lightsteelblue">
+<b>Principal Investigators</b>
+</th>
+</tr>
+<tr>
+<td width=30><a href="mailto:lstein@cshl.edu" title="lstein@cshl.edu">
+<img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Lincoln Stein</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:suzi@fruitfly.org" title="suzi@fruitfly.org">
+<img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Suzi Lewis (coPI)</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:kent@soe.ucsc.edu" title="kent@soe.ucsc.edu">
+<img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Jim Kent (coPI)</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:gos@gen.cam.ac.uk"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Gos Micklem (coPI)</td>
+</tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr>
+<th colspan=2 style="padding-left:50px;text-align:left;background-color:lightsteelblue">
+<b>Data Managers</b>
+</th>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:NLWashington@lbl.gov" title="NLWashington@lbl.gov"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Nicole Washinton (<i>D. melanogaster</i>)</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Sheldon McKay (<i>C. elegans</i>)</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:zha@cshl.edu" title="zha@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Zheng Zha (<i>C. elegans</i>)</td>
+</tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr>
+<th colspan=2 style="padding-left:50px;text-align:left;background-color:lightsteelblue">
+<b>Web Site</b>
+</th>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Sheldon McKay (web site/wiki)</td>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:francois@flymine.org" title="francois@flymine.org"><img src="/img/email.png" height=20 border=0 align=top></a></td>
+<td>Fran&#231;ois Guillier (systems)</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
+</div>
+</td>
+</tr>
+</table>

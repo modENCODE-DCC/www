@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('WIKI')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+<a href="http://www.oreillynet.com/pub/a/network/2006/07/07/what-is-a-wiki.html" target="_new">What is a Wiki?</a>
+<br>
+
+<h3 class=subSection>The modENCODE Wiki</h3>
+&#8226; Contains detailed information about the research projects, experimental protocols, reagents, 
+resources etc..<br>
+&#8226; The modencode Wiki is public and can be accessed by anyone.<br>
+&#8226; Account holders in project labs are able to update the Wiki contents directly.
+<br><br>
+<table><tr valign=middle>
+<td>
+<a href="mailto:help@modencode.org?subject=Public Wiki" title="help@modencode.org">
+<img src="/img/email.png" alt="email image" height=25 border=0 align=top></a>
+</td>
+<td>
+<a href="mailto:help@modencode.org?subject=Public Wiki" title="help@modencode.org"> &nbsp;Wiki help/questions</a>
+</td>
+</tr>
+<tr>
+<td><a target="_new" href="http://wiki.modencode.org" title="wiki.modencode.org">
+<img src="/img/green_arrow.png" alt="arrow image" width=40 border=0></a></td>
+<td>
+<a target="_new" href="http://wiki.modencode.org" title="wiki.modencode.org"> &nbsp;Go to the modencode Wiki</a>
+</td>
+</tr>
+</table>
+
+
+<br><br>
+
+<h3 class=subSection>The Project Wiki (restricted access)</h3>
+&#8226; This is a seperate, private wiki for communication between modENCODE projects and the data coordination center.
+<br>
+&#8226; Access is restricted to modENCODE lab members and other interested parties.
+<br><br>
+  
+<table>
+<tr valign=middle>
+<td>
+<a href="mailto:help@modencode.org?subject=Private Wiki account" title="help@modencode.org">
+<img src="/img/email.png" alt="email image" height=25 border=0 align=top></a>
+</td>
+<td>
+<a href="mailto:help@modencode.org?subject=Private Wiki account" title="help@modencode.org">
+ &nbsp;Request an account
+</a>
+</td>
+
+</tr>
+<tr>
+<td><a target="_new" href="http://wiki.modencode.org/project" title="wiki.modencode.org/project">
+<img src="/img/green_arrow.png" alt="arrow image" width=40 border=0></a></td>
+<td>
+<a target="_new" href="http://wiki.modencode.org/project" title="wiki.modencode.org/project">
+ &nbsp;Go to the project Wiki</a></td>
+</tr>
+</table>
+
+
+ </div>
+</td>
+</tr>
+</table>

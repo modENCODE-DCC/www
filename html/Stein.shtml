@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Stein')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+<h3>A Data Coordinating Center for modENCODE</h3>
+<table class=PI>
+<tr>
+<td width=250>
+<b>
+Lincoln Stein (PI)<br>
+James Kent<br> 
+Suzanna Lewis<br>
+Gos Micklem 
+</b>
+</td>
+<td width=325>
+Cold Spring Harbor Laboratory<br>
+University of California, Santa Cruz<br> 
+Lawrence Berkeley National Laboratory<br>
+University of Cambridge
+</td>
+<td width=200 align=right><br>
+<a href="http://wiki.modencode.org/index.php/Stein"
+   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
+Details...
+</a>
+</td></tr></table>
+<hr>
+
+<h4>Project Objectives</h4>
+This is the data coordinating center (DCC) for the project. Our role is to track the data, integrate it with other information sources, and make it available to the research community in a timely and open fashion.
+
+<h4>Experimental Approaches</h4>
+We will assemble a team of three data managers stationed at CSHL and at Berkeley, who have a background in the bioinformatics of C. elegans and/or D. melanogaster. The managers will liaise with their contacts at the data provider sites to determine data file formats, milestones and quality control procedures for their datasets. They will also liaise with representatives from NCBI to coordinate modENCODE activities with the primary data repositories at GenBank and GEO.
+
+Data providers will upload their data sets to a staging server where they will be able to preview their data on an instance of the GBrowse genome browser. The data managers will QC the data before approving its transfer to the production database. Data will be integrated in the production database using InterMine, and from there released to the public on a monthly schedule. Researchers will be able to access the data via the GBrowse genome browser, bulk downloads, and via complex queries and reports mediated by InterMine and the BioMart data warehousing system. All major software systems used by the proposed DCC will be based on open source tools from the Generic Model Organism Database (GMOD) , human ENCODE, and other sources.
+
+Throughout the project, Lewis and Stein will work close with FlyBase and/or WormBase to ensure that data collected by modENCODE becomes an integral part of the relevant model organism database. In addition we will dedicate a significant part of a data manager&#39;s effort to transfer data from modENCODE into the MODs during the last year of the project.
+
+
+ </div>
+</td>
+</tr>
+</table>

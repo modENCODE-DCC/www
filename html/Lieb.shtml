@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Lieb')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+ <h3>Identification of DNA Elements Governing Chromatin Function in <i>C. elegan</i>s</h3>
+
+<table class=PI>
+<tr>
+<td width=250>
+<b>
+Jason Lieb (PI)<br>
+Julie Ahringer<br>
+Abby Dernberg<br>
+Arshad Desai<br>
+Roland Green<br>
+Xiole Liu Eran Segal<br>
+Susan Strome
+</b>
+</td>
+<td width=325>
+University of North Carolina, Chapel Hill<br>
+University of Cambridge<br>
+University of California, Berkeley<br>
+University of California, San Diego<br>
+NimbleGen Dana Farber Cancer Institute<br>
+Weizmann Institute <br>
+Indiana University, Bloomington
+</td>
+<td width=200 align=right><br>
+<a href="http://wiki.modencode.org/index.php/Lieb"
+   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
+Details...
+</a>
+</td></tr></table>
+<hr>
+
+Eukaryotic genomes are packaged into chromatin, which regulates the function of proteins that mediate transcriptional activity and other essential processes, including recombination and the faithful segregation of the genome during mitosis and meiosis. The goal of this proposal is to identify discrete elements that regulate chromatin structure and function in the nematode <i>C. elegans</i>, a model metazoan of central importance in large-scale genomic research and gene function discovery. We will first use ChIP-chip and related methods to map the genomic distributions of selected histone modifications and chromosome-associated proteins, and then use that information, in combination with data from other modENCODE groups, to build quantitative models of chromatin function. Specifically, we will:
+
+1. Identify and technically validate functional elements that control chromatin and chromosome behavior.The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. 126 strategically selected targets include key histone modifications, histone variants, RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents. An efficient pipeline design will facilitate identification and validation of the different classes of functional elements associated with these targets and integrate the results with the well-annotated C. elegans genome.
+
+2. Biologically validate identified functional elements and build integrated, quantitative models of chromo-some function.We will integrate information generated in Aim 1 with existing knowledge on the biology of the targets, perform ChIP-chip analysis on mutant and RNAi extracts lacking selected target proteins, use extrachromosomal arrays to assess the ability of candidate identified sequence motifs to recruit targets in vivo, identify tissue-specific patterns of selected targets, and create integrated, quantitative models of transcription and whole-chromosome functions.
+
+Achieving these goals in the context of the ongoing expansion and rich history of C. elegans research will provide an important milestone in meeting the challenge of using genome sequence information to understand and predict biological functions. 
+  
+ 
+
+
+ </div>
+</td>
+</tr>
+</table>
