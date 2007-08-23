@@ -36,24 +36,24 @@
 <tr>
 <td width=30><a href="mailto:lstein@cshl.edu" title="lstein@cshl.edu">
 <img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Lincoln Stein</td>
+<td>Lincoln Stein &lt;lstein@cshl.edu&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:suzi@fruitfly.org" title="suzi@fruitfly.org">
 <img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Suzi Lewis (coPI)</td>
+<td>Suzi Lewis (coPI) &lt;suzi@fruitfly.org&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:kent@soe.ucsc.edu" title="kent@soe.ucsc.edu">
 <img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Jim Kent (coPI)</td>
+<td>Jim Kent (coPI) &lt;kent@soe.ucsc.edu&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:gos@gen.cam.ac.uk"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Gos Micklem (coPI)</td>
+<td>Gos Micklem (coPI) &lt;gos@gen.cam.ac.uk&gt;</td>
 </tr>
 
 <tr><td colspan=2>&nbsp;</td></tr>
@@ -66,17 +66,17 @@
 
 <tr>
 <td align=left><a href="mailto:NLWashington@lbl.gov" title="NLWashington@lbl.gov"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Nicole Washinton (<i>D. melanogaster</i>)</td>
+<td>Nicole Washinton (<i>D. melanogaster</i>) &lt;NLWashington@lbl.gov&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Sheldon McKay (<i>C. elegans</i>)</td>
+<td>Sheldon McKay (<i>C. elegans</i>) &lt;mckays@cshl.edu&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:zha@cshl.edu" title="zha@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Zheng Zha (<i>C. elegans</i>)</td>
+<td>Zheng Zha (<i>C. elegans</i>) &lt;zha@cshl.edu&gt;</td>
 </tr>
 
 <tr><td colspan=2>&nbsp;</td></tr>
@@ -89,12 +89,12 @@
 
 <tr>
 <td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Sheldon McKay (web site/wiki)</td>
+<td>Sheldon McKay (web site/wiki) &lt;mckays@cshl.edu&gt;</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:francois@flymine.org" title="francois@flymine.org"><img src="/img/email.png" height=20 border=0 align=top></a></td>
-<td>Fran&#231;ois Guillier (systems)</td>
+<td>Fran&#231;ois Guillier (systems &lt;francois@flymine.org&gt;)</td>
 </tr>
 </table>
 
