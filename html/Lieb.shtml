@@ -3,11 +3,11 @@
 <html>
 
 <head>
- <link rel="stylesheet" href="/css/modencode.css">
+ <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
- <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="/js/balloon.js"></script>
- <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/balloon.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
  <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
@@ -37,7 +37,7 @@ Abby Dernburg<br>
 Arshad Desai<br>
 Roland Green<br>
 Xiole Liu<br>
-Ercan Segal<br>
+Eran Segal<br>
 Susan Strome
 </b>
 </td>
@@ -46,7 +46,8 @@ University of North Carolina, Chapel Hill<br>
 University of Cambridge<br>
 University of California, Berkeley<br>
 University of California, San Diego<br>
-NimbleGen Dana Farber Cancer Institute<br>
+NimbleGen<br>
+Dana Farber Cancer Institute<br>
 Weizmann Institute <br>
 Indiana University, Bloomington
 </td>
