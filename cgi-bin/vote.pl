@@ -92,7 +92,7 @@ while ( my $line = <IN> ) {
     my @columns = split "\t", $line;
     @columns == 10 || die "problem with data format for entry:\n$line\n";
     my $vote_id = md5_hex(@columns[0..8]);
-    $columns[9]++ if $vote == $vote_id;
+    $columns[9]++ if $vote eq $vote_id;
     push @columns,
       qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
     push @vote_data, \@columns;
