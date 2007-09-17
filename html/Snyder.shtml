@@ -22,7 +22,7 @@
 <!--#include file="menu.html" -->
 
 <td align=left>
-<div id="main">
+<div id="main" name="main">
   
   
 <h3>Identification of Transcription Factor Binding Regions</h3>
