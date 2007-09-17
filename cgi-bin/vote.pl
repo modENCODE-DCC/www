@@ -59,8 +59,8 @@ if ( $new && !( $gene_name || $dbs_id ) ) {
 }
 
 my @tfvinfo = (
-    $usr_initial,     $gene_name, $dbs_id,   $tag,
-    $tag_loc,             $sty_pp,    $ab_avail, $mut_avail,
+    $usr_initial, $gene_name, $dbs_id, $tag,
+    $tag_loc, $sty_pp, $ab_avail, $mut_avail,
     $construct_avail, 1
 );
 for (@tfvinfo) {
@@ -74,7 +74,7 @@ if ($new) {
     my $file = TF_VOTES;
     unless (`grep '$line' $file`) {
       open OUT, ">>$file" || die $!;
-      flock(OUT, LOCK_EX); # exclisive file lock
+      flock(OUT, LOCK_EX); # exclusive file lock
       print OUT "$line\n";
       close OUT;
     }
@@ -82,7 +82,7 @@ if ($new) {
 
 # Get the existing data
 open IN, TF_VOTES;
-flock(IN, LOCK_EX); # exclisive file lock
+flock(IN, LOCK_EX);
 
 my @vote_data;
 
@@ -156,4 +156,3 @@ for (@vote_data) {
 close OUT;
 
 exit 0;
-
