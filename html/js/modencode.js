@@ -9,8 +9,6 @@ function setActiveLink(section) {
     YAHOO.util.Dom.setStyle(id,'color','red');
 }
 
-
-
 // Force IE5-6 to render transparent PNG images properly
 // correctPNG taken from from http://homepage.ntlworld.com/bobosola/pngtestfixed.htm
 function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
@@ -45,9 +43,34 @@ function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
 }
 
 
+
+// test for internet explorer
+function isIE() {
+    return document.all && !window.opera;
+}
+
+
 // test for internet explorer (but not IE7)
 function isOldIE() {
     if (navigator.appVersion.indexOf("MSIE") == -1) return false;
     var temp=navigator.appVersion.split("MSIE");
     return parseFloat(temp[1]) < 7;
+}
+
+// automatically adjust iframe height to reflect contents
+// A bit convoluted but it works
+function iFrameHeight(id) {
+    var iframe, height;
+    if (isIE()) {
+	iframe = document.frames[id];
+	height = iframe.document.body.scrollHeight;
+    }
+    else {
+	iframe = document.getElementById(id);
+	height = iframe.contentDocument.body.scrollHeight;
+    }
+
+    height = typeof(height) == 'number' ? height + 30 : 400;
+
+    YAHOO.util.Dom.setStyle(id,'height',height+'px');
 }

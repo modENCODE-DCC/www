@@ -46,8 +46,8 @@ BODY {
 }
 
 #main {
- padding:20px;
- margin-left:20px;
+ padding:10px;
+ margin-left:5px;
  background: url('/img/top_left_corner.png') top left no-repeat;
  height:100em;
  background-color:white;
@@ -82,3 +82,10 @@ BODY {
  background:#d9d9ff;
 }
 
+UL {
+ padding-left: 15px;
+}
+
+LI {
+ list-style: url(/img/reddot_small.gif) outside;
+}
