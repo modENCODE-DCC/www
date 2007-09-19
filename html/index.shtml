@@ -32,7 +32,15 @@ and <i>Drosophila melanogaster</i> genomes.  The project is run as a Research Ne
 This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordination Center</a>
 
 <h3> News and Notes </h3>
-
+<div style="font-size:90%">
+<ul>
+<li>September 18, 2007: <b>Transcription Factor Genes for modENCODE</b><br>
+Input from the <i>C. elegans</i> and <i>Drosophila</i> research communities
+is sought in order to help choose which transcription factor to focus on for analysis in 
+modENCODE projects, please visit the <a href="/Vote.shtml">TF voting page</a> for more information.
+</l1>
+</ul>
+</div>
 </div>
 </td>
 </tr>

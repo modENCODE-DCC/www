@@ -15,16 +15,25 @@ use Fcntl ':flock';
 use Digest::MD5 'md5_hex';
 
 # Edit as required
-use constant AB_VOTES => "/home/zhengzha/public_html/www/cgi-bin/vote/abvotes_test.txt";
+use constant AB_VOTES => "/FRONT-END/www/html/votes/abvotes.txt";
 
 my $style = '<style>TD,TH {font-size:90%;}</style>';
 
 print header;
 
+# voting override is only good for one vote.                                                                                                                                  
+my @onload = ();
+if (param('override')) {
+    my $url = url;
+    @onload = (-onload => "window.location = '$url'");
+}
+
 print start_html( 
     -title => 'Transcription Factor Priority Voting Page',
     -head => $style,
+    @onload
     );
+
 print start_form(-name => 'f1');
 
 my $vote             = param('vote');
@@ -63,10 +72,12 @@ for (@abvinfo) {
     s/\t/ /g;
 }
 
+my $voter = remote_host();
+
 # If a new entry is entered, save it now
 # but watch out for page re-loads
 if ($new) {
-    my $line = join( "\t", @abvinfo );
+    my $line = join( "\t", @abvinfo, $voter );
     my $file = AB_VOTES;
     unless (`grep '$line' $file`) {
 	open OUT, ">>$file" || die $!;
@@ -86,11 +97,29 @@ while ( my $line = <IN> ) {
     chomp $line;
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
-    @columns == 7 || die "problem with data format for entry:\n$line\n";
+    #@columns == 8 || die "problem with data format for entry:\n$line\n";
+    my $voters = pop @columns if @columns == 8;
+    my @voters = split ',', $voters;
     my $vote_id = md5_hex(@columns[0..5]);
-    $columns[6]++ if $vote eq $vote_id;
+    
+    # increment the vote and keep track of who voted
+    if ($vote eq $vote_id) {
+        my $override = param('override');
+	if (!$override && $voter && grep /$voter/, @voters) {
+	    print h4(font( {-color => 'red'},
+			   "Sorry, someone at $voter has already voted for $columns[0]&nbsp;&nbsp;".
+			   a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]').
+			   '&nbsp;'.
+			   a({-href => url()}, '[Cancel]')));
+	}
+        else {
+            $columns[6]++;
+            $voters .= $voters ? ",$voter" : $voter;
+        }
+    }
     push @columns,
     qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
+    push @columns, $voters;
     push @vote_data, \@columns;
 }
 close IN;
@@ -102,7 +131,6 @@ my @fields = (
     textfield( -name => 'time_specificity', -size => 15,  -value => '' ),
     textfield( -name => 'boundsites', -size => 15,  -value => '' ),
     textfield( -name => 'phenotype', -size => 15,  -value => '' ),
-    textfield( -name => 'votes', -value => 1, -disabled => 1, -size => 2 ),
     );
 
 my @abvheader = (
@@ -112,22 +140,24 @@ my @abvheader = (
     "time/stage<br>of expression?",
     "known<br>bound sites",
     "known<br>phenotype", 
-    "Vote Tally",
+    "Vote<br>Tally",
     "Vote"
     );
 
+my $submit = td( { -colspan => 2, -border => 0 }, submit( -name => 'Update' ));
+
 my $new_entry = $create
-  ? Tr( td( \@fields ) )
+  ? Tr( td( \@fields ).$submit )
   : Tr(
     td(
-        { -colspan => 8 },
+        { -colspan => 6, -border => 0},
         checkbox(
             -name    => 'create',
             -label   => '',
             -onclick => "document.f1.submit()"
           )
           . 'Check to create a new Entry '
-    )
+    ) . $submit
     );
 
 my $row_color = 'gainsboro';
@@ -135,18 +165,16 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
 print Tr( {-bgcolor => 'lightblue'}, th( \@abvheader ) );
 for my $row (@vote_data) {
     $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-    print Tr({-bgcolor=>$row_color}, td($row) )
+    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..7]]) )
 }  
 print $new_entry;
-print end_table;
-
-print br, submit( -name => 'Update' ), end_form, end_html;
+print end_table, end_form, end_html;;
 
 # Store Final result here
 open OUT, ">" . AB_VOTES || die $!;
 flock(OUT, LOCK_EX);
 for (@vote_data) {
-    print OUT join( "\t", @{$_}[ 0 .. 6 ] ), "\n";
+    print OUT join( "\t", @{$_}[ 0 .. 6, 8 ] ), "\n";
 }
 close OUT;
 
