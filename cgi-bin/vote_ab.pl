@@ -135,11 +135,11 @@ my @fields = (
 
 my @abvheader = (
     "Antibody<br>Name",
-    "already made?",     
-    "tissue/cell<br>specific?",
-    "time/stage<br>of expression?",
-    "known<br>bound sites",
-    "known<br>phenotype", 
+    "Already made?",     
+    "Tissue/cell<br>specific expression?",
+    "Time/stage<br>of expression?",
+    "Known binding<br>sites on TF",
+    "Known associated<br>phenotype", 
     "Vote<br>Tally",
     "Vote"
     );
