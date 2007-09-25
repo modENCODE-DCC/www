@@ -5,28 +5,74 @@
 <head>
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/balloon.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
-<body>
-
+<body vlink='black' link='black' onload="setActiveLink('Vote')">
 <!--#include file="banner.html" -->
-
 <table width="100%">
 <tr valign=top>
-
-<td width=175px>
-<!--#include file="menu.html" -->
-</td>
-
 <td align=left>
-<div id="main">
-
-<iframe width="100%" height=800px align=top frameborder=0  src="/cgi-bin/vote.pl">
-</iframe>
-
+<div style="margin-bottom:5px">
+<a style="margin-left:30px" href="index.shtml">[Home]</a>
 </div>
+<div id="main">
+<h3>Transcription Factor Priority List</h3>
+<i>C. elegans</i> and <i>D. melanogaster</i> modENCODE projects will be using CHIP-chip/sequencing 
+technology to map out transcription factor binding sites at the whole genome level. The availability of 
+suitable antibodies as well as community priorities are important factors in deciding which transcription 
+factors will be mapped first.
+<ul>
+<li>
+The <i>C. elegans</i> project led by <a href="Snyder.shtml">Michael Snyder</a> will be pursuing a tagging strategy
+in which they create transcription factor fusion proteins with GFP and/or mCherry. These fusion proteins will
+then be used to identify the expression patterns of transcription factors and as targets for anti-fusion protein
+antibodies for chromatin immunoprecipitation.
+</li>
+<br>
+<li>
+The project led by <a href="White.shtml">Kevin White</a> will
+be using a more traditional ChIP-chip design to immunoprecipitate chromatin using anti-transcription factor antibodies.
+</li>
+</ul>
+
+<p>Please contact <a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu">mckays@cshl.edu</a> for more information.</p> 
+<h4>Transcription Factors <a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:tf_help')">
+[help...]</a></h4>
+<iframe name="fr1" id="fr1" src="/cgi-bin/vote.pl" width="100%" 
+frameborder="0" onLoad="iFrameHeight('fr1')"></iframe>
+
+<div id="tf_help" style="display:none">
+<div class="subSection">
+<b>Use the form below to vote for a transcription factor</b>
+</div>
+<ul>
+<li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
+<br>
+<li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
+</ul>
+</div>
+
+<h4>Transcription Factors Antibodies <a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:ab_help')">
+[help...]</a></h4>
+<iframe name="fr2" id="fr2" src="/cgi-bin/vote_ab.pl" width="100%"
+frameborder="0" onLoad="iFrameHeight('fr2')"></iframe>
+
+<div id="ab_help" style="display:none">
+<div class="subSection">
+  <b>Use this form to notify us of existing antibodies that may be useful</b>
+</div>
+<ul>
+<li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
+<br>
+<li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
+</ul>
+</div>
+</div>
+
 </td>
 </tr>
 </table>
-</body>
-</html>
