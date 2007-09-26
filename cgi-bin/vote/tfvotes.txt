@@ -1,0 +1,5 @@
+TH	par-1	WBGene00003916	cherry	C	polarity defect	yes	yes	yes, C terminal	1	
+DME	POP-1	WBGene00004077	mCherry, GFP	N	transcription factor downstream of Wnt signaling pathway in worm	yes, Rueyling Lin lab	yes	yes	2 
+KIA	CREB	CREBb-17A	cherry, GFP	N	memory	Yes	Yes	Yes	1  
+DMM	unc-4	WBGene00006744	GFP	N	regulates synaptic specificity in the C. elegans motor circuit	no	yes	N-terminal GFP fusion that rescues unc-4 mutant and C-terminal LacZ fusion that rescues unc-4 mutant	1 
+DMM	ceh-12	WBGene00000436	?	?	regulates synaptic specificity in C. elegans motor circuit	No	yes		1  
