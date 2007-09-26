@@ -15,7 +15,8 @@ use Fcntl ':flock';
 use Digest::MD5 'md5_hex';
 
 # Edit as required
-use constant AB_VOTES => "/FRONT-END/www/html/votes/abvotes.txt";
+use constant AB_VOTES => "$ENV{DOCUMENT_ROOT}/votes/abvotes.txt";
+-e AB_VOTES or die "I could not find ".AB_VOTES." $!\n";
 
 my $style = '<style>TD,TH {font-size:90%;}</style>';
 

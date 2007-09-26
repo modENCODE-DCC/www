@@ -14,8 +14,9 @@ use Fcntl ':flock';
 # For generating unique IDs;
 use Digest::MD5 'md5_hex';
 
-# Edit as required
-use constant TF_VOTES => "/FRONT-END/www/html/votes/tfvotes.txt";
+# Edit if required
+use constant TF_VOTES => "$ENV{DOCUMENT_ROOT}/votes/tfvotes.txt";
+-e TF_VOTES or die "I could not find ".TF_VOTES." $!\n"; 
 
 my $style = '<style>TD,TH {font-size:90%;}</style>';
 
