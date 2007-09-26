@@ -85,8 +85,8 @@ var Balloon = function() {
   // images of balloon body.  If the browser is IE < 7, png alpha
   // channels will not work.  An optional alternative image can be 
   // provided.  It should have the same dimensions as the default png image
-  this.balloonImage  = '/images/balloons/balloon.png';    // with alpha channels
-  this.ieImage       = '/images/balloons/balloon_ie.png'; // indexed color, transparent background
+  this.balloonImage  = '/img/balloons/balloon.png';    // with alpha channels
+  this.ieImage       = '/img/balloons/balloon_ie.png'; // indexed color, transparent background
 
   // whether the balloon should have a stem
   this.stem          = true;
@@ -97,13 +97,13 @@ var Balloon = function() {
   this.stemOverlap = 3;
   
   // A stem for each of the four orientations
-  this.upLeftStem    = '/images/balloons/up_left.png';
-  this.downLeftStem  = '/images/balloons/down_left.png';
-  this.upRightStem   = '/images/balloons/up_right.png';
-  this.downRightStem = '/images/balloons/down_right.png';
+  this.upLeftStem    = '/img/balloons/up_left.png';
+  this.downLeftStem  = '/img/balloons/down_left.png';
+  this.upRightStem   = '/img/balloons/up_right.png';
+  this.downRightStem = '/img/balloons/down_right.png';
 
   // A close button for sticky balloons
-  this.closeButton   = '/images/balloons/close.png';
+  this.closeButton   = '/img/balloons/close.png';
 }
 
 
