@@ -22,7 +22,7 @@ my $style = '<style>TD,TH {font-size:90%;}</style>';
 
 print header;
 
-# voting override is only good for one vote.                                                                                                                                  
+# voting override is only good for one vote.
 my @onload = ();
 if (param('override')) {
     my $url = url;
@@ -38,27 +38,23 @@ print start_html(
 print start_form(-name => 'f1');
 
 my $vote             = param('vote');
+my $target_name      = param('target_name');
 my $ab_name          = param('ab_name') || '';
 my $ab_status        = param('ab_status') || '';
-my $expattn_cellspec = param('cell_specificity') || '';
-my $expattn_timespec = param('time_specificity') || '';
-my $boundsites       = param('boundsites') || '';
-my $phenotype        = param('phenotype') || '';
+my $clone            = param('clone') || '';
+my $species          = param('species') || '';
+my $description      = param('description') || '';
 my $create           = param('create');
 my $new              = 1
-  if $ab_name
-  || $ab_status
-  || $expattn_cellspec
-  || $expattn_timespec
-  || $boundsites
-  || $phenotype;
+  if $target_name
+    || $ab_name;
 
 # Make sure we have at least an antibody name
-if ( $new && !$ab_name ) {
+if ( $new && ! ($target_name || $ab_name) ) {
     print h1(
         font(
             { color => 'red' },
-            'An antibody name is required'
+            'Either a target gene name or an antibody name is required'
         )
     );
     $new    = '';
@@ -66,8 +62,8 @@ if ( $new && !$ab_name ) {
 }
 
 my @abvinfo = (
-    $ab_name, $ab_status, $expattn_cellspec,
-    $expattn_timespec, $boundsites, $phenotype, 1
+    $target_name, $ab_name, $ab_status, $clone, 
+    $species, $description, 1
     );
 for (@abvinfo) {
     s/\t/ /g;
@@ -98,7 +94,7 @@ while ( my $line = <IN> ) {
     chomp $line;
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
-    #@columns == 8 || die "problem with data format for entry:\n$line\n";
+    @columns == 8 || die "problem with data format for entry:\n$line\n";
     my $voters = pop @columns if @columns == 8;
     my @voters = split ',', $voters;
     my $vote_id = md5_hex(@columns[0..5]);
@@ -118,40 +114,40 @@ while ( my $line = <IN> ) {
             $voters .= $voters ? ",$voter" : $voter;
         }
     }
-    push @columns,
-    qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
+    push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
     push @columns, $voters;
     push @vote_data, \@columns;
 }
 close IN;
 
 my @fields = (
+    textfield( -name => 'target_name', -size => 15, -value => ''),
     textfield( -name => 'ab_name', -size => 8,  -value => '' ),
     textfield( -name => 'ab_status', -size => 10,  -value => '' ),
-    textfield( -name => 'cell_specificity', -size => 15,  -value => '' ),
-    textfield( -name => 'time_specificity', -size => 15,  -value => '' ),
-    textfield( -name => 'boundsites', -size => 15,  -value => '' ),
-    textfield( -name => 'phenotype', -size => 15,  -value => '' ),
+    popup_menu( -name => 'clone', -value => ['', 'monoclonal', 'polyclonal'], -default => ''),
+    textfield( -name => 'species', -size => 15,  -value => '' ),
+    textarea( -name => 'description', -row => 8, -column => 15,  -value => '' ),
+    textfield( -name => 'votes', -value => 1, -disabled => 1, -size => 2 ),
     );
 
 my @abvheader = (
+    "Target<br>Gene Name",
     "Antibody<br>Name",
     "Already made?",     
-    "Tissue/cell<br>specific expression?",
-    "Time/stage<br>of expression?",
-    "Known binding<br>sites on TF",
-    "Known associated<br>phenotype", 
-    "Vote<br>Tally",
+    "Type of clone",
+    "Which species?",
+    "Description",
+    "Vote Tally",
     "Vote"
     );
-
-my $submit = td( { -colspan => 2, -border => 0 }, submit( -name => 'Update' ));
+ 
+my $submit = td( { -colspan => 2 }, submit( -name => 'Update' ));
 
 my $new_entry = $create
   ? Tr( td( \@fields ).$submit )
   : Tr(
     td(
-        { -colspan => 6, -border => 0},
+        { -colspan => 6 },
         checkbox(
             -name    => 'create',
             -label   => '',
@@ -166,10 +162,9 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
 print Tr( {-bgcolor => 'lightblue'}, th( \@abvheader ) );
 for my $row (@vote_data) {
     $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..7]]) )
+    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..7]]) );
 }  
-print $new_entry;
-print end_table, end_form, end_html;;
+print $new_entry, end_table, end_form;
 
 # Store Final result here
 open OUT, ">" . AB_VOTES || die $!;
@@ -178,5 +173,7 @@ for (@vote_data) {
     print OUT join( "\t", @{$_}[ 0 .. 6, 8 ] ), "\n";
 }
 close OUT;
+
+print end_html;
 
 exit 0;
