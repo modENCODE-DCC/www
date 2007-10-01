@@ -54,7 +54,7 @@ if ( $new && ! ($target_name || $ab_name) ) {
     print h1(
         font(
             { color => 'red' },
-            'Either a target gene name or an antibody name is required'
+            'Either a target name or an antibody name is required'
         )
     );
     $new    = '';
@@ -94,7 +94,7 @@ while ( my $line = <IN> ) {
     chomp $line;
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
-    @columns == 8 || die "problem with data format for entry:\n$line\n";
+    #@columns == 9 || die "problem with data format for entry:\n$line\n";
     my $voters = pop @columns if @columns == 8;
     my @voters = split ',', $voters;
     my $vote_id = md5_hex(@columns[0..5]);
@@ -127,17 +127,17 @@ my @fields = (
     popup_menu( -name => 'clone', -value => ['', 'monoclonal', 'polyclonal'], -default => ''),
     textfield( -name => 'species', -size => 15,  -value => '' ),
     textarea( -name => 'description', -row => 8, -column => 15,  -value => '' ),
-    textfield( -name => 'votes', -value => 1, -disabled => 1, -size => 2 ),
+#    textfield( -name => 'votes', -value => 1, -disabled => 1, -size => 2 ),
     );
 
 my @abvheader = (
-    "Target<br>Gene Name",
+    "Target<br>Name",
     "Antibody<br>Name",
     "Already made?",     
-    "Type of clone",
-    "Which species?",
+    "Type",
+    "Made in",
     "Description",
-    "Vote Tally",
+    "Vote<br>Tally",
     "Vote"
     );
  
