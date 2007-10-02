@@ -50,9 +50,9 @@ frameborder="0" onLoad="iFrameHeight('fr1')"></iframe>
 <b>Use the form below to vote for a transcription factor</b>
 </div>
 <ul>
-<li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
+<li>Vote for an existing entry by clicking the 'Vote' button on the right.</li>
 <br>
-<li>Modify or update an existing entry by clicking the 'vote' button on the right.</li>
+<li>Modify or update an existing entry by clicking the 'Edit' button on the right.</li>
 <br>
 <li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
 </ul>
@@ -68,9 +68,7 @@ frameborder="0" onLoad="iFrameHeight('fr2')"></iframe>
   <b>Use this form to notify us of existing antibodies that may be useful</b>
 </div>
 <ul>
-<li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
-<br>
-<li>Modify or update an existing entry by clicking the 'vote' button on the right.</li>
+<li>Modify or update an existing entry by clicking the 'Edit' button on the right.</li>
 <br>
 <li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
 </ul>
