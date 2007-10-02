@@ -36,7 +36,8 @@ print start_html(
     );
 print start_form(-name => 'f1');
 
-my $vote            = param('vote');
+my $vote            = param('vote') || '';
+my $edit            = param('edit') || '';
 my $usr_initial     = param('usr_initial') || '';
 my $email           = param('email') || '';
 my $gene_name       = param('gene_name') || '';
@@ -47,7 +48,8 @@ my $sty_pp          = param('sty_pp') || '';
 my $ab_avail        = param('ab_avail') || '';
 my $mut_avail       = param('mut_avail') || '';
 my $construct_avail = param('construct_avail') || '';
-my $create          = param('create');
+my $create          = param('create') || '';
+my $replace         = param('replace') || '';
 my $new             = 1
   if $usr_initial
   || $email
@@ -57,6 +59,7 @@ my $new             = 1
   || $sty_pp
   || $ab_avail
   || $mut_avail;
+undef $new if $replace;
 
 # Make sure we have at least a gene data or database ID
 if ( $new && !( $gene_name || $dbs_id ) ) {
@@ -76,6 +79,7 @@ my @tfvinfo = (
     $construct_avail, 1
 );
 for (@tfvinfo) {
+    $_ or next;
     s/\t/ /g;
 }
 
@@ -104,10 +108,17 @@ while ( my $line = <IN> ) {
     chomp $line;
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
-    #@columns == 12 || die "problem with data format for entry:\n$line\n";
+
+    #@columns == 13 || die "problem with data format for entry:\n$line\n";
+
+    # The md5_hex string is a key for the first 10 data fields
     my $vote_id = md5_hex(@columns[0..9]);
-    my $voters = pop @columns || '' if @columns == 12;
+
+    my $voters = $columns[11] || '';
+    my $editors = $columns[12] || '';
+    @columns = @columns[0..10];
     my @voters = split ',', $voters;
+    my $disabled = '';
 
     # increment the vote and keep track of who voted
     if ($vote eq $vote_id) {
@@ -125,26 +136,31 @@ while ( my $line = <IN> ) {
             $voters .= $voters ? ",$voter" : $voter;
         }
     }
+    # provide forms elements if an edit is requested for this row
+    elsif ($edit eq $vote_id) {
+	@columns[0..9] = fields(@columns);
+	$disabled = "disabled=1";
+        print hidden(-name => 'replace', -value => $vote_id);
+    }
+    # If the data have changed, log the IP of the editor
+    # and learn the changes
+    elsif ($replace eq $vote_id) {
+	@columns[0..9] = @tfvinfo;
+        my $new_vote_id = md5_hex(@columns[0..9]);
+	unless ($new_vote_id eq $vote_id) {
+	    $editors .= $editors ? ",$voter" : $voter;
+	    $vote_id = $new_vote_id;
+	}
+    }
 
-    push @columns,
-      qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
-    push @columns, $voters;
+    push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()" $disabled>);
+    push @columns, qq(<input type="radio" name="edit" value="$vote_id" onclick="document.f1.submit()" $disabled>);
+    push @columns, ($voters,$editors);
     push @vote_data, \@columns;
 }
 close IN;
 
-my @fields = (
-    textfield( -name => 'usr_initial',     -size => 4,   -value => '' ),
-    textfield( -name => 'email',           -size => 8,   -value => '' ),
-    textfield( -name => 'gene_name',       -size => 8,   -value => '' ),
-    textfield( -name => 'database_id',     -size => 10,  -value => '' ),
-    textfield( -name => 'tag',             -size => 5,   -value => '' ),
-    popup_menu( -name => 'tag_loc',        -values => ['','C','N']),
-    textfield( -name => 'sty_pp',          -size => 18,  -value => '' ),
-    textfield( -name => 'ab_avail',        -size => 8,   -value => '' ),
-    textfield( -name => 'mut_avail',       -size => 8,   -value => '' ),
-    textfield( -name => 'construct_avail', -size => 8,   -value => '' )
-);
+my @fields = fields();
 
 my $new_vote = hidden( -name => 'votes', -value => 1, -disabled => 1, -size => 2 );
 
@@ -154,11 +170,11 @@ my @tfvheader = (
     "Preferred<br>Terminus",   "Study<br>Purpose",
     "Antibodies<br>available", "Mutants<br>available",
     "Constructs<br>available", "Vote<br>Tally",
-    "Vote"
+    "Vote", "Edit"
 );
 
 
-my $submit = td( { -colspan => 2 }, submit( -name => 'Update' ));
+my $submit = td( { -colspan => 3 }, submit( -name => 'Update' ));
 
 my $new_entry = $create
   ? Tr( td( \@fields ). $submit )
@@ -179,18 +195,37 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
 print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
 for my $row (@vote_data) {
   $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-  print Tr({-bgcolor=>$row_color}, td([@{$row}[0..11]]) )
+  print Tr({-bgcolor=>$row_color}, td([@{$row}[0..12]]) )
 }  
-print $new_entry, end_table, end_form;;
+print $new_entry, end_table, end_form;
+
+exit 0 if $edit;
+
 
 # Store Final result here
 open OUT, ">" . TF_VOTES || die $!;
 flock(OUT, LOCK_EX);
 for (@vote_data) {
-    print OUT join( "\t", @{$_}[ 0 .. 10, 12]), "\n";
+    print OUT join( "\t", map {$_||''} @{$_}[ 0 .. 10, 13, 14]), "\n";
 }
 close OUT;
 
 print end_html;
 
 exit 0;
+
+
+sub fields {
+    return (
+	textfield( -name => 'usr_initial',     -size => 10,   -value => shift || '' ),
+	textfield( -name => 'email',           -size => 18,   -value => shift || '' ),
+	textfield( -name => 'gene_name',       -size => 8,   -value => shift || '' ),
+	textfield( -name => 'database_id',     -size => 15,  -value => shift || '' ),
+	textfield( -name => 'tag',             -size => 5,   -value => shift || '' ),
+	popup_menu( -name => 'tag_loc',        -values => ['','C','N'], -default => shift),
+	textfield( -name => 'sty_pp',          -size => 18,  -value => shift || '' ),
+	textfield( -name => 'ab_avail',        -size => 8,   -value => shift || '' ),
+	textfield( -name => 'mut_avail',       -size => 8,   -value => shift || '' ),
+	textfield( -name => 'construct_avail', -size => 8,   -value => shift || '' )
+	);
+}

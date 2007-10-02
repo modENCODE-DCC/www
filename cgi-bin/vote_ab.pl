@@ -37,19 +37,19 @@ print start_html(
 
 print start_form(-name => 'f1');
 
-my $vote             = param('vote');
-my $target_name      = param('target_name');
-my $ab_name          = param('ab_name') || '';
-my $ab_status        = param('ab_status') || '';
-my $clone            = param('clone') || '';
-my $species          = param('species') || '';
-my $description      = param('description') || '';
-my $create           = param('create');
-my $new              = 1
-  if $target_name
-    || $ab_name;
+my $vote         = param('vote') || '';
+my $edit         = param('edit') || '';
+my $target_name  = param('target_name');
+my $ab_name      = param('ab_name') || '';
+my $ab_status    = param('ab_status') || '';
+my $clone        = param('clone') || '';
+my $species      = param('species') || '';
+my $description  = param('description') || '';
+my $create       = param('create') || '';
+my $replace      = param('replace') || '';
+my $new          = 1 if ($target_name || $ab_name) && !$replace;
 
-# Make sure we have at least an antibody name
+# Make sure we have at least an antibody or target name
 if ( $new && ! ($target_name || $ab_name) ) {
     print h1(
         font(
@@ -66,6 +66,7 @@ my @abvinfo = (
     $species, $description, 1
     );
 for (@abvinfo) {
+    $_ or next;
     s/\t/ /g;
 }
 
@@ -95,10 +96,13 @@ while ( my $line = <IN> ) {
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
     #@columns == 9 || die "problem with data format for entry:\n$line\n";
-    my $voters = pop @columns if @columns == 8;
-    my @voters = split ',', $voters;
+    my $voters = $columns[7] || '';
+    my $editors = $columns[8] || '';
+    @columns = @columns[0..6];
+    my @voters = split ',', $voters if $voters;
     my $vote_id = md5_hex(@columns[0..5]);
-    
+    my $disabled = '';
+
     # increment the vote and keep track of who voted
     if ($vote eq $vote_id) {
         my $override = param('override');
@@ -114,21 +118,32 @@ while ( my $line = <IN> ) {
             $voters .= $voters ? ",$voter" : $voter;
         }
     }
-    push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()">);
+    # convert the values to form elements if an edit is requested
+    # for this line
+    elsif ($edit eq $vote_id) {
+        @columns[0..9] = fields(@columns);
+        $disabled = "disabled=1";
+        print hidden(-name => 'replace', -value => $vote_id);
+    }
+    # If the data have changed, log the IP of the editor
+    # and learn the changes
+    elsif ($replace eq $vote_id) {
+        @columns[0..6] = @abvinfo;
+        my $new_vote_id = md5_hex(@columns[0..5]);
+        unless ($new_vote_id eq $vote_id) {
+            $editors .= $editors ? ",$voter" : $voter;
+            $vote_id = $new_vote_id;
+        }
+    }
+
+    push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()" $disabled>);
+    push @columns, qq(<input type="radio" name="edit" value="$vote_id" onclick="document.f1.submit()" $disabled>);
     push @columns, $voters;
     push @vote_data, \@columns;
 }
 close IN;
 
-my @fields = (
-    textfield( -name => 'target_name', -size => 15, -value => ''),
-    textfield( -name => 'ab_name', -size => 8,  -value => '' ),
-    textfield( -name => 'ab_status', -size => 10,  -value => '' ),
-    popup_menu( -name => 'clone', -value => ['', 'monoclonal', 'polyclonal'], -default => ''),
-    textfield( -name => 'species', -size => 15,  -value => '' ),
-    textarea( -name => 'description', -row => 8, -column => 15,  -value => '' ),
-#    textfield( -name => 'votes', -value => 1, -disabled => 1, -size => 2 ),
-    );
+my @fields = fields();
 
 my @abvheader = (
     "Target<br>Name",
@@ -138,10 +153,11 @@ my @abvheader = (
     "Made in",
     "Description",
     "Vote<br>Tally",
-    "Vote"
+    "Vote",
+    "Edit"
     );
- 
-my $submit = td( { -colspan => 2 }, submit( -name => 'Update' ));
+
+my $submit = td( { -colspan => 3 }, submit( -name => 'Update' ));
 
 my $new_entry = $create
   ? Tr( td( \@fields ).$submit )
@@ -162,18 +178,31 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
 print Tr( {-bgcolor => 'lightblue'}, th( \@abvheader ) );
 for my $row (@vote_data) {
     $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..7]]) );
+    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..8]]) );
 }  
 print $new_entry, end_table, end_form;
+
+exit 0 if $edit;
 
 # Store Final result here
 open OUT, ">" . AB_VOTES || die $!;
 flock(OUT, LOCK_EX);
 for (@vote_data) {
-    print OUT join( "\t", @{$_}[ 0 .. 6, 8 ] ), "\n";
+    print OUT join( "\t", map {$_||''} @{$_}[ 0 .. 6, 9, 10] ), "\n";
 }
 close OUT;
 
 print end_html;
 
 exit 0;
+
+sub fields {
+    return (
+        textfield( -name => 'target_name', -size => 15, -value => shift || ''),
+	textfield( -name => 'ab_name',     -size => 15,  -value => shift || '' ),
+	textfield( -name => 'ab_status',   -size => 15,  -value => shift || '' ),
+	popup_menu( -name => 'clone',      -value => ['', 'monoclonal', 'polyclonal'], -default => shift || ''),
+	textfield( -name => 'species',     -size => 15,  -value => shift || '' ),
+	textarea( -name => 'description',  -rows => 4,   -column => 3,  -value => shift || '' ),
+	);
+}
