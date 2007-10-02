@@ -52,6 +52,8 @@ frameborder="0" onLoad="iFrameHeight('fr1')"></iframe>
 <ul>
 <li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
 <br>
+<li>Modify or update an existing entry by clicking the 'vote' button on the right.</li>
+<br>
 <li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
 </ul>
 </div>
@@ -67,6 +69,8 @@ frameborder="0" onLoad="iFrameHeight('fr2')"></iframe>
 </div>
 <ul>
 <li>Vote for an existing entry by clicking the 'vote' button on the right.</li>
+<br>
+<li>Modify or update an existing entry by clicking the 'vote' button on the right.</li>
 <br>
 <li>Click on the checkbox at the bottom of the table to add a new entry to the ballot.</li>
 </ul>
