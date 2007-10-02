@@ -60,6 +60,7 @@ my $new             = 1
   || $ab_avail
   || $mut_avail;
 undef $new if $replace;
+my $prompt;
 
 # Make sure we have at least a gene data or database ID
 if ( $new && !( $gene_name || $dbs_id ) ) {
@@ -129,7 +130,8 @@ while ( my $line = <IN> ) {
 			   ($columns[2] || $columns[3])), '&nbsp;&nbsp;',  
                   a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]'),
 		  '&nbsp;',
-		  a({-href => url()}, '[Cancel]'));
+		  a({-href => url()}, '[Cancel]')), br, br;
+	    $prompt = 1;
         }
         else {
             $columns[10]++;
@@ -150,6 +152,9 @@ while ( my $line = <IN> ) {
 	unless ($new_vote_id eq $vote_id) {
 	    $editors .= $editors ? ",$voter" : $voter;
 	    $vote_id = $new_vote_id;
+	}
+	else {
+	    $replace = '';
 	}
     }
 
@@ -191,16 +196,21 @@ my $new_entry = $create
   );
 
 my $row_color = 'gainsboro';
-print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
-print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
-for my $row (@vote_data) {
-  $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-  print Tr({-bgcolor=>$row_color}, td([@{$row}[0..12]]) )
-}  
-print $new_entry, end_table, end_form;
+unless ($prompt) {
+    print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
+    print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
 
-exit 0 if $edit;
+    for my $row (@vote_data) {
+	$row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
+	print Tr({-bgcolor=>$row_color}, td([@{$row}[0..12]]) )
+    }  
+    
+    print $new_entry, end_table, end_form;
+}
 
+print end_html and exit 0 if $edit || $prompt || !($vote || $replace);
+
+print h1('saving...');
 
 # Store Final result here
 open OUT, ">" . TF_VOTES || die $!;

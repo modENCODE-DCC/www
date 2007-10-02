@@ -37,7 +37,6 @@ print start_html(
 
 print start_form(-name => 'f1');
 
-my $vote         = param('vote') || '';
 my $edit         = param('edit') || '';
 my $target_name  = param('target_name');
 my $ab_name      = param('ab_name') || '';
@@ -63,19 +62,19 @@ if ( $new && ! ($target_name || $ab_name) ) {
 
 my @abvinfo = (
     $target_name, $ab_name, $ab_status, $clone, 
-    $species, $description, 1
+    $species, $description
     );
 for (@abvinfo) {
     $_ or next;
     s/\t/ /g;
 }
 
-my $voter = remote_host();
+my $editor = remote_host();
 
 # If a new entry is entered, save it now
 # but watch out for page re-loads
 if ($new) {
-    my $line = join( "\t", @abvinfo, $voter );
+    my $line = join( "\t", @abvinfo, $editor );
     my $file = AB_VOTES;
     unless (`grep '$line' $file`) {
 	open OUT, ">>$file" || die $!;
@@ -96,49 +95,33 @@ while ( my $line = <IN> ) {
     $line =~ /\S/ || next;
     my @columns = split "\t", $line;
     #@columns == 9 || die "problem with data format for entry:\n$line\n";
-    my $voters = $columns[7] || '';
-    my $editors = $columns[8] || '';
-    @columns = @columns[0..6];
-    my @voters = split ',', $voters if $voters;
-    my $vote_id = md5_hex(@columns[0..5]);
+    my $editors = $columns[6];
+    @columns = @columns[0..5];
+    my @editors = split ',', $editors if $editors;
+    my $edit_id = md5_hex(@columns[0..5]);
     my $disabled = '';
 
-    # increment the vote and keep track of who voted
-    if ($vote eq $vote_id) {
-        my $override = param('override');
-	if (!$override && $voter && grep /$voter/, @voters) {
-	    print h4(font( {-color => 'red'},
-			   "Sorry, someone at $voter has already voted for $columns[0]&nbsp;&nbsp;".
-			   a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]').
-			   '&nbsp;'.
-			   a({-href => url()}, '[Cancel]')));
-	}
-        else {
-            $columns[6]++;
-            $voters .= $voters ? ",$voter" : $voter;
-        }
-    }
     # convert the values to form elements if an edit is requested
     # for this line
-    elsif ($edit eq $vote_id) {
-        @columns[0..9] = fields(@columns);
+    if ($edit eq $edit_id) {
+        @columns[0..5] = fields(@columns);
         $disabled = "disabled=1";
-        print hidden(-name => 'replace', -value => $vote_id);
+        print hidden(-name => 'replace', -value => $edit_id);
     }
     # If the data have changed, log the IP of the editor
     # and learn the changes
-    elsif ($replace eq $vote_id) {
-        @columns[0..6] = @abvinfo;
-        my $new_vote_id = md5_hex(@columns[0..5]);
-        unless ($new_vote_id eq $vote_id) {
-            $editors .= $editors ? ",$voter" : $voter;
-            $vote_id = $new_vote_id;
+    elsif ($replace eq $edit_id) {
+        @columns[0..5] = @abvinfo;
+        my $new_edit_id = md5_hex(@columns[0..5]);
+        unless ($new_edit_id eq $edit_id) {
+            $editors .= $editors ? ",$editor" : $editor;
+            $edit_id = $new_edit_id;
         }
+	else {$edit = 1}
     }
 
-    push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()" $disabled>);
-    push @columns, qq(<input type="radio" name="edit" value="$vote_id" onclick="document.f1.submit()" $disabled>);
-    push @columns, $voters;
+    push @columns, qq(<input type="radio" name="edit" value="$edit_id" onclick="document.f1.submit()" $disabled>);
+    push @columns, $editors;
     push @vote_data, \@columns;
 }
 close IN;
@@ -152,12 +135,10 @@ my @abvheader = (
     "Type",
     "Made in",
     "Description",
-    "Vote<br>Tally",
-    "Vote",
     "Edit"
     );
 
-my $submit = td( { -colspan => 3 }, submit( -name => 'Update' ));
+my $submit = td( { -colspan => 2 }, submit( -name => 'Update' ));
 
 my $new_entry = $create
   ? Tr( td( \@fields ).$submit )
@@ -178,17 +159,17 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
 print Tr( {-bgcolor => 'lightblue'}, th( \@abvheader ) );
 for my $row (@vote_data) {
     $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..8]]) );
+    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..5]]).td({-width => '30px'},$row->[6]) );
 }  
 print $new_entry, end_table, end_form;
 
-exit 0 if $edit;
+exit 0 unless $replace;
 
 # Store Final result here
 open OUT, ">" . AB_VOTES || die $!;
 flock(OUT, LOCK_EX);
 for (@vote_data) {
-    print OUT join( "\t", map {$_||''} @{$_}[ 0 .. 6, 9, 10] ), "\n";
+    print OUT join( "\t", map {$_||''} @{$_}[ 0 .. 5, 7] ), "\n";
 }
 close OUT;
 
@@ -198,11 +179,11 @@ exit 0;
 
 sub fields {
     return (
-        textfield( -name => 'target_name', -size => 15, -value => shift || ''),
-	textfield( -name => 'ab_name',     -size => 15,  -value => shift || '' ),
-	textfield( -name => 'ab_status',   -size => 15,  -value => shift || '' ),
-	popup_menu( -name => 'clone',      -value => ['', 'monoclonal', 'polyclonal'], -default => shift || ''),
-	textfield( -name => 'species',     -size => 15,  -value => shift || '' ),
-	textarea( -name => 'description',  -rows => 4,   -column => 3,  -value => shift || '' ),
+        textfield(  -name => 'target_name', -size => 15, -value => (shift || '')),
+	textfield(  -name => 'ab_name',     -size => 15,  -value => (shift || '')),
+	textfield(  -name => 'ab_status',   -size => 15,  -value => (shift || '')),
+	popup_menu( -name => 'clone',       -value => ['', 'monoclonal', 'polyclonal'], -default => (shift || '')),
+	textfield(  -name => 'species',     -size => 15,  -value => (shift || '') ),
+	textfield(  -name => 'description', -size => 35,  -value => (shift || '') ),
 	);
 }
