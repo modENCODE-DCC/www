@@ -19,7 +19,7 @@
 <div style="margin-bottom:5px">
 <a style="margin-left:30px" href="index.shtml">[Home]</a>
 </div>
-<div id="main">
+<div id="main" style="height:10000px">
 <h3>Transcription Factor Priority List</h3>
 <i>C. elegans</i> and <i>D. melanogaster</i> modENCODE projects will be using CHIP-chip/sequencing 
 technology to map out transcription factor binding sites at the whole genome level. The availability of 
@@ -43,7 +43,7 @@ be using a more traditional ChIP-chip design to immunoprecipitate chromatin usin
 <h4>Transcription Factors <a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:tf_help')">
 [help...]</a></h4>
 <iframe name="fr1" id="fr1" src="/cgi-bin/vote.pl" width="100%" 
-frameborder="0" onLoad="iFrameHeight('fr1')"></iframe>
+frameborder="0" onLoad="iFrameHeight('fr1')" style="height:600px"></iframe>
 
 <div id="tf_help" style="display:none">
 <div class="subSection">
@@ -61,7 +61,7 @@ frameborder="0" onLoad="iFrameHeight('fr1')"></iframe>
 <h4>Transcription Factors Antibodies <a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:ab_help')">
 [help...]</a></h4>
 <iframe name="fr2" id="fr2" src="/cgi-bin/vote_ab.pl" width="100%"
-frameborder="0" onLoad="iFrameHeight('fr2')"></iframe>
+frameborder="0" onLoad="iFrameHeight('fr2')" style="height:400px"></iframe>
 
 <div id="ab_help" style="display:none">
 <div class="subSection">
