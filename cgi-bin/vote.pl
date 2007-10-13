@@ -123,7 +123,7 @@ while ( my $line = <IN> ) {
 
     # increment the vote and keep track of who voted
     if ($vote eq $vote_id) {
-        my $override = param('override');
+        my $override = 1;# param('override'); # WTF? proxy?
         if (!$override && $voter && grep /$voter/, @voters) {
             print h4(font( {-color => 'red'},
                      "Sorry, someone at $voter has already voted for ". 
@@ -209,8 +209,6 @@ unless ($prompt) {
 }
 
 print end_html and exit 0 if $edit || $prompt || !($vote || $replace);
-
-print h1('saving...');
 
 # Store Final result here
 open OUT, ">" . TF_VOTES || die $!;
