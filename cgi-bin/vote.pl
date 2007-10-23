@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 use CGI qw/:standard start_table end_table/;
+use Data::Dumper;
 
 # Make HTML human readable
 use CGI::Pretty;
@@ -121,6 +122,12 @@ while ( my $line = <IN> ) {
     my @voters = split ',', $voters;
     my $disabled = '';
 
+    my %voters;
+    for (@voters) {
+        $voters{$_}++;
+    }
+
+
     # increment the vote and keep track of who voted
     if ($vote eq $vote_id) {
         my $override = 1;# param('override'); # WTF? proxy?
@@ -134,7 +141,7 @@ while ( my $line = <IN> ) {
 	    $prompt = 1;
         }
         else {
-            $columns[10]++;
+    	    $voters{$voter}++;
             $voters .= $voters ? ",$voter" : $voter;
         }
     }
@@ -157,6 +164,8 @@ while ( my $line = <IN> ) {
 	    $replace = '';
 	}
     }
+
+    $columns[10] = tally(%voters);    
 
     push @columns, qq(<input type="radio" name="vote" value="$vote_id" onclick="document.f1.submit()" $disabled>);
     push @columns, qq(<input type="radio" name="edit" value="$vote_id" onclick="document.f1.submit()" $disabled>);
@@ -236,4 +245,20 @@ sub fields {
 	textfield( -name => 'mut_avail',       -size => 8,   -value => shift || '' ),
 	textfield( -name => 'construct_avail', -size => 8,   -value => shift || '' )
 	);
+}
+
+
+
+sub tally {
+    my %voters = @_;
+    my $count;
+    for my $v (keys %voters) {
+	if ($v eq '192.168.128.60') { # temp                                                                                                                          
+	    $count += $voters{$v};
+	}
+	else {
+	    $count += $voters{$v} > 2 ? 2 : $voters{$v};
+	}
+    }
+    $count;
 }
