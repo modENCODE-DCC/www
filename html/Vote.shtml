@@ -40,11 +40,20 @@ be using a more traditional ChIP-chip design to immunoprecipitate chromatin usin
 </ul>
 
 <p>Please contact <a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu">mckays@cshl.edu</a> for more information.</p> 
+<h4 style="color:red">Please note: In the interest of fairness, no more than two votes will be counted for an individual 
+<a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:IP_help')">IP address</a></h3>
 <h4>Transcription Factors <a href="javascript:void(0)" onmouseover="balloon.showTooltip(event,'load:tf_help')">
 [help...]</a></h4>
 <iframe name="fr1" id="fr1" src="/cgi-bin/vote.pl" width="100%" 
 frameborder="0" onLoad="iFrameHeight('fr1')" style="height:600px"></iframe>
 
+<dic id="IP_help" style="display:none">
+<b>From Wikipedia: </b>
+An IP address can also be thought of as the equivalent of a street address or a phone number (compare: VoIP (voice over (the) internet protocol))
+for a computer or other network device on the Internet. Just as each street address and phone number uniquely identifies a building or telephone,
+an IP address can uniquely identify a specific computer or other network device on a network. An IP address differs from other contact information,
+however, because the linkage of a user's IP address to his/her name is not publicly available information.
+</div>
 <div id="tf_help" style="display:none">
 <div class="subSection">
 <b>Use the form below to vote for a transcription factor</b>
