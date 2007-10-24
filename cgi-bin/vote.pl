@@ -138,7 +138,7 @@ while ( my $line = <IN> ) {
 			  a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]') .
 			  '&nbsp;' .
 			  a({-href => url()}, '[Cancel]'));
-	    push @vote_data, [$msg];
+	    push @vote_data, $msg;
         }
         else {
     	    $voters{$voter}++;
@@ -210,8 +210,8 @@ print start_table( { -border => 1, -width => '100%', -cellpadding => 2} );
 print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
 
 for my $row (@vote_data) {
-    if (@$row == 1) {
-	print Tr({-bgcolor=>$row_color}, td({-colspan=>13, -align=>'right'},@$row));
+    unless (ref $row) {
+	print Tr({-bgcolor=>$row_color}, td({-colspan=>13, -align=>'right'},$row));
 	next;
     }
     $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
@@ -220,12 +220,13 @@ for my $row (@vote_data) {
 
 print $new_entry, end_table, end_form;
 
-print end_html and exit 0 if $edit || $prompt || !($vote || $replace);
+print end_html and exit 0 if $edit || !($vote || $replace);
 
 # Store Final result here
 open OUT, ">" . TF_VOTES || die $!;
 flock(OUT, LOCK_EX);
 for (@vote_data) {
+    ref $_ or next;
     print OUT join( "\t", map {$_||''} @{$_}[ 0 .. 10, 13, 14]), "\n";
 }
 close OUT;
