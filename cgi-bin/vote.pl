@@ -135,8 +135,8 @@ while ( my $line = <IN> ) {
             my $msg =  h4(span( {style=>'color:red;font-size:100%'},
 				"Someone at your IP address ($voter) has already voted for ". 
 				($columns[2] || $columns[3])), '&nbsp;&nbsp;' .  
-			  a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]') .
-			  '&nbsp;' .
+			  #a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]') .
+			  #'&nbsp;' .
 			  a({-href => url()}, '[Cancel]'));
 	    push @vote_data, $msg;
         }
@@ -254,15 +254,14 @@ sub fields {
 sub tally {
     my %voters = @_;
     my $count;
-    # enforcement disabled for now
+    # 1 vote counted per IP
     for my $v (keys %voters) {
-	$count += $voters{$v};
-#	if ($v eq '192.168.128.60') { # temp                                                                                                                          
-#	    $count += $voters{$v};
-#	}
-#	else {
-#	    $count += $voters{$v} > 2 ? 2 : $voters{$v};
-#	}
+	if ($v eq '192.168.128.60') { # temp                                                                                                                          
+	    $count += $voters{$v};
+	}
+	else {
+	    $count++;
+	}
     }
     $count;
 }
