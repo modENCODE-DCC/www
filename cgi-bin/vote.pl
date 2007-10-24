@@ -19,7 +19,7 @@ use Digest::MD5 'md5_hex';
 use constant TF_VOTES => "$ENV{DOCUMENT_ROOT}/votes/tfvotes.txt";
 -e TF_VOTES or die "I could not find ".TF_VOTES." $!\n"; 
 
-my $style = '<style>TD,TH {font-size:90%;}</style>';
+my $style = "<style>TD,TH {font-size:90%;}</style>\n";
 
 print header;
 
@@ -29,6 +29,7 @@ if (param('override')) {
     my $url = url;
     @onload = (-onload => "window.location = '$url'"); 
 }
+
 
 print start_html( 
     -title => 'Transcription Factor Priority Voting Page',
@@ -61,7 +62,6 @@ my $new             = 1
   || $ab_avail
   || $mut_avail;
 undef $new if $replace;
-my $prompt;
 
 # Make sure we have at least a gene data or database ID
 if ( $new && !( $gene_name || $dbs_id ) ) {
@@ -120,6 +120,7 @@ while ( my $line = <IN> ) {
     my $editors = $columns[12] || '';
     @columns = @columns[0..10];
     my @voters = split ',', $voters;
+    
     my $disabled = '';
 
     my %voters;
@@ -127,18 +128,17 @@ while ( my $line = <IN> ) {
         $voters{$_}++;
     }
 
-
     # increment the vote and keep track of who voted
     if ($vote eq $vote_id) {
-        my $override = 1;# param('override'); # WTF? proxy?
+        my $override = param('override'); # WTF? proxy?
         if (!$override && $voter && grep /$voter/, @voters) {
-            print h4(font( {-color => 'red'},
-                     "Sorry, someone at $voter has already voted for ". 
-			   ($columns[2] || $columns[3])), '&nbsp;&nbsp;',  
-                  a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]'),
-		  '&nbsp;',
-		  a({-href => url()}, '[Cancel]')), br, br;
-	    $prompt = 1;
+            my $msg =  h4(span( {style=>'color:red;font-size:100%'},
+				"Someone at your IP address ($voter) has already voted for ". 
+				($columns[2] || $columns[3])), '&nbsp;&nbsp;' .  
+			  a({-href => url()."?vote=$vote;override=1"},'[Vote anyway]') .
+			  '&nbsp;' .
+			  a({-href => url()}, '[Cancel]'));
+	    push @vote_data, [$msg];
         }
         else {
     	    $voters{$voter}++;
@@ -205,17 +205,20 @@ my $new_entry = $create
   );
 
 my $row_color = 'gainsboro';
-unless ($prompt) {
-    print start_table( { -border => 1, -width => '100%', -cellpadding => 2 } );
-    print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
 
-    for my $row (@vote_data) {
-	$row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
-	print Tr({-bgcolor=>$row_color}, td([@{$row}[0..12]]) )
-    }  
-    
-    print $new_entry, end_table, end_form;
-}
+print start_table( { -border => 1, -width => '100%', -cellpadding => 2} );
+print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
+
+for my $row (@vote_data) {
+    if (@$row == 1) {
+	print Tr({-bgcolor=>$row_color}, td({-colspan=>13, -align=>'right'},@$row));
+	next;
+    }
+    $row_color = $row_color eq 'ivory' ? 'gainsboro' : 'ivory';
+    print Tr({-bgcolor=>$row_color}, td([@{$row}[0..12]]) )
+}  
+
+print $new_entry, end_table, end_form;
 
 print end_html and exit 0 if $edit || $prompt || !($vote || $replace);
 
@@ -247,18 +250,18 @@ sub fields {
 	);
 }
 
-
-
 sub tally {
     my %voters = @_;
     my $count;
+    # enforcement disabled for now
     for my $v (keys %voters) {
-	if ($v eq '192.168.128.60') { # temp                                                                                                                          
-	    $count += $voters{$v};
-	}
-	else {
-	    $count += $voters{$v} > 2 ? 2 : $voters{$v};
-	}
+	$count += $voters{$v};
+#	if ($v eq '192.168.128.60') { # temp                                                                                                                          
+#	    $count += $voters{$v};
+#	}
+#	else {
+#	    $count += $voters{$v} > 2 ? 2 : $voters{$v};
+#	}
     }
     $count;
 }
