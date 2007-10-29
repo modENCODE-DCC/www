@@ -58,7 +58,6 @@ function isOldIE() {
 }
 
 // automatically adjust iframe height to reflect contents
-// A bit convoluted but it works
 function iFrameHeight(id) {
     var iframe, height;
     if (isIE()) {
@@ -70,7 +69,6 @@ function iFrameHeight(id) {
 	height = iframe.contentDocument.body.scrollHeight;
     }
 
-    height = typeof(height) == 'number' ? height + 30 : 400;
-
+    height = typeof(height) == 'number' ? height + 50 : 400;
     YAHOO.util.Dom.setStyle(id,'height',height+'px');
 }
