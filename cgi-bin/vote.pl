@@ -209,7 +209,12 @@ my $row_color = 'gainsboro';
 print start_table( { -border => 1, -width => '100%', -cellpadding => 2} );
 print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ) );
 
+my $row_count = 0;
 for my $row (@vote_data) {
+    if (++$row_count == 15) {
+	print Tr( {-bgcolor => 'lightblue'}, th( \@tfvheader ));
+	$row_count = 0;
+    }
     unless (ref $row) {
 	print Tr({-bgcolor=>$row_color}, td({-colspan=>13, -align=>'right'},$row));
 	next;
