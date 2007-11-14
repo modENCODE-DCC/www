@@ -9,7 +9,7 @@ $HTML_DIR  = '/FRONT-END/www/html';
 use lib "/FRONT-END/www/conf/gbrowse.conf";
 #
 ###################################################################
-$VERSION   = 1.68;
+$VERSION   = 1.69;
 
 
 

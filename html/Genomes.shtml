@@ -22,17 +22,12 @@
 <!--#include file="menu.html" -->
 
 <td align=left>
-<div id="main">
-  
-  
+<div id="main" style="height:3000px">
 
-<iframe width="100%" height=800px align=top frameborder=0  src="/karyotypes.html">
+<iframe width="100%" height="3000px" align=top frameborder=0  src="/karyotypes.html">
 </iframe>
       
- 
-
-
- </div>
+  </div>
 </td>
 </tr>
 </table>

@@ -7,7 +7,7 @@
 $CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
 #
 ###################################################################
-$VERSION   = 1.68;
+$VERSION   = 1.69;
 
 # $Id: gbrowse_details.PLS,v 1.28.4.2.2.12.2.1 2007/03/22 02:24:24 scottcain Exp $
 

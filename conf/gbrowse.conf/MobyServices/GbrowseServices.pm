@@ -5,7 +5,7 @@ package MobyServices::GbrowseServices;
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-$CONF_DIR  = '/FRONT-END/conf/gbrowse.conf';
+$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
 #
 ###################################################################
 

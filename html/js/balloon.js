@@ -1,7 +1,7 @@
 /*
  balloon.js -- a DHTML library for balloon tooltips
 
- $Id: balloon.js,v 1.18 2007/09/14 21:02:01 sheldon_mckay Exp $
+ $Id: balloon.js,v 1.1.2.13 2007/11/03 21:22:28 sheldon_mckay Exp $
 
  See http://www.gmod.org/wiki/index.php/Popup_Balloons
  for documentation.
@@ -47,7 +47,7 @@ var balloonInvisibleSelects;
 // If using this library from dynamically generated HTML in IE, such as
 // CGI scripts, set this variable to false.  It will prevent
 // balloons from firing until the page is fully loaded in IE.  
-var balloonOK = true;
+var balloonOK = false;
 window.onload = function(){ balloonOK = true; }
 
 ///////////////////////////////////////////////////
@@ -85,8 +85,8 @@ var Balloon = function() {
   // images of balloon body.  If the browser is IE < 7, png alpha
   // channels will not work.  An optional alternative image can be 
   // provided.  It should have the same dimensions as the default png image
-  this.balloonImage  = '/img/balloons/balloon.png';    // with alpha channels
-  this.ieImage       = '/img/balloons/balloon_ie.png'; // indexed color, transparent background
+  this.balloonImage  = '/images/balloons/balloon.png';    // with alpha channels
+  this.ieImage       = '/images/balloons/balloon_ie.png'; // indexed color, transparent background
 
   // whether the balloon should have a stem
   this.stem          = true;
@@ -97,13 +97,13 @@ var Balloon = function() {
   this.stemOverlap = 3;
   
   // A stem for each of the four orientations
-  this.upLeftStem    = '/img/balloons/up_left.png';
-  this.downLeftStem  = '/img/balloons/down_left.png';
-  this.upRightStem   = '/img/balloons/up_right.png';
-  this.downRightStem = '/img/balloons/down_right.png';
+  this.upLeftStem    = '/images/balloons/up_left.png';
+  this.downLeftStem  = '/images/balloons/down_left.png';
+  this.upRightStem   = '/images/balloons/up_right.png';
+  this.downRightStem = '/images/balloons/down_right.png';
 
   // A close button for sticky balloons
-  this.closeButton   = '/img/balloons/close.png';
+  this.closeButton   = '/images/balloons/close.png';
 }
 
 
@@ -258,11 +258,15 @@ Balloon.prototype.doShowTooltip = function() {
 
   // sticky balloons need a close control
   if (balloonIsSticky) {
-    var close = '<a onclick="Balloon.prototype.hideTooltip(1)" title="Close">';
-    close    += '<img src="'+bSelf.closeButton+'" style="float:right;cursor:pointer"></a><br>';
-    helpText = close + helpText; 
-  }
+    var style = 
+    'margin-right:-'+Math.round(bSelf.padding/2 - 1)+'px;float:right;'+
+    'cursor:pointer;margin-top:-'+Math.round(bSelf.padding/2 - 1)+'px;float:right'; 
 
+    helpText = 
+    '<img onclick="Balloon.prototype.hideTooltip(1)" title="Close" '+
+    'src="'+bSelf.closeButton+'" style="'+style+'">'+helpText;
+  }
+ 
   // add the contents to balloon
   document.getElementById('contents').innerHTML = helpText;
 
@@ -330,6 +334,7 @@ Balloon.prototype.setBalloonStyle = function(vOrient,hOrient,pageWidth,pageLeft)
   bSelf.setStyle('topRight','right',0-fullPadding);
   bSelf.setStyle('topRight','top',0);
   bSelf.setStyle('topRight','width',fullPadding);
+  bSelf.setStyle('topRight','z-index',-1);
 
   bSelf.setStyle('bottomLeft','background','url('+bSelf.balloonImage+') bottom left no-repeat');
   bSelf.setStyle('bottomLeft','position','absolute');
@@ -381,7 +386,11 @@ Balloon.prototype.setBalloonStyle = function(vOrient,hOrient,pageWidth,pageLeft)
 
   if (!bSelf.width) {
     var width = bSelf.getLoc(balloon,'width');
-    if (width > bSelf.maxWidth) width = bSelf.maxWidth;
+    if (width > bSelf.maxWidth) width = bSelf.maxWidth + 50;
+    // but if the contents just won't fit, override.
+    if (bSelf.getLoc('contents','width') > width) {
+      width = bSelf.getLoc('contents','width');
+    }
     if (width < bSelf.minWidth) width = bSelf.minWidth;
     bSelf.setStyle(balloon,'width',width);
   }
@@ -389,6 +398,7 @@ Balloon.prototype.setBalloonStyle = function(vOrient,hOrient,pageWidth,pageLeft)
     bSelf.setStyle(balloon,'width',bSelf.width);
   }
 
+  alert(width);
   // Make sure the balloon is not offscreen
   var balloonPad   = bSelf.padding + bSelf.shadow;
   var balloonLeft  = bSelf.getLoc(balloon,'x1');
@@ -539,12 +549,15 @@ Balloon.prototype.getLoc = function(el,request) {
 // We don't know if numbers are overridden with strings
 // so play it safe
 Balloon.prototype.parseIntAll = function() {
-  this.padding     = parseInt(this.padding);
-  this.shadow      = parseInt(this.shadow);
-  this.stemHeight  = parseInt(this.stemHeight);
-  this.stemOverlap = parseInt(this.stemOverlap);
-  this.vOffset     = parseInt(this.vOffset);
-  this.delayTime   = parseInt(this.delayTime);
+    this.padding     = parseInt(this.padding);
+    this.shadow      = parseInt(this.shadow);
+    this.stemHeight  = parseInt(this.stemHeight);
+    this.stemOverlap = parseInt(this.stemOverlap);
+    this.vOffset     = parseInt(this.vOffset);
+    this.delayTime   = parseInt(this.delayTime);
+    this.width       = parseInt(this.width);
+    this.maxWidth    = parseInt(this.maxWidth);
+    this.minWidth    = parseInt(this.minWidth);
 }
 
 

@@ -389,4 +389,32 @@ END
 
  INVALID_SOURCE    => 'The source named %s is invalid.',
 
+ INVALID_SOURCE    => 'The source named %s is invalid.',
+
+ BACKGROUND_COLOR  => 'Fill color',
+
+ FG_COLOR          => 'Line color',
+
+ HEIGHT           => 'Height',
+
+ PACKING          => 'Packing',
+
+ GLYPH            => 'Shape',
+
+ LINEWIDTH        => 'Line width',
+
+ DEFAULT          => '(default)',
+
+ DYNAMIC_VALUE    => 'Dynamically calculated',
+
+ CHANGE           => 'Change',
+
+ DRAGGABLE_TRACKS  => 'Draggable tracks',
+
+ CACHE_TRACKS      => 'Cache tracks',
+
+ OPTIONS_RESET     => 'All page settings have been reset to their default values',
+
+ OPTIONS_UPDATED   => 'A new site configuration is in effect; all page settings have been reset to their defaults',
+
 };

@@ -34,6 +34,12 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 <h3> News and Notes </h3>
 <div style="font-size:90%">
 <ul>
+<li>November 6, 2007: <b> New data in the Genome Browsers </b><br>
+Selected expression-related tracks from WormBase, FlyBase have been added to the <a href="http://www.modencode.org/Genomes.shtml">
+modENCODE worm and fly genome browsers</a>. 
+Some new features include EST tracks, whole genome tiling array data from Manak JR, et al. Nature Genet. 2006 Oct;38(10):1151-8 and new gene predictions for C. elegans.  If would like to have additional data imported from Worm/FlyBase or other sources, please <a href="mailto:mckays@cshl.edu">let us know</a>.<br><br> 
+</li>
+
 <li>September 18, 2007: <b>Transcription Factor Genes for modENCODE</b><br>
 Input from the <i>C. elegans</i> and <i>Drosophila</i> research communities
 is sought in order to help choose which transcription factor to focus on for analysis in 

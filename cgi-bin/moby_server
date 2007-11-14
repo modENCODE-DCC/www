@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-use lib '/FRONT-END/conf/gbrowse.conf/';
+use lib '/FRONT-END/www/conf/gbrowse.conf/';
 
 #$Id: moby_server.PLS,v 1.6 2004/08/09 14:46:18 sheldon_mckay Exp $
 use SOAP::Transport::HTTP;

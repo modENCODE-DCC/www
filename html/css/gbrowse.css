@@ -6,7 +6,7 @@ A {
 }
 
 A.header {
- font-size:85%;
+ font-size:100%;
 }
 
 A:hover {
@@ -87,48 +87,18 @@ TH.linkmenu       {
                     CURSOR: help;
                     TEXT-DECORATION: none
                   }
-.titlebar         {  background-color: khaki; 
-                     cursor: crosshair;
-                     position: relative;
-                     z-index: 1;
-                     right: -100px;
-                     opacity: 1.0;
-                     font-size: 9pt;
-                     font-weight: bold;
-                  }
-.titlebar_inactive {  background-color: lightblue; 
-                     cursor: crosshair;
-                     position: relative;
-                     z-index: 1;
-                     right: -100px;
-                     opacity: 1.0;
-                     font-size: 9pt;
-                     font-weight: bold;
-                  }
 .track            {  text-align: left }
+
 IMG.trackimg      {  
                        margin-top: -10px;
                        text-align: center;
                   }
 
 
-.gbrowseWrapper {
- border:2px solid #666699;
- padding:10px;
- margin-top:18px;
- position:relative;
+.titlebar {
+ background-color: powderblue;
 }
-
-.gbrowseWrapper H1 {
- color:black;
- position:absolute;
- top:-6px;
- margin-top: -3px;
- margin-left: 15px;
- padding-left:10px;
- padding-right:10px;
- height:14px;
- font-size:125%;
- background:white;
+.titlebar_inactive {
+ background-color: gainsboro;
 }
 
