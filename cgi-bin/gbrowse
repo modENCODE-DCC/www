@@ -4,7 +4,7 @@
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-#$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
+$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
 #
 ###################################################################
 $VERSION   = 1.69;
@@ -2860,17 +2860,22 @@ sub build_citation_page {
   my $external_features = load_external_sources(undef,$settings);
   $external_features ||= {};
 
-  my (@citations);
-  print h2($CONFIG->tr('Track_descriptions'));
+  my (@citations,%cat);
+  print h1($CONFIG->tr('Track_descriptions'));
+  print h2($CONFIG->tr('Built_in'));
 
-  # build native features
-  print h3($CONFIG->tr('Built_in'));
+  # build native features                                                                                                                                                                                        
   for my $feature (@features) {
     next if $feature =~ /:(overview|region)/i;
-    push @citations,make_citation($CONFIG,$feature);
+    my $category = $CONFIG->config->code_setting($feature => 'category') || 'General';
+    $category = &$category if ref $category eq 'CODE';
+    push @{$cat{$category}},make_citation($CONFIG,$feature);
   }
 
-  print blockquote(dl(@citations));
+  for my $cat (sort keys %cat) {
+    print h2($cat) unless keys %cat == 1;
+    print blockquote(dl(@{$cat{$cat}}));
+  }
 
   # build external features
   if (%$external_features) {
