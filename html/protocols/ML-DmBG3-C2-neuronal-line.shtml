@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2> ML-DmBG3-C2 neuronal line </h2>
+
+<h4>Essentials</h4>
+<ul>
+ <li><strong>Official name:</strong></li>
+ <li><strong>Short names/aliases:</strong></li>
+ <li <strong>Gene product species (C. elegans > D. melanogaster | H. sapiens):</strong> D. melanogaster</li>
+ <li><strong>Species strain:</strong> y v f mal</li>
+ <li><strong>Species genotype:</strong></li>
+ <li><strong>Species sex:</strong> n/a</li>
+ <li><strong>Cell type (from CL ontology):</strong> Neuron (CL:0000540)</li>
+ <li><strong>Tissue:</strong> Larval ventral ganglion (FBbt:00001971)</li>
+ <li><strong>Developmental stage:</strong> Third instar larval stage 2 (FBdv:00005341)</li>
+ <li><strong>Reference/Lab where created:</strong> Peter Cherbas</li>
+ <li><strong>Catalog number or database ID, if applicable:</strong> DGRC stock #68 </li>
+</ul>
+
+<h4>Description</h4>
+<p>
+<a href="https://dgrc.cgb.indiana.edu/project/protocol-ML-DmBG3-c2.html" class="external">DGRC page for ML-DmBG3-C2</a>
+</p>
+<!--
+<h4>Replication Information</h4>
+<ul>
+ <li><strong>Length of S-phase</strong>:  (enter time here) <a href="./link "> Experimental Evidence</a> </li>
+</ul>
+-->
+<h4>References</h4>
+<p>
+Ui K, Nishihara S, Sakuma M, Togashi S, Ueda R, Miyata Y, Miyake T. 1994.  Newly established cell lines from Drosophila larval CNS express neural specific characteristics.  <em>In Vitro Cell Dev Biol Anim.</em> Apr;30A(4):209-16.  <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=retrieve&db=pubmed&dopt=AbstractPlus&list_uids=8069443" class="external">PubMed</a>
+</p>
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

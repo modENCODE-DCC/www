@@ -6,9 +6,7 @@
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/balloon.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
- <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
 <body vlink='black' link='black' onload="setActiveLink('Celniker')">
@@ -51,17 +49,106 @@ University of Connecticut Health Systems<br>
 Harvard University<br>
 Lawrence Berkeley National Laboratory
 </td>
-<td width=200 align=right><br>
-<a href="http://wiki.modencode.org/index.php/Celniker"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
-</td></tr></table>
+</tr></table>
 <hr>
 
 
 This proposal responds to the modENCODE RFA to identify all of the sequence-based functional elements associated with transcribed sequences "including both protein coding and non-protein coding sequences, specifically characterizing gene structures including transcription start sites (TSS), polyadenylation sites, and alternative transcripts in <I>Drosophila</I>". We propose to generate a comprehensive set of developmentally staged and tissue- and cell-specific RNAs for expression profiling using high-density genome tiling microarrays and 454 pyrosequencing of small RNAs. These expression data will be used for sophisticated transcript modeling that integrates extant EST and cDNA sequence and comparative data from the 12 sequenced Drosophila genomes. The models will serve as the foundation for experimental validation by sequencing of cDNA and RTPCR products, RACE to define TSSs, and for small non-protein coding RNAs (ncRNAs), by functional validation in RNAi assays. The experimental validation data will be incorporated into the informatics pipeline to produce improved transcript models. In our final product, these models will include comprehensive annotations of TSSs, exon/intron structures, polyadenylation sites and the cis-elements required for splicing. We have assembled a project management team to obtain the necessary infrastructure and expertise to complete the goals of the proposal. The managers and their roles and responsibilities are: Peter Cherbas (IU), RNA samples and evaluation of computational models; Thomas Gingeras (Affymetrix), microarray expression profiling and analysis; Michael Brent (WUSTL), data integration and transcript modeling; Roger Hoskins (LBNL), sequence-based validation; Brenton Graveley (UCHC), alternate splicing; and Norbert Perrimon (Harvard), function of ncRNAs.
 
+<h4> Experimental Approaches </h4>
+<p>
+<em>SPECIFIC AIM 1</em>: <strong>Identify protein coding and noncoding transcribed sequences</strong>
+</p>
+
+<p>
+We propose to generate over 600 RNA samples in biological triplicates and use them to generate
+expression profile maps detailing the sites of transcription across the fly genome using 1,692 whole genome
+tiling arrays at 35 bp resolution as a broad survey of the transcriptome and 630 arrays at 5 bp resolution to
+identify at high resolution transcripts ends, splice sites, and small RNAs. The same RNA will be used for
+validation in Aim 2. We also plan to generate first-order transcript connectivity maps by hybridizing 200 pools of
+100 RACE products to 35 bp arrays.
+</p>
+
+<p>
+<em>SPECIFIC AIM 2</em>: <strong>Map transcript structures</strong>
+</p>
+
+<p>
+The data produced in Aim 1 will be incorporated into a computational analysis to predict complete transcript
+structures. Any of the structural components not yet validated by annotated sequence data will be identified for
+additional experimental validation and characterization. RLM-RACE will be used to map and characterize
+20,000 TSSs, 20,000 RT-PCRs will be used to validate exon/intron junctions and 6,000 targeted cDNA library
+screens will be done to validate new transcripts. 454 Life Sciences pyrosequencing will be used to characterize
+15 RNA samples, and Northern analysis will be used to validate 1,000 ncRNAs. RNAi knock-downs of 125
+RNA-binding protein genes in cell lines will be analyzed by transcript expression profiling to identify
+alternatively spliced exons and map cis-elements required to regulate alternate transcription.
+</p>
+
+<p>
+<em>SPECIFIC AIM 3</em>: <strong>Functionally validate ncRNA</strong>
+</p>
+
+<p>
+We propose to evaluate the biological functions of the newly annotated sequences identified as ncRNAs in
+Aims 1 and 2, a critical task that has yet to be performed in a systematic fashion. Functional validation of these
+new ncRNAs will be based on our extensive experience in high-throughput RNA interference (RNAi) and
+overexpression approaches in cell-based assays.
+</p>
+
+<h4> Information Resources to be Generated </h4>
+<ol>
+ <li>Sequence from ESTs, cDNA, RT-PCR and RACE products</li>
+ <li>Whole genome expression Microarray data</li>
+ <li>RNAi tissue culture data </li>
+</ol>
+
+<h4> Contact Information </h4>
+<p>
+PI:  Sue Celniker, <em>celniker@fruitfly.org</em>
+</p>
+<ol>
+ <li><strong>LBNL</strong>
+ <ul>
+  <li>Informatics: Joe Carlson, <em>joe@fruitfly.org</em>  </li>
+ </ul>
+ </li>
+ <li><strong>Washington University</strong>
+ <ul>
+  <li>PI: Michael Brent, <em>brent@cse.wustl.edu</em> </li>
+  <li>Wet Lab: Laura Langton, <em>langton@cse.wustl.edu</em> </li>
+  <li>Informatics:  Charles Comstock, <em>cc1@cse.wustl.edu</em> </li>
+  <li>Informatics:  Brian Koebbe, <em>koebbe@wustl.edu</em> </li>
+  <li>The entire group can be reached with <em>modencode@mblab.wustl.edu</em>  </li>
+ </ul>
+ </li>
+ <li><strong>Harvard</strong>
+ <ul>
+  <li>PI: Bernard Mathey-Prevot, <em>bprevot@receptor.med.harvard.edu</em> </li>
+  <li>Imaging: Ian Flockhart, <em>iflockha@genetics.med.harvard.edu</em> </li>
+  <li>Informatics: Matt Booker, <em>mbooker@genetics.med.harvard.edu</em>  </li>
+ </ul>
+ </li>
+ <li><strong>UCHC-UCB &ndash <i>Drosophila melanogaster</i> splicing</strong>
+ <ul>
+  <li>PI: Steven Brenner, <em>brenner@compbio.berkeley.edu</em> </li>
+  <li>PI: Brenton Graveley, <em>graveley@neuron.uchc.edu</em> </li>
+  <li>Informatics: Angela Brooks, <em>angelabrooks@berkeley.edu</em>  </li>
+ </ul>
+ </li>
+ <li><strong>Indiana</strong>
+ <ul>
+  <li>PI: Peter Cherbas, <em>cherbas@indiana.edu</em> </li>
+  <li>Wet Lab:  Andreas Rechtsteiner, <em>andreas@cgb.indiana.edu</em>  </li>
+ </ul>
+ </li>
+ <li><strong>Affymetrix</strong>
+ <ul>
+  <li>PI: Thomas Gingeras, <em>tom_gingeras@affymetrix.com</em> </li>
+  <li>Wetlab: Aarron Willingham, <em>aarron_willingham@affymetrix.com</em> </li>
+  <li>Informatics: Srinka Ghosh, <em>srinka_ghosh@affymetrix.com</em>  </li>
+ </ul>
+  </li>
+ </ol>
   
  
 

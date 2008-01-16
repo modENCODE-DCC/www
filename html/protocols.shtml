@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="css/modencode.css">
+ <title>The modENCODE Project: Protocols</title>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Lieb')">
+
+<!--#include file="banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=160px>
+
+<!--#include file="menu.html" -->
+
+<td align=left>
+<div id="main">
+  
+  
+ <h2>Protocols</h2>
+
+<h3>Animal Handling</h3>
+
+<h4>C. elegans growth and staging</h4>
+<ul>
+ <li><a href="./protocols/embryo-collection-fixing-for-ChIP-chip.shtml"> Embryo collection/fixing for ChIP-chip</a> [Lieb]</li>
+
+</ul>
+
+<h4>D. melanogaster growth and staging</h4>
+<!--
+<p>
+<a href="./Test-Protocol-Biosample">Test-Protocol-Biosample</a>
+</p>
+-->
+
+<h5>Tissue Isolation</h5>
+<ul>
+ <li><a href="./protocols/16C-follicle-cells.shtml">16C Follicle Cells</a></li>
+ <li><a href="./protocols/nurse-cells.shtml">Nurse Cells</a></li>
+
+ <li><a href="./protocols/larval-salivary-glands.shtml">Larval Salivary Glands</a></li>
+ <li><a href="./protocols/adult-midgut.shtml">Adult Midgut</a></li>
+ <li><a href="./protocols/larval-fatbody.shtml">Larval Fatbody</a></li>
+</ul>
+
+<h5>Developmental Stages</h5>
+<ul>
+ <li><a href="./protocols/embryo0-2.shtml">Embryo 0-2h</a></li>
+ <li><a href="./protocols/embryo4-7.shtml">Embryo 4-7h</a> </li>
+</ul>
+
+<h3>ChIP/CHIP</h3>
+<ul>
+ <li><a href="./protocols/ChIP-chip-LM-PCR.shtml"> ChIP-chip with LM-PCR</a> [Lieb]</li>
+ <li><a href="./protocols/ChIP-chip-qPCR.shtml"> ChIP-chip with qPCR</a> [Lieb]
+ <ul>
+  <li>from <a href="./protocols/docs/DCC_ChIP_SE_April_2007.pdf"> ChIP-chip protocol from C elegans embryos April 2007 Lieb Lab by S Ercan</a> for the paper <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=PubMed&Cmd=ShowDetailView&TermToSearch=17293863" class="external">PubMed 17293863</a>  </li>
+ </ul>
+ </li>
+</ul>
+
+<h4>Chromatin Preparation</h4>
+<ul>
+ <li><a href="./protocols/embryo-extract-preparation-for-ChIP-chip.shtml"> Embryo extract prep</a> [Lieb]</li>
+</ul>
+
+<h4>Chromatin IP</h4>
+<ul>
+ <li><a href="./protocols/ip.shtml">IP</a> [Lieb]</li>
+</ul>
+
+
+<!--
+Commented out for now Looks ugly without content
+
+<h3>Analysis & Post-Processing</h3>
+<h4>Expression/Tiling Arrays</h4>
+<a href="./cDNA">synthesis for Expression Arrays</a>
+
+<a href="./Labeling">of cDNA for Expression Arrays</a>
+
+<a href="./Array">Hybridization for Expression Arrays</a>
+
+<a href="./Array">Scanning for Expression Arrays</a>
+
+<a href="./Signal">Graph generation for Expression Arrays</a>
+
+<a href="./Transfrag">analysis for Expression Arrays</a>
+
+<h4>Small RNA Sequencing</h4>
+
+<h4>RNA Isolation and Sizing</h4>
+<h4>Sequencing Protocol</h4>
+<h4>Analysis & Post-Processing</h4>
+<h3>RACE Sequencing</h3>
+
+<h4>mRNA Isolation</h4>
+<h4>RACE Protocols</h4>
+-->
+
+
+
+<hr>
+
+ </div>
+</td>
+</tr>
+</table>

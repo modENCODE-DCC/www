@@ -6,9 +6,7 @@
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/balloon.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
- <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
 <body vlink='black' link='black' onload="setActiveLink('MacAlpine')">
@@ -38,16 +36,64 @@ Terry Orr-Weaver
 Duke University<br>
 Whitehead Institute
 </td>
-<td width=200 align=right><br>
-<a href="http://wiki.modencode.org/index.php/MacAlpine"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
-</td></tr></table>
+</tr></table>
 <hr>
 
 We will use high-density genomic tiling-path arrays to characterize the Drosophila replication program in multiple cell lines and tissues. Specifically, we will determine the time of replication for all unique sequences in the Drosophila genome, identify and map all functional origins of replication, and identify all sites of pre-replicative complex (preRC) assembly. The high-resolution mapping of sites of preRC assembly will enable us to apply computational approaches (including comparative genomics) to identify potential sequence motifs that direct and regulate preRC function. Finally, we will also characterize the differential replication of polytene chromosomes in fully differentiated Drosophila tissues to identify genomic regions that are amplified or underreplicated. 
   
+<h4> Experimental Approaches </h4>
+<ol>
+ <li>Genomic tiling arrays to map the location  and time of activation of origins of replication in a variety of cell lines and tissues.</li>
+ <li><a href="./experiments/ChIP-chip.shtml">ChIP-chip</a> to identify all sites of pre-replicative assembly complex in a variety of cell lines and tissues.</li>
+ <li><a href="./experiments/CGH.shtml"> Comparative Genomic Hybridization (CGH)</a> to identify copy number differences in polytene tissues. </li>
+</ol>
+
+<h4> Information Resources to be Generated </h4>
+<p>
+We will be generating ChIP/chip data for preRC localization using custom Agilent tiling arrays (100 bp resolution).  Antibodies for the ChIP experiments are directed against multiple preRC components including ORC2, ORC1 and the MCM complex. CGH data for copy number differences in polytene tissues using custom Agilent tiling arrays (500-600 bp resolution), and replication timing data using the CGH resolution arrays.  
+</p>
+
+<p>
+Identified and validated sequence elements required for origin function and regulation will submitted to the DCC.
+</p>
+
+<h5> Cell Lines </h5>
+<ol>
+ <li><a href="./protocols/Kc167-embryonic.shtml">Kc167 embryonic</a>: Embryonic</li>
+ <li><a href="./protocols/CME-W1-CL8.shtml">CME-W1-CL8</a>: Imaginal Disc</li>
+ <li><a href="./protocols/ML-DmBG3-C2-neuronal-line.shtml">ML-DmBG3-C2 neuronal line</a>: CNS </li>
+</ol>
+
+<h5> Tissues </h5>
+<ol>
+ <li><a href="./protocols/16C-follicle-cells.shtml">16C Follicle Cells</a></li>
+ <li><a href="./protocols/nurse-cells.shtml">Nurse Cells</a></li>
+ <li><a href="./protocols/larval-salivary-glands.shtml">Larval Salivary Glands</a></li>
+ <li><a href="./protocols/adult-midgut.shtml">Adult Midgut</a></li>
+ <li><a href="./protocols/larval-fatbody.shtml">Larval Fatbody</a></li>
+</ol>
+
+<h5> Developmental Stages  </h5>
+<ol>
+ <li><a href="./protocols/embryo0-2.shtml">Embryo 0-2h</a></li>
+ <li><a href="./protocols/embryo4-7.shtml">Embryo 4-7h</a> </li>
+</ol>
+
+<h4> Reagents to be Generated </h4>
+<p>
+We have generated an <em>in silico</em> library of unique Tm matched 60 mer probes
+from the 5.0 Drosophila sequence release.  This library also includes unique
+probes from the recently sequenced heterochromatin scaffolds.
+</p>
+
+<h4> Contact Information </h4>
+<ol>
+ <li><strong>PI</strong>: David MacAlpine [dmm29@duke.edu]</li>
+ <li><strong>Co-PI</strong>: Terry Orr-Weaver [weaver@wi.mit.edu]</li>
+ <li><strong>Wet lab</strong>: Heather MacAlpine [hkm@duke.edu]</li>
+ <li><strong>Informatics</strong>: David MacAlpine [dmm29@duke.edu]</li>
+ <li><strong>Web site</strong>: <a href="http://macalpine-lab.duhs.duke.edu" class="external">http://macalpine-lab.duhs.duke.edu</a> </li>
+</ol>
 
 
 

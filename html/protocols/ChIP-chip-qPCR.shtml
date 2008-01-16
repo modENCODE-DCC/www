@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>ChIP-chip-qPCR</h2>
+
+<ul>
+ <li><a href="./embryo-collection-fixing-for-ChIP-chip.shtml">Embryo collection/fixing for ChIP-chip</a></li>
+ <li><a href="./embryo-extract-preparation-for-ChIP-chip.shtml">Embryo extract preparation for ChIP-chip</a></li>
+ <li><a href="./ip.shtml">IP</a></li>
+ <li><a href="./locus-specific-qpcr.shtml">Locus specific qPCR</a> </li>
+</ul>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

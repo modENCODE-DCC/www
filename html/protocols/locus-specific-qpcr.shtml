@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>Locus-specific qPCR</h2>
+
+
+<p>
+Locus specific PCR amplification
+</p>
+<ul>
+ <li>For qPCRs use 2 ul of the <a href="./ip.shtml">IP</a>s and 2 ul of 1:400 dilution of the inputs. If using <a href="./lm-pcr.shtml">LM-PCR</a> amplified material, then take 1 ul of the amplified samples and dilute 1:50. Use 2 ul of that.</li>
+ <li>For qPCR directly from IP material set up 50 ul ChIP reaction and use following amplification: </li>
+</ul>
+
+<p>
+<code><pre>
+Step 1: 95&deg; C for 5 min
+Step 2: 95&deg;C for 30 sec
+Step 3: 58&deg;C for 30 sec
+Step 4: 72&deg;C for 1 min
+Go to step 2 for 11 times
+Step 5: 95&deg;C for 30 sec
+Step 6: 55&deg;C for 30 sec
+Step 7: 72&deg;C for 1 min
+Go to step 5 for 17 times
+Step 8: 72&deg; C for 5 min
+Step 9: 4&deg; C
+</pre></code>
+
+Take 20 ul of the sample and check amplification on a 1.8%gel. Keep 30 ul on ice while gel is running. If amplification is not enough do a couple more cycles of PCR with the rest.
+</p>
+<ul>
+ <li>For PCR from 1:50 diluted amplified samples use the following amplification parameters: </li>
+</ul>
+
+<p>
+22 cycles 2 step PCR with 58 (12 cycles) and 55 C (10 cycles) annealing temperature.
+Example gel
+</p>
+
+<p>
+<img src="./images/LS-PCRex.jpg" width="200" alt="LS-PCRex.jpg" />
+
+</p>
+
+<p>
+1-6 samples: 1: SDC-3 IP, 2: SDC-3 input, 3: DPY-27 IP, 4: DPY-27 Input, 5:
+NoAntibody IP, 6: No antibody Input. 
+</p>
+<ul>
+ <li>Top band: sample </li>
+ <li>Bottom: control </li>
+</ul>
+<table border="1">
+<tr>
+<td>+Control primers </td>
+</tr>
+<tr>
+<td>Act1F2 </td>
+<td>GTGATCTTACTGATTACCTC </td>
+</tr>
+<tr>
+<td>Act1R </td>
+<td>TGTCCGTCAGGAAGTTCGTA </td>
+</tr>
+<tr>
+</tr>
+</table>
+<table border="1">
+<tr>
+<td>+Sample primers </td>
+</tr>
+<tr>
+<td>R160_middle_F </td>
+<td>GCATCAACAAGCCGCAATGC </td>
+</tr>
+<tr>
+<td>R160_middle_R </td>
+<td>TTGCTTGTACGCACATATAC </td>
+</tr>
+</table>
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

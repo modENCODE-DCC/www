@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>LM-PCR</h2>
+
+<p>
+The amplification method was derived from (3). 
+
+</p>
+<ul>
+ <li>For blunting DNA ends, add 25 ul <a href="./embryo-extract-preparation-for-ChIP-chip.shtml"> ChIP DNA</a> or 2.5 ul input DNA (diluted to 25 ul with dH2O) to a PCR tube. Include a negative control by preparing a reaction with no DNA.  </li>
+</ul>
+<table border="1">
+<tr>
+<td>+ Blunting mix (for 1 reaction): </td>
+</tr>
+<tr>
+<td>H2O </td>
+<td>73 ul </td>
+</tr>
+<tr>
+<td>10X NEB 2 </td>
+<td>11 ul </td>
+</tr>
+<tr>
+<td>BSA (10 mg/ml) </td>
+<td>0.5 ul </td>
+</tr>
+<tr>
+<td>dNTP mix (25 mM each) </td>
+<td>0.4 ul </td>
+</tr>
+<tr>
+<td>T4 DNA polymerase (3U/ul) </td>
+<td>0.2 ul </td>
+</tr>
+</table>
+
+<p>
+Add and mix by pipetting. Incubate at 12&deg;C for 20 min in a PCR machine. 
+Purify DNA on a <a href="http://www.zymoresearch.com" class="external">Zymo column DNA clean up and concentrator</a>. Elute in 25 ul H2O and place on ice.  
+</p>
+<ul>
+ <li>For ligation of the linkers, prepare ligation mix:  </li>
+</ul>
+<table border="1">
+<tr>
+<td>+ Ligation Mix (for 1 reaction): </td>
+</tr>
+<tr>
+<td>H2O </td>
+<td>13 ul </td>
+</tr>
+<tr>
+<td>10X ligase buffer </td>
+<td>5 ul </td>
+</tr>
+<tr>
+<td <a href="./annealed-linker-ligation.shtml">annealed linkers</a> (15 uM) </td>
+<td>6.7 ul </td>
+</tr>
+<tr>
+<td>T4 DNA ligase </td>
+<td>0.5 ul </td>
+</tr>
+</table>
+
+<p>
+
+Add 25 ul to each sample and incubate 12-20 hours at 16&deg;C. 
+
+</p>
+<ul>
+ <li>For amplification, purify the ligated DNA with <a href="http://www.zymoresearch.com" class="external">Zymo column</a> and elute in 15 ul H2O. Transfer to PCR tube, and place on ice.   </li>
+</ul>
+<table border="1">
+<tr>
+<td>+ PCR Mix (for 1 reaction): </td>
+</tr>
+<tr>
+<td>H2O </td>
+<td>62.7 ul </td>
+</tr>
+<tr>
+<td>10X PCR buffer (no MgCl2) </td>
+<td>10 ul </td>
+</tr>
+<tr>
+<td>MgCl2 (25 mM) </td>
+<td>8 ul </td>
+</tr>
+<tr>
+<td>dNTPs (25 mM each) </td>
+<td>0.8 ul </td>
+</tr>
+<tr>
+<td>oligo Long (40 uM) </td>
+<td>2.5 ul </td>
+</tr>
+<tr>
+<td>Taq DNA Polymerase (5u/ul) </td>
+<td>1 ul </td>
+</tr>
+<tr>
+</tr>
+</table>
+
+<p>
+Add 85 ul PCR Mix and run the following program in a PCR machine: 
+<code> 
+<pre>
+Step 1:  55&deg;C for 4 min  
+Step 2:  72&deg;C for 5 min 
+Step 3:  95&deg;C for 2 min 
+Step 4:  95&deg;C for 30 s  
+Step 5:  55&deg;C for 30 s 
+Step 6:  72&deg;C for 1 min  
+Go to step 4 for 24-28 times  
+Step 7:  72&deg; C for 4 min 
+Step 8:  4&deg; C  
+</pre>
+</code>
+</p>
+<ul>
+ <li>Purify the amplified DNA with the Qiaquick PCR purification kit and elute in 50 ul dH2O. Load 5 ul of the eluate on a 1.5% agarose gel to check amplification. The size of the amplified DNA should be 200-600 bp.   </li>
+</ul>
+
+<p>
+<img src="./images/LM-PCRex.jpg" width="200" alt="LM-PCRex.jpg" />
+
+</p>
+
+<p>
+Example gel: 
+1,2 IP, 3 no antibody control, 
+4,5 IP, 6 no antibody control, 
+7 LMPCR negative control 
+(no DNA was used in the first step all the other steps carried in parallel to the samples) 
+8-14 Inputs (I used 3 mg of extract per IP and took 300 ug for input. Then I used 1/20th of 
+the Input for each amplification).
+</p>
+
+<p>
+Refs:
+3) Ren, B. et al. Genome-wide location and function of DNA binding proteins.
+Science 290, 2306-9 (2000).
+</p>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

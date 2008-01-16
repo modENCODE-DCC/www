@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>Embryo extract preparation for ChIP-chip</h2>
+
+<p>
+Extracts were prepared as described (2) with minor changes.  
+
+</p>
+<ol>
+ <li>Resuspend ~ 500 ul of packed embryos in 1.5 ml <a href="./fa-buffer.shtml">FA buffer</a>+ protease inhibitors. Dounce on ice (~ 30 strokes) using a glass dounce homogenizer pestle B. Transfer to a 15 ml tube and bring the volume to 2 ml with with <a href="./fa-buffer.shtml">FA buffer</a>+ protease inhibitors. </li>
+ <li>Using a Branson sonifier microtip, sonicate samples on ice at the following settings: 35% amplitude, 0.9 sec on, 0.1 sec off, 12 pulses for 7 times. After each time, cool samples in dry ice/ethanol bath for 2 seconds. Make sure that the samples are not overheated. </li>
+ <li>Transfer samples to microfuge tubes and spin at 13,000 g for 15 minutes at 4oC. Take the supernatant and discard pellet. Determine the protein concentration of the supernatant by the Bradford method. Continue with the next step or aliquot and snap freeze in liquid nitrogen and store at -80 oC. </li>
+ <li>Add extract corresponding to ~2.2 (or 3.3 mg in 500 ul volume and add 25 ul sarkosyl instead) mg of protein to a microfuge tube and bring the volume to 400 ul with <a href="./fa-buffer.shtml">FA buffer</a> + protease inhibitors . 
+ Add 20 ul 20 % sarkosyl solution and spin at 13,000 g for 5 minutes at 4 oC. Transfer the supernatant to a new tube. Remove 10 % of the material and store it at -20 oC until the following day, when it will be used to prepare input DNA. 
+ Add 15-20 ug protein A-purified antibody (15 ug of DPY-27 or SDC-3 proteinA purified antibody is sufficient) or 2-5 ug affinity-purified antibody ( 3 ug of the DPY-27 or SDC-3 antibody is sufficient) to the extract and rotate at 4 oC overnight (16-20 h).  </li>
+</ol>
+
+<p>
+Refs:
+(2) Sharma, V.M., Li, B. & Reese, J.C. SWI/SNF-dependent chromatin remodeling 
+of RNR3 requires TAF(II)s and the general transcription machinery. Genes Dev 
+17, 502-15 (2003).
+</p>
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

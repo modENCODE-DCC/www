@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>Nurse Cells</h2>
+
+<h4>Metadata</h4>
+<ul>
+ <li><strong>Tissue type</strong> (from Fly ontology):  nurse cell (FBbt:00004878)</li>
+ <li><strong>Cell type(s)</strong> (from CL ontology):  nurse cell (CL:0000026)</li>
+ <li><strong>Sex</strong> (list all: male/female/herm):</li>
+ <li><strong>Contact/Lab</strong>: </li>
+</ul>
+
+<h4>Isolation Protocol</h4>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

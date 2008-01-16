@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>IP</h2>
+
+<ol>
+ <li>Take 20 ul of proteinA-sepharose beads (Amersham Biosciences) per ChIP sample and wash with 4 times with 1 ml FA buffer. Spin at 2500 g for 2 min to collect the beads. After the washes, suspend the beads in one bed volume of FA buffer. </li>
+ <li>Add 40 ul of the bead slurry to each ChIP sample and continue to rotate at 4 oC for 2 h. </li>
+ <li>Wash beads at room temperature by adding 1 ml of each of the following buffers and incubating on a nutator (or a rotator). Collect beads by spinning for 1-2 minutes at 2500 g.   </li>
+</ol>
+
+<p>
+2 times FA buffer for 5 minutes 
+1 time FA-1 M NaCl for 5 minutes. After this wash, transfer beads to new tubes with the 
+next wash buffer. 
+1 time FA-500 mM NaCl for 10 minutes 
+1 time TEL buffer for 10 min 
+2 times TE for 5 min 
+</p>
+<ol>
+ <li>To elute the immunocomplexes, add 150 ul Elution Buffer and place the tube in a 65 oC heat block for 15 min. Vortex briefly every 5 min. Spin down the beads at 2500 g for 2 min and transfer the supernatant to a new tube. Repeat elution and combine supernatants.  </li>
+ <li>Thaw the input samples set aside the previous day and add 2 ul 10 mg/ml RnaseA. Digest at room temperature for 1-2 hours. Then add 250 ul Elution Buffer. Add 2 ul of 10 mg/ml proteinase K (stock in water) to each sample and input. Incubate for 1-2 hours at 55 oC , then transfer to 65 oC for 12-20 h to reverse crosslinks. </li>
+ <li>Purify the DNA with Qiaquick PCR purification kit (Qiagen). Elute with 50 ul H2O. Run 5 ul of the input DNA on a 1.5% agarose gel to check the extent of shearing. Most of the DNA fragments should be 200-800 bp.   </li>
+</ol>
+
+<p>
+
+From here continue with LM-PCR amplification of the material or move to locus specific 
+qPCR.
+</p>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

@@ -6,10 +6,8 @@
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/balloon.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
- <script type="text/javascript">var balloon = new Balloon;</script>
-</head>
+ </head>
 
 <body vlink='black' link='black' onload="setActiveLink('Stein')">
 
@@ -42,12 +40,7 @@ University of California, Santa Cruz<br>
 Lawrence Berkeley National Laboratory<br>
 University of Cambridge
 </td>
-<td width=200 align=right><br>
-<a href="http://wiki.modencode.org/index.php/Stein"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
-</td></tr></table>
+</tr></table>
 <hr>
 
 <h4>Project Objectives</h4>
@@ -59,6 +52,37 @@ We will assemble a team of three data managers stationed at CSHL and at Berkeley
 Data providers will upload their data sets to a staging server where they will be able to preview their data on an instance of the GBrowse genome browser. The data managers will QC the data before approving its transfer to the production database. Data will be integrated in the production database using InterMine, and from there released to the public on a monthly schedule. Researchers will be able to access the data via the GBrowse genome browser, bulk downloads, and via complex queries and reports mediated by InterMine and the BioMart data warehousing system. All major software systems used by the proposed DCC will be based on open source tools from the Generic Model Organism Database (GMOD) , human ENCODE, and other sources.
 
 Throughout the project, Lewis and Stein will work close with FlyBase and/or WormBase to ensure that data collected by modENCODE becomes an integral part of the relevant model organism database. In addition we will dedicate a significant part of a data manager&#39;s effort to transfer data from modENCODE into the MODs during the last year of the project.
+
+
+<h4> Information Resources to be Generated </h4>
+<ol>
+ <li>A project portal [<a href="http://www.modencode.org">www.modencode.org</a>].</li>
+ <li>A project genome browser which shows all data sets in graphical format.</li>
+ <li>Downloadable bulk data sets.</li>
+ <li>A data-mining interface for generating <em>ad hoc</em> queries, performing canned queries, and for making custom reports.
+ [<a href="http://intermine.modencode.org/query/">http://intermine.modencode.org/query/</a>]</li>
+</ol>
+
+<h4> Contact Information </h4>
+<ol>
+ <li><strong>PIs</strong>
+ <ol>
+  <li><a href="mailto:lstein@cshl.edu"> Lincoln Stein</a> (PI)</li>
+  <li><a href="mailto:suzi@fruitfly.org"> Suzi Lewis</a> (coPI)</li>
+  <li><a href="mailto:kent@soe.ucsc.edu"> Jim Kent</a> (coPI)</li>
+  <li><a href="mailto:gos@gen.cam.ac.uk"> Gos Micklem</a> (coPI)</li>
+ </ol>
+ </li>
+ <li><strong>Informatics</strong>
+ <ol>
+  <li><a href="mailto:mckays@cshl.edu"> Sheldon McKay</a> (<em>C. elegans</em>) </li>
+  <li><a href="mailto:zha@cshl.edu"> Zheng Zha</a> (<em>C. elegans</em>) </li>
+  <li><a href="mailto:cjm@fruitfly.org"> Chris Mungal</a> (<em>D. melanogaster</em>) </li>
+  <li><a href="mailto:NLWashington@lbl.gov"> Nicole Washington</a> (<em>D. melanogaster</em>)  </li>
+ </ol>
+ </li>
+ <li><strong>Web site</strong>: <a href="./index.shtml">http://www.modencode.org</a> </li>
+</ol>
 
 
  </div>

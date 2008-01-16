@@ -1,3 +1,8 @@
+html, body {
+  margin: 0px; padding: 0px;
+  font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif; font-size: 10
+0%; /* NN4 */}
+
 .PI {
   font-size: 80%;
 }
@@ -15,7 +20,7 @@ A.plain {
 
 A {
  color:blue;
- font-weight:bold;
+ /*font-weight:bold;*/
  cursor:pointer;cursor:hand;
  text-decoration:none;
 }
@@ -27,6 +32,10 @@ A.list {
 A:hover {
  color:black;
 }
+
+a.external , a.external:link, a.external:visited, a.external:active, a.external:hover {
+  padding-right: 15px;
+  white-space: nowrap; background: url('../img/external.png') right center no-repeat; }
 
 .green {
  color:green;
@@ -56,10 +65,18 @@ BODY {
 }
 
 #main H3 {
- background:lightsteelblue;
+ /*background:lightsteelblue;*/
+ background:#FFBBFF;
  width:100%;
  text-align:center;
 }
+
+#main H4 {
+ background:#CCFFCC;
+ width:100%;
+ text-align:left;
+}
+
 
 .Links{
  border:2px solid #666699;

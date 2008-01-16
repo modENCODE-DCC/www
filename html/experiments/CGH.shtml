@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>CGH</h2>
+
+<h4>possible internet resources</h4>
+<ol>
+ <li><a href="http://amba.charite.de/cgh/" class="external">CGH</a></li>
+ <li><a href="http://en.wikipedia.org/wiki/Comparative_genomic_hybridization" class="external">CGH@wikipedia</a> </li>
+</ol>
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

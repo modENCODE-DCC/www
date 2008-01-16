@@ -6,9 +6,7 @@
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/balloon.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
- <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
 <body vlink='black' link='black' onload="setActiveLink('Lai')">
@@ -39,16 +37,42 @@ Gregory Hannon
 Sloan-Kettering Institute<br>
 Cold Spring Harbor Laboratory
 </td>
-<td width=200 align=right><br>
-<a href="http://wiki.modencode.org/index.php/Lai"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
-</td></tr></table>
+</tr></table>
 <hr>
 
 We plan to generate a comprehensive catalog of expressed and functional microRNAs, and generate biological evidence for their regulatory activity. We plan also to delineate the primary transcription units of microRNA genes. Finally, we plan to annotate other classes of non-miRNA expressed small RNAs, as least some of which may define novel classes of small RNA genes. 
   
+<h4> Experimental Approaches </h4>
+<h5> Protocol #1 </h5>
+<p>
+We will use Solexa sequencing to analyze small RNA libraries generated from a variety of developmental stages, tissue types and cell lines, including both wild-type and physiologically stressed conditions. Using these data we will identify novel microRNAs and other expressed small RNAs.
+</p>
+
+<h5> Protocol #2 </h5>
+<p>
+We will use genome tiling microarrays to analyze global transcription in RNA processing mutants, in order to elucidate the primary precursor transcripts for microRNAs and other small RNAs.
+</p>
+
+<h5> Protocol #3 </h5>
+<p>
+We will use transgenic flies to validate the biological activity of novel microRNAs and other small RNA genes.
+</p>
+
+<h4> Information Resources to be Generated </h4>
+<p>
+<em>We will primarily generate small RNA sequences and tiling array expression data.</em>
+</p>
+
+<h4> Reagents to be Generated </h4>
+<p>
+<em>We will generate ~200 transgenic strains carrying UAS-small RNA expression constructs.</em>
+</p>
+
+<h4> Contact Information </h4>
+<ol>
+ <li><strong>PI</strong>: <em>Eric C. Lai, (212)-639-5578; laie@mskcc.org</em></li>
+ <li><strong>Web site</strong>: <em>http://www.mskcc.org/lai</em> </li>
+</ol>
 
 
 

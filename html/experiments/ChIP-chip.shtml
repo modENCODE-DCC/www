@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>ChIP-chip  </h2>
+
+<p>
+Major data elements of this data type:
+</p>
+
+<h4>metadata about experiment</h4>
+<ol>
+ <li>affinity reagent from controlled vocabulary (e.g. antibody)</li>
+ <li>gene id (target of affinity reagent)</li>
+ <li>array id</li>
+ <li>data producer information, contact person/liaison</li>
+ <li>category of data</li>
+ <li>date</li>
+ <li>list of tissues, cell types, developmental stages assayed using appropriate ontology</li>
+ <li>data : TF/tissue combination &ndash; intensity values for each probe</li>
+ <li>text description of conditions </li>
+</ol>
+
+</div>
+</td>
+</tr>
+</table>
+
+

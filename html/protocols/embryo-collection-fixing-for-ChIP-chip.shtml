@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>Embryo collection/fixing for ChIP-chip</h2>
+
+<ol>
+ <li>Grow worms on 10-20 10 cm plates. After starving on plates, add concentrated  <em>E Coli</em> (HB101) grown to saturation, then resuspended in <a href="./m9-buffer.shtml">M9 Buffer</a>+20%glycerol at equal weight:volume) to obtain as many adults with embryos. Bleach to obtain embryos as described previously 1.   </li>
+ <li>Transfer embryos in <a href="./m9-buffer.shtml">M9 Buffer</a> to plates to hatch overnight or in <a href="./m9-buffer.shtml">M9 Buffer</a> shaking overnight to obtain L1s. Wash L1s and put into 500 ml liquid media (S medium+1X PSN antibiotics and nystatin) and grow at 20 oC in an incubator shaking at 230 rpm (2.8 lt Fernbach flasks perform the best). Add concentrated <em>E Coli</em> for food as necessary during growth. It takes around 2.5-3 days to obtain adults with embryos. </li>
+ <li>Collect adults (by filtration over 35uM nitex membrane) and transfer to 50 ml conical tubes. To 5-10 ml of worms add 40 ml of <a href="./bleaching-solution.shtml">Bleaching Solution</a> and mix for approximately 8-12  minutes while monitoring bleaching as described (1). </li>
+ <li>Spin down embryos at 3000 g for 3 minutes. Resuspend pellet (embryos) in 50 ml <a href="./m9-buffer.shtml">M9 Buffer</a> and spin 3000 g for 3 minutes. Repeat this wash 2 more times. </li>
+ <li>Resuspend embryos in 47 ml <a href="./m9-buffer.shtml">M9 Buffer</a> and add 2.8 ml 37% formaldehyde solution. Place on a shaker (50-100 rpm) and incubate for 30 minutes at room temperature (RT, between 22-26 oC).  </li>
+ <li>Wash embryos with once with 50 ml 100 mM Tris pH 7.5 (to quench excess formaldehyde), 2 times with 50 ml <a href="./m9-buffer.shtml">M9 Buffer</a>, and once with 10 ml FA buffer supplemented with protease inhibitors (Calbiochem Cat# 539131, Protease Inhibitor Cocktail Set I).  </li>
+</ol>
+
+<p>
+Collect embryos in microfuge tubes by centrifugation at 13,000 g for 10s  Discard supernatant and store the embryo pellet at -80 oC. 
+</p>
+
+<p>
+Refs:  
+1) Stiernagle, T. Maintenance of C. elegans. in WormBook (ed. Community, 
+T.C.e.R.) (WormBook doi/10.1895/wormbook.1.8.1, <a href="http://www.wormbook.org" class="external">http://www.wormbook.org</a>, 
+February 11, 2006).
+</p>
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

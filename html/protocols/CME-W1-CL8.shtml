@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="../css/modencode.css">
+ <title>The modENCODE Project</title-seeking>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+<!--#include file="../banner.html" -->
+
+<table width="100%">
+<tr valign=top>
+<td width=175px>
+
+<!--#include file="../menu.html" -->
+
+<td align=left>
+<div id="main">
+<!-- Actual content goes here! -->
+
+<h2>CME-W1-CL8  </h2>
+<h4>Essentials</h4>
+<ul>
+ <li><strong>Official name:</strong></li>
+ <li><strong>Short names/aliases:</strong> CME-W1-CL8+</li>
+ <li <strong>Gene product species (C. elegans > D. melanogaster | H. sapiens):</strong> D. melanogaster</li>
+ <li><strong>Species strain:</strong></li>
+ <li><strong>Species genotype:</strong></li>
+ <li><strong>Species sex:</strong>female</li>
+ <li><strong>Cell type (from CL ontology):</strong> imaginal disc cell (CL:0000429)</li>
+ <li><strong>Tissue:</strong> dorsal mesothoracic disc (wing disc) (FBbt:00001778)</li>
+ <li><strong>Developmental stage</strong></li>
+ <li><strong>Reference/Lab where created:</strong> Peter Cherbas</li>
+ <li><strong>Catalog number or database ID, if applicable:</strong> stock #151 </li>
+</ul>
+
+<h4>Description</h4>
+<p>
+<a href="https://dgrc.cgb.indiana.edu/project/protocol-CME-W1-C18.html" class="external">DGRC page for CME-W1-CL8</a>
+</p>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+

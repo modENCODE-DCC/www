@@ -6,9 +6,7 @@
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/balloon.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
- <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
 
 <body vlink='black' link='black' onload="setActiveLink('Henikoff')">
@@ -38,12 +36,7 @@ Kamran Ahmad
 Fred Hutchinson Cancer Research Center<br>
 Harvard University
 </td>
-<td width=200 align=right><br>
-<a href="http://wiki.modencode.org/index.php/Henikoff"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
-</td></tr></table>
+</tr></table>
 <hr>
 We will map major core histone variants throughout the annotated <i>Drosophila melanogaster</i> and <i>Caenorhabditis</i> elegans genomes at high resolution. These maps will provide a chromatin-based framework for interpreting epigenetic information and gene expression patterns determined by others.
 
@@ -57,6 +50,26 @@ To expand our understanding of the functional roles of both classes of histone v
 
 Together with other types of genome-wide information our histone variant maps are likely to contribute to a fuller understanding of epigenetic regulatory elements in the genomes of these two model organisms. Given that the same histone variants are thought to play similar roles in essentially all complex eukaryotes, our basic approach can be immediately applied to the human genome. 
   
+
+ <h4> Experimental Approaches </h4>
+<ol>
+ <li>Biotin-tagging of histones H3.3, H3, and H2AZ followed by chromatin affinity purification and genomic localization on tiling chips, across <em>C. elegans</em> and <em>D. melanogaster</em>  in a variety of developmental stages, mutants and knock-down of selected chromatin regulators.</li>
+ <li>Transcriptional profiling of mutants and knock-downs of selected chromatin regulator genes using Affymetrix arrays. </li>
+</ol>
+
+<h4> Information Resources to be Generated </h4>
+<ol>
+ <li>Genomic locations of H3.3, H3 and H2AZ in a variety of cell lines, developmental stages, mutants and RNAi knock-downs.</li>
+ <li>Transcriptional profiles of same set of cell lines, developmental stages, mutants and knock-downs. </li>
+</ol>
+
+<h4> Contact Information </h4>
+<ol>
+ <li><strong>PI contact</strong>: Steve Henikoff, steveh@fhcrc.org; Kami Ahmad, kami_ahmad@hms.harvard.edu</li>
+ <li><strong>Wet lab contact</strong>: Siew-Loon Ooi, sooi@fhcrc.org</li>
+ <li><strong>Informatics contact</strong>: Jorja Henikoff, jorja@fhcrc.org</li>
+ <li><strong>Web site</strong>: <a href="http://blocks.fhcrc.org/steveh" class="external">http://blocks.fhcrc.org/steveh</a>; <a href="http://www.hms.harvard.edu/dms/bbs/fac/ahmad.html" class="external">http://www.hms.harvard.edu/dms/bbs/fac/ahmad.html</a> </li>
+</ol>
  
 
 
