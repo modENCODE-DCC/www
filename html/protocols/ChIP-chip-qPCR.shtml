@@ -11,13 +11,13 @@
 
 <body vlink='black' link='black' onload=setActiveLink('Introduction')>
 
-<!--#include file="../banner.html" -->
+<!--#include virtual="/banner.html" -->
 
 <table width="100%">
 <tr valign=top>
 <td width=175px>
 
-<!--#include file="../menu.html" -->
+<!--#include virtual="/menu.html" -->
 
 <td align=left>
 <div id="main">
