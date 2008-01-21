@@ -9,7 +9,7 @@
  <script type="text/javascript" src="js/modencode.js"> </script>
 </head>
 
-<body vlink='black' link='black' onload="setActiveLink('Lieb')">
+<body vlink='black' link='black' onload="setActiveLink('Protocols')">
 
 <!--#include file="banner.html" -->
 
@@ -59,11 +59,10 @@
 <h3>ChIP/CHIP</h3>
 <ul>
  <li><a href="./protocols/ChIP-chip-LM-PCR.shtml"> ChIP-chip with LM-PCR</a> [Lieb]</li>
- <li><a href="./protocols/ChIP-chip-qPCR.shtml"> ChIP-chip with qPCR</a> [Lieb]
- <ul>
+ <li><a href="./protocols/ChIP-chip-qPCR.shtml"> ChIP-chip with qPCR</a> [Lieb]</li>
+
   <li>from <a href="./protocols/docs/DCC_ChIP_SE_April_2007.pdf"> ChIP-chip protocol from C elegans embryos April 2007 Lieb Lab by S Ercan</a> for the paper <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=PubMed&Cmd=ShowDetailView&TermToSearch=17293863" class="external">PubMed 17293863</a>  </li>
- </ul>
- </li>
+
 </ul>
 
 <h4>Chromatin Preparation</h4>
