@@ -27,8 +27,11 @@
 
 <table cellpadding=5 width="100%">
 <tr>
-<th colspan=2 style="padding-left:50px;text-align:left;background-color:#CCFFCC">
+<!--<th colspan=2 style="padding-left:50px;text-align:left;background-color:#CCFFCC">-->
+<th colspan=2>
+<h4>
 <b>Principal Investigators</b>
+</h4>
 </th>
 </tr>
 <tr>
@@ -54,8 +57,10 @@
 <tr><td colspan=2>&nbsp;</td></tr>
 
 <tr>
-<th colspan=2 style="padding-left:50px;text-align:left;background-color:#CCFFCC">
-<b>Data Managers</b>
+<th colspan=2>
+<h4>
+Data Managers
+</h4>
 </th>
 </tr>
 
@@ -77,8 +82,10 @@
 <tr><td colspan=2>&nbsp;</td></tr>
 
 <tr>
-<th colspan=2 style="padding-left:50px;text-align:left;background-color:#CCFFCC">
-<b>Web Site</b>
+<th colspan=2>
+<h4>
+Web Site
+</h4>
 </th>
 </tr>
 

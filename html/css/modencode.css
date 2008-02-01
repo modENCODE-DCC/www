@@ -65,14 +65,15 @@ BODY {
 }
 
 #main H3 {
- /*background:lightsteelblue;*/
- background:#FFBBFF;
+ background:lightsteelblue;
+ /*background:#FFBBFF;*/
  width:100%;
  text-align:center;
 }
 
 #main H4 {
- background:#CCFFCC;
+ background:lightsteelblue;
+ /*background:#CCFFCC;*/
  width:100%;
  text-align:left;
 }
