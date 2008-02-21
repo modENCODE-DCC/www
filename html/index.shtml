@@ -34,6 +34,9 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 <h3> News and Notes </h3>
 <div style="font-size:90%">
 <ul>
+<li>January 28, 2008: <b> First release of modENCODE-mine </b><br>
+The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/query/"> http://intermine.modencode.org/query/ </a>], containing basic genetic data for Drosophila and C. Elegans.<br><br>
+</li>
 <li>November 6, 2007: <b> New data in the Genome Browsers </b><br>
 Selected expression-related tracks from WormBase, FlyBase have been added to the <a href="http://www.modencode.org/Genomes.shtml">
 modENCODE worm and fly genome browsers</a>. 
