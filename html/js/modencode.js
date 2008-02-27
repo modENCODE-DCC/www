@@ -19,7 +19,8 @@ function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
       {
          var img = document.images[i]
          var imgName = img.src.toUpperCase()
-         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG" && imgName.match(/LOGO|CELEGANS|BANNER/))
          {
             var imgID = (img.id) ? "id='" + img.id + "' " : ""
             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
