@@ -12,17 +12,19 @@
 
 <body vlink='black' link='black' onload=setActiveLink('Introduction')>
 
-<!--#include file="banner.html" -->
 
 <table width="100%">
 <tr valign=top>
-<td width=175px>
+<td>
 
-<!--#include file="menu.html" -->
+<!--#include virtual="./menu.html" -->
 
 <td align=left>
+
+<!--#include virtual="./banner.html" -->
+
 <div id="main">
-<br><br><br>
+
 The <a href="http://www.genome.gov">National Human Genome Research Institute</a>
 (NHGRI) model organism ENCODE (modENCODE) Project will try to identify all of 
 the sequence-based functional elements in the <i>Caenorhabditis elegans</i> 
@@ -36,7 +38,7 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 <div style="font-size:90%">
 <ul>
 <li>January 28, 2008: <b> First release of modENCODE-mine </b><br>
-The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/"> http://intermine.modencode.org/ </a>], containing basic genetic data for Drosophila and C. elegans.<br><br>
+The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/">http://intermine.modencode.org/</a>], containing basic genetic data for Drosophila and C. elegans.<br><br>
 </li>
 <li>November 6, 2007: <b> New data in the Genome Browsers </b><br>
 Selected expression-related tracks from WormBase, FlyBase have been added to the <a href="http://www.modencode.org/Genomes.shtml">

@@ -11,15 +11,16 @@
 
 <body vlink='black' link='black' onload="setActiveLink('Piano')">
 
-<!--#include file="banner.html" -->
-
 <table width="100%">
 <tr valign=top>
-<td width=160px>
+<td>
 
-<!--#include file="menu.html" -->
+<!--#include virtual="/menu.html" -->
 
 <td align=left>
+
+<!--#include virtual="/banner.html" -->
+
 <div id="main">
   
   

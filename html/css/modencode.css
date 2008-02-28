@@ -19,9 +19,13 @@ A.plain {
 }
 
 A {
- color:blue;
- /*font-weight:bold;*/
- cursor:pointer;cursor:hand;
+ color:#5f5050;
+/* 
+color:#6d5d5d;
+color:#ad8d8c;
+font-weight:bold;
+*/
+ cursor:pointer;
  text-decoration:none;
 }
 
@@ -30,7 +34,7 @@ A.list {
 }
 
 A:hover {
- color:black;
+ color:#f18620;
 }
 
 a.external , a.external:link, a.external:visited, a.external:active, a.external:hover {
@@ -50,18 +54,15 @@ a.external , a.external:link, a.external:visited, a.external:active, a.external:
 }
 		
 BODY {
-  background:#d9d9ff;
-  font-family:arial, helvetica, sans-serif;
+  /*background:#d9d9ff;*/
+  background:white;
+  font-family:helvetica, sans-serif, arial;
 }
 
 #main {
  padding:10px;
  margin-left:5px;
- background: url('/img/top_left_corner.png') top left no-repeat;
- height:100em;
  background-color:white;
- overflow:auto;
- position:relative;
 }
 
 #main H3 {
@@ -85,7 +86,6 @@ BODY {
  margin-top:18px;
  margin-bottom:10px;
  position:relative;
- width:175px;
 }
 
 .Links H4{
@@ -97,7 +97,7 @@ BODY {
  padding-right:5px;
  height:14px;
  font-size:85%;
- background:#d9d9ff;
+ background:white;
 }
 
 UL {
@@ -105,5 +105,5 @@ UL {
 }
 
 LI {
- list-style: url(/img/reddot_small.gif) outside;
+/* list-style: url(/img/reddot_small.gif) outside;*/
 }
