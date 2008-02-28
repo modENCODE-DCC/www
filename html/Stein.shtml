@@ -58,10 +58,10 @@ Throughout the project, Lewis and Stein will work close with FlyBase and/or Worm
 <h4> Information Resources to be Generated </h4>
 <ol>
  <li>A project portal [<a href="http://www.modencode.org">www.modencode.org</a>].</li>
- <li>A project genome browser which shows all data sets in graphical format.</li>
+ <li>A project <a href="./Genomes.shtml">genome browser</a> which shows all data sets in graphical format.</li>
  <li>Downloadable bulk data sets.</li>
  <li>A data-mining interface for generating <em>ad hoc</em> queries, performing canned queries, and for making custom reports.
- [<a href="http://intermine.modencode.org/query/">http://intermine.modencode.org/query/</a>]</li>
+ [<a href="http://intermine.modencode.org/query/">http://intermine.modencode.org</a>]</li>
 </ol>
 
 <h4> Contact Information </h4>
