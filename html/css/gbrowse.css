@@ -73,7 +73,9 @@ TH.linkmenu       {
 				       padding: 3px; }
 
 .searchtitle, .uploadtitle, .datatitle, .settingstitle { background-color: #EAEBF6; }
-.settingsbody, .uploadbody, .databody,.searchbody      { background-color: #EAEBF6; }
+//.settingsbody, .uploadbody, .databody, .searchbody     { background-color: #EAEBF6; }
+.settingsbody, .uploadbody, .searchbody { background-color: #EAEBF6; }
+
 .technicalinfo    { background-color: #FFFFFF; }
 .toggle           { color: #3366FF; }
 .error            { color: red; }
