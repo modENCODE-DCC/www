@@ -67,17 +67,13 @@ TH.linkmenu       {
                     padding: 0;
                     font-size: 9pt;
                   }
-.reset_button     {background-color: red;
-	            color: yellow;           
-                  }
-.datatitle        { background-color: #FFEDDB; }
-.databody         { background-color: #FFFF9E; }
-.searchtitle      { background-color: #FFEDDB; }
-.searchbody       { background-color: #FFFF9E; }
-.settingstitle    { background-color: #DBFFDB; }
-.settingsbody     { background-color: #FFFF9E; }
-.uploadtitle      { background-color: #DBFFDB; }
-.uploadbody       { background-color: #FFFF9E; }
+
+.reset_button:visited, .reset_button { color: red;
+		                       background: lightyellow;
+				       padding: 3px; }
+
+.searchtitle, .uploadtitle, .datatitle, .settingstitle { background-color: #EAEBF6; }
+.settingsbody, .uploadbody, .databody,.searchbody      { background-color: #EAEBF6; }
 .technicalinfo    { background-color: #FFFFFF; }
 .toggle           { color: #3366FF; }
 .error            { color: red; }
