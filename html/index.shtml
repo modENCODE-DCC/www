@@ -57,4 +57,4 @@ modENCODE projects, please visit the <a href="/Vote.shtml">TF voting page</a> fo
 </tr>
 </table>
 
-<!--#include virtual="./footer.html" -->
+<!--#include virtual="/footer.html" -->

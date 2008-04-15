@@ -113,3 +113,5 @@ Commented out for now Looks ugly without content
 </td>
 </tr>
 </table>
+
+<!--#include virtual="/footer.html" -->
