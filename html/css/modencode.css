@@ -63,6 +63,10 @@ BODY {
  padding:10px;
  margin-left:5px;
  background-color:white;
+/*
+ background: url('/img/top_left_corner.png') top left no-repeat;
+ height:100em;
+*/
 }
 
 #main H3 {
@@ -74,7 +78,7 @@ BODY {
 
 #main H4 {
  background:lightsteelblue;
- /*background:#CCFFCC;*/
+/* background:#CCFFCC;*/
  width:100%;
  text-align:left;
 }
@@ -106,4 +110,8 @@ UL {
 
 LI {
 /* list-style: url(/img/reddot_small.gif) outside;*/
+}
+
+a img {
+ border:none;
 }
