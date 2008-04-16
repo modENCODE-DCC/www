@@ -96,7 +96,7 @@ BODY {
  position:absolute;
  top:-6px;
  margin-top: -3px;
- margin-left: 15px;
+ margin-left: 10px;
  padding-left:5px;
  padding-right:5px;
  height:14px;
@@ -114,4 +114,5 @@ LI {
 
 a img {
  border:none;
+ color:white;
 }
