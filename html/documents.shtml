@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+
+<head>
+ <link rel="stylesheet" href="css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+
+
+<table width="100%">
+<tr valign=top>
+<td>
+
+<!--#include virtual="/menu.html" -->
+
+<td align=left>
+
+<!--#include virtual="/banner.html" -->
+
+<div id="main">
+<h3>Drosophila Research Conference, 2008, San Diego, California </h3>
+<div style="font-size:90%">
+
+
+<table>
+<tr><td>Ahmad 
+<td>Genome-wide profiling of histone variants in Drosophila and Caenorhabditis</td>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/Ahmad.ppt"> ptt </a>
+<td><a href="/docs/presentations/2008/FlyConference/Ahmad.pdf"> pdf </a>
+</td>
+<tr><td>Celniker
+<td>Comprehensive Characterisation of the Drosophila Transcriptome</td>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/Celniker.ptt">ptt</a>
+<td><a href="/docs/presentations/2008/FlyConference/Celniker.pdf">pdf</a>
+</td>
+<tr><td>Celniker
+<td>Data Release, Data Use and Publication Policy</td>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/data_release.ptt">ptt</a>
+<td><a href="/docs/presentations/2008/FlyConference/data_release.pdf">pdf</a>
+
+</td>
+<tr><td>Lewis 
+<td>modENCODE Data Coordination Center<br>
+<td>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/Lewis.pdf">pdf</a>
+</td>
+<tr><td>MacAlpine
+<td>The systematic identification and analysis of replication origins in Drosophila<br>
+<td>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/MacAlpine.pdf">pdf</a>
+</td>
+<tr><td>Pirrotta 
+<td>Genome-wide Mapping of Chromosomal Proteins in Drosophila<br>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/Pirrotta.ptt">ptt</a>
+<td><a href="/docs/presentations/2008/FlyConference/Pirrotta.pdf">pdf</a>
+</td>
+<tr><td>White 
+<td>A cis-regulatory map of Drosophila genome<br>
+<td>
+<td><a href="/docs/presentations/2008/FlyConference/White.ptt">ptt</a>
+<td><a href="/docs/presentations/2008/FlyConference/White.pdf">pdf</a>
+</td>
+</table>
+
+<!--#include virtual="/footer.html" -->

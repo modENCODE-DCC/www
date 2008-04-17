@@ -17,11 +17,11 @@
 <tr valign=top>
 <td>
 
-<!--#include virtual="./menu.html" -->
+<!--#include virtual="/menu.html" -->
 
 <td align=left>
 
-<!--#include virtual="./banner.html" -->
+<!--#include virtual="/banner.html" -->
 
 <div id="main">
 The <a href="http://www.genome.gov">National Human Genome Research Institute</a>
@@ -36,6 +36,11 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 <h3> News and Notes </h3>
 <div style="font-size:90%">
 <ul>
+<li>April 2-6, 2008: <b> 49th Annual Drosophila Research Conference </b><br>
+The modENCODE consortium gave some presentations at the conference in San Diego, California. They are available <a href="/documents.shtml"> here</a>.
+<br><br>
+</li>
+
 <li>January 28, 2008: <b> First release of modENCODE-mine </b><br>
 The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/query/"> http://intermine.modencode.org/query/ </a>], containing basic genetic data for Drosophila and C. Elegans.<br><br>
 </li>
