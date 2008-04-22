@@ -55,8 +55,20 @@
 <td>Gos Micklem (coPI)</td>
 </tr>
 
-<tr><td colspan=2>&nbsp;</td></tr>
 
+<tr>
+<th colspan=2>
+<h4>
+Help Desk
+</h4>
+</th>
+</tr>
+
+<tr>
+<td align=left><a href="mailto:help@modencode.org" title="Help
+Desk">&lt;help@modencode.org&gt;</a></td>
+<td>Questions, requests, comments.</td>
+</tr>
 <tr>
 <th colspan=2>
 <h4>
@@ -80,8 +92,6 @@ Data Managers
 <td>Zheng Zha (<i>C. elegans</i>)</td>
 </tr>
 
-<tr><td colspan=2>&nbsp;</td></tr>
-
 <tr>
 <th colspan=2>
 <h4>
@@ -91,13 +101,13 @@ Web Site
 </tr>
 
 <tr>
-<td align=left><a href="mailto:sergio@modencode.org" title="sergio@modencode.org">&lt;sergio@modencode.org&gt;</a></td>
-<td>Sergio Contrino (web site/wiki)</td>
+<td align=left><a href="mailto:kmr@flymine.org" title="kmr@flymine.org">&lt;kmr@flymine.org&gt;</a></td>
+<td>Kim Rutherford (web site/wiki)</td>
 </tr>
 
 <tr>
-<td align=left><a href="mailto:kmr@flymine.org" title="kmr@flymine.org">&lt;kmr@flymine.org&gt;</a></td>
-<td>Kim Rutherford (web site/wiki)</td>
+<td align=left><a href="mailto:sergio@modencode.org" title="sergio@modencode.org">&lt;sergio@modencode.org&gt;</a></td>
+<td>Sergio Contrino (web site/wiki)</td>
 </tr>
 
 <tr>
