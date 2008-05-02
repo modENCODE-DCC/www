@@ -24,8 +24,13 @@
 <!--#include virtual="/banner.html" -->
 
 <div id="main">
+The <a href="http://www.genome.gov">National Human Genome Research Institute</a> (NHGRI) model organism
+ENCyclopedia Of DNA Elements (modENCODE)
+<!--
 The <a href="http://www.genome.gov">National Human Genome Research Institute</a>
-(NHGRI) model organism ENCODE (modENCODE) Project will try to identify all of 
+(NHGRI) model organism ENCODE (modENCODE) 
+-->
+Project will try to identify all of 
 the sequence-based functional elements in the <i>Caenorhabditis elegans</i> 
 and <i>Drosophila melanogaster</i> genomes. 
  The project is run as a Research Network and data is publicly available on its <a href="http://intermine.modencode.org/"> modENCODE-mine</a> data warehouse.
