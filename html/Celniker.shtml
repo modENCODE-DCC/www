@@ -105,54 +105,68 @@ overexpression approaches in cell-based assays.
 
 <h4> Contact Information </h4>
 <p>
-PI:  Sue Celniker, <em>celniker@fruitfly.org</em>
+ PI: Sue Celniker, <a href="mailto:celniker@fruitfly.org">
+ celniker@fruitfly.org</a>
 </p>
 <ol>
- <li><strong>LBNL</strong>
- <ul>
-  <li>Informatics: Joe Carlson, <em>joe@fruitfly.org</em>  </li>
- </ul>
- </li>
- <li><strong>Washington University</strong>
- <ul>
-  <li>PI: Michael Brent, <em>brent@cse.wustl.edu</em> </li>
-  <li>Wet Lab: Laura Langton, <em>langton@cse.wustl.edu</em> </li>
-  <li>Informatics:  Charles Comstock, <em>cc1@cse.wustl.edu</em> </li>
-  <li>Informatics:  Brian Koebbe, <em>koebbe@wustl.edu</em> </li>
-  <li>The entire group can be reached with <em>modencode@mblab.wustl.edu</em>  </li>
- </ul>
- </li>
- <li><strong>Harvard</strong>
- <ul>
-  <li>PI: Bernard Mathey-Prevot, <em>bprevot@receptor.med.harvard.edu</em> </li>
-  <li>Imaging: Ian Flockhart, <em>iflockha@genetics.med.harvard.edu</em> </li>
-  <li>Informatics: Matt Booker, <em>mbooker@genetics.med.harvard.edu</em>  </li>
- </ul>
- </li>
- <li><strong>UCHC-UCB &ndash <i>Drosophila melanogaster</i> splicing</strong>
- <ul>
-  <li>PI: Steven Brenner, <em>brenner@compbio.berkeley.edu</em> </li>
-  <li>PI: Brenton Graveley, <em>graveley@neuron.uchc.edu</em> </li>
-  <li>Informatics: Angela Brooks, <em>angelabrooks@berkeley.edu</em>  </li>
- </ul>
- </li>
- <li><strong>Indiana</strong>
- <ul>
-  <li>PI: Peter Cherbas, <em>cherbas@indiana.edu</em> </li>
-  <li>Wet Lab:  Andreas Rechtsteiner, <em>andreas@cgb.indiana.edu</em>  </li>
- </ul>
- </li>
- <li><strong>Affymetrix</strong>
- <ul>
-  <li>PI: Thomas Gingeras, <em>tom_gingeras@affymetrix.com</em> </li>
-  <li>Wetlab: Aarron Willingham, <em>aarron_willingham@affymetrix.com</em> </li>
-  <li>Informatics: Srinka Ghosh, <em>srinka_ghosh@affymetrix.com</em>  </li>
- </ul>
-  </li>
- </ol>
-  
- 
 
+<li><strong>University of Indiana</strong>
+<ul>
+<li>PI: Peter Cherbas, <a href="mailto:cherbas@indiana.edu">
+cherbas@indiana.edu</a>
+<li>Wet Lab: Andreas Rechtsteiner, 
+<a href="mailto:andreas@cgb.indiana.edu">andreas@cgb.indiana.edu</a>
+</ul>
+<li><strong>Affymetrix</strong>
+<ul>
+<li>PI: Thomas Gingeras, 
+<a href="mailto:tom_gingeras@affymetrix.com">tom_gingeras@affymetrix.com</a>
+<li>Wetlab: Aarron Willingham, 
+<a href="mailto:aarron_willingham@affymetrix.com">aarron_willingham@affymetrix.com</a>
+<li>Informatics: Srinka Ghosh, 
+<a href="mailto:srinka_ghosh@affymetrix.com">srinka_ghosh@affymetrix.com</a>
+</ul>
+<li><strong>Washington University</strong>
+<ul>
+<li>PI: Michael Brent, 
+<a href="mailto:brent@cse.wustl.edu">brent@cse.wustl.edu</a>
+<li>Wet Lab: Laura Langton, 
+<a href="mailto:langton@cse.wustl.edu">langton@cse.wustl.edu</a>
+<li>Informatics: Charles Comstock, 
+<a href="mailto:cc1@cse.wustl.edu">cc1@cse.wustl.edu</a>
+<li>Informatics: Brian Koebbe, 
+<a href="mailto:koebbe@wustl.edu">koebbe@wustl.edu</a>
+<li>The entire group can be reached with 
+<a href="mailto:modencode@mblab.wustl.edu">modencode@mblab.wustl.edu</a>
+</ul>
+<li><strong>LBNL</strong>
+<ul>
+<li>PI: Sue Celniker, 
+<a href="mailto:celniker@fruitfly.org">celniker@fruitfly.org</a>
+<li>PI: Roger Hoskins, 
+<a href="mailto:hoskins@fruitfly.org">hoskins@fruitfly.org</a>
+<li>Informatics: Joe Carlson, 
+<a href="mailto:joe@fruitfly.org">joe@fruitfly.org</a>
+</ul>
+<li><strong>UCHC-UCB</strong>
+<ul>
+<li>PI: Brenton Graveley, 
+<a href="mailto:graveley@neuron.uchc.edu">graveley@neuron.uchc.edu</a>
+<li>PI: Steven Brenner, 
+<a href="mailto:brenner@compbio.berkeley.edu">brenner@compbio.berkeley.edu</a>
+<li>Informatics: Angela Brooks, 
+<a href="mailto:angelabrooks@berkeley.edu">angelabrooks@berkeley.edu</a>
+</ul>
+<li><strong>Harvard</strong>
+<ul>
+<li>PI: Norbert Perrimon, 
+<a href="mailto:perrimon@receptor.med.harvard.edu">perrimon@receptor.med.harvard.edu</a>
+<li>Imaging: Ian Flockhart, 
+<a href="mailto:iflockha@genetics.med.harvard.edu">iflockha@genetics.med.harvard.edu</a>
+<li>Informatics: Matt Booker, 
+<a href="mailto:mbooker@genetics.med.harvard.edu">mbooker@genetics.med.harvard.edu</a>
+</ul>
+</ol>
 
  </div>
 </td>
