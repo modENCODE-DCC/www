@@ -29,7 +29,7 @@
 <table cellpadding=5 width="100%">
 <tr>
 <!--<th colspan=2 style="padding-left:50px;text-align:left;background-color:#CCFFCC">-->
-<th colspan=2>
+<th colspan=3>
 <h4>
 <b>Principal Investigators</b>
 </h4>
@@ -57,7 +57,7 @@
 
 
 <tr>
-<th colspan=2>
+<th colspan=3>
 <h4>
 Help Desk
 </h4>
@@ -70,30 +70,59 @@ Desk">&lt;help@modencode.org&gt;</a></td>
 <td>Questions, requests, comments.</td>
 </tr>
 <tr>
-<th colspan=2>
+<th colspan=3>
 <h4>
 Data Managers
 </h4>
 </th>
 </tr>
 
-<tr>
-<td align=left><a href="mailto:NLWashington@lbl.gov" title="NLWashington@lbl.gov">&lt;NLWashington@lbl.gov&gt;</a></td>
-<td>Nicole Washington (<i>D. melanogaster</i>)</td>
-</tr>
+<tr><td>
+Nicole Washington
+<td><a href="mailto:NLWashington@lbl.gov" title="NLWashington@lbl.gov">&lt;NLWashington@lbl.gov&gt;</a>
+<td><pre>
+    Primary: gene structure (RT-PCR, RACE, mass spec., cDNA sequencing, expression array) 
+    Primary: expression array 
+    Secondary: ChIP-Chip/ChIP-Seq 
+    DCC contact for the Celniker, Waterston and Piano projects 
+</pre>
+
+<tr><td>
+Peter Ruzanov
+<td><a href="mailto:pruzanov@gmail.com" title="pruzanov@gmail.com">&lt;pruzanov@gmail.com&gt;</a>
+<td><pre>
+    Primary: other data (Solexa, CGH) 
+    Secondary: expression array 
+    DCC contact for the Lai and MacAlpine projects 
+</pre>
+<tr><td>
+Marc Perry
+<td><a href="mailto:marc.perry@oicr.ont.ca">&lt;marc.perry@oicr.ont.ca&gt;</a>
+<td><pre>
+    Primary: ChIP-Chip/ChIP-Seq
+    Secondary: gene structure 
+    Secondary: other data 
+    DCC contact for the Henikoff, Karpen, Lieb, Snyder, and White projects 
+</pre>
+<tr><td>
+Zheng Zha
+<td><a href="mailto:zhengzha2000@gmail.com" title="zhengzha2000@gmail.com">&lt;zhengzha2000@gmail.com&gt;</a>
+<td><pre>
+    Primary: (infrastructure/software support)
+    Secondary: ChIP-Chip/ChIP-Seq 
+</pre>
+<tr><td>
+
 
 <tr>
+
+<!--
 <td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu">&lt;mckays@cshl.edu&gt;</a></td>
 <td>Sheldon McKay (<i>C. elegans</i>, <i>D. melanogaster</i>)</td>
-</tr>
+-->
 
 <tr>
-<td align=left><a href="mailto:zha@cshl.edu" title="zha@cshl.edu">&lt;zha@cshl.edu&gt;</a></td>
-<td>Zheng Zha (<i>C. elegans</i>)</td>
-</tr>
-
-<tr>
-<th colspan=2>
+<th colspan=3>
 <h4>
 Web Site
 </h4>
@@ -102,19 +131,25 @@ Web Site
 
 <tr>
 <td align=left><a href="mailto:kmr@flymine.org" title="kmr@flymine.org">&lt;kmr@flymine.org&gt;</a></td>
-<td>Kim Rutherford (web site/wiki)</td>
+<td>Kim Rutherford (web site)</td>
 </tr>
 
 <tr>
 <td align=left><a href="mailto:sergio@modencode.org" title="sergio@modencode.org">&lt;sergio@modencode.org&gt;</a></td>
-<td>Sergio Contrino (web site/wiki)</td>
+<td>Sergio Contrino (web site)</td>
 </tr>
 
+<tr>
+<td align=left><a href="mailto:pruzanov@gmail.com" title="mckays@cshl.edu">&lt;pruzanov@gmail.comu&gt;</a></td>
+<td>Peter Ruzanov (Genome browsers/wiki)</td>
+</tr>
+
+<!--
 <tr>
 <td align=left><a href="mailto:mckays@cshl.edu" title="mckays@cshl.edu">&lt;mckays@cshl.edu&gt;</a></td>
 <td>Sheldon McKay (Genome browsers)</td>
 </tr>
-
+-->
 </table>
 
 
