@@ -33,26 +33,106 @@ The <a href="http://www.genome.gov">National Human Genome Research Institute</a>
 Project will try to identify all of 
 the sequence-based functional elements in the <i>Caenorhabditis elegans</i> 
 and <i>Drosophila melanogaster</i> genomes. 
- The project is run as a Research Network and data is publicly available on its <a href="http://intermine.modencode.org/"> modENCODE-mine</a> data warehouse.
 <br>
-
+ The project is run as a Research Network and data is publicly available, with some restrictions on its use for 9 months following publication (see our <a href="./docs/modENCODE_publication_policy.pdf">Publication Policy </a>).
+<!--
+<p>
+modENCODE data can be explored using <a href="http://intermine.modencode.org/"> modMine</a>, the  data warehouse of the project.
+<p>
+-->
 This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordination Center</a>.
 <br>For comments, problems, requests and general information about the project
 please contact us at our <a href="mailto: help@modencode.org"> help
 desk</a>.
+
+<hr>
+<div>
+<table width="100%" cellspacing=10>
+<tr>
+<td width="10%" align="right">
+<a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">
+<img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
+<td width=30% bgcolor=#eeeeee><b><a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">FTP site</a>
+<td width="50%" rowspan=4 align="center" valign="top">
+
+<!--
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+src="http://intermine.modencode.org/modminetest/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=title|description|mine|paging|mineresults|count"
+></iframe>
+-->
+
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="260" width="300"
+src="http://modprod0:8080/release-6/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
+</iframe>
+
+<!--
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="280"
+src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=4&format=html&layout=title|paging|mineresults|count">
+</iframe>
+-->
+
+
+</tr>
+<tr><td>
+<a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
+<img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">Browse worm genome</a>
+<tr><td align="right">
+<a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">
+<img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">Browse fly genome</a>
+<tr><td align="right">
+<a href="http://intermine.modencode.org/query/">
+<img src="/img/modmine_vs.png" alt="query!!"/></a>
+<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Mine modENCODE data</a>
+</tr>
+
+</table>
+</div>
+
+<!--
+
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="420"
+src="http://intermine.modencode.org/modminetest/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
+</iframe>
+-->
+
+
 <h3> News and Notes </h3>
+
+<!--
+
+<iframe width="750" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="http://intermine.modencode.org/modmineval/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=paging|mineresults|count"
+></iframe>
+
+<iframe width="750" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="http://intermine.modencode.org/modminedev/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=title|count"
+></iframe>
+<hr>
+<iframe width="750" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="http://intermine.modencode.org/release-5/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html"
+></iframe>
+<hr>
+-->
+
 <div style="font-size:90%">
 
-
 <ul>
-<li>June 17, 2008: <b> Many new modENCODE tracks </b><br>
+<li>December 10, 2008: <b> modMine release 6 </b><br>
+Release 6 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, with 29 submissions.
+<br><li>October 24, 2008: <b> New modMine release </b><br>
+Release 5 of modMine is <a href="http://intermine.modencode.org/release-5/">available</a>, featuring the first 8 submissions of the project.
+<br><li>October 7, 2008: <b> New modENCODE publication from the Lieb lab </b><br>
+Jason Lieb's lab, at the University of North Carolina, recently published their ChIP-chip experiments on RNA Polymerase II and <em>htz-1</em> (a histone variant) in the September issue of <a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1000187"> PLoS Genetics</a>.  Their data tracks can now be viewed on the modENCODE <em>C. elegans</em> <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm"> Genome Browser</a>.
+<br><li>June 17, 2008: <b> Many new modENCODE tracks </b><br>
 Many new modENCODE tracks has been added to our <a href="/Genomes.shtml"> Genome Browsers</a>.
-<br><br>
+<br>
 <li>April 2-6, 2008: <b> 49th Annual Drosophila Research Conference </b><br>
 The modENCODE consortium gave some presentations at the conference in San Diego, California. They are available <a href="/documents.shtml"> here</a>.
-<br><br>
 </li>
 
+<!--
 <li>January 28, 2008: <b> First release of modENCODE-mine </b><br>
 The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/query/"> http://intermine.modencode.org/query/ </a>], containing basic genetic data for Drosophila and C. Elegans.<br><br>
 </li>
@@ -67,10 +147,15 @@ Input from the <i>C. elegans</i> and <i>Drosophila</i> research communities
 is sought in order to help choose which transcription factor to focus on for analysis in 
 modENCODE projects, please visit the <a href="/Vote.shtml">TF voting page</a> for more information.
 </l1>
+-->
+
 </ul>
 
 </div>
+<em><a href="/news.shtml">>> view all news</a></em>
+
 </div>
+
 </td>
 </tr>
 </table>

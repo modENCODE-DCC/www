@@ -5,27 +5,25 @@
 <head>
  <link rel="stylesheet" href="css/modencode.css">
  <title>The modENCODE Project</title-seeking>
- <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="js/modencode.js"> </script>
 </head>
 
-<body vlink='black' link='black' onload=setActiveLink('Introduction')>
+<body vlink='black' link='black'>
 
-<!--#include file="banner.html" -->
 
 <table width="100%">
 <tr valign=top>
-<td width=175px>
-
-<!--#include file="menu.html" -->
+<td>
+<!--#include virtual="/menu.html" -->
 
 <td align=left>
+<!--#include virtual="/banner.html" -->
+
 <div id="main">
 <!-- Actual content goes here! -->
 </div>
+
 </td>
 </tr>
 </table>
-
 
 <!--#include virtual="/footer.html" -->

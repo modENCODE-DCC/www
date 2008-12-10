@@ -1,0 +1,68 @@
+<head>
+ <link rel="stylesheet" href="css/modencode.css">
+ <title>The modENCODE Project: News</title>
+</head>
+
+<body vlink='black' link='black'>
+<table width="100%">
+<tr valign=top>
+<td>
+
+<!--#include virtual="/menu.html" -->
+
+<td align=left>
+
+<!--#include virtual="/banner.html" -->
+
+<div id="main">
+
+<h3> News and Notes </h3>
+
+<div style="font-size:100%">
+
+<ul>
+
+<li><em>December 10, 2008</em>: <b> modMine release 6</b><br>
+Release 6 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, with 29 submissions.
+</li>
+
+<li><em>October 24, 2008</em>: <b> New modMine release </b><br>
+Release 5 of modMine is <a href="http://intermine.modencode.org/release-5/">available</a>, featuring the first 8 submissions of the project.
+</li>
+
+<li><em>October 7, 2008</em>: <b> New modENCODE publication from the Lieb lab </b><br>
+Jason Lieb's lab, at the University of North Carolina, recently published their ChIP-chip experiments on RNA Polymerase II and <em>htz-1</em> (a histone variant) in the September issue of <a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1000187"> PLoS Genetics</a>.  Their data tracks can now be viewed on the modENCODE <em>C. elegans</em> <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm"> Genome Browser</a>.
+</li>
+
+<li><em>June 17, 2008</em>: <b> Many new modENCODE tracks </b><br>
+Many new modENCODE tracks has been added to our <a href="/Genomes.shtml"> Genome Browsers</a>.
+</li>
+
+<li><em>April 2-6, 2008</em>: <b> 49th Annual Drosophila Research Conference </b><br>
+The modENCODE consortium gave some presentations at the conference in San Diego, California. They are available <a href="/documents.shtml"> here</a>.
+</li>
+
+<li><em>January 28, 2008</em>: <b> First release of modENCODE-mine </b><br>
+The data warehouse for the modENCODE project is available at [<a href="http://intermine.modencode.org/query/"> http://intermine.modencode.org/query/ </a>], containing basic genetic data for Drosophila and C. Elegans.
+</li>
+
+<li><em>November 6, 2007</em>: <b> New data in the Genome Browsers </b><br>
+Selected expression-related tracks from WormBase, FlyBase have been added to the <a href="http://www.modencode.org/Genomes.shtml">
+modENCODE worm and fly genome browsers</a>. 
+Some new features include EST tracks, whole genome tiling array data from Manak JR, et al. Nature Genet. 2006 Oct;38(10):1151-8 and new gene predictions for C. elegans.  If would like to have additional data imported from Worm/FlyBase or other sources, please <a href="mailto:mckays@cshl.edu">let us know</a>.
+</li>
+
+<li><em>September 18, 2007</em>: <b>Transcription Factor Genes for modENCODE</b><br>
+Input from the <i>C. elegans</i> and <i>Drosophila</i> research communities
+is sought in order to help choose which transcription factor to focus on for analysis in 
+modENCODE projects, please visit the <a href="/Vote.shtml">TF voting page</a> for more information.
+</l1>
+
+</ul>
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+<!--#include virtual="/footer.html" -->
