@@ -27,6 +27,32 @@
 <h3>Comprehensive characterization of the <i>Drosophila</i> transcriptome</h3>
 
 <table class=PI>
+<tr><th>Susan Celniker (PI)
+<td>Lawrence Berkeley National Laboratory
+
+<td rowspan=8 valign=top>
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="400"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&op1=LOOKUP&value1=Celniker&extra1=&size=4&format=html&layout=title|mineresults|count|paging"></iframe>
+
+<tr><th>Michael Brent
+<td>Washington University
+<tr><th>Steven Brenner
+<td>University of California, Berkeley
+<tr><th>Peter Cherbas
+<td>Indiana University
+<tr><th>Thomas Gingeras
+<td>Affymetrix
+<tr><th>Brenton Gravely
+<td>University of Connecticut Health Systems
+<tr><th>Norbert Perrimon
+<td>Harvard University
+<tr><th>Roger Hoskins
+<td>Lawrence Berkeley National Laboratory
+
+</tr></table>
+
+<!--
+<table class=PI>
 <tr>
 <td width=150>
 <b>
@@ -50,7 +76,10 @@ University of Connecticut Health Systems<br>
 Harvard University<br>
 Lawrence Berkeley National Laboratory
 </td>
+<td>
 </tr></table>
+-->
+
 <hr>
 
 

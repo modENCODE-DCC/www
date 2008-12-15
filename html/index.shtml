@@ -62,7 +62,7 @@ src="http://intermine.modencode.org/modminetest/service/query/results?query=%3Cq
 -->
 
 <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="260" width="300"
-src="http://modprod0:8080/release-6/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
+src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
 </iframe>
 
 <!--

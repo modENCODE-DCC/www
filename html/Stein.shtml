@@ -26,23 +26,28 @@
   
   
 <h3>A Data Coordinating Center for modENCODE</h3>
-<table class=PI>
-<tr>
-<td width=150>
-<b>
-Lincoln Stein (PI)<br>
-James Kent<br> 
-Suzanna Lewis<br>
-Gos Micklem 
-</b>
-</td>
-<td >
-Cold Spring Harbor Laboratory<br>
-University of California, Santa Cruz<br> 
-Lawrence Berkeley National Laboratory<br>
-University of Cambridge
-</td>
-</tr></table>
+
+<table class=PI cellpadding=3px>
+<tr><th>Lincoln Stein
+<td>(PI)
+<td><a href="mailto:lstein@cshl.edu"> [@] </a>
+<td>Cold Spring Harbor Laboratory
+<tr><th>James Kent
+<td> (coPI)
+<td><a href="mailto:kent@soe.ucsc.edu"> [@]</a>
+<td>University of California, Santa Cruz
+<tr><th>Suzanna Lewis
+<td> (coPI)
+<td><a href="mailto:suzi@fruitfly.org"> [@]</a>
+<td>Lawrence Berkeley National Laboratory
+<tr><th>Gos Micklem
+<td> (coPI)
+<td><a href="mailto:gos@gen.cam.ac.uk"> [@]</a>
+<td>University of Cambridge
+
+</table>
+
+
 <hr>
 
 <h4>Project Objectives</h4>
@@ -66,30 +71,49 @@ Throughout the project, Lewis and Stein will work close with FlyBase and/or Worm
 </ol>
 
 <h4> Contact Information </h4>
-<ol>
- <li><strong>PIs</strong>
- <ol>
-  <li><a href="mailto:lstein@cshl.edu"> Lincoln Stein</a> (PI)</li>
-  <li><a href="mailto:suzi@fruitfly.org"> Suzi Lewis</a> (coPI)</li>
-  <li><a href="mailto:kent@soe.ucsc.edu"> Jim Kent</a> (coPI)</li>
-  <li><a href="mailto:gos@gen.cam.ac.uk"> Gos Micklem</a> (coPI)</li>
- </ol>
- </li>
- <li><strong>Informatics</strong>
- <ol>
-  <li><a href="mailto:mckays@cshl.edu"> Sheldon McKay</a> (<em>C. elegans</em>) </li>
-  <li><a href="mailto:zha@cshl.edu"> Zheng Zha</a> (<em>C. elegans</em>) </li>
-  <li><a href="mailto:cjm@fruitfly.org"> Chris Mungal</a> (<em>D. melanogaster</em>) </li>
-  <li><a href="mailto:NLWashington@lbl.gov"> Nicole Washington</a> (<em>D. melanogaster</em>)  </li>
- </ol>
- </li>
- <li><strong>Web site</strong>: <a href="./index.shtml">http://www.modencode.org</a> </li>
+
+
+
+<table class=PI cellpadding=3px>
+<tr><th colspan=4>Data Managers
+<tr><td>Marc Perry<td><a href="mailto:Marc.Perry@oicr.on.ca">[@]</a> <td>ChIP-chip and ChIP-seq<td>Ontario Institute for Cancer Research
+<tr><td>Peter Ruzanov<td><a href="mailto:peter.ruzanov@oicr.on.ca">[@]</a><td> ncRNA and DNA replication in D. melanogaster<td>Ontario Institute for Cancer Research
+<tr><td>Nicole Washington<td><a href="mailto:NLWashington@lbl.gov">[@]</a><td> Transcriptome Analysis<td>Lawrence Berkeley National Laboratory
+
+<tr><th colspan=4>Wiki and Web Site
+    <tr><td>Sergio Contrino<td><a href="mailto:sergio@modencode.org">[@]</a><td> Website<td>University of Cambridge
+    <tr><td>E. O. Stinson<td><a href="yostinso@berkeleybop.org">[@]</a><td> Wiki<td>Lawrence Berkeley National Laboratory
+    <tr><td>Kim Rutherford<td><a href="mailto:kim@flymine.org">[@]</a><td> Website and Systems Administration<td>University of Cambridge
+    <tr><td>Peter Ruzanov<td><a href="mailto:peter.ruzanov@oicr.on.ca">[@]</a><td> Genome Browsers<td>Ontario Institute for Cancer Research
+
+<tr><th colspan=4>Infrastructure and Development
+    <tr><td>Sergio Contrino<td><a href="mailto:sergio@modencode.org">[@]</a><td>modMine integration<td>University of Cambridge
+    <tr><td>Angie Hinrichs<td><a href="mailto:angie@soe.ucsc.edu">[@]</a> <td> GBrowse/UCSC Genome Browser integration
+    <tr><td>Chris Mungal<td><a href="mailto:cjm@fruitfly.org">[@]</a><td> chado database development<td>Lawrence Berkeley National Laboratory
+    <tr><td>Kim Rutherford<td><a href="mailto:kim@flymine.org">[@]</a><td> modMine integration<td>University of Cambridge
+    <tr><td>E.O. Stinson<td><a href="yostinso@berkeleybop.org">[@]</a> <td> chado database development, BIR-TAB, data pipeline<td>Lawrence Berkeley National Laboratory
+    <tr><td>Nicole Washington<td><a href="mailto:NLWashington@lbl.gov">[@]</a><td> BIR-TAB, data upload pipeline<td>Lawrence Berkeley National Laboratory
+    <tr><td>Zheng Zha<td><a href="mailto:zheng.zha@oicr.on.ca">[@]</a><td>MAGE-tab, chado database migration<td>Ontario Institute for Cancer Research
+
+</table>
+
+<p>
+
+<strong>Web site</strong>: <a href="./index.shtml">http://www.modencode.org</a> </li>
 </ol>
+
+
+
+
+
+
 
 
  </div>
 </td>
 </tr>
 </table>
+
+
 
 <!--#include virtual="/footer.html" -->

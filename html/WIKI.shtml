@@ -10,13 +10,15 @@
  <script type="text/javascript" src="js/modencode.js"> </script>
  <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
+
+<!--
 <table width="100%">
 <tr>
 <td valign=top align=center>
 <img src="/img/modbanner2.png"\>
 </td></tr>
 </table>
-
+-->
 <body vlink='black' link='black' onload="setActiveLink('WIKI')">
 
 <table width="100%">
