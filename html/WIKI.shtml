@@ -48,7 +48,7 @@
 <tr valign=middle>
 <td>
 <a href="mailto:help@modencode.org?subject=Private Wiki account" title="help@modencode.org">
-<img src="/img/email.png" alt="email image" height=25 border=0 align=top></a>
+<b>[@]</b></a>
 </td>
 <td>
 <a href="mailto:help@modencode.org?subject=Private Wiki account" title="help@modencode.org">
@@ -58,8 +58,13 @@
 
 </tr>
 <tr>
+<!--
 <td><a target="_new" href="http://wiki.modencode.org/project" title="wiki.modencode.org/project">
 <img src="/img/green_arrow.png" alt="arrow image" width=40 border=0></a></td>
+-->
+<td><a target="_new" href="http://wiki.modencode.org/project" title="wiki.modencode.org/project">
+<b>-></b>
+</a></td>
 <td>
 <a target="_new" href="http://wiki.modencode.org/project" title="wiki.modencode.org/project">
  &nbsp;Go to the project Wiki</a></td>
