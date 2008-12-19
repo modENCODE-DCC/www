@@ -26,6 +26,38 @@
   
 <h3>Identification of Transcription Factor binding sites by high-throughput ChIP-chip experiments in <i>Drosophila</i></h3>
 
+
+
+<table class=PI>
+<tr><th>Kevin White (PI)
+<td>University of Chicago
+
+<td rowspan=8 valign=top>
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="460"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&op1=LOOKUP&value1=White&extra1=&size=8&format=html&layout=title|mineresults|count"></iframe>
+
+<tr><th>Hugo Bellen
+<td>Baylor College of Medicine
+<tr><th>Robert Grossman
+<td>University of Illinois, Chicago
+<tr><th>Roger Hoskins
+<td>Lawrence Berkeley National Laboratory
+<tr><th>Manolis Kellis
+<td>Massachusetts Institute of Technology
+<tr><th>Folker Meyer
+<td>Argonne National Lab
+<tr><th>James Posakony
+<td>University of California, San Diego
+<tr><th>Bing Ren
+<td>Ludwig Institute
+<tr><th>Steven Russell
+<td>University of Cambridge
+<tr><th>Robert White
+<td>University of Cambridge
+</tr></table>
+
+<!--
+
 <table class=PI>
 <tr>
 <td width=150>
@@ -55,7 +87,11 @@ University of Cambridge<br>
 University of Cambridge
 </td>
 </tr></table>
+-->
 <hr>
+
+
+
 
 The White Lab is aiming to map the association of all the <i>Drosophila</i> Transcription Factors (TF) and DNA associated proteins on the fly's whole genome. The main technique that will be used for this purpose is ChIP-chip.
 
