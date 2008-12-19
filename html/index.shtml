@@ -73,7 +73,7 @@ src="http://intermine.modencode.org/query/service/template/results?name=LatestsS
 
 
 </tr>
-<tr><td>
+<tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">Browse worm genome</a>
