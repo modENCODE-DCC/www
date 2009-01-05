@@ -1,8 +1,8 @@
 #!/usr/bin/perl -w
 
 use strict;
-#use lib "/var/www/cgi-bin/lib";
-use lib "./lib";
+use lib "/var/www/cgi-bin/lib";
+use lib "/FRONT-END/www/cgi-bin/lib";
 
 use CMS::MediaWiki;
 use Search::Tools::XML;
@@ -133,7 +133,7 @@ if ($bool eq "public") {
 
     my $content = $mw->getHTML(title => $page);
 
-    my $purified = "<h2>".&parseHTML($content);
+    my $purified = "<!-- translation starts here --><h2>".&parseHTML($content);
 
 #    print Search::Tools::XML->unescape($content), "\n";
     print Search::Tools::XML->unescape($purified), "\n";
@@ -167,6 +167,9 @@ sub parseHTML {
 
 #to cut all before the first header
     $before =~ m/<h2>/;
+
+#to cut all java scripts
+    $before =~ m/<!-- start content -->/;
 
      return $'; 
 
