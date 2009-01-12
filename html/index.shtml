@@ -48,19 +48,19 @@ desk</a>.
 <hr>
 <div>
 <table width="100%" cellspacing=10>
-<tr>
-<td width="10%" align="right">
-<a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">
-<img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
-<td width=30% bgcolor=#eeeeee><b><a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">FTP site</a>
-<td width="50%" rowspan=4 align="center" valign="top">
+<tr><td width="10%" align="right">
+<a href="http://submit.modencode.org/submit" target="_blank">
+<img src="/img/submit_vs.png" alt="Submit Data" border=3 /></a>
+<td bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit" target="_blank">Submit data</a>
 
+
+
+<td width="50%" rowspan=5 align="center" valign="top">
 <!--
 <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
 src="http://intermine.modencode.org/modminetest/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=title|description|mine|paging|mineresults|count"
 ></iframe>
 -->
-
 <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="260" width="300"
 src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
 </iframe>
@@ -73,6 +73,10 @@ src="http://intermine.modencode.org/query/service/template/results?name=LatestsS
 
 
 </tr>
+<tr><td align="right">
+<a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">
+<img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
+<td width=30% bgcolor=#eeeeee><b><a href="ftp://ftp.modencode.org/pub/dcc/" target="_blank">Download data</a>
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
