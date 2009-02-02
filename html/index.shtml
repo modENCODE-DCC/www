@@ -74,9 +74,9 @@ src="http://intermine.modencode.org/query/service/template/results?name=LatestsS
 
 </tr>
 <tr><td align="right">
-<a href="ftp://ftp.modencode.org/pub/" target="_blank">
+<a href="http://submit.modencode.org/submit/public/list" target="_blank">
 <img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
-<td width=30% bgcolor=#eeeeee><b><a href="ftp://ftp.modencode.org/pub/" target="_blank">Download data</a>
+<td width=30% bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit/public/list" target="_blank">Download data</a>
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
