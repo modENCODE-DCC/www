@@ -61,7 +61,7 @@ desk</a>.
 src="http://intermine.modencode.org/modminetest/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=title|description|mine|paging|mineresults|count"
 ></iframe>
 -->
-<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="260" width="300"
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="360"
 src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
 </iframe>
 
@@ -124,8 +124,10 @@ src="http://intermine.modencode.org/release-5/service/query/results?query=%3Cque
 <div style="font-size:90%">
 
 <ul>
+<li>February 5, 2009: <b> modMine release 7 </b><br>
+Release 7 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, with the first C. elegans submissions.
 <li>December 10, 2008: <b> modMine release 6 </b><br>
-Release 6 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, with 29 submissions.
+Release 6 of modMine is <a href="http://intermine.modencode.org/release-6/">available</a>, with 29 submissions.
 <br><li>October 24, 2008: <b> New modMine release </b><br>
 Release 5 of modMine is <a href="http://intermine.modencode.org/release-5/">available</a>, featuring the first 8 submissions of the project.
 <br><li>October 7, 2008: <b> New modENCODE publication from the Lieb lab </b><br>
