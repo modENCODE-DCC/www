@@ -41,7 +41,7 @@ src="http://intermine.modencode.org/query/service/template/results?name=projectS
 <tr><th>Peter Cherbas
 <td>Indiana University
 <tr><th>Thomas Gingeras
-<td>Affymetrix
+<td>Cold Spring Harbor Laboratory
 <tr><th>Brenton Gravely
 <td>University of Connecticut Health Systems
 <tr><th>Norbert Perrimon
@@ -146,14 +146,13 @@ cherbas@indiana.edu</a>
 <li>Wet Lab: Andreas Rechtsteiner, 
 <a href="mailto:andreas@cgb.indiana.edu">andreas@cgb.indiana.edu</a>
 </ul>
-<li><strong>Affymetrix</strong>
+<li><strong>Cold Spring Harbor Laboratory</strong>
 <ul>
 <li>PI: Thomas Gingeras, 
-<a href="mailto:tom_gingeras@affymetrix.com">tom_gingeras@affymetrix.com</a>
-<li>Wetlab: Aarron Willingham, 
-<a href="mailto:aarron_willingham@affymetrix.com">aarron_willingham@affymetrix.com</a>
-<li>Informatics: Srinka Ghosh, 
-<a href="mailto:srinka_ghosh@affymetrix.com">srinka_ghosh@affymetrix.com</a>
+<a href="mailto:gingeras@cshl.edu">gingeras@cshl.edu</a>
+<li>Carrie Davis
+<li>Chris Zaleski
+<li>Alex Dobin
 </ul>
 <li><strong>Washington University</strong>
 <ul>
