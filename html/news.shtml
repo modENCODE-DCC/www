@@ -21,7 +21,20 @@
 <div style="font-size:100%">
 
 <ul>
+<li>March 23, 2009: <b> modMine <a href="http://intermine.modencode.org/query/">release 8</a> </b><br>
+Featuring 77 submissions, new tools for finding overlapping features and close genes, and a new metadata browser.
+<li>February 5, 2009: <b> modMine <a href="http://intermine.modencode.org/release-7/">release 7 </a></b><br>
+With the first C. elegans submissions.
+<li>December 10, 2008: <b> modMine release 6 </b><br>
+With 29 submissions.
+<br><li>October 24, 2008: <b> New modMine release </b><br>
+Release 5 of modMine features the first 8 submissions of the project.
 
+<!--
+<li>March 23, 2009: <b> modMine release 8 </b><br>
+Release 8 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, featuring 77 submissions, new tools for finding overlapping features and close genes, and a new metadata browser.
+<li>February 5, 2009: <b> modMine release 7 </b><br>
+Release 7 of modMine is <a href="http://intermine.modencode.org/release-7/">available</a>, with the first C. elegans submissions.
 <li><em>December 10, 2008</em>: <b> modMine release 6</b><br>
 Release 6 of modMine is <a href="http://intermine.modencode.org/query/">available</a>, with 29 submissions.
 </li>
@@ -29,6 +42,7 @@ Release 6 of modMine is <a href="http://intermine.modencode.org/query/">availabl
 <li><em>October 24, 2008</em>: <b> New modMine release </b><br>
 Release 5 of modMine is <a href="http://intermine.modencode.org/release-5/">available</a>, featuring the first 8 submissions of the project.
 </li>
+-->
 
 <li><em>October 7, 2008</em>: <b> New modENCODE publication from the Lieb lab </b><br>
 Jason Lieb's lab, at the University of North Carolina, recently published their ChIP-chip experiments on RNA Polymerase II and <em>htz-1</em> (a histone variant) in the September issue of <a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1000187"> PLoS Genetics</a>.  Their data tracks can now be viewed on the modENCODE <em>C. elegans</em> <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm"> Genome Browser</a>.
