@@ -56,39 +56,17 @@ desk</a>.
 
 
 <td width="50%" rowspan=5 align="center" valign="top">
+
 <!--
 <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
 src="http://intermine.modencode.org/modminetest/service/query/results?query=%3Cquery%20model=%22genomic%22%20view=%22Submission.title%20Submission.experimentDate%22%20sortOrder=%22Submission.experimentDate%20desc%22%3E%3Cnode%20path=%22Submission%22%20type=%22Submission%22%3E%3C/node%3E%3C/query%3E&size=4&format=html&layout=title|description|mine|paging|mineresults|count"
 ></iframe>
 -->
-<!--
-<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="360"
-src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
+
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="320" width="500"
+src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&constraint1=Submission.title&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|paging">
 </iframe>
--->
 
-<!-- GOOd ONE
-
-<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="360"
-src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=5&format=html&layout=title|mineresults|count">
-</iframe>
--->
-<!-- TODO
-<hr>
-<iframe width="700" height="100" frameborder="1" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&constraint1=Submission.title&op1=eq&value1=white+-+SuHw&format=html"></iframe>
-
-
-<iframe width="700" height="100" frameborder="1" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/modminetest/service/template/results?name=LatestsSubs&constraint1=Submission.title&op1=eq&value1=*&size=10&layout=minelink|paging&format=html"></iframe>
--->
-
-
-<!--
-http://intermine.modencode.org/query/service/query/results?query=%3Cquery+name%3D%22%22+model%3D%22genomic%22+view%3D%22Submission.title+Submission.publicReleaseDate%22+sortOrder%3D%22Submission.publicReleaseDate+desc%22%3E%3Cnode+path%3D%22Submission%22+type%3D%22Submission%22%3E%3C%2Fnode%3E%3Cnode+path%3D%22Submission.title%22+type%3D%22String%22%3E%3Cconstraint+op%3D%22%3D%22+value%3D%22white+-+SuHw%22+description%3D%22%22+identifier%3D%22%22+editable%3D%22true%22+code%3D%22A%22%3E%3C%2Fconstraint%3E%3C%2Fnode%3E%3C%2Fquery%3E&format=tab
-
-<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="280"
-src="http://intermine.modencode.org/query/service/template/results?name=LatestsSubs&op1=EQUALS&value1=*&size=4&format=html&layout=title|paging|mineresults|count">
-</iframe>
--->
 
 </tr>
 <tr><td align="right">
