@@ -22,20 +22,20 @@
 <!--#include virtual="/banner.html" -->
 
 <div id="main">
-  
+
+<!-- shorter frame: 340/260-->
   
 <h3>Genome-wide profiling of histone variants in <i>Drosophila</i> and <i>Caenorhabditis</i></h3>
-<table class=PI>
-<tr>
-<td width=150>
-<b>
-Steven Henikoff (PI)<br>
-Kamran Ahmad
-</b>
-</td>
-<td >
-Fred Hutchinson Cancer Research Center<br>
-Harvard University
+<table class=PI  cellspacing=10>
+<tr><th>Steven Henikoff (PI)
+<td>Fred Hutchinson Cancer Research Center
+<td rowspan=8 valign=top>
+<iframe  frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" height="140" width="420"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&constraint1=Submission.project&op1=LOOKUP&value1=Henikoff&extra1=&size=5&layout=title|mineresults|paging&format=html"></iframe>
+
+<tr><th>Kamran Ahmad
+<td>Harvard University
+<tr height=60px>
 </td>
 </tr></table>
 <hr>

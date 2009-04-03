@@ -25,21 +25,20 @@
   
   
 <h3>The Systematic Identification and Analysis of Replication Origins in <i>Drosophila</i></h3>
-<table class=PI>
-<tr>
-<td width=150>
-<b>
-David MacAlpine (PI)<br>
-Terry Orr-Weaver
-</b>
+
+<table class=PI  cellspacing=10>
+<tr><th>David MacAlpine (PI)
+<td >Duke University
+<td rowspan=8 valign=top>
+<iframe  frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" height="280" width="420"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&constraint1=Submission.project&op1=LOOKUP&value1=MacAlpine&extra1=&size=5&layout=title|mineresults|paging&format=html"></iframe>
+
+<tr><th>Terry Orr-Weaver
+<td>Whitehead Institute
 </td>
-<td >
-Duke University<br>
-Whitehead Institute
-</td>
+<tr height=160px>
 </tr></table>
 <hr>
-
 We will use high-density genomic tiling-path arrays to characterize the Drosophila replication program in multiple cell lines and tissues. Specifically, we will determine the time of replication for all unique sequences in the Drosophila genome, identify and map all functional origins of replication, and identify all sites of pre-replicative complex (preRC) assembly. The high-resolution mapping of sites of preRC assembly will enable us to apply computational approaches (including comparative genomics) to identify potential sequence motifs that direct and regulate preRC function. Finally, we will also characterize the differential replication of polytene chromosomes in fully differentiated Drosophila tissues to identify genomic regions that are amplified or underreplicated. 
   
 <h4> Experimental Approaches </h4>

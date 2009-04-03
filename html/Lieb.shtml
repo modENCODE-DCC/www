@@ -26,38 +26,29 @@
   
  <h3>Identification of DNA Elements Governing Chromatin Function in <i>C. elegan</i>s</h3>
 
-<table class=PI>
-<tr>
-<td width=150>
-<b>
-Jason Lieb (PI)<br>
-Julie Ahringer<br>
-Abby Dernburg<br>
-Arshad Desai<br>
-Roland Green<br>
-Xiaole Liu<br>
-Eran Segal<br>
-Susan Strome
-</b>
+<table class=PI cellspacing=10>
+<tr><th>Jason Lieb (PI)
+<td >University of North Carolina, Chapel Hill
+<td rowspan=8 valign=top>
+<iframe  frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" height="340" width="420"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&constraint1=Submission.project&op1=LOOKUP&value1=Lieb&extra1=&size=5&layout=title|mineresults|paging&format=html"></iframe>
+
+<tr><th>Julie Ahringer
+<td >University of Cambridge
+<tr><th>Abby Dernburg
+<td >University of California, Berkeley
+<tr><th>Arshad Desai
+<td >University of California, San Diego
+<tr><th>Roland Green
+<td >NimbleGen
+<tr><th>Xiaole Liu
+<td >Dana Farber Cancer Institute
+<tr><th>Eran Segal
+<td >Weizmann Institute
+<tr><th>Susan Strome
+<td >Indiana University, Bloomington
 </td>
-<td >
-University of North Carolina, Chapel Hill<br>
-University of Cambridge<br>
-University of California, Berkeley<br>
-University of California, San Diego<br>
-NimbleGen<br>
-Dana Farber Cancer Institute<br>
-Weizmann Institute <br>
-Indiana University, Bloomington
-</td>
-<td width=200 align=right><br>
-<!--
-<a href="http://wiki.modencode.org/index.php/Lieb"
-   onmouseover="balloon.showTooltip(event,'Jump to a  more detailed description of this research project on the modENCODE Wiki')">
-Details...
-</a>
--->
-</td></tr></table>
+</tr></table>
 <hr>
 
 Eukaryotic genomes are packaged into chromatin, which regulates the function of proteins that mediate transcriptional activity and other essential processes, including recombination and the faithful segregation of the genome during mitosis and meiosis. The goal of this proposal is to identify discrete elements that regulate chromatin structure and function in the nematode <i>C. elegans</i>, a model metazoan of central importance in large-scale genomic research and gene function discovery. We will first use ChIP-chip and related methods to map the genomic distributions of selected histone modifications and chromosome-associated proteins, and then use that information, in combination with data from other modENCODE groups, to build quantitative models of chromatin function. Specifically, we will:
