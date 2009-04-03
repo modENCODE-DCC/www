@@ -33,8 +33,8 @@
 <td>University of Chicago
 
 <td rowspan=8 valign=top>
-<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="300" width="460"
-src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&op1=LOOKUP&value1=White&extra1=&size=8&format=html&layout=title|mineresults|count"></iframe>
+<iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="340" width="480"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&constraint1=Submission.project&op1=LOOKUP&value1=White&extra1=&size=10&layout=title|mineresults|paging&format=html"></iframe>
 
 <tr><th>Hugo Bellen
 <td>Baylor College of Medicine
