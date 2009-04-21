@@ -78,10 +78,12 @@ src="http://intermine.modencode.org/query/service/template/results?name=LatestsS
 <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">Browse worm genome</a>
+<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/worm/" target="_blank"> - try new browser (beta version)</a></font>
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">
 <img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">Browse fly genome</a>
+<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/fly/" target="_blank">- try new browser (beta version)</a></font>
 <tr><td align="right">
 <a href="http://intermine.modencode.org/query/">
 <img src="/img/modmine_vs.png" alt="query!!"/></a>
