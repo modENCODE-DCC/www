@@ -25,22 +25,150 @@
   
   
  <h2>Protocols</h2>
+<!-- add internal link
 
+<span class=PI> 
+<table>
+<tr>
+<td>Base Calling</td>
+<td>Biosample Preparation</td>
+<td>Chromatin Immunoprecipitation</td>
+<td>Compound Based Treatment</td>
+<td>Data Analysis</td>
+<td>Data Transformation</td>
+<tr>
+<td>DNA extraction</td>
+<td>Extraction</td>
+<td>Grow</td>
+<td>Harvest</td>
+<td>Hybridization</td>
+<td>Immunoprecipitation</td>
+<tr>
+<td>Labeling</td>
+<td>Ma2C Normalization</td>
+<td>Mean log Normalization</td>
+<td>Median log Normalization</td>
+<td>Microarray Scanning</td>
+<td>Nucleic Acid Extraction</td>
+<tr>
+<td>Organism Purification</td>
+<td>Pairwise Sequence Alignment</td>
+<td>PCR</td>
+<td>PCR Amplification</td>
+<td>Peak Finding Data Analysis</td>
+<td>Cross-linking</td>
+<tr>
+<td>Purify</td>
+<td>Quantile Normalization</td>
+<td>Reverse Transcription</td>
+<td>RNA Extraction</td>
+<td>Sequencing</td>
+</table>
+</span>
+-->
+
+<h4>Base Calling</h4>
+
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=base_calling_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Biosample Preparation</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=biosample_preparation_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Chromatin Immunoprecipitation</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=chromatin_immunoprecipitation&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Compound Based Treatment</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=compound_based_treatment&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Data Analysis</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=data_analysis_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Data Transformation</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=data+transformation&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>DNA extraction</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=DNA+extraction&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Extraction</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=extraction&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Grow</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=grow&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Harvest</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=harvest&size=3&layout=mineresults|paging&format=html"></iframe>
+
+
+<h4>Hybridization</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=hybridization&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Immunoprecipitation</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=immunoprecipitation&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Labeling</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=labeling&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Ma2C Normalization</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=ma2C_normalization_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Mean log Normalization</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=mean_log_normalization&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Median log Normalization</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=median_log_normalization&size=3&layout=mineresults|paging&format=html"></iframe>
+
+
+<h4>Microarray Scanning</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=microarray_scanning_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Nucleic Acid Extraction</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=nucleic_acid_extraction&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Organism Purification</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=organism_purification_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Pairwise Sequence Alignment</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=pairwise_sequence_alignment&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>PCR</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=PCR&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>PCR Amplification</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=PCR_amplification&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Peak Finding Data Analysis</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=peak_finding_data_analysis_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+
+<h4>Cross-linking</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Purify</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=purify&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Quantile Normalization</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=quantile_normalization&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>Reverse Transcription</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=reverse_transcription&size=3&layout=mineresults|paging&format=html"></iframe>
+
+<h4>RNA Extraction</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=RNA+extraction&size=3&layout=mineresults|paging&format=html"></iframe>
+
+
+<h4>Sequencing</h4>
+<iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=sequencing_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
+
+
+<!--
 <h3>Animal Handling</h3>
-
 <h4>C. elegans growth and staging</h4>
 <ul>
  <li><a href="./protocols/embryo-collection-fixing-for-ChIP-chip.shtml"> Embryo collection/fixing for ChIP-chip</a> [Lieb]</li>
 
 </ul>
-
 <h4>D. melanogaster growth and staging</h4>
-<!--
-<p>
-<a href="./Test-Protocol-Biosample">Test-Protocol-Biosample</a>
-</p>
--->
-
 <h5>Tissue Isolation</h5>
 <ul>
  <li><a href="./protocols/16C-follicle-cells.shtml">16C Follicle Cells</a></li>
@@ -75,7 +203,7 @@
 <ul>
  <li><a href="./protocols/ip.shtml">IP</a> [Lieb]</li>
 </ul>
-
+-->
 
 <!--
 Commented out for now Looks ugly without content
