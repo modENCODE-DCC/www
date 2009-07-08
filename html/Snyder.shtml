@@ -25,7 +25,28 @@
   
   
 <h3>Identification of Transcription Factor Binding Regions</h3>
+
 <table class=PI>
+<tr><th>Michael Snyder (PI)
+<td>Yale University
+
+<td rowspan=7 valign=top>
+<iframe  frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" height="240" width="420"
+src="http://intermine.modencode.org/query/service/template/results?name=projectSubs&constraint1=Submission.project&op1=LOOKUP&value1=Snyder&extra1=&size=5&layout=title|mineresults|paging&format=html"></iframe>
+
+<tr><th>Mark Gerstein
+<td>Yale University
+<tr><th>Anthony Hyman
+<td>Max Planck Institute
+<tr><th>Stuart Kim
+<td>Stanford University
+<tr><th>Valerie Reinke
+<td>Yale University
+<tr><th>Robert Waterston
+<td>University of Washington
+</tr></table>
+
+<!--<table class=PI>
 <tr>
 <td width=150>
 <b>
@@ -45,7 +66,7 @@ Stanford University<br>
 Yale University<br>
 University of Washington
 </td>
-</tr></table>
+</tr></table>-->
 <hr>
 
 <i>C. elegans</i> has a modest-sized and completely sequenced genome, a completely defined somatic cell lineage, and a small number of cells; thus it provides an ideal system to map the regulatory information encoded in its genome. We propose to identify the DNA binding sites for 300 transcription factors in C. elegans. Transcription factor genes will be tagged and their expression examined throughout the C. elegans life cycle. The binding sites of each factor will be determined using chromatin immunoprecipitation followed by DNA microarray analysis (ChIP-chip). This binding information will be compared to other genome annotation and made publicly available. Specifically, we will: 1) Prepare constructs in which all transcription factor genes are fused to coding sequences for fluorescent reporter genes. (Hyman) 2) Generate a series of C. elegans lines that express each fusion construct and obtain a preliminary evaluation of the temporal and spatial expression of each factor throughout the life cycle of the animal. (Waterston, Kim) 3) Based on the expression results, perform ChIP-chip of each factor at one or more key time points. (Snyder, Reinke) 4) Validate the binding results using quantitative measures to measure binding. (Snyder, Reinke). 5) Implement high-throughput data processing pipelines and store the results of these in a web-accessible database for use by the scientific community. (Gerstein) 6) Perform a limited number of bioinformatic analyses to identify regulatory motifs, analyze the association of binding sites between factors and their distribution in the genome (Gerstein) We expect this project to contribute significant information to the identification of regulatory elements in the C. elegans genome; additionally it will serve as a model for parallel studies in human systems.
