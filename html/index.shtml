@@ -75,16 +75,19 @@ src="http://intermine.modencode.org/query/service/template/results?name=LatestSu
 <td width=30% bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit/public/list" target="_blank">Download data</a>
 <br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">(or use legacy FTP site)</a></font>
 <tr><td align="right">
-<a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">
+<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
-<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">Browse worm genome</a>
-<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/worm/" target="_blank"> - try new browser (beta version)</a></font>
+<!--<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/worm" target="_blank">Browse worm genome</a>-->
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
+<!--<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/worm/" target="_blank"> - try new browser (beta version)</a></font>-->
 <br><font size=-1> <a href="http://modencode2.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> - tracks preview (beta version)</a></font>
 <tr><td align="right">
-<a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">
+<!--<a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">
+<img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>-->
+<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">
 <img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
-<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gbrowse/fly" target="_blank">Browse fly genome</a>
-<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/fly/" target="_blank">- try new browser (beta version)</a></font>
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse fly genome</a>
+<!--<br><font size=-1> <a href="http://modencode2.oicr.on.ca/cgi-bin/gb2/gbrowse/fly/" target="_blank">- try new browser (beta version)</a></font>-->
 <br><font size=-1> <a href="http://modencode2.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank">- tracks preview (beta version)</a></font>
 <!--<br><font size=-1> <a href="http://modencode2.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank"><font color="#009900">- tracks preview (beta version)</font></a></font>-->
 <tr><td align="right">
