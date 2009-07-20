@@ -21,6 +21,10 @@
 <div style="font-size:100%">
 
 <ul>
+<li>July 20, 2009: <b> modMine <a href="http://intermine.modencode.org/release-11/">release 11</a> </b><br>
+Incremental release (only new submission are added to the previous release) with 32 new submissions, for a total of 176.
+<li>June 30, 2009: <b> modMine <a href="http://intermine.modencode.org/release-10/">release 10</a> </b><br>
+144 submissions, easier query of reagents and experimental factors, submissions can be grouped by experiment.
 <li>May 7, 2009: <b> modMine <a href="http://intermine.modencode.org/query/">release 9</a> </b><br>
 Featuring 98 submissions and richer WormBase data.
 <li>May 1, 2009: <b>Histone Mark Antibody Validation <a href="/docs/hmav.xhtml">results</a></b>, compiled by Gary Karpen and Susan Strome, are now available<br>
