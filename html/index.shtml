@@ -49,6 +49,10 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 please contact us at our <a href="mailto: help@modencode.org"> help
 desk</a>.
 
+<!--
+ http://www.ncbi.nlm.nih.gov/sites/entrez/19536255
+-->
+
 <p style="color:#AA0000; font-weight: bold;">NOTICE (09/17/2009): Public downloads are currently incomplete as we rebuild the data after a recent hardware failure.</p>
 <p style="font-weight: bold;">NOTICE (09/30/2009): <a href="http://blog.modencode.org/?p=350">Job opportunities (Data Managers)</a> with the Data Coordination Center.</p>
 
@@ -71,7 +75,9 @@ desk</a>.
 <tr><td align="right">
 <a href="http://submit.modencode.org/submit/public/list" target="_blank">
 <img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
-<td width=30% bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit/public/list" target="_blank">Download data</a>
+<td width=30% bgcolor=#eeeeee><b>
+<a href="http://submit.modencode.org/submit/public/list" target="_blank">Download data</a> | 
+<a href="http://submit.modencode.org/submit/bulk_download?selected_freeze=dmelanogaster_2009-10-19" target="_blank">Fly freeze</a>
 <br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">(or use legacy FTP site)</a></font>
 
 <tr><td align="right">
