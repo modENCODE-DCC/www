@@ -29,8 +29,13 @@ ENCyclopedia Of DNA Elements (modENCODE)
 Project will try to identify all of
 the sequence-based functional elements in the <i>Caenorhabditis elegans</i> 
 and <i>Drosophila melanogaster</i> genomes. 
-<br>
+<p>
  The project is run as a Research Network and data is publicly available, with some restrictions on its use for 9 months following publication (see our <a href="./docs/modENCODE_publication_policy.pdf">Publication Policy </a>).
+<br>
+Please use this <a href="http://www.ncbi.nlm.nih.gov/sites/entrez/19536255">reference</a> if you cite the project.
+
+<!--
+
 Please use this reference
 <p>
 <span class=PI>
@@ -43,7 +48,8 @@ PMID: 19536255
 </span>
 
 <p> if you cite the project.
-<br>
+-->
+<p>
 This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordination Center</a>.
 <br>For comments, problems, requests and general information about the project
 please contact us at our <a href="mailto: help@modencode.org"> help
