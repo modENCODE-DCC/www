@@ -4,12 +4,12 @@
 
 <head>
  <link rel="stylesheet" href="css/modencode.css">
- <title>The modENCODE Project: Protocols</title>
+ <title>The modENCODE Project: Reagents</title>
  <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
  <script type="text/javascript" src="js/modencode.js"> </script>
 </head>
 
-<body vlink='black' link='black' onload="setActiveLink('Protocols')">
+<body vlink='black' link='black' onload="setActiveLink('Reagents')">
 
 <table width="100%">
 <tr valign=top>
@@ -39,10 +39,44 @@ To this end we are:
 </ul>
 While formal policies are being considered many reagents and much information are available now, and investigators are welcome to direct inquiries to the individual laboratories that are using and/or developing them.
 
+<!--
+src="http://intermine.modencode.org/query/service/template/results?name=antibody&constraint1=Antibody.name&op1=eq&value1=*&size=10&layout=minelink|paging&format=html"
+-->
+
+<h4>Antibodies</h4>
+<iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+src="http://intermine.modencode.org/release-14/service/template/results?name=antibody2&constraint1=Antibody.name&op1=eq&value1=*&size=8&layout=paging|description|mineresults&format=html"
+></iframe>
+
+<h4>Cell Lines</h4>
+<iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+src="http://intermine.modencode.org/query/service/template/results?name=cell lines&constraint1=CellLine.name&op1=eq&value1=*&size=8&layout=paging|description|mineresults&format=html"></iframe>
+
+
+<h4>RNAi reagents</h4>
+<iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=RNAi reagents&constraint1=SubmissionProperty.type&op1=eq&value1=RNAi+reagent&size=8&layout=paging|description|mineresults&format=html"
+></iframe>
+
+
+<h4>Strains</h4>
+<iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=strains&constraint1=Strain.name&op1=eq&value1=*&size=8&layout=paging|description|mineresults&format=html"
+></iframe>
+
+
+
 
  </div>
 </td>
 </tr>
+<tr>
+<td>
+
+</td>
+</tr>
+
 </table>
+
+
+
 
 <!--#include virtual="/footer.html" -->

@@ -68,8 +68,8 @@
 -->
 
 <h4>Base Calling</h4>
-
 <iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=base_calling_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
+
 
 <h4>Biosample Preparation</h4>
 <iframe width="700" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://intermine.modencode.org/query/service/template/results?name=protocols&constraint1=Protocol.type&op1=eq&value1=biosample_preparation_protocol&size=3&layout=mineresults|paging&format=html"></iframe>
