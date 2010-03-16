@@ -42,10 +42,16 @@ While formal policies are being considered many reagents and much information ar
 <!--
 src="http://intermine.modencode.org/query/service/template/results?name=antibody&constraint1=Antibody.name&op1=eq&value1=*&size=10&layout=minelink|paging&format=html"
 -->
+<!--  ERROR (see ticket 2201) 
+<h4>Antibodies uu</h4>
+<iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+src="http://intermine.modencode.org/query/service/template/results?name=antibody&constraint1=Antibody.name&op1=eq&value1=*&size=10&layout=minelink|paging&format=html"
+></iframe>
+-->
 
 <h4>Antibodies</h4>
 <iframe width="700" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-src="http://intermine.modencode.org/release-14/service/template/results?name=antibody2&constraint1=Antibody.name&op1=eq&value1=*&size=8&layout=paging|description|mineresults&format=html"
+src="http://intermine.modencode.org/query/service/template/results?name=antibody2&constraint1=Antibody.name&op1=eq&value1=*&size=8&layout=paging|description|mineresults&format=html"
 ></iframe>
 
 <h4>Cell Lines</h4>
