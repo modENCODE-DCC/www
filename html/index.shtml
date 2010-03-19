@@ -65,12 +65,20 @@ desk</a>.
 <!--
  http://www.ncbi.nlm.nih.gov/sites/entrez/19536255
 -->
-<p style="font-weight: bold;">NOTICE (11/10/2009): <a href="http://blog.modencode.org/?p=368">Job opportunity (Scientific Managers)</a> with the Data Analysis Center.</p>
-
+<table bgcolor=#eeeeee ><tr><th>
+Do you use the ENCODE or modENCODE data, or think you might want to?
+If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCODE/modENCODE Usability Survey</a>.
+</th></table>
+<!--
 <hr>
-   Do you use the ENCODE or modENCODE data, or think you might want to? If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCODE/modENCODE Usability Survey</a>.
+<b>   Do you use the ENCODE or modENCODE data, or think you might want to?
+<br>If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCODE/modENCODE Usability Survey</a>.
+</b>
+<hr>
+-->
+<p style="font-weight: bold;">NOTICE (deadline: 2 April 2010) <a href="http://www.intermine.org/wiki/NowHiring">Job opportunities (Software Developers)</a> with modMine.</p>
 
-
+<p style="font-weight: bold;">NOTICE (11/10/2009): <a href="http://blog.modencode.org/?p=368">Job opportunity (Scientific Managers)</a> with the Data Analysis Center.</p>
 <hr>
 <div>
 <table width="100%" cellspacing=10>
