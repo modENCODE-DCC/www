@@ -83,10 +83,15 @@ If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCO
 <div>
 <table width="100%" cellspacing=10>
 <tr><td width="10%" align="right">
+<a href="http://intermine.modencode.org/query/">
+<img src="/img/modmine_vs.png" alt="query!!"/></a>
+<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Mine modENCODE data</a>
+
+<!--
 <a href="http://submit.modencode.org/submit" target="_blank">
 <img src="/img/submit_vs.png" alt="Submit Data" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit" target="_blank">Submit data</a>
-
+-->
 
 
 <td width="50%" rowspan=5 align="center" valign="top">
@@ -94,6 +99,19 @@ If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCO
 <script type="text/javascript" src="http://output92.rssinclude.com/output?type=js&id=26991&hash=212f97fee05f00fd35e811d2d8e09aed"></script>
 
 </tr>
+
+<tr><td align="right">
+<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">
+<img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse fly genome</a>
+<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank">- preview unreleased submissions</a></font>
+
+
+<tr><td align="right">
+<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
+<img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
+<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
+<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> - preview unreleased submissions</a></font>
 
 <tr><td align="right">
 <a href="http://submit.modencode.org/submit/public/list" target="_blank">
@@ -105,21 +123,11 @@ If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCO
 <br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">(or use legacy FTP site)</a></font>
 
 <tr><td align="right">
-<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
-<img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
-<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
-<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> - preview unreleased submissions</a></font>
+<a href="http://submit.modencode.org/submit" target="_blank">
+<img src="/img/submit_vs.png" alt="Submit Data" border=3 /></a>
+<td bgcolor=#eeeeee><b><a href="http://submit.modencode.org/submit" target="_blank">Submit data</a>
 
-<tr><td align="right">
-<a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">
-<img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
-<td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse fly genome</a>
-<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank">- preview unreleased submissions</a></font>
 
-<tr><td align="right">
-<a href="http://intermine.modencode.org/query/">
-<img src="/img/modmine_vs.png" alt="query!!"/></a>
-<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Mine modENCODE data</a>
 </tr>
 
 </table>
