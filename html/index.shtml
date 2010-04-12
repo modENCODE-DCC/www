@@ -22,8 +22,14 @@
 <td align=left>
 
 <!--#include virtual="/banner.html" -->
-
 <div id="main">
+
+<table bgcolor="#C8F526" ><tr><th>
+Do you use the ENCODE or modENCODE data, or think you might want to?
+If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCODE/modENCODE Usability Survey</a>.
+</th></table>
+<p>
+
 The <a href="http://www.genome.gov">National Human Genome Research Institute</a> (NHGRI) model organism
 ENCyclopedia Of DNA Elements (modENCODE)
 Project will try to identify all of
@@ -63,10 +69,6 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 please contact us at our <a href="mailto:help@modencode.org"> help
 desk</a>.
 
-<table bgcolor="#C8F526" ><tr><th>
-Do you use the ENCODE or modENCODE data, or think you might want to?
-If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCODE/modENCODE Usability Survey</a>.
-</th></table>
 <!--
 <hr>
 <b>   Do you use the ENCODE or modENCODE data, or think you might want to?
@@ -79,13 +81,14 @@ If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCO
 <p style="font-weight: bold;">NOTICE (11/10/2009): <a href="http://blog.modencode.org/?p=368">Job opportunity (Scientific Managers)</a> with the Data Analysis Center.</p>
 
 -->
-<hr>
+<!--  #include virtual="/modbanner.html" -->
+
 <div>
 <table width="100%" cellspacing=10>
 <tr><td width="10%" align="right">
 <a href="http://intermine.modencode.org/query/">
 <img src="/img/modmine_vs.png" alt="query!!"/></a>
-<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Mine modENCODE data</a>
+<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Search modENCODE data</a>
 
 <!--
 <a href="http://submit.modencode.org/submit" target="_blank">
@@ -114,13 +117,17 @@ If so, please take the <a href="http://www.surveymonkey.com/s/XV666V5">2010 ENCO
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> - preview unreleased submissions</a></font>
 
 <tr><td align="right">
-<a href="http://submit.modencode.org/submit/public/list" target="_blank">
+<a href="http://intermine.modencode.org/query/experiment.do" target="_blank">
 <img src="/img/modftp_vs.png" alt="modENCODE ftp" border=3 /></a>
 <td width=30% bgcolor=#eeeeee><b>
+<!--
 <a href="http://submit.modencode.org/submit/public/list" target="_blank">Download data</a>
  |
 <a href="http://submit.modencode.org/submit/bulk_download" target="_blank">Data freezes</a>
-<br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">(or use legacy FTP site)</a></font>
+<br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">Download unvetted data from legacy FTP site)</a></font>
+http://submit.modencode.org/submit/public/list ???
+-->
+<a href="http://intermine.modencode.org/query/experiment.do" target="_blank">Download data</a>
 
 <tr><td align="right">
 <a href="http://submit.modencode.org/submit" target="_blank">
