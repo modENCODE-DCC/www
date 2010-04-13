@@ -81,7 +81,9 @@ desk</a>.
 <p style="font-weight: bold;">NOTICE (11/10/2009): <a href="http://blog.modencode.org/?p=368">Job opportunity (Scientific Managers)</a> with the Data Analysis Center.</p>
 
 -->
-<!--  #include virtual="/modbanner.html" -->
+<!-- #include virtual="/modbanner.html" -->
+
+<!-- #include virtual="/banner.html" -->
 
 <div>
 <table width="100%" cellspacing=10>
@@ -107,14 +109,14 @@ desk</a>.
 <a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">
 <img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse fly genome</a>
-<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank">- preview unreleased submissions</a></font>
+<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank"> or preview unreleased submissions</a></font>
 
 
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
-<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> - preview unreleased submissions</a></font>
+<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> or preview unreleased submissions</a></font>
 
 <tr><td align="right">
 <a href="http://intermine.modencode.org/query/experiment.do" target="_blank">
