@@ -69,6 +69,7 @@ This site is maintained by the <a href="/Contact.shtml">modENCODE Data Coordinat
 please contact us at our <a href="mailto:help@modencode.org"> help
 desk</a>.
 
+
 <!--
 <hr>
 <b>   Do you use the ENCODE or modENCODE data, or think you might want to?
@@ -81,16 +82,13 @@ desk</a>.
 <p style="font-weight: bold;">NOTICE (11/10/2009): <a href="http://blog.modencode.org/?p=368">Job opportunity (Scientific Managers)</a> with the Data Analysis Center.</p>
 
 -->
-<!-- #include virtual="/modbanner.html" -->
-
-<!-- #include virtual="/banner.html" -->
 
 <div>
 <table width="100%" cellspacing=10>
 <tr><td width="10%" align="right">
 <a href="http://intermine.modencode.org/query/">
 <img src="/img/modmine_vs.png" alt="query!!"/></a>
-<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">Search modENCODE data</a>
+<td bgcolor=#eeeeee><b><a href="http://intermine.modencode.org/query/">modMine:<br> search modENCODE data</a>
 
 <!--
 <a href="http://submit.modencode.org/submit" target="_blank">

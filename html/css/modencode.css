@@ -119,3 +119,61 @@ a img {
  border:none;
  color:#f18620;
 }
+
+/* for banner */
+
+.myTable {
+  display: table;
+  background-color: #5f5050;
+  border: 0;
+}
+.myTable a {
+  display: table-row;
+  vertical-align: middle;
+  /*background-color: #ad8d8c;*/
+}
+
+.myTable a span {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #5f5050;
+}
+
+.myTable a due {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #f18620;
+}
+
+.myTable a tre {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #ad8d8c;
+}
+
+/* NOT USED */
+
+#container {
+    display: table;
+    }
+
+  #row  {
+    display: table-row;
+    }
+
+  #left {
+    display: table-cell;
+  vertical-align: middle;
+  background-color: #5f5050;
+    }
+
+  #middle {
+    display: table-cell;
+  vertical-align: middle;
+  background-color: #f18620;
+    }
+  #right {
+    display: table-cell;
+  vertical-align: middle;
+  background-color: #ad8d8c;
+    }
