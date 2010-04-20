@@ -117,7 +117,8 @@ desk</a>.
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> or preview unreleased submissions</a></font>
 
 <tr><td align="right">
-<a href="http://intermine.modencode.org/query/experiment.do" target="_blank">
+<a href="http://intermine.modencode.org/query/begin.do#1" target="_blank">
+<!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank"> -->
 <img src="/img/getdata_vs.png" alt="modENCODE downloads" border=3 /></a>
 <td width=30% bgcolor=#eeeeee><b>
 <!--
@@ -128,6 +129,7 @@ desk</a>.
 http://submit.modencode.org/submit/public/list ???
 -->
 <a href="http://intermine.modencode.org/query/begin.do#1" target="_blank">Download data</a>
+<!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank">Download data</a> -->
 
 <tr><td align="right">
 <a href="http://submit.modencode.org/submit" target="_blank">
