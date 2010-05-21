@@ -1,0 +1,104 @@
+<html>
+<body>
+
+
+<h3>Score tables:</h3>
+
+<a href="./Drosophila_Cell_Lines_and_Developmental_Stages_Exon_Scores.txt">
+Drosophila_Cell_Lines_and_Developmental_Stages_Exon_Scores.txt</a>
+<br>
+<a href="./Drosophila_Cell_Lines_and_Developmental_Stages_Gene_Scores.txt">
+Drosophila_Cell_Lines_and_Developmental_Stages_Gene_Scores.txt
+</a>
+
+<p>
+These two tables provide estimated expression levels for annotated genes 
+and exons, using signals from Affymetrix Drosophila tiling arrays. The arrays 
+were hybridized with total RNAs extracted from 25 cell lines and 30 
+developmental stages. 
+<p>
+The data represent the work of the fly transcriptome modENCODE project 
+(Celniker, PI) and are publicly available from modENCODE; the calculations and 
+compilations were done by the Bloomington sub-group.
+<p>
+IMPORTANT: Hybridization efficiencies vary significantly from probe to probe 
+and exon to exon. Consequently, the data in these tables are useful for 
+comparing a single gene or exon in multiple RNA samples (i.e. you may compare 
+scores within a row).  But they are NOT useful for comparing different genes or
+ exons from a single RNA sample (i.e. do NOT try to compare scores within a 
+column). 
+<p>
+The gene scores table provides expression scores for all genes listed in the 
+FlyBase version 5.12 annotation.  The exons scores table provides scores for all
+exons annotated in either FlyBase (v5.12) or in the unpublished annotation MB6 
+from the WUSL sub-group led by Michael Brent. 
+<p>
+The primary data were Affymetrix signal graph files. Each signal graph 
+incorporates data from three (biologically independent) replicate arrays. 
+<p>
+<h4>Exon Score: </h4>
+For each exon, all probes contained within the annotated coordinates were 
+scored as follows:
+<ol>
+<li> A preliminary score is the median intensity for all probes completely
+contained within the exon.
+<li> Scores less than zero were converted to zero. (Negative scores occur in the
+signal graph files as a consequence of background correction.)
+<li> All scores from a single sample (i.e. cell line or developmental stage) were
+normalized by median-centering to a value of 100. That is, we divided each score
+in a sample by the grand median of all scores in that sample, and multiplied by 
+100, thereby setting the median of each sample to 100.
+</ol>
+<p>
+Column Headers in the Exon table:
+<ol>
+<li> chromosome: chromosome arm containing the exon/gene
+<li> sSite: exon start site
+<li> eSite: exon end site
+<li> sourceCat: source for exon annotation. MB:exon from MB6 only; FB:exon from
+Flybase only; FM:exon is identical and found in both sources.
+<li> Annotation ID: Identifies the parent gene of the exon. Here, the Flybase
+name is used if the exon is found in both sources.  MB6-specific gene models 
+have no common public name and so are not included.
+<li> Symbol: gene symbols from Flybase
+<li> FBgn: gene number identifier from Flybase
+<li> and higher: sample columns
+</ol>
+<p>
+<h4>Gene scores:</h4>
+Each gene was assigned a score equal to the maximum exon score for all the exons
+associated with the gene in the annotation. That is, we made no effort to 
+derive distinct scores for known isoforms. [Note: Some exons are annotated as 
+components of more than one genes. Such exons are represented in more than one 
+row, with different values for geneID, geneName and FBgn.]
+<p>
+The table will be useful for determining whether one or more of a gene isoform 
+is active in a particular cell line or at a particular stage. We recommend that 
+users follow-up on genes of interest to them by consulting the signal graph 
+files.
+<p>
+Column Headers in the Gene table:
+<ol>
+<li> Gene_FBgn: gene number identifier from Flybase
+<li> ANNOTATION_SYMBOL, from Flybase
+<li> NAME: gene name, from Flybase
+<li> SYMBOL: gene symbol,  from Flybase
+<li> Chromosome: chromosome arm containing the exon/gene
+<li> and higher: sample columns.
+</ol>
+<p>
+Biological samples:
+*  Cell line nomenclature is from the Drosophila Genomics Resource Center 
+(<a href="http://dgrc.cgb.indiana.edu">http://dgrc.cgb.indiana.edu</a>).
+<p>
+*  Embryonic stages were collected in windows (e.g. 2-4 h) timed from 
+oviposition. Early larval stages were collected by instar (L1 or L2). The final 
+larval instar (L3)was divided into 4 stages. L3 12 hr is early in the instar, 
+estimated to be 12 hr after the L2-L3 molt. Later portions of the L3 period 
+were identified by growing the animals on food containing methylene blue, and 
+designating the animals as "dark blue gut" (feeding larvae), "pale blue gut" 
+(animals that have recently ceased feeding), and "clear gut" (close to 
+pupariation). Puparia and pupae were timed from the white prepupal stage (WPP). 
+Adults were divided by sex (M or F) and days after adult eclosion.
+</body>
+</html>
