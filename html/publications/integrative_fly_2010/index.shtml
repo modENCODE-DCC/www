@@ -4,7 +4,7 @@
 
 <head>
  <link rel="stylesheet" href="/css/modencode.css">
- <title>The modENCODE Project</title>
+ <title>Integrative Worm Paper Companion Page</title>
  <script type="text/javascript" src="/js/yahoo-dom-event.js"></script>
  <script type="text/javascript" src="/js/balloon.js"></script>
  <script type="text/javascript" src="/js/modencode.js"> </script>
@@ -23,6 +23,14 @@
     <td align="left">
       <!--#include virtual="/banner.html" -->
       <div id="main">
+
+<h3>Companion Page for modENCODE Integrative Fly Paper</h3>
+
+<h4>Figures</h4>
+
+<h4>Supplementary Figures</h4>
+
+<h4>Supplementary Files</h4>
   
       </div>
     </td>
