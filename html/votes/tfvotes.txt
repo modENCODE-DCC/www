@@ -1,0 +1,7 @@
+Gary Struhl	gs20 at columbia.edu	Myc			?					6	165.68.219.53,24.30.92.87,152.15.90.71,98.24.94.29,152.15.99.111,86.51.114.210	
+Julie Goodliffe	jmgoodli at uncc.edu	Myc/dm	FBgn0000472		?					7	152.15.90.71,98.24.94.29,152.15.90.152,152.15.99.111,71.23.79.242,152.15.99.125,71.71.223.81	
+Marco Milan	marco.milan at irbbarcelona.org	Myc			?					2	88.26.12.148,99.34.28.67	
+Bryan Fonslow	fonslow at scripps.edu	hlh-30	WBGene00020930		?					2	137.131.4.240,99.34.28.67	
+Bryan Fonslow	fonslow at scripps.edu	lin-26	WBGene00003012		?					1	137.131.4.240	
+Bryan Fonslow	fonslow at scripps.edu	daf-16	WBGene00000912		?					1	137.131.4.240	
+Bryan Fonslow	fonslow at scripps.edu	jun-1	WBGene00012005		?					1	67.69.10.146	

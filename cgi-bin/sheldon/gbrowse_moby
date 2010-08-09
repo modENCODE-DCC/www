@@ -4,18 +4,19 @@
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
-$HTML_DIR  = '/FRONT-END/www/html';
-use lib "/FRONT-END/www/conf/gbrowse.conf";
+$CONF_DIR  = '/FRONT-END/www/conf/sheldon/gbrowse.conf';
+$HTML_DIR  = '/FRONT-END/www/html/sheldon';
+use lib "/FRONT-END/www/conf/sheldon/gbrowse.conf";
 #
 ###################################################################
-$VERSION   = 1.70;
+$VERSION   = 1.69;
 
+use lib '/FRONT-END/sheldon';
 
 
 
 #=======================================================================
-#$Id: gbrowse_moby.PLS,v 1.39.6.1.2.1 2008/09/12 14:32:34 scottcain Exp $
+#$Id: gbrowse_moby.PLS,v 1.39.6.1 2006/11/02 18:13:41 scottcain Exp $
 ###########################################################
 use SOAP::Lite;
 use MOBY::Client::Central;

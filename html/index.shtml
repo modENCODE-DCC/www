@@ -15,7 +15,7 @@
 
 <table width="100%">
 <tr valign=top>
-<td>
+<td width="160px">
 
 <!--#include virtual="/menu.html" -->
 
@@ -103,15 +103,17 @@ desk</a>.
 <a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">
 <img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse fly genome</a>
+<!--
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank"> or preview unreleased submissions</a></font>
-
+-->
 
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
 <img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
+<!--
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> or preview unreleased submissions</a></font>
-
+-->
 <tr><td align="right">
 <a href="http://intermine.modencode.org/query/begin.do#1" target="_blank">
 <!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank"> -->

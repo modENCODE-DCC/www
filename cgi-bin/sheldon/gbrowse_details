@@ -4,12 +4,13 @@
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
+$CONF_DIR  = '/FRONT-END/www/conf/sheldon/gbrowse.conf';
 #
 ###################################################################
-$VERSION   = 1.70;
+$VERSION   = 1.69;
 
-# $Id: gbrowse_details.PLS,v 1.28.4.2.2.12.2.13 2009/03/08 15:15:34 sheldon_mckay Exp $
+use lib '/FRONT-END/sheldon';
+# $Id: gbrowse_details.PLS,v 1.28.4.2.2.12.2.4 2008/01/15 22:57:45 scottcain Exp $
 
 use strict;
 use CGI qw(:standard *table *TR escape);
@@ -18,9 +19,7 @@ use Bio::Graphics::Browser;
 use Bio::Graphics::Browser::Markup;
 use Bio::Graphics::Browser::Util;
 use Bio::Graphics::Browser::Realign 'align';
-use Bio::Graphics::Glyph::generic;
-use vars qw($CONFIG $VERSION $CONF_DIR $LANG 
-            @COLORS $INDEX %strands %COLORS %URLS %formatterCache);
+use vars qw($CONFIG $VERSION $CONF_DIR $LANG @COLORS $INDEX %strands %COLORS %URLS %formatterCache);
 
 use constant DEBUG=>0;
 
@@ -35,8 +34,8 @@ $INDEX  = 0;
 %URLS   = ();
 %formatterCache = ();
 
-my $src   = param('src')  || param('source');
-my $name  = param('name') || '';
+my $src   = param('src') || param('source');
+my $name  = param('name');
 my $class = param('class');
 my $ref   = param('ref');
 my $start = param('start');
@@ -52,49 +51,23 @@ $CONFIG->source(get_source());
 # This populates the %URLS global with link rules from the config file.
 getLinkURLs(\%URLS);
 
-my $head_name = !$class || $class eq 'Sequence' ? $name : "$class:$name";  # gff3 compatibility
-
-unless (defined $name or defined $f_id or defined $start) {
-    print header,
-    start_html('gbrowse_details error'),
-    p({-class=>'error'},
-      'This script must be called with one or more of the parameters name, feature_id or db_id.');
-    end_html;
-    exit 0;
-}
+my $head_name = $class eq 'Sequence' ? $name : "$class:$name";  # gff3 compatibility
 
 my $db = open_database();
 
 my @features;
 if ($f_id) {
   @features = $CONFIG->_feature_get($db,$name,$class,$start,$end,1,0,$f_id);
-
-  # HACK! This is for the BioSQL adaptor, whose sequences aren't automatically
-  # attached to feature objects when they are retrieved from the database
-  if ($db->isa('Bio::DB::Das::BioSQL')) {
-      for my $f (@features) {
-	  my $ref   = $f->seq_id || param('ref');
-	  # Need to fetch out the ENTIRE bioentry (chromosome) in order to attach it to feature.
-	  # This is horribly inefficient for performance and storage.
-	  my @args = (-name=>$ref);  
-	  my ($segment) = $db->segment(@args);
-	  $f->attach_seq($segment->seq);
-      }
-  }
 }
 else {
-  @features = sort {$b->length<=>$a->length} 
-               $CONFIG->_feature_get($db,$name,$class);
-  @features = sort {$b->length<=>$a->length} 
-               $CONFIG->_feature_get($db,$ref,$class,$start,$end,1)
-       unless @features;
+  @features = sort {$b->length<=>$a->length} $CONFIG->_feature_get($db,$name,$class);
+  @features    = sort {$b->length<=>$a->length} $CONFIG->_feature_get($db,$ref,$class,$start,$end,1)
+    unless @features;
 }
 
 warn "features = @features" if DEBUG;
 
 warn "segments = ",join ' ',$features[0]->segments if (DEBUG && @features);
-
-$head_name ||= join ' ',map {$_->display_name} @features;
 
 # provide customized content for popup balloons
 if (defined $rmt) {
@@ -103,8 +76,6 @@ if (defined $rmt) {
   print end_html;
   exit 0;
 }
-
-print_header(-charset=>$CONFIG->tr('CHARSET'));
 
 print_top("GBrowse Details: $head_name");
 print $CONFIG->header || h1("$head_name Details");
@@ -137,7 +108,6 @@ sub print_features {
       $string .= PrintMultiple($f,$options,'Class',$f->class) unless $f->class eq 'Sequence';
     }
     $string .= PrintMultiple($f,$options,'Type',$f->primary_tag);
-    $string .= PrintMultiple($f,$options,'Description',Bio::Graphics::Glyph::generic->get_description($f));
     $string .= PrintMultiple($f,$options,'Source',$f->source_tag) if $f->source_tag;
     $string .= PrintMultiple($f,$options,"Position",$f);
     $string .= PrintMultiple($f,$options,"Length",$f->length);
@@ -329,12 +299,8 @@ sub PrintMultiple {
       $LINK = "$obj : (<a href='$LINK'>Aligned Sequence</a>)";
     }
 
-    # wrap way long lines. Note : adding '" prevent this regexp from wrapping html tags
-    $obj = join "", 
-           map{ s/([^\s\'\"\/;&]{60})/$1 /g 
-		    unless /\</; $_ 
-	   } split /(<[^>]*>)/,$obj;
-    
+    $obj =~ s/([^<>\s\'\"\/;&]{60})/$1 /g;  # wrap way long lines. Note : ading '" prevent this regexp from wrapping html tags
+
     if ($isFirst) {
       $isFirst =0 ;
       $string .= join '',TR({-valign=>'top',-class=>'databody'},
@@ -358,7 +324,7 @@ sub position {
   my $simple = shift;
   my $bug    = shift; # for (-) (-) alignments
 
-  my $ref   = $f->abs_ref;
+  my $ref = $f->abs_ref;
   my $start = $f->abs_start;
   my $end   = $f->abs_end;
   if ($simple) {
@@ -440,8 +406,8 @@ sub getFormatter {
  SEARCH:
   for my $base ("$method:$source",$method,'default') {
     for my $option ($tag,'default') {
-      $s ||= $config->setting("$base:details" => lc $option);
-      $s ||= $config->setting("$base:DETAILS" => lc $option);
+      $s ||= $config->code_setting("$base:details" => lc $option);
+      $s ||= $config->code_setting("$base:DETAILS" => lc $option);
       last SEARCH if defined $s;
     }
   }
@@ -486,7 +452,7 @@ sub format_name {
 sub remote_content {
   my $key = shift; # the key for the text or code-ref in the gbrowse config file
   my $feat = shift;
-  my $contents = $CONFIG->config->setting('TOOLTIPS',$key) or die "$key is empty";
+  my $contents = $CONFIG->config->code_setting('TOOLTIPS',$key) or die "$key is empty";
   my $coderef = (ref $contents||'') eq 'CODE';
   return $contents unless $coderef;
 

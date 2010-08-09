@@ -4,15 +4,15 @@
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
+$CONF_DIR  = '/FRONT-END/www/conf/sheldon/gbrowse.conf';
 #
 ###################################################################
-$VERSION   = 1.70;
+$VERSION   = 1.69;
 
-# $Id: gbrowse_img.PLS,v 1.27.4.8.2.10.2.13 2008/12/12 20:57:22 scottcain Exp $
+use lib '/FRONT-END/sheldon';
+# $Id: gbrowse_img.PLS,v 1.27.4.8.2.10.2.5 2008/01/11 16:41:39 scottcain Exp $
 
 use strict;
-use File::Spec;
 use CGI qw(param redirect header start_html end_html
 	   p h1 path_info escape img);
 use Bio::DB::GFF;
@@ -23,10 +23,11 @@ use Bio::Graphics::Browser::PluginSet;
 use Bio::Graphics::Browser::UploadSet;
 use Bio::Graphics::Browser::RemoteSet;
 use Bio::Graphics::Browser::PageSettings;
+use Text::Shellwords;
 use Digest::MD5 'md5_hex';
 use Fcntl qw(:flock);
 
-use vars qw($CONFIG $VERSION $CONF_DIR $PLUGINS $UPLOADS $REMOTES $INKSCAPE);
+use vars qw($CONFIG $VERSION $CONF_DIR $PLUGINS $UPLOADS $REMOTES);
 use constant MAX_SEGMENT     => 1_000_000;
 use constant TOO_MANY_SEGMENTS => 500;
 use constant PANEL_GAP         => 3;
@@ -79,10 +80,8 @@ if (param('list')) {
 }
 
 # get all parameters
-my @landmarks       = (param('name'),   param('q'));                 # list of landmarks to display
-my @track_types     = map { s/%%/-/g; $_  }   # unescape %% as "-", damage done in gbrowse link generator
-                      map { split /[+-]/ } 
-                          (param('type'),   param('t'), param('label')); # track types to turn on
+my @landmarks       = (param('name'),   param('q'));        # list of landmarks to display
+my @track_types     = (param('type'),   param('t'));        # track types to turn on
 my @add_features    = (param('add'),    param('a'));        # overlay features
 my @add_style       = (param('style'),  param('s'));        # overlay features style
 my @options         = (param('options'),param('o'));        # various track options, such as bumping
@@ -91,7 +90,6 @@ my $width           = param('width')||param('w');           # width of the image
 my $abs             = param('abs');                         # absolute rather than relative coordinates - BROKEN 28 Aug 07 LS
 $abs                = param('b') unless defined $abs;
 my $image_class     = param('image_class') || param('format') || 'GD';        # image type
-my $convert_to_pdf  = param('pdf');
 my $keystyle        = param('keystyle')    || param('k') || 'between';
 my $grid            = param('grid');
 my $noscale         = param('noscale');
@@ -105,12 +103,6 @@ my @h_feat          = param('h_feat');
 $grid = 1 unless defined $grid;  # default for backward compatibility
 $abs = 1  unless defined $abs;
 
-# is inkscape installed?
-if ($convert_to_pdf) {
-    chomp($INKSCAPE = `which inkscape 2>/dev/null`);
-    undef $convert_to_pdf unless $INKSCAPE; 
-}
-
 my $db              = open_database($CONFIG);
 
 # Get the ID of the requested segment and error out if none provided
@@ -119,7 +111,7 @@ my $db              = open_database($CONFIG);
 my @segments = segments($CONFIG,$abs,\@landmarks);
 
 # set the image width
-$CONFIG->width($width) if $width && $width =~ /^\d+$/;
+$CONFIG->width($width) if $width;
 
 # get options and visibility hash
 my ($options,$labels,$visible) = get_options(\@options,\@track_types);
@@ -259,13 +251,6 @@ if ($image_class =~ /SVG/) {
   }
 }
 
-if ($convert_to_pdf && $INKSCAPE) {
-    $ENV{HOME} = File::Spec->tmpdir;
-    system "$INKSCAPE -z --export-pdf=$panel->{file}.pdf $panel->{file} 2>/dev/null";
-    unlink $panel->{file};
-    $panel->{file} = "$panel->{file}.pdf";
-}
-
 if ($embed) {
   my $html            = $CONFIG->render_composite_track(
 							{section    => $section},
@@ -281,10 +266,9 @@ if ($embed) {
 
 else {
   my $type =  $panel->{file} =~ /\.png/ ? 'image/png'
-    : $panel->{file} =~ /\.gif$/ ? 'image/gif'
-    : $panel->{file} =~ /\.jpg$/ ? 'image/jpeg'
-    : $panel->{file} =~ /\.svg$/ ? 'image/svg+xml'
-    : $panel->{file} =~ /\.pdf$/ ? 'application/pdf'
+    : $panel->{file} =~ /\.gif/ ? 'image/gif'
+    : $panel->{file} =~ /\.jpg/ ? 'image/jpeg'
+    : $panel->{file} =~ /\.svg/ ? 'image/svg+xml'
     : 'binary/octet-stream';
   print header($type);
   open F,$panel->{file} or die "$panel->{file}: $!";
@@ -358,9 +342,9 @@ sub get_segments {
 sub external_features {
   my ($segment,$feature_file_list) = @_;
   my $rel2abs = coordinate_mapper($segment);
-  #  $DAS_SOURCES->annotate($segment,$feature_file,$rel2abs,$rel2abs,MAX_SEGMENT);
+  #  $DAS_SOURCES->annotate($segment,$feature_file,$rel2abs);
   for my $featureset ($PLUGINS,$UPLOADS,$REMOTES) {
-    $featureset->annotate($segment,$feature_file_list,$rel2abs,$rel2abs,MAX_SEGMENT);
+    $featureset->annotate($segment,$feature_file_list,$rel2abs);
   }
 }
 
@@ -405,7 +389,7 @@ sub add_features {
 
   foreach (@styles) {
     my ($type,@options) = shellwords($_);
-    my %options = map {split '='} @options;
+    my %options = map {split /=/} @options;
     $feature_list->add_type($type=>\%options);
   }
   $feature_list->setting('general'=>'section',$section);
@@ -799,7 +783,7 @@ lengths.
       image showing the position of each landmark.  The alias "q" can be used to
       shorten the length of the URL.
       <p>
-  <dt><b>type</b> (Aliases: <b>t</b>, <b>label</b>)
+  <dt><b>type</b> (Alias: <b>t</b>)
   <dd>This argument lists the feature types to display.  The value of this argument is
       a list of track names separated by spaces ("+" characters when URL-escaped).  For example:
       <p>

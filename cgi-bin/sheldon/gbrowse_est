@@ -4,13 +4,14 @@
 # Non-modperl users should change this variable if needed to point
 # to the directory in which the configuration files are stored.
 #
-$CONF_DIR  = '/FRONT-END/www/conf/gbrowse.conf';
+$CONF_DIR  = '/FRONT-END/www/conf/sheldon/gbrowse.conf';
 #
 ###################################################################
-$VERSION   = 1.70;
+$VERSION   = 1.69;
 
+use lib '/FRONT-END/sheldon';
 
-# $Id: gbrowse_est.PLS,v 1.6.12.1 2008/09/12 14:32:34 scottcain Exp $
+# $Id: gbrowse_est.PLS,v 1.6 2004/08/09 14:46:18 sheldon_mckay Exp $
 
 =head1 NAME
 
