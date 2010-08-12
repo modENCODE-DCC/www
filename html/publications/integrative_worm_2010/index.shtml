@@ -4,7 +4,7 @@
 
 <head>
  <link rel="stylesheet" href="/css/modencode.css">
- <title>modENCODE Integrative Fly Paper Companion Page</title>
+ <title>modENCODE Integrative Worm Paper Companion Page</title>
  <script type="text/javascript" src="/js/yahoo-dom-event.js"></script>
  <script type="text/javascript" src="/js/balloon.js"></script>
  <script type="text/javascript" src="/js/modencode.js"> </script>
@@ -24,14 +24,141 @@
       <!--#include virtual="/banner.html" -->
       <div id="main">
 
-<h3>Companion Page for modENCODE Integrative Fly Paper</h3>
+<h3>Companion Page for modENCODE Integrative Worm Paper</h3>
 
 <h4>Figures</h4>
 
 <h4>Supplementary Figures</h4>
 
+<h4>Supplementary Tables</h4>
+
+<h5>Supplement Table 1</h5>
+Title: C. elegans genes not identified as transcribed in 19 polyA RNA-seq samples
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 2</h5>
+Title: Develpmental stages and tissue samples of small RNA-seq and tiling array experiments.
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 3</h5>
+Title: Summary of cell and stage specific tiling array results
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 4</h5>
+Title: Different types of known ncRNAs in the gold standard set
+<br/>
+Source Data: The miRNAs are collected from miRBase 14, and other ncRNAs are collected from WormBase 200. 
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 5</h5>
+Title: Annotated regions used for the training of machine learning methods,  tiling array TARs
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 6</h5>
+Title: Performance of our integrated method on tiling array TARsa with three different ways to define element classes in the gold-standard set
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 7</h5>
+Title: Annotated and novel tiling array TARs going into set-21521 of ncRNAs 
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 8</h5>
+Title: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq, and numbers of targeted coding and non-coding genes. 
+<br/>
+Source Data: 1,061 annotated ncRNAs were collected from Wormbase 200 and miRBase 14.
+<br/>
+
+Modmine Links:
+<br/>
+<h5>Supplement Table 9</h5>
+Title: GO analysis of genes targeted by HOT regions
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 10</h5>
+Title: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+<h5>Supplement Table 11</h5>
+Title: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.
+<br/>
+Source Data:
+<br/>
+Modmine Links:
+<br/>
+
 <h4>Supplementary Files</h4>
 
+
+<h5>Supplement File 1</h5>
+<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
+
+<h5>Supplement File 2</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
+
+<h5>Supplement File 3 Coordinate for HOT regions</h5>
+NEED FILE
+
+<h5>Supplement File 4</h5>
+<a href="http://wiki.modencode.org/project/uploads/5/57/Predicted_ncRNA_7K.gff">Predicted ncRNAs, 7K set</a>
+
+<h5>Supplement File 5</h5>
+
+<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.possible_problem_CDS.fof.tgz">List of transcripts ignored</a>
+
+<h5>Supplement File 6</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:Utr_ids.txt">List of non-redundant 3'UTRs used for predictions</a>
+
+<h5>Supplement File 7</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_ele_bri_rem.ucsc.csv.zip">PicTar predictions for 3-way species alignments</a>
+
+<h5>Supplement File 8</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:PicTar_summary.txt">Summary stats for 3-way conservation</a>
+
+<h5>Supplement File 9</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_ele_bri_rem_bre_jap.ucsc.csv.zip">PicTar predictions for 5-way species alignments</a>
+
+<h5>Supplement File 10</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:PicTar_summary_5species.txt">Summary stats for 5-way conservation</a>
+
+<h5>Supplement File 11</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:PicTar_table_key.txt">README for PicTar output</a>
+
+<h5>Supplement File 12</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:Worm_array_gene_expr.txt">Gene expression levels from tiling arrays</a>
+
+<h5>Supplement File 13</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:C_elegans.Aggregate_1003.nrexon.v1.ws190.tar.gz">Set of exons</a>
+
+<h5>Supplement File 14</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz">Set of aggregate transcripts</a>
+
+<h5>Supplement File 15</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.possible_problem_CDS.fof.tar.gz">Subset of aggregate transcripts to avoid for CDS analysis</a>
   
       </div>
     </td>
