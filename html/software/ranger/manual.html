@@ -1,0 +1,647 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+><head
+  ><title
+    >PeakRanger Manual</title
+    ><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"
+     /><meta name="generator" content="pandoc"
+     /><style type="text/css"
+    >
+ol.decimal { list-style-type: decimal; }
+</style
+    ><link rel="stylesheet" href="style_manual.css" type="text/css" media="all" />
+</head
+  ><body
+  ><h1>Table of Contents</h1>
+<div id="toc"
+    ><ul
+      ><li
+	><a href="#introduction" id="TOC-introduction"
+	  >Introduction</a
+	  ></li
+	><li
+	><a href="#obtaining-peakranger" id="TOC-obtaining-peakranger"
+	  >Obtaining PeakRanger</a
+	  ><ul
+	  ><li
+	    ><a href="#hardware-requirement" id="TOC-hardware-requirement"
+	      >Hardware requirement</a
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#using-peakranger" id="TOC-using-peakranger"
+	  >Using PeakRanger</a
+	  ><ul
+	  ><li
+	    ><a href="#example1-basic-usage" id="TOC-example1-basic-usage"
+	      >Example1: basic usage</a
+	      ></li
+	    ><li
+	    ><a href="#example2-specifiy-fdr-value" id="TOC-example2-specifiy-fdr-value"
+	      >Example2: specifiy FDR value</a
+	      ></li
+	    ><li
+	    ><a href="#example3-specify-running-modes" id="TOC-example3-specify-running-modes"
+	      >Example3: specify running modes</a
+	      ></li
+	    ><li
+	    ><a href="#commandline-options" id="TOC-commandline-options"
+	      >Commandline options</a
+	      ><ul
+	      ><li
+		><a href="#input" id="TOC-input"
+		  >Input</a
+		  ></li
+		><li
+		><a href="#qualities" id="TOC-qualities"
+		  >Qualities</a
+		  ></li
+		><li
+		><a href="#running-modes" id="TOC-running-modes"
+		  >Running modes</a
+		  ></li
+		><li
+		><a href="#output" id="TOC-output"
+		  >Output:</a
+		  ></li
+		><li
+		><a href="#configuration-file" id="TOC-configuration-file"
+		  >Configuration file</a
+		  ></li
+		></ul
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#output-files" id="TOC-output-files"
+	  >Output files</a
+	  ><ul
+	  ><li
+	    ><a href="#peaks.bed" id="TOC-peaks.bed"
+	      ><code
+		>peaks.bed</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#peaks_with_region.bed" id="TOC-peaks_with_region.bed"
+	      ><code
+		>peaks_with_region.bed</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#valley.bed" id="TOC-valley.bed"
+	      ><code
+		>valley.bed</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#valleys_with_region.bed" id="TOC-valleys_with_region.bed"
+	      ><code
+		>valleys_with_region.bed</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#wig" id="TOC-wig"
+	      ><code
+		>.wig</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#regions" id="TOC-regions"
+	      ><code
+		>regions</code
+		></a
+	      ></li
+	    ><li
+	    ><a href="#raw" id="TOC-raw"
+	      ><code
+		>raw</code
+		></a
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#advanced-functions" id="TOC-advanced-functions"
+	  >Advanced functions</a
+	  ><ul
+	  ><li
+	    ><a href="#configuration-file-1" id="TOC-configuration-file-1"
+	      >Configuration file</a
+	      ></li
+	    ><li
+	    ><a href="#tuning-parameters" id="TOC-tuning-parameters"
+	      >Tuning parameters</a
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#other-notes" id="TOC-other-notes"
+	  >Other notes</a
+	  ><ul
+	  ><li
+	    ><a href="#fatal-errors" id="TOC-fatal-errors"
+	      >Fatal errors</a
+	      ></li
+	    ><li
+	    ><a href="#temporary-files" id="TOC-temporary-files"
+	      >Temporary files</a
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#the-wiggle-file-generator" id="TOC-the-wiggle-file-generator"
+	  >The wiggle file generator</a
+	  ><ul
+	  ><li
+	    ><a href="#example" id="TOC-example"
+	      >Example:</a
+	      ></li
+	    ></ul
+	  ></li
+	><li
+	><a href="#the-bowtie-peakranger-pipeline" id="TOC-the-bowtie-peakranger-pipeline"
+	  >The Bowtie-PeakRanger pipeline</a
+	  ><ul
+	  ><li
+	    ><a href="#preparing-bowtie-indexes" id="TOC-preparing-bowtie-indexes"
+	      >Preparing Bowtie indexes</a
+	      ></li
+	    ><li
+	    ><a href="#checking-bowtie-indexes" id="TOC-checking-bowtie-indexes"
+	      >Checking Bowtie indexes</a
+	      ></li
+	    ><li
+	    ><a href="#using-the-pipeline" id="TOC-using-the-pipeline"
+	      >Using the pipeline</a
+	      ><ul
+	      ><li
+		><a href="#example-basic-usage" id="TOC-example-basic-usage"
+		  >Example: basic usage</a
+		  ></li
+		></ul
+	      ></li
+	    ></ul
+	  ></li
+	></ul
+      ></div
+    ><h1 id="introduction"
+    ><a href="#TOC-introduction"
+      >Introduction</a
+      ></h1
+    ><p
+    >PeakRanger is a multi-purporse, ultrafast <a href="http://en.wikipedia.org/wiki/Chip-Sequencing"
+      >ChIP-Seq</a
+      > peak caller. It is able to identify enriched genomic regions of reads while at the same time discover summits within these regions.</p
+    ><h1 id="obtaining-peakranger"
+    ><a href="#TOC-obtaining-peakranger"
+      >Obtaining PeakRanger</a
+      ></h1
+    ><p
+    >PeakRanger can be downloded from the <a href="http://www.modencode.org"
+      >modENCODE</a
+      > website.After downloading, you should be able to see two binaries:</p
+    ><p
+    ><code
+      >ranger</code
+      >, <code
+      >ranger_lmem</code
+      ></p
+    ><h2 id="hardware-requirement"
+    ><a href="#TOC-hardware-requirement"
+      >Hardware requirement</a
+      ></h2
+    ><p
+    ><code
+      >ranger</code
+      > requires at least 4G RAM and at least a dual-core CPU. <code
+      >ranger_lmem</code
+      > requires much more memories than <code
+      >ranger</code
+      >, depending the sizes and types of your datasets. We recommend that you use <code
+      >ranger_lmem</code
+      > only on transcription factor datasets and with at least 8G memories and quad-core CPUs.</p
+    ><h1 id="using-peakranger"
+    ><a href="#TOC-using-peakranger"
+      >Using PeakRanger</a
+      ></h1
+    ><p
+    >PeakRanger requires two input files, one for the <code
+      >data</code
+      >/<code
+      >treatment</code
+      > and another for <code
+      >input</code
+      >/<code
+      >control</code
+      >. PeakRanger will first process these two files to get reads for each chromosome and then find enriched regions with summits.</p
+    ><h3 id="example1-basic-usage"
+    ><a href="#TOC-example1-basic-usage"
+      >Example1: basic usage</a
+      ></h3
+    ><p
+    ><code
+      >$ ./ranger -d treatment.file -c control.file --format=bowtie</code
+      ></p
+    ><p
+    >The <code
+      >--format=bowtie</code
+      > shows the format of the files is <a href="http://bowtie-bio.sourceforge.net"
+      ><code
+	>Bowtie</code
+	></a
+      >.</p
+    ><h3 id="example2-specifiy-fdr-value"
+    ><a href="#TOC-example2-specifiy-fdr-value"
+      >Example2: specifiy FDR value</a
+      ></h3
+    ><p
+    ><code
+      >$ ./ranger -d treatment.file -c control.file --format=bowtie -p 1e-7</code
+      ></p
+    ><p
+    >The <code
+      >-p 1e-7</code
+      > changes the FDR cut off from default(1e-4) to 1e-7.</p
+    ><h3 id="example3-specify-running-modes"
+    ><a href="#TOC-example3-specify-running-modes"
+      >Example3: specify running modes</a
+      ></h3
+    ><p
+    ><code
+      >$ ./ranger -d treatment.file -c control.file --format=bowtie --mode=histone</code
+      ></p
+    ><p
+    >The <code
+      >--mode=histone</code
+      > tells ranger to run on the <code
+      >histone mode</code
+      >, in which only the summit with most reads within enriched regions will be returned.</p
+    ><h2 id="commandline-options"
+    ><a href="#TOC-commandline-options"
+      >Commandline options</a
+      ></h2
+    ><h3 id="input"
+    ><a href="#TOC-input"
+      >Input</a
+      ></h3
+    ><table><tr><td>
+<p
+    ><code
+      >-d</code
+      ></p
+    ></td><td>  
+<p
+    >sample file.(REQUIRED)</p
+    ></td></tr><tr><td>
+<p
+    ><code
+      >-c</code
+      ></p
+    ></td><td> 
+<p
+    >control(input) file.(REQUIRED)</p
+    ></td></tr><tr><td> 
+<p
+    ><code
+      >--format</code
+      ></p
+    ></td><td> 
+<p
+    >the format of the data file, can be one of : bowtie, eland, sam, bam and other.(REQUIRED)</p
+    ></td></tr></table>  
+<h3 id="qualities"
+    ><a href="#TOC-qualities"
+      >Qualities</a
+      ></h3
+    ><table><tr><td>
+<p
+    ><code
+      >-p</code
+      ></p
+    ></td><td>  
+<p
+    >FDR cut off.(default:1e-4)</p
+    ></td></tr><tr><td> 
+<p
+    ><code
+      >-r</code
+      ></p
+    ></td><td> 
+<p
+    >delta(see paper), must be in the region(0, 1).(default:0.8)</p
+    ></td></tr><tr><td> 
+<p
+    ><code
+      >-b</code
+      ></p
+    ></td><td> 
+<p
+    >bandwidth.(default:99)</p
+    ></td></tr><tr><td> 
+<p
+    ><code
+      >--dd</code
+      ></p
+    ></td><td>         <p
+    >enable dynamic delta algorithm.(default:off)</p
+    ></td></tr><tr><td> 
+<p
+    ><code
+      >--db</code
+      ></p
+    ></td><td>  
+<p
+    >enable dynamic bandwidth.(default:off)</p
+    ></td></tr></table>
+<h3 id="running-modes"
+    ><a href="#TOC-running-modes"
+      >Running modes</a
+      ></h3
+    ><table><tr><td>
+<p
+    ><code
+      >--mode</code
+      ></p
+    ></td><td>  
+<p
+    >optionally, specify the running mode, can be one of : confidence, resolution, histone</p
+    ></td></tr><tr><td>
+<p
+    ><code
+      >-t</code
+      ></p
+    ></td><td> 
+<p
+    >(Only available for the large_memory version)number of threads.(default: 2)</p
+    ></td></tr></table> 
+<h3 id="output"
+    ><a href="#TOC-output"
+      >Output:</a
+      ></h3
+    ><table><tr><td>
+  <p
+    ><code
+      >-o</code
+      ></p
+    ></td><td>  
+<p
+    >specify the location of output files. (default: the sample file)</p
+    ></td></tr><tr><td>
+<p
+    ><code
+      >--nowig</code
+      ></p
+    ></td><td> 
+<p
+    >do not output wiggle(.wig) files.(default:off)</p
+    ></td></tr></table>
+<h3 id="configuration-file"
+    ><a href="#TOC-configuration-file"
+      >Configuration file</a
+      ></h3
+    ><table><tr><td>
+<p
+    ><code
+      >-f</code
+      ></p
+    ></td><td> 
+<p
+    >optionally, specify the location of configuration file.(REQUIRED if --format=other)</p
+    ></td></tr></table>
+
+<h1 id="output-files"
+    ><a href="#TOC-output-files"
+      >Output files</a
+      ></h1
+    ><p
+    >A couple of files will be generated. All filenames start with the output locations.</p
+    ><h3 id="peaks.bed"
+    ><a href="#TOC-peaks.bed"
+      ><code
+	>peaks.bed</code
+	></a
+      ></h3
+    ><p
+    >This file contains all summits identified. Each summit is only 1bp long.</p
+    ><h3 id="peaks_with_region.bed"
+    ><a href="#TOC-peaks_with_region.bed"
+      ><code
+	>peaks_with_region.bed</code
+	></a
+      ></h3
+    ><p
+    >This file contains all enriched regions, with summits printed out together. If more than one summit are found, summits are separated with comma.</p
+    ><h3 id="valley.bed"
+    ><a href="#TOC-valley.bed"
+      ><code
+	>valley.bed</code
+	></a
+      ></h3
+    ><p
+    >This file contains all vallyes identified. Each valley is only 1bp long.</p
+    ><h3 id="valleys_with_region.bed"
+    ><a href="#TOC-valleys_with_region.bed"
+      ><code
+	>valleys_with_region.bed</code
+	></a
+      ></h3
+    ><p
+    >This file contains all enriched regions, with valleys printed out together. If more than one valley are found, valleys are separated with comma.</p
+    ><h3 id="wig"
+    ><a href="#TOC-wig"
+      ><code
+	>.wig</code
+	></a
+      ></h3
+    ><p
+    >The wiggle file that can be visualized in common genome browsers such as Gbrowse, UCSC Genome Browser and IGB. Two wiggle files will be generated, one for the treatment, the other for the input</p
+    ><h3 id="regions"
+    ><a href="#TOC-regions"
+      ><code
+	>regions</code
+	></a
+      ></h3
+    ><p
+    >This file contains detailed info about the enriched regions identified.</p
+    ><h3 id="raw"
+    ><a href="#TOC-raw"
+      ><code
+	>raw</code
+	></a
+      ></h3
+    ><p
+    >This file contains all enriched regions, before FDR filtering.</p
+    ><h1 id="advanced-functions"
+    ><a href="#TOC-advanced-functions"
+      >Advanced functions</a
+      ></h1
+    ><h2 id="configuration-file-1"
+    ><a href="#TOC-configuration-file-1"
+      >Configuration file</a
+      ></h2
+    ><p
+    >PeakRanger supports external configuration file.The sample_config.cfg file shows ALL avialable options. In this sample config file, instructions are given on how to set each option.</p
+    ><h2 id="tuning-parameters"
+    ><a href="#TOC-tuning-parameters"
+      >Tuning parameters</a
+      ></h2
+    ><p
+    >delta and smoothing bandwidth are the two parameters that can change the ways PeakRanger run. You can change these two values to see how they affect the results. Generally, smaller delta and bandwidth gives you more details about the structures of enriched regions while at the same time more false positives.</p
+    ><h1 id="other-notes"
+    ><a href="#TOC-other-notes"
+      >Other notes</a
+      ></h1
+    ><h2 id="fatal-errors"
+    ><a href="#TOC-fatal-errors"
+      >Fatal errors</a
+      ></h2
+    ><p
+    >Most errors are self-explaining except the following:</p
+    ><ol class="decimal"
+    ><li
+      >Segmentation fault</li
+      ></ol
+    ><p
+    >If you see this, you produced exceptions that ranger could not handle. Usually this error is due to abnormal data files.</p
+    ><ol start="2" class="decimal"
+    ><li
+      >GSL errors</li
+      ></ol
+    ><p
+    >These errors are thrown by the GSL library. Common reasons include: memory shortage, abnormal data files. If you see <code
+      >malloc errors</code
+      > when running the large memory version, you can switch to the normal version.</p
+    ><ol start="3" class="decimal"
+    ><li
+      >Not found chromosome indexes</li
+      ></ol
+    ><p
+    >This usually indicates that the sample and control datasets contain different sets of chromosomes. For example, the sample contains <code
+      >chr1</code
+      > and <code
+      >chr2</code
+      >, but the control contains <code
+      >chr1</code
+      >, <code
+      >chr2</code
+      > and <code
+      >chr3</code
+      >, with <code
+      >chr3</code
+      > being the additional chromsome. In this case, you should remove all reads mapped to <code
+      >chr3</code
+      > and run ranger again.</p
+    ><h2 id="temporary-files"
+    ><a href="#TOC-temporary-files"
+      >Temporary files</a
+      ></h2
+    ><p
+    >ranger generates temporary files, which are removed after ranger exits. In case of unhandled exceptions(such as segmentation faults), you may need to remove these files yourself. These files have very long and weird names and are located at the output location.</p
+    ><h1 id="the-wiggle-file-generator"
+    ><a href="#TOC-the-wiggle-file-generator"
+      >The wiggle file generator</a
+      ></h1
+    ><p
+    >If you only want wiggle files, then you can use the</p
+    ><p
+    ><code
+      >wig</code
+      ></p
+    ><p
+    >program. The basic usage is similar with ranger:</p
+    ><h3 id="example"
+    ><a href="#TOC-example"
+      >Example:</a
+      ></h3
+    ><p
+    ><code
+      >$ ./wig -d treatment.file --format=bowtie</code
+      ></p
+    ><p
+    >The <code
+      >--format=bowtie</code
+      > shows the format of the files is <a href="http://bowtie-bio.sourceforge.net"
+      ><code
+	>Bowtie</code
+	></a
+      >.</p
+    ><h1 id="the-bowtie-peakranger-pipeline"
+    ><a href="#TOC-the-bowtie-peakranger-pipeline"
+      >The Bowtie-PeakRanger pipeline</a
+      ></h1
+    ><p
+    >We provide a pipeline bundled with <a href="http://bowtie-bio.sourceforge.net"
+      >Bowtie</a
+      >. The pipeline accepts raw FASTQ files and produce peak calls and wiggle files in one click. Currently, we only provide a basic configuration that fits the routine analysis goal.</p
+    ><h2 id="preparing-bowtie-indexes"
+    ><a href="#TOC-preparing-bowtie-indexes"
+      >Preparing Bowtie indexes</a
+      ></h2
+    ><p
+    >Before using the pipeline, you have to first preapre the indexes for Bowtie. You can either go the homepage of <a href="http://bowtie-bio.sourceforge.net"
+      >Bowtie</a
+      > to download the indexes or build them yourself. To build the indexes, go to the folder</p
+    ><p
+    ><code
+      >pipeline/bowtie*/scripts/</code
+      ></p
+    ><p
+    >Then run the script that contains the name of the species of your data. All these scripts need network access to download genome files.</p
+    ><h2 id="checking-bowtie-indexes"
+    ><a href="#TOC-checking-bowtie-indexes"
+      >Checking Bowtie indexes</a
+      ></h2
+    ><p
+    >Make sure bowtie indexes were built correctly, go to folder</p
+    ><p
+    >'pipeline/bowtie*/'</p
+    ><p
+    >In the termial, type:</p
+    ><p
+    ><code
+      >./bowtie NAME_OF_THE_INDEX -c aa</code
+      ></p
+    ><p
+    >If you see texts similar with the following, then it is good.</p
+    ><table><tr><td>
+    <code
+    ># reads processed: 1</code
+    ></tr></td><tr><td>
+    <code
+    ># reads with at least one reported alignment: 0 (0.00%)</code
+    ></tr></td><tr><td>
+    <code
+    ># reads that failed to align: 1 (100.00%)</code
+    ></tr></td></table>
+
+<h2 id="using-the-pipeline"
+    ><a href="#TOC-using-the-pipeline"
+      >Using the pipeline</a
+      ></h2
+    ><p
+    >In the termial, type:</p
+    ><p
+    ><code
+      >$./bowtieranger sampledata inputdata ebwt_file multimatch threads</code
+      ></p
+    ><p
+    >to fit your needs, change the parameters accordingly.</p
+    ><h3 id="example-basic-usage"
+    ><a href="#TOC-example-basic-usage"
+      >Example: basic usage</a
+      ></h3
+    ><p
+    ><code
+      >$./bowtieranger sample.fastq input.fastq c_elegans201 1 4</code
+      ></p
+    ><p
+    >The <code
+      >multimatch</code
+      > is the number of matches allowed for a single read. <code
+      >threads</code
+      > is the number of worker threads allocated for both Bowtie and ranger.</p
+    ></body
+  ></html
+>
+
