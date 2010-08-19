@@ -115,7 +115,7 @@ desk</a>.
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> or preview unreleased submissions</a></font>
 -->
 <tr><td align="right">
-<a href="http://intermine.modencode.org/query/begin.do#1" target="_blank">
+<a href="http://submit.modencode.org/submit/bulk_download" target="_blank">
 <!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank"> -->
 <img src="/img/getdata_vs.png" alt="modENCODE downloads" border=3 /></a>
 <td width=30% bgcolor=#eeeeee><b>
@@ -126,7 +126,8 @@ desk</a>.
 <br><font size=-1> <a href="ftp://ftp.modencode.org/pub/">Download unvetted data from legacy FTP site)</a></font>
 http://submit.modencode.org/submit/public/list ???
 -->
-<a href="http://intermine.modencode.org/query/begin.do#1" target="_blank">Download data</a>
+<a href="http://submit.modencode.org/submit/bulk_download" >Download submissions</a>
+<br><font size=-1> <a href="http://submit.modencode.org/submit/bulk_download">Graphical Submission Filtering Tool</a></font>
 <!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank">Download data</a> -->
 
 <tr><td align="right">
