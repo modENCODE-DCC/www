@@ -26,6 +26,29 @@
 
 <h3>Companion Page for modENCODE Integrative Worm Paper</h3>
 
+<h4>Supplementary Files</h4>
+
+
+<h5>Supplement File 1</h5>
+<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
+
+<h5>Supplement File 2</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
+
+<h5>Supplement File 3 Coordinate for HOT regions</h5>
+<a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls"></a>
+
+
+
+
+
+
+
+
+
+
+
+
 <h4>Figures</h4>
 
 <h4>Supplementary Figures</h4>
@@ -111,58 +134,10 @@ Source Data:
 Modmine Links:
 <br/>
 
-<h4>Supplementary Files</h4>
 
-
-<h5>Supplement File 1</h5>
-<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
-
-<h5>Supplement File 2</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
-
-<h5>Supplement File 3 Coordinate for HOT regions</h5>
-NEED FILE
-
-<h5>Supplement File 4</h5>
-<a href="http://wiki.modencode.org/project/uploads/5/57/Predicted_ncRNA_7K.gff">Predicted ncRNAs, 7K set</a>
-
-<h5>Supplement File 5</h5>
-
-<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.possible_problem_CDS.fof.tgz">List of transcripts ignored</a>
-
-<h5>Supplement File 6</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:Utr_ids.txt">List of non-redundant 3'UTRs used for predictions</a>
-
-<h5>Supplement File 7</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:P5_ele_bri_rem.ucsc.csv.zip">PicTar predictions for 3-way species alignments</a>
-
-<h5>Supplement File 8</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:PicTar_summary.txt">Summary stats for 3-way conservation</a>
-
-<h5>Supplement File 9</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:P5_ele_bri_rem_bre_jap.ucsc.csv.zip">PicTar predictions for 5-way species alignments</a>
-
-<h5>Supplement File 10</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:PicTar_summary_5species.txt">Summary stats for 5-way conservation</a>
-
-<h5>Supplement File 11</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:PicTar_table_key.txt">README for PicTar output</a>
-
-<h5>Supplement File 12</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:Worm_array_gene_expr.txt">Gene expression levels from tiling arrays</a>
-
-<h5>Supplement File 13</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:C_elegans.Aggregate_1003.nrexon.v1.ws190.tar.gz">Set of exons</a>
-
-<h5>Supplement File 14</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz">Set of aggregate transcripts</a>
-
-<h5>Supplement File 15</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.possible_problem_CDS.fof.tar.gz">Subset of aggregate transcripts to avoid for CDS analysis</a>
-  
-      </div>
-    </td>
-  </tr>
+</div>
+</td>
+</tr>
 </table>
 </body>
 </html>
