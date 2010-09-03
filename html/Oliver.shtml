@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('White')">
+
+<table width="100%">
+<tr valign=top>
+<td>
+
+<!--#include virtual="/menu.html" -->
+
+<td align=left>
+
+<!--#include virtual="/banner.html" -->
+
+<div id="main" name="main">
+<h3>Functional Validation of the Drosophila transcriptome by comparative genomics
+</h3>
+
+Annotating D. melanogaster transcript models is an important goal of modENCODE. Even though ~13K gene models were included in the first release of the D. melanogaster genome, there have been multiple revisions based on improvements in computational methods and biological evidence from expression arrays and cDNA sequencing. modENCODE should generate a comprehensive transcript map, with high confidence models clearly distinguished. Transcript models will be supported by sequence, chromatin, and protein occupancy features, but direct evidence of transcription is crucial. We will contribute to the D. melanogaster RNA-Seq effort and associated analysis as coordinated by the Transcriptome Group.
+<p>
+The dynamic range of RNA-Seq is limited only by read-depth and library complexity, therefore it is likely that the resulting datasets will reveal biological transcriptional noise. Spurious transcripts will complicate the annotation of genes that show low levels of expression. Biological function is outstanding evidence to support transcript models, but a thorough test of function using gold-standard genetics tests requires a very large set of phenotypic assays and cannot be easily scaled. Fortunately, time and drift have performed this experiment with much greater sensitivity. To provide biological validation of D. melanogaster transcript models, we will generate RNA-Seq profiles for the closely related D. simulans and D. sechellia, as well as the more distantly related D. pseudoobscura, D. mojevensis, and D. persimilis species, using timepoints and tissue samples matching those being generated for D. melanogaster. Evolutionary conservation of expression will be valuable support for annotation efforts.
+
+<p><h4> Experimental Approaches</h4>
+While it is clear that novel transcripts are identified in tiling array experiments and cDNA sequencing projects, RNA-Seq analysis shows much promise as an independent genome-wide assay for expression. We will use this methodology for primary data production. Limited expression profiling using Nimblegen arrays will be used for methodological validation.
+
+<p><h4>Information Resources to be Generated</h4>
+RNA-Seq data and simulations in FastQ, and alignments in SAM.
+
+<p><h4>Reagents to be Generated</h4>
+RNA-Seq libraries
+
+<p><h4>Contact Information</h4>
+
+<p><b>National Institutes of Health</b> 
+</p>
+<ul><li><b>PI contact: </b>Brian Oliver, <span style="color: rgb(0, 0, 255);">oliver@helix.nih.gov</span> 
+</li><li><b>Statistics</b>: Renhua Li, <span style="color: rgb(0, 0, 255);">lir3@niddk.ni</span><span style="color: rgb(0, 0, 255);">h.gov</span><b><br /></b> 
+</li><li><b>Informatics:&nbsp;</b>Dave Sturgill,&nbsp;<span style="color: rgb(0, 0, 255);">davidsturgill@niddk.nih.gov</span> 
+</li><li><b>Sequencing/analysis: </b>Yu Zhang, <span style="color: rgb(0, 0, 255);">yuzhang@niddk.nih.gov</span> 
+
+</li><li><b>Sequencing.analysis:&nbsp;</b>John Malone,<span style="color: rgb(0, 0, 255);">&nbsp;malonej@niddk.nih.gov</span><br /> 
+</li><li><b>Sequencing/analysis: </b>Carlo Artieri, <span style="color: rgb(0, 0, 255);">artiericg@niddk.nih.gov&nbsp;&nbsp;</span><br />
+</li><li><b>Sequencing/analysis: </b>Nicolas Mattiuzzo, <span style="color: rgb(0, 0, 255);">mattiuzzon@niddk.nih.gov&nbsp;&nbsp;</span><br />
+</li></ul>
+<p><b>Web site</b>&nbsp;&nbsp;<a href="http://www2.niddk.nih.gov/NIDDKLabs/IntramuralFaculty/OliverBrian">http://www2.niddk.nih.gov/NIDDKLabs/IntramuralFaculty/OliverBrian</a>
+
+</p>
+
+
+<p><h4>Comments, References</h4>
+
+<p>The Oliver lab is both sequencing RNA from non-melanogaster <i>Drosophila</i> species, and contributing to the developmental timecourse sequencing effort of the Transcriptome project (Celniker lab).  Sequencing records can be retrieved from the SRA, here:
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008238?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008238?report=full" rel="nofollow">SRX008238</a>,
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008271?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008271?report=full" rel="nofollow">SRX008271</a>,
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008215?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008215?report=full" rel="nofollow">SRX008215</a>,
+
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008256?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008256?report=full" rel="nofollow">SRX008256</a>,
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008207?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008207?report=full" rel="nofollow">SRX008207</a>,
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008200?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008200?report=full" rel="nofollow">SRX008200</a>,
+<a href="http://www.ncbi.nlm.nih.gov/sra/SRX008175?report=full" class="external text" title="http://www.ncbi.nlm.nih.gov/sra/SRX008175?report=full" rel="nofollow">SRX008175</a>,
+and <a href="http://www.ncbi.nlm.nih.gov/sra?term=Oliver%20Transcriptome" class="external text" title="http://www.ncbi.nlm.nih.gov/sra?term=Oliver%20Transcriptome" rel="nofollow">28 others</a>
+</p>
