@@ -5,8 +5,8 @@
 <head>
  <link rel="stylesheet" href="/css/modencode.css">
  <title>modENCODE Integrative Worm Paper Companion Page</title>
- <script type="text/javascript" src="/js/yahoo-dom-event.js"></script>
- <script type="text/javascript" src="/js/balloon.js"></script>
+ <script type="text/javascript" src="/js/yahoo-dom-event.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/balloon.js">intermine.modencode.org</script>
  <script type="text/javascript" src="/js/modencode.js"> </script>
  <script type="text/javascript">var balloon = new Balloon;</script>
 </head>
@@ -340,6 +340,231 @@ RNA-seq
 
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">intestine</a></li>
 </ul>
+
+
+<h5>Figure 4: Non-protein-coding RNA</h5>
+<ul>
+<h6>Aggregated Data Files:</h6>
+<li><a href="http://wiki.modencode.org/project/uploads/0/0a/NcRNA_known_nochrM.ws190.gff">intermine.modencode.org</a></li>
+
+<h6>DCC Submission Description & Download Pages</h6>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
+<h5>Figure 5: Transcription Factor Binding</h5>
+<ul>
+<h6>DCC Submission Description & Download Pages</h6>
+Waterston lab poly-A RNA sequencing data
+
+
+<li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">intermine.modencode.org</a>poly-A sites</li>
+
+Slack lab small RNA sequencing data
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018542">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018551">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018556">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018561">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018566">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018571">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018576">intermine.modencode.org</a></li>
+
+
+Lieb lab chromatin data
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000220">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">intermine.modencode.org</a></li>
+
+Snyder lab TF ChIPseq data
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">intermine.modencode.org</a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">intermine.modencode.org</a></li>
+</ul>
+
+<h6>Part B</h6>
+<ul>
+<h6>DCC Submission Description & Download Pages:</h6>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">intermine.modencode.org</a></li>
+
+
+</ul>
+
+
+<h5>Figure 6: Highly Occupied Target (HOT) Regions</h5>
+<ul>
+<h6>DCC Submission Description & Download Pages:</h6>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">intermine.modencode.org</a></li>
+</ul>
+
+
+<h5>Figure 7: Integrated Regulatory Network</h5>
+<ul>
+<h6>Aggregated Data Files</h6>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">intermine.modencode.org</a></li>
+
+<h6>DCC Submission Description & Download Pages:</h6>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">intermine.modencode.org</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">intermine.modencode.org</a></li>
+</ul>
+
+<h5>Figure 8: Chromosome-scale domains of chromatin organization</h5>
+
+<h5>Figure 9: Chromatin Patterns around Genes</h5>
+
+<h5>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h5>
+
+<h5>Figure 11: Relative proportion of different annotations among constrained sequences</h5>
+
+
 
 
 <h4>Main Tables</h4>
