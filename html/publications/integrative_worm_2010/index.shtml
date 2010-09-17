@@ -40,8 +40,8 @@
 
 <h4>Figures</h4>
 
-<h5>Figure 1</h5>
-Title: Overview of modENCODE Worm Data Sets
+<h5>Figure 1: Overview of modENCODE Worm Data Sets</h5>
+
 <h6>Part A</h6>
 <a href="http://intermine.modencode.org ">Source Data </a>
 
@@ -49,7 +49,7 @@ Title: Overview of modENCODE Worm Data Sets
 <h6>Part B</h6>
 <a href="http://intermine.modencode.org ">Source Data </a>
 
-<h5>Figure 2</h5>
+<h5>Figure 2: Transcriptome Features, Gene Models & Alternative Splicing</h5>
 
 <h6>Part A</h6>
 <ul>
@@ -245,11 +245,10 @@ Title: Overview of modENCODE Worm Data Sets
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">intermine.modencode.org </a></li>
 </ul>
 
-<h5>Figure 3</h5>
+<h5>Figure 3: Expression & Binding Dynamics</h5>
 
-Title: Expression & Binding Dynamics
 
-====Part A====
+<h6>Part A</h6>
 
 
 
@@ -276,7 +275,8 @@ RNA-seq
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018693">intermine.modencode.org </a></li>
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018680">intermine.modencode.org </a></li>
 </ul>
-====Part B====
+
+<h6>Part B</h6>
 
 
 
@@ -301,55 +301,44 @@ RNA-seq
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018693">intermine.modencode.org </a></li>
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018680">intermine.modencode.org </a></li>
 </ul>
-====Part C====
 
-
+<h6>Part C</h6>
 
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 
 
-MxE
+<h6>MxE</h6>
 
-A class
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">A class </a></li>
 
-pan-neural
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">pan-neural </a></li>
 
-GABA
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">GABA </a></li>
 
-body wall muscle
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">body wall muscle </a></li>
 
-coelomocytes
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">coelomocytes </a></li>
 
-intestine
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">intestine </a></li>
 
 
-L2
+<h6>L2</h6>
 
-A class
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">A class </a></li>
 
-pan-neural
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">intermine.modencode.org </a></li>
 
-GABA
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">pan-neural </a></li>
 
-body wall muscle
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">GABA </a></li>
 
-coelomocytes
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">body wall muscle </a></li>
 
-intestine
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">intermine.modencode.org </a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">coelomocytes </a></li>
+
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">intestine</a></li>
 </ul>
 
 
