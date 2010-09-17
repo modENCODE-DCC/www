@@ -26,17 +26,14 @@
 
 <h3>Companion Page for modENCODE Integrative Worm Paper</h3>
 
-<h4>Supplementary Files</h4>
 
 
-<h5>Supplement File 1</h5>
-<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
 
-<h5>Supplement File 2</h5>
-<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
 
-<h5>Supplement File 3</h5>
-<a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">Coordinates for HOT regions</a>
+
+
+
+
 
 
 
@@ -56,13 +53,13 @@ Title: Overview of modENCODE Worm Data Sets
 
 <h6>Part A</h6>
 <ul>
-<li> <a href="http://intermine.modencode.org ">Source Data </a></li>
+
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
 </ul>
 
-<h6>Modmine Links</h6>
+<h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">MEC246001841: RNAseq - early embryo sequences & alignments</a></li>
 
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">intermine.modencode.org </a></li>
 
@@ -106,11 +103,11 @@ Title: Overview of modENCODE Worm Data Sets
 
 <h6>Part B</h6>
 <ul>
-<li><a href="http://intermine.modencode.org ">Source Data </a></li>
+
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
 </ul>
 
-<h6>Modmine Links</h6>
+<h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">intermine.modencode.org </a></li>
 
@@ -157,11 +154,11 @@ Title: Overview of modENCODE Worm Data Sets
 
 <h6>Part D</h6>
 <ul>
-<li><a href="http://intermine.modencode.org ">Source Data </a></li>
+
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a><li>
 </ul>
 
-<h6>Modmine Links</h6>
+<h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">intermine.modencode.org </a></li>
 
@@ -204,11 +201,10 @@ Title: Overview of modENCODE Worm Data Sets
 
 <h6>Part D</h6>
 <ul>
-<li><a href="http://intermine.modencode.org ">Source Data </a></li>
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
 </ul>
 
-<h6>Modmine Links</h6>
+<h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">intermine.modencode.org </a></li>
 
@@ -249,10 +245,115 @@ Title: Overview of modENCODE Worm Data Sets
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">intermine.modencode.org </a></li>
 </ul>
 
+<h5>Figure 3</h5>
+
+Title: Expression & Binding Dynamics
+
+====Part A====
+
+
+
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+
+
+ChIP-seq
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000078">intermine.modencode.org </a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000086">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000090">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000092">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000094">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000096">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000100">intermine.modencode.org </a></li>
+
+RNA-seq
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018684">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018686">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018689">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018690">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018691">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018693">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018680">intermine.modencode.org </a></li>
+</ul>
+====Part B====
+
+
+
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+
+ChIP-seq
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000078">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000086">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000090">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000092">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000094">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000096">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000100">intermine.modencode.org </a></li>
+
+RNA-seq
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018684">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018686">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018689">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018690">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018691">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018693">intermine.modencode.org </a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018680">intermine.modencode.org </a></li>
+</ul>
+====Part C====
 
 
 
 
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+
+
+MxE
+
+A class
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">intermine.modencode.org </a></li>
+
+pan-neural
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">intermine.modencode.org </a></li>
+
+GABA
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">intermine.modencode.org </a></li>
+
+body wall muscle
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">intermine.modencode.org </a></li>
+
+coelomocytes
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">intermine.modencode.org </a></li>
+
+intestine
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">intermine.modencode.org </a></li>
+
+
+L2
+
+A class
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">intermine.modencode.org </a></li>
+
+pan-neural
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">intermine.modencode.org </a></li>
+
+GABA
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">intermine.modencode.org </a></li>
+
+body wall muscle
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">intermine.modencode.org </a></li>
+
+coelomocytes
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">intermine.modencode.org </a></li>
+
+intestine
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">intermine.modencode.org </a></li>
+</ul>
+
+
+<h4>Main Tables</h4>
 
 
 
@@ -265,81 +366,94 @@ Title: Overview of modENCODE Worm Data Sets
 <h5>Supplement Table 1</h5>
 Title: C. elegans genes not identified as transcribed in 19 polyA RNA-seq samples
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 2</h5>
 Title: Develpmental stages and tissue samples of small RNA-seq and tiling array experiments.
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 3</h5>
 Title: Summary of cell and stage specific tiling array results
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 4</h5>
 Title: Different types of known ncRNAs in the gold standard set
 <br/>
-Source Data: The miRNAs are collected from miRBase 14, and other ncRNAs are collected from WormBase 200. 
+Aggregated Data Files: The miRNAs are collected from miRBase 14, and other ncRNAs are collected from WormBase 200. 
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 5</h5>
 Title: Annotated regions used for the training of machine learning methods,  tiling array TARs
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 6</h5>
 Title: Performance of our integrated method on tiling array TARsa with three different ways to define element classes in the gold-standard set
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 7</h5>
 Title: Annotated and novel tiling array TARs going into set-21521 of ncRNAs 
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 8</h5>
 Title: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq, and numbers of targeted coding and non-coding genes. 
 <br/>
-Source Data: 1,061 annotated ncRNAs were collected from Wormbase 200 and miRBase 14.
+Aggregated Data Files: 1,061 annotated ncRNAs were collected from Wormbase 200 and miRBase 14.
 <br/>
 
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 9</h5>
 Title: GO analysis of genes targeted by HOT regions
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 10</h5>
 Title: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
 <h5>Supplement Table 11</h5>
 Title: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.
 <br/>
-Source Data:
+Aggregated Data Files:
 <br/>
-Modmine Links:
+DCC Submission Description & Download Pages:
 <br/>
+
+<h4>Supplementary Files</h4>
+
+
+<h5>Supplement File 1</h5>
+<a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
+
+<h5>Supplement File 2</h5>
+<a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
+
+<h5>Supplement File 3</h5>
+<a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">Coordinates for HOT regions</a>
+
 
 
 </div>
