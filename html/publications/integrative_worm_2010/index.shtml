@@ -64,8 +64,9 @@
 </ul>
 
 <h6>Part B</h6>
+<h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Aggregate Integrated Transcripts </a></li>
 </ul>
 
 <h6>DCC Submission Description & Download Pages</h6>
@@ -103,8 +104,9 @@
 </ul>
 
 <h6>Part D</h6>
+<h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a><li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Aggregate Integrated Transcripts</a><li>
 </ul>
 
 <h6>DCC Submission Description & Download Pages</h6>
@@ -269,7 +271,94 @@
 <h5>Figure 6: Highly Occupied Target (HOT) Regions</h5>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">Snyder_PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">Snyder_PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">Snyder_PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">Snyder_PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">Snyder_PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">Snyder_AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">Snyder_AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">Snyder_DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">Snyder_DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">Snyder_MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">Snyder_MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">Snyder_CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">Snyder_DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">Snyder_EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">Snyder_HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">Snyder_LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">Snyder_UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">Snyder_HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">Snyder_LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">Snyder_NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">Snyder_ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">Snyder_N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">Snyder_N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">Snyder_N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">Snyder_N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">Snyder_N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">Snyder_PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">Snyder_GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">Snyder_PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">Snyder_EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">Snyder_EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">Snyder_HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">Snyder_PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">Snyder_PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">Snyder_MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">Snyder_MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">Snyder_LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">Snyder_BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">Snyder_LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">Snyder_ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">Snyder_EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">Snyder_NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">Snyder_CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">Snyder_EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">Snyder_SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
+</ul>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+<h6>Part B</h6>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+http://intermine.modencode.org/query/objectDetails.do?id=208000054
+</ul>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+<h6>Additional Data Sources</h6>
+<ul>
+<li>T. Fukushige, M. Krause, The myogenic potency of HLH-1 reveals wide-spread developmental plasticity in early C-elegans embryos. Development 132, 1795-1805 (2005)</li>
+<li>P. J. Roy, J. M. Stuart, J. Lund, S. K. Kim, Chromosomal clustering of muscle-expressed genes in Caenorhabditis elegans. Nature 418, 975-979 (2002).</li>
+</ul>
+
+<h6>Part C</h6>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+<h6>Additional Data Sources</h6>
+<ul>
+<li>X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</li>
+</ul>
+
+<h6>Part D</h6>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+<h6>Additional Data Sources</h6>
+<ul>
+<li>X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</li>
 </ul>
 
 <h5>Figure 7: Integrated Regulatory Network</h5>
@@ -361,10 +450,10 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000382">Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000361">Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000357">Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB)</a></li>
-<li><a href="http://submit.modencode.org/submit/public/download/3171">modencode.org</a>HK00013_H3K27ME31E7_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3179">modencode.org</a>UP07448_H3K27ME124439_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3181">modencode.org</a>AB15823_H4K8AC487128_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3182">modencode.org</a>MP07329_H4K16ACDAM1612187_N2_EEMB</li>
+<li><a href="http://submit.modencode.org/submit/public/download/3171">HK00013_H3K27ME31E7_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3179">UP07448_H3K27ME124439_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3181">AB15823_H4K8AC487128_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3182">MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
 </ul>
 
 <h5>Figure 9: Chromatin Patterns around Genes</h5>
@@ -396,10 +485,10 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000382">Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000361">Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000357">Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB)</a></li>
-<li><a href="http://submit.modencode.org/submit/public/download/3171">modencode.org</a>HK00013_H3K27ME31E7_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3179">modencode.org</a>UP07448_H3K27ME124439_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3181">modencode.org</a>AB15823_H4K8AC487128_N2_EEMB</li>
-<li><a href="http://submit.modencode.org/submit/public/download/3182">modencode.org</a>MP07329_H4K16ACDAM1612187_N2_EEMB</li>
+<li><a href="http://submit.modencode.org/submit/public/download/3171">HK00013_H3K27ME31E7_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3179">UP07448_H3K27ME124439_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3181">AB15823_H4K8AC487128_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3182">MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
 </ul>
 
 <h5>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h5>
