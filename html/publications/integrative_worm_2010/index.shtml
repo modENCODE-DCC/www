@@ -24,18 +24,18 @@
       <!--#include virtual="/banner.html" -->
       <div id="main">
 
-<h2>Companion Page for modENCODE Integrative Worm Paper</h2>
+<h3>Companion Page for modENCODE Integrative Worm Paper</h3>
 
-<h4>Figures</h4>
+<h3>Figures</h3>
 
-<h5>Figure 1: Overview of modENCODE Worm Data Sets</h5>
+<h4>Figure 1: Overview of modENCODE Worm Data Sets</h4>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org">Source Data</a></li>
 </ul>
 
-<h5>Figure 2: Transcriptome Features, Gene Models & Alternative Splicing</h5>
-<h6>Part A</h6>
+<h4>Figure 2: Transcriptome Features, Gene Models & Alternative Splicing</h4>
+<h5>Part A</h5>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
 </ul>
@@ -63,7 +63,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
-<h6>Part B</h6>
+<h5>Part B</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Aggregate Integrated Transcripts </a></li>
@@ -92,7 +92,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
-<h6>Part C</h6>
+<h5>Part C</h5>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001867">RNAseq - mid-L1 20dC 4hrs post-L1 sequences & alignments</a></li>
@@ -103,7 +103,7 @@
 <li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
 </ul>
 
-<h6>Part D</h6>
+<h5>Part D</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Aggregate Integrated Transcripts</a><li>
@@ -132,8 +132,8 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
-<h5>Figure 3: Expression & Binding Dynamics</h5>
-<h6>Part A</h6>
+<h4>Figure 3: Expression & Binding Dynamics</h4>
+<h5>Part A</h5>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb </a></li>
@@ -152,7 +152,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018680">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
 </ul>
 
-<h6>Part B</h6>
+<h5>Part B</h5>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb </a></li>
@@ -171,7 +171,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018680">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
 </ul>
 
-<h6>Part C</h6>
+<h5>Part C</h5>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array </a></li>
@@ -188,7 +188,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array</a></li>
 </ul>
 
-<h5>Figure 4: Non-protein-coding RNA</h5>
+<h4>Figure 4: Non-protein-coding RNA</h4>
 <h6>Aggregated Data Files:</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/uploads/0/0a/NcRNA_known_nochrM.ws190.gff">Known ncRNA</a></li>
@@ -198,7 +198,7 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
 </ul>
 
-<h5>Figure 5: Transcription Factor Binding</h5>
+<h4>Figure 5: Transcription Factor Binding</h4>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">poly-A RNA sequencing data</a></li>
@@ -262,13 +262,13 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
 </ul>
 
-<h6>Part B</h6>
+<h5>Part B</h5>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
 </ul>
 
-<h5>Figure 6: Highly Occupied Target (HOT) Regions</h5>
+<h4>Figure 6: Highly Occupied Target (HOT) Regions</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
@@ -326,7 +326,7 @@
 <li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
 </ul>
 
-<h6>Part B</h6>
+<h5>Part B</h5>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
 http://intermine.modencode.org/query/objectDetails.do?id=208000054
@@ -335,33 +335,33 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <ul>
 <li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
 </ul>
-<h6>Additional Data Sources</h6>
-<ul>
-<li>T. Fukushige, M. Krause, The myogenic potency of HLH-1 reveals wide-spread developmental plasticity in early C-elegans embryos. Development 132, 1795-1805 (2005)</li>
-<li>P. J. Roy, J. M. Stuart, J. Lund, S. K. Kim, Chromosomal clustering of muscle-expressed genes in Caenorhabditis elegans. Nature 418, 975-979 (2002).</li>
-</ul>
 
-<h6>Part C</h6>
+
+
+
+
+
+<h5>Part C</h5>
 <h6>Aggregated Data Files</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
 </ul>
 <h6>Additional Data Sources</h6>
 <ul>
-<li>X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</li>
+<li><a href="doi:10.1016/j.cell.2009.08.044">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
 </ul>
 
-<h6>Part D</h6>
+<h5>Part D</h5>
 <h6>Aggregated Data Files</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
 </ul>
 <h6>Additional Data Sources</h6>
 <ul>
-<li>X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</li>
+<li><a href="doi:10.1016/j.cell.2009.08.044">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
 </ul>
 
-<h5>Figure 7: Integrated Regulatory Network</h5>
+<h4>Figure 7: Integrated Regulatory Network</h4>
 <h6>Aggregated Data Files</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz"></a></li>
@@ -419,7 +419,7 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
 </ul>
 
-<h5>Figure 8: Chromosome-scale domains of chromatin organization</h5>
+<h4>Figure 8: Chromosome-scale domains of chromatin organization</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNAseq - mid-L3 25dC 25hrs post-L1 sequences & alignments</a></li>
@@ -456,7 +456,7 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <li><a href="http://submit.modencode.org/submit/public/download/3182">MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
 </ul>
 
-<h5>Figure 9: Chromatin Patterns around Genes</h5>
+<h4>Figure 9: Chromatin Patterns around Genes</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
@@ -491,20 +491,64 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <li><a href="http://submit.modencode.org/submit/public/download/3182">MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
 </ul>
 
-<h5>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h5>
+<h4>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h4>
 
-<h5>Figure 11: Relative proportion of different annotations among constrained sequences</h5>
-
-
+<h4>Figure 11: Relative proportion of different annotations among constrained sequences</h4>
 
 
-<h4>Main Tables</h4>
+
+
+
 
 
 
 
 
 <h4>Supplementary Figures</h4>
+
+<h4>Figure S1: ChIP-chip and ChIP-seq comparision</h4>
+<h4>Figure S2: Correlation of RNA expression levels for Young Adult between RNA-seq and tiling array platforms</h4>
+<h4>Figure S3: Numbers of RNA-seq Reads</h4>
+<h4>Figure S4: Density plots of 20,051 genes in WormBase190</h4>
+<h4>Figure S5: Pair-wise comparison of the density plots</h4>
+<h4>Figure S6: Rate of gene discovery</h4>
+<h4>Figure S7: Number of features identified</h4>
+<h4>Figure S8: Number of confirmed splice junction over time</h4>
+<h4>Figure S9: Proportion of splice junctions confirmed by various methods</h4>
+<h4>Figure S10: Saturation of discovery of non-coding and coding RNAs with additional RNA-seq data sets</h4>
+<h4>Figure S11: Number of stages/samples where a given gene or splice junction is observed</h4>
+<h4>Figure S12: Expression profiles of developmental stage-specific genes</h4>
+<h4>Figure S13: Expression profiles of the meta-genes for developmental stage-specific transcripts</h4>
+<h4>Figure S14: Enrichment of promoter motifs</h4>
+<h4>Figure S15: SOM clusters</h4>
+<h4>Figure S16: Number of genes and transcripts shared between pairs of SOM clusters</h4>
+<h4>Figure S17: Isoform classes</h4>
+<h4>Figure S18: Examples of different classes of alternate isoform expression identified from SOM clustering</h4>
+<h4>Figure S19: A Breakdown on How the Updated List of Worm Pseudogenes was Created</h4>
+<h4>Figure S20: Binning of long TARs built from tiling arrays</h4>
+<h4>Figure S21: Transcription factor motif discovery</h4>
+<h4>Figure S22: An example showing GEI-11 binding near three ncRNAs</h4>
+<h4>Figure S23: Co-occurrence of transcription factors</h4>
+<h4>Figure S24: Distribution of TF binding numbers</h4>
+<h4>Figure S25: Control experiments for HOT regions</h4>
+<h4>Figure S26: DPY-27 only binds to HOT regions on the X chromosome</h4>
+<h4>Figure S27: Higher gene expression level in HOT regions in RNA-seq</h4>
+<h4>Figure S28: Higher gene expression level in HOT regions in tiling arrays</h4>
+<h4>Figure S29: HOT regions are broadly expressed</h4>
+<h4>Figure S30: Pair-wise correlations of PHA-4 binding signal across different stages</h4>
+<h4>Figure S31: Examples of Pol II binding and expression</h4>
+<h4>Figure S32: Histone marks distribution over repetitive elements</h4>
+<h4>Figure S33: Promoters of chromosome X genes have higher GC content compared to autosomes</h4>
+<h4>Figure S34: Correlations between whole-genome transcription factor binding signals and chromatin features</h4>
+<h4>Figure S35: Machine learning procedure for modeling transcription factor binding peaks</h4>
+<h4>Figure S36: Modeling accuracy of integrative models</h4>
+<h4>Figure S37: Modeling accuracy of models involving either all features or individual features</h4>
+<h4>Figure S38: Distinguishing binding peaks of different TFs</h4>
+<h4>Figure S39: Developmental stage-specific models</h4>
+<h4>Figure S40: Combination of chromatin and sequence features</h4>
+<h4>Figure S41: Coverage of evolutionarily constrained regions by genomic features</h4>
+<h4>Figure S42: Saturation of TF binding</h4>
+
 
 <h4>Supplementary Tables</h4>
 
@@ -579,7 +623,7 @@ Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 11</h5>
+<h5>Supplement Table 12</h5>
 Title: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.
 <br/>
 Aggregated Data Files:
