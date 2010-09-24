@@ -329,7 +329,7 @@
 <h5>Part B</h5>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-http://intermine.modencode.org/query/objectDetails.do?id=208000054
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a><li>
 </ul>
 <h6>Aggregated Data Files</h6>
 <ul>
@@ -364,7 +364,7 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <h4>Figure 7: Integrated Regulatory Network</h4>
 <h6>Aggregated Data Files</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz"></a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Integrated Regulatory Network Analysis</a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
@@ -600,7 +600,7 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <h6>Aggregated Data Files</h6>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-worm_ws170_selected_gene_up1000.fa.gz">upstream 1000bp regions (promoters) for selected genes, used for motif identification by MEME</a></li>
-<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-SSmotifs_enrich_in_SSgenes.xls"></a>The enrichement of motifs in promoters of stage specific genes</li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-SSmotifs_enrich_in_SSgenes.xls">The enrichement of motifs in promoters of stage specific genes</a></li>
 </ul>
 From left to right are: motif.stage, motif.name, stage, #genes with the motif, #of specific genes at the stage, #stage specifc genes with the motif, p-value from hypergeometric test
 <h4>Figure S15: SOM clusters</h4>
@@ -613,8 +613,7 @@ From left to right are: motif.stage, motif.name, stage, #genes with the motif, #
 <h4>Figure S22: An example showing GEI-11 binding near three ncRNAs</h4>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">p
-oly-A RNA sequencing data</a></li>
+<li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">poly-A RNA sequencing data</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018542">small RNA N2 embryos RNA-seq</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018551">small RNA N2 mid-L1 RNA-seq</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018556">small RNA N2 mid-L2 RNA-seq</a></li>
@@ -679,7 +678,7 @@ oly-A RNA sequencing data</a></li>
 <h4>Figure S23: Co-occurrence of transcription factors</h4>
 <h6>Aggregated Data Files</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz"></a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Analysis Files</a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
@@ -746,8 +745,8 @@ oly-A RNA sequencing data</a></li>
 <h4>Figure S26: DPY-27 only binds to HOT regions on the X chromosome</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
 </ul>
 <h6>Aggregated Data Files</h6>
 <ul>
@@ -768,30 +767,30 @@ oly-A RNA sequencing data</a></li>
 <h4>Figure S28: Higher gene expression level in HOT regions in tiling arrays</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018487"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018447"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018615"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018620"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018434"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018602"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018587"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018452"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018472"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018610"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018519"></a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018528"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">embryo panneural tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018447">embryo AVA neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018615">embryo germline precursor cells tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">embryo coelomocytes tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018620">embryo hypodermal cells tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">embryo intestine tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2)</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018434">embryo all cells reference tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">L2 panneural tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">L2 A-class neuron tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">L2 GABA neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">L2 coelomocytes tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">L2 body wall muscle tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018472">L2 excretory cell tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array</a></li>
 </ul>
 
 <h4>Figure S29: HOT regions are broadly expressed</h4>

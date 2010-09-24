@@ -26,7 +26,128 @@
 
 <h3>Companion Page for modENCODE Integrative Fly Paper</h3>
 
-<h4>Figures</h4>
+<h3>Figures</h3>
+
+<h4>Figure 1: Project Overview</h4> 
+
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Dataset_matrix.xls">Datasets overview</a></li>
+</ul>
+<h4>Figure 2: Systematic annotation of protein-coding and non-coding transcripts</h4>
+<h5>Part A: Male-specific 21aa ORFs</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:PutativeCodingTranscripts.txt">Novel transcripts with complete or incomplete conserved ORFs</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part B: X-inactivation RNA structures</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Read_through_candidates.gff3">Positions of stop-codon read-through candidates</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part C: Coding-exon miRNA</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Structured_ncRNAs.txt">Noncoding RNAseq transcripts with conserved RNA secondary structure</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure 3: Chromatin-based annotation of functional elements</h4>
+<h5>Part A: Chromatin marks associated with coding and non-coding elements</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Promoter_predictions.gff3">Novel promoter predictions based on chromatin signatures</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part B</h5>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure 4: De novo discovery of chromatin states</h4>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:9-state_chromatin_annotations.zip">Genome annotated using the 9-state chromatin model</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:30-state_chromatin_annotations.zip">Genome annotated using the 30-state chromatin model</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure 5: Combinatorial patterns of transcription factor binding</h4>
+<h5>Part A: Extensive overlap between pairs of transcription factors reveals two clusters</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Predicted_TFBS.gff3">Predicted TFBS</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:HOT_Regions.gff3">HOT regions</a></li>
+</ul>
+<h5>Part B: Each cluster contains factors enriched for both high-occupancy and lower-occupancy regions</h5>
+<h6>Aggregated Data Files:</h6>
+<h5>Part C: Motif enrichments reveal candidate TFs both upstream and downstream of HOT region establishment</h5>
+<h6>Aggregated Data Files:</h6>
+
+
+<h4>Figure 6: Genome fraction associated with diverse functional elements</h4>
+<h5>Part A: Increase in genome coverage with additional types of elements</h5>
+<h6>Aggregated Data Files:</h6>
+<h5>Part B: Fraction of genome multiply covered by elements of the same type and of multiple types</h5>
+<h6>Aggregated Data Files:</h6>
+<h5>Part C: Example region 2L:11930000-12010000</h5>
+<h6>Aggregated Data Files:</h6>
+
+
+<h4>Figure 7: Properties of the physical regulatory network</h4>
+<h5>Part A: Hierarchical nature of the physical regulatory network</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:PRN-allEdges.txt">Machine-parseable version of ChIP-based physical regulatory network(pRN) combined with miRNA regulations</a></li>
+</ul>
+<h5>Part B: Regulatory network motifs associated with TF and miR targeting</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:PRN-summary.xls">Summary of connectivity properties of pRN</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Fig7b-Sup.zip">Lists of all motif instances for the 8 motifs shown in Figure 7b</a></li>
+</ul>
+
+<h4>Figure 8: Gene function prediction</h4>
+<h5>Part A: Expression clusters show functional and motif enrichments</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/e/e0/FRNDatasets.zip">Feature-specific datasets for functional network reconstruction</a></li>
+</ul>
+<h5>Part B: Expression clusters show functional and motif enrichments</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FRN.txt">Functional regulatory network</a></li>
+</ul>
+<h5>Part C: Expression clusters show functional and motif enrichments</h5>
+<h6>Aggregated Data Files:</h6>
+
+<h5>Part D: Predicting nervous system development genes</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://www.broadinstitute.org/~sroy/flynet/suppdatasets/supp8d.tgz">Predicted GO processes of genes at different FDR thresholds</a></li>
+</ul>
+<h5>Part E: Predicting TBD genes</h5>
+<h6>Aggregated Data Files:</h6>
+
+
+
+<h4>Figure 9: Predicting gene/region activity patterns</h4>
+<h5>Part A: Regulatory motifs predictive of developmental time-course gene expression changes</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Developmental_regulators.txt">Genes implicated as regulators of key developmental events</a></li>
+</ul>
+<h5>Part B: TF expression changes associated with chromatin changes in predicted target regions</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Gene_expression_model_chromatin.tar.gz">Gene expression model based on chromatin marks</a></li> 
+</ul>
+<h5>Part C: Chromatin marks predictive of gene expression state</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:9Csuppdata.tgz">Supplementary Dataset S9C:Gene expression model based on regulator binding</a></li>
+</ul>
 
 <h4>Supplementary Figures</h4>
 
