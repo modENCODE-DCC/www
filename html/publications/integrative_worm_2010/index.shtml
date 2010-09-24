@@ -42,25 +42,25 @@
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNAseq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNAseq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNAseq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNAseq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNAseq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNAseq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNAseq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNAseq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNAseq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNAseq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNAseq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNAseq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-Seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-Seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
 <h5>Part B</h5>
@@ -71,65 +71,65 @@
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNAseq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNAseq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNAseq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNAseq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNAseq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNAseq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNAseq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNAseq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNAseq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNAseq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNAseq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNAseq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-Seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-Seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
 <h5>Part C</h5>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001867">RNAseq - mid-L1 20dC 4hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001841">RNAseq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001853">RNAseq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001860">RNAseq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
 </ul>
 
 <h5>Part D</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Aggregate Integrated Transcripts</a><li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz">Aggregate Integrated Transcripts</a><li>
 </ul>
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNAseq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNAseq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNAseq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNAseq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNAseq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNAseq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNAseq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNAseq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNAseq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNAseq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNAseq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNAseq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-Seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-Seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-Seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
 </ul>
 
 <h4>Figure 3: Expression & Binding Dynamics</h4>
@@ -191,11 +191,11 @@
 <h4>Figure 4: Non-protein-coding RNA</h4>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/uploads/0/0a/NcRNA_known_nochrM.ws190.gff">Known ncRNA</a></li>
+<li><a href="http://wiki.modencode.org/project/uploads/0/0a/NcRNA_known_nochrM.ws190.gff">Known ncRNAs</a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
 </ul>
 
 <h4>Figure 5: Transcription Factor Binding</h4>
@@ -211,115 +211,115 @@
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018576">small RNA him-8 males RNA-seq</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000220">Histone_H3K27ac_N2_EEMB_(AB4729_H3K27AC361571_N2_EEMB)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">Snyder_PHA4_StarvedL1_GFP</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">Snyder_PHA4_GFP_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">Snyder_PHA4_POLII_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">Snyder_PHA4_POLII_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">Snyder_PHA4_StarvedL1_POLII</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">Snyder_AMA1_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">Snyder_AMA1_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">Snyder_DAF16_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">Snyder_DAF16_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">Snyder_MAB5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">Snyder_MAB5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">Snyder_CEH-14_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">Snyder_DPY27_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">Snyder_EOR-1_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">Snyder_HLH-8_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">Snyder_LIN-11_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">Snyder_UNC-130_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">Snyder_HLH-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">Snyder_LIN-39_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">Snyder_NHR-6_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">Snyder_ALR-1_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">Snyder_N2_POLII_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">Snyder_N2_POLII_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">Snyder_N2_POLII_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">Snyder_N2_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">Snyder_N2_POLII_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">Snyder_PES1_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">Snyder_GEI11_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">Snyder_PHA4_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">Snyder_EGL5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">Snyder_EOR-1_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">Snyder_HLH-8_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">Snyder_PHA4_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">Snyder_PHA4_GFP_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">Snyder_MEP-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">Snyder_MDL-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">Snyder_LIN-15B_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">Snyder_BLMP-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">Snyder_LIN-13_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">Snyder_ELT-3_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">Snyder_EGL5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">Snyder_NHR-105_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">Snyder_CEH-30_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">Snyder_EGL-27_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">Snyder_SKN-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
 </ul>
 
 <h5>Part B</h5>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
 </ul>
 
 <h4>Figure 6: Highly Occupied Target (HOT) Regions</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">Snyder_PHA4_StarvedL1_GFP</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">Snyder_PHA4_GFP_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">Snyder_PHA4_POLII_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">Snyder_PHA4_POLII_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">Snyder_PHA4_StarvedL1_POLII</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">Snyder_AMA1_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">Snyder_AMA1_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">Snyder_DAF16_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">Snyder_DAF16_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">Snyder_MAB5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">Snyder_MAB5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">Snyder_CEH-14_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">Snyder_DPY27_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">Snyder_EOR-1_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">Snyder_HLH-8_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">Snyder_LIN-11_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">Snyder_UNC-130_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">Snyder_HLH-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">Snyder_LIN-39_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">Snyder_NHR-6_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">Snyder_ALR-1_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">Snyder_N2_POLII_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">Snyder_N2_POLII_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">Snyder_N2_POLII_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">Snyder_N2_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">Snyder_N2_POLII_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">Snyder_PES1_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">Snyder_GEI11_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">Snyder_PHA4_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">Snyder_EGL5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">Snyder_EOR-1_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">Snyder_HLH-8_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">Snyder_PHA4_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">Snyder_PHA4_GFP_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">Snyder_MEP-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">Snyder_MDL-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">Snyder_LIN-15B_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">Snyder_BLMP-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">Snyder_LIN-13_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">Snyder_ELT-3_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">Snyder_EGL5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">Snyder_NHR-105_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">Snyder_CEH-30_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">Snyder_EGL-27_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">Snyder_SKN-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
 </ul>
 <h6>Aggregated Data Files</h6>
 <ul>
@@ -368,62 +368,62 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 </ul>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">Snyder_PHA4_StarvedL1_GFP</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">Snyder_PHA4_GFP_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">Snyder_PHA4_POLII_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">Snyder_PHA4_POLII_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">Snyder_PHA4_StarvedL1_POLII</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">Snyder_AMA1_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">Snyder_AMA1_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">Snyder_DAF16_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">Snyder_DAF16_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">Snyder_MAB5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">Snyder_MAB5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">Snyder_CEH-14_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">Snyder_DPY27_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">Snyder_EOR-1_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">Snyder_HLH-8_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">Snyder_LIN-11_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">Snyder_UNC-130_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">Snyder_HLH-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">Snyder_LIN-39_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">Snyder_NHR-6_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">Snyder_ALR-1_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">Snyder_N2_POLII_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">Snyder_N2_POLII_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">Snyder_N2_POLII_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">Snyder_N2_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">Snyder_N2_POLII_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">Snyder_PES1_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">Snyder_GEI11_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">Snyder_PHA4_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">Snyder_EGL5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">Snyder_EOR-1_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">Snyder_HLH-8_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">Snyder_PHA4_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">Snyder_PHA4_GFP_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">Snyder_MEP-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">Snyder_MDL-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">Snyder_LIN-15B_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">Snyder_BLMP-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">Snyder_LIN-13_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">Snyder_ELT-3_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">Snyder_EGL5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">Snyder_NHR-105_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">Snyder_CEH-30_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">Snyder_EGL-27_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">Snyder_SKN-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
 </ul>
 
 <h4>Figure 8: Chromosome-scale domains of chromatin organization</h4>
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNAseq - mid-L3 25dC 25hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNAseq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000386">Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000170">Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
@@ -508,18 +508,101 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 
 <h4>Figure S1: ChIP-chip and ChIP-seq comparision</h4>
 <h4>Figure S2: Correlation of RNA expression levels for Young Adult between RNA-seq and tiling array platforms</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
 <h4>Figure S3: Numbers of RNA-seq Reads</h4>
 <h4>Figure S4: Density plots of 20,051 genes in WormBase190</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
 <h4>Figure S5: Pair-wise comparison of the density plots</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
+
 <h4>Figure S6: Rate of gene discovery</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+</ul>
+
 <h4>Figure S7: Number of features identified</h4>
 <h4>Figure S8: Number of confirmed splice junction over time</h4>
 <h4>Figure S9: Proportion of splice junctions confirmed by various methods</h4>
 <h4>Figure S10: Saturation of discovery of non-coding and coding RNAs with additional RNA-seq data sets</h4>
 <h4>Figure S11: Number of stages/samples where a given gene or splice junction is observed</h4>
 <h4>Figure S12: Expression profiles of developmental stage-specific genes</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS112S13-mRNA_expression_filtered.mat.gz">expression levels of all worm transcripts at 7 developmental stages</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS12S13-worm_stage_specific_genes.txt">stage specific transcripts</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+</ul>
 <h4>Figure S13: Expression profiles of the meta-genes for developmental stage-specific transcripts</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS112S13-mRNA_expression_filtered.mat.gz">expression levels of all worm transcripts at 7 developmental stages</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS12S13-worm_stage_specific_genes.txt">stage specific transcripts</a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+</ul>
+
+
 <h4>Figure S14: Enrichment of promoter motifs</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-worm_ws170_selected_gene_up1000.fa.gz">upstream 1000bp regions (promoters) for selected genes, used for motif identification by MEME</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS14-SSmotifs_enrich_in_SSgenes.xls"></a>The enrichement of motifs in promoters of stage specific genes</li>
+</ul>
+From left to right are: motif.stage, motif.name, stage, #genes with the motif, #of specific genes at the stage, #stage specifc genes with the motif, p-value from hypergeometric test
 <h4>Figure S15: SOM clusters</h4>
 <h4>Figure S16: Number of genes and transcripts shared between pairs of SOM clusters</h4>
 <h4>Figure S17: Isoform classes</h4>
@@ -528,13 +611,199 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <h4>Figure S20: Binning of long TARs built from tiling arrays</h4>
 <h4>Figure S21: Transcription factor motif discovery</h4>
 <h4>Figure S22: An example showing GEI-11 binding near three ncRNAs</h4>
+<h6>DCC Submission Description & Download Pages</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/features.do?type=experiment&action=export&experiment=Definition%20of%20comprehensive%20set%20of%20C.%20elegans%20transcripts%20and%20expression%20for%20various%20stages%20and%20conditions&feature=PolyASite&format=gff3">p
+oly-A RNA sequencing data</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018542">small RNA N2 embryos RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018551">small RNA N2 mid-L1 RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018556">small RNA N2 mid-L2 RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018561">small RNA N2 mid-L3 RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018566">small RNA N2 mid-L4 RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018571">small RNA N2 young adult RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018576">small RNA him-8 males RNA-seq</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000220">Histone_H3K27ac_N2_EEMB_(AB4729_H3K27AC361571_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
+</ul>
+
+
 <h4>Figure S23: Co-occurrence of transcription factors</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz"></a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
+</ul>
+
+
+
 <h4>Figure S24: Distribution of TF binding numbers</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
 <h4>Figure S25: Control experiments for HOT regions</h4>
 <h4>Figure S26: DPY-27 only binds to HOT regions on the X chromosome</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249"></a></li>
+</ul>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
+
 <h4>Figure S27: Higher gene expression level in HOT regions in RNA-seq</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853
+</ul>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+
 <h4>Figure S28: Higher gene expression level in HOT regions in tiling arrays</h4>
+<h6>DCC Submission Description & Download Pages:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018487"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018447"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018615"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018620"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018434"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018602"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018587"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018452"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018472"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018610"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018519"></a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018528"></a></li>
+</ul>
+
 <h4>Figure S29: HOT regions are broadly expressed</h4>
+<h6>Aggregated Data Files</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">HOT Regions Supplement File</a></li>
+</ul>
+<h6>Additional Data Sources</h6>
+<ul>
+<li><a href="doi:10.1016/j.cell.2009.08.044">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
+</ul>
+
 <h4>Figure S30: Pair-wise correlations of PHA-4 binding signal across different stages</h4>
 <h4>Figure S31: Examples of Pol II binding and expression</h4>
 <h4>Figure S32: Histone marks distribution over repetitive elements</h4>
@@ -546,86 +815,72 @@ http://intermine.modencode.org/query/objectDetails.do?id=208000054
 <h4>Figure S38: Distinguishing binding peaks of different TFs</h4>
 <h4>Figure S39: Developmental stage-specific models</h4>
 <h4>Figure S40: Combination of chromatin and sequence features</h4>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-hlh1-brad_pwm.matrix.gz">positional weighted matrix for HLH-1</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-hlh1-db_pwm.matrix.gz">positional weighted matrix for HLH-1 from database</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-Fig_hlh1_brad.dat.gz">PPV at different cut-off values</a></li>
+<li><a href="http://wiki.modencode.org/project/index.php/File:FigS40-Fig_hlh1_db.dat.gz">PPV at different cut-off values</a></li>
+</ul>
 <h4>Figure S41: Coverage of evolutionarily constrained regions by genomic features</h4>
 <h4>Figure S42: Saturation of TF binding</h4>
 
 
 <h4>Supplementary Tables</h4>
 
-<h5>Supplement Table 1</h5>
-Title: C. elegans genes not identified as transcribed in 19 polyA RNA-seq samples
-<br/>
+<h4>Supplement Table 1: C. elegans genes not identified as transcribed in 19 polyA RNA-seq samples</h5>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 2</h5>
-Title: Develpmental stages and tissue samples of small RNA-seq and tiling array experiments.
-<br/>
+<h4>Supplement Table 2: Develpmental stages and tissue samples of small RNA-seq and tiling array experiments.</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 3</h5>
-Title: Summary of cell and stage specific tiling array results
-<br/>
+<h4>Supplement Table 3: Summary of cell and stage specific tiling array results</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 4</h5>
-Title: Different types of known ncRNAs in the gold standard set
-<br/>
+<h4>Supplement Table 4: Different types of known ncRNAs in the gold standard set</h4>
 Aggregated Data Files: The miRNAs are collected from miRBase 14, and other ncRNAs are collected from WormBase 200. 
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 5</h5>
-Title: Annotated regions used for the training of machine learning methods,  tiling array TARs
-<br/>
+<h4>Supplement Table 5: Annotated regions used for the training of machine learning methods,  tiling array TARs</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 6</h5>
-Title: Performance of our integrated method on tiling array TARsa with three different ways to define element classes in the gold-standard set
-<br/>
+<h4>Supplement Table 6: Performance of our integrated method on tiling array TARs with three different ways to define element classes in the gold-standard set</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 7</h5>
-Title: Annotated and novel tiling array TARs going into set-21521 of ncRNAs 
-<br/>
+<h4>Supplement Table 7: Annotated and novel tiling array TARs going into set-21521 of ncRNAs</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 8</h5>
-Title: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq, and numbers of targeted coding and non-coding genes. 
-<br/>
+<h4>Supplement Table 8: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq, and numbers of targeted coding and non-coding genes.</h4>
 Aggregated Data Files: 1,061 annotated ncRNAs were collected from Wormbase 200 and miRBase 14.
 <br/>
-
 DCC Submission Description & Download Pages:
 <br/>
-<h5>Supplement Table 9</h5>
-Title: GO analysis of genes targeted by HOT regions
-<br/>
+<h4>Supplement Table 9: GO analysis of genes associated with HOT regions</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
-<br/>
-<h5>Supplement Table 10</h5>
-Title: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set
-<br/>
+<h4>Supplement Table 10: Expression correlation of tanscription factors with target genes and non-target genes.</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
+<h4>Supplement Table 11: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</h4>
+Aggregated Data Files:
 <br/>
-<h5>Supplement Table 12</h5>
-Title: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.
-<br/>
+DCC Submission Description & Download Pages:
+<h4>Supplement Table 12: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.</h4>
 Aggregated Data Files:
 <br/>
 DCC Submission Description & Download Pages:
@@ -634,16 +889,17 @@ DCC Submission Description & Download Pages:
 <h4>Supplementary Files</h4>
 
 
-<h5>Supplement File 1</h5>
+<h4>Supplement File 1</h4>
 <a href="http://wiki.modencode.org/project/uploads/d/d5/Predicted_ncRNA_21K.gff">Genome positions and predicted scores of predicted long ncRNA TARs (set-21K)</a>
 
-<h5>Supplement File 2</h5>
+<h4>Supplement File 2</h4>
 <a href="http://wiki.modencode.org/project/index.php/File:P5_analysis_uniq_3utr.txt">(Dataset S#) Coordinates for PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</a>
 
-<h5>Supplement File 3</h5>
+<h4>Supplement File 3</h4>
 <a href="http://wiki.modencode.org/project/uploads/8/88/HOT_regions_coreextended_HOTonly_final-1.xls">Coordinates for HOT regions</a>
 
-
+<h4>Supplement File 4</h4>
+<a href="http://wiki.modencode.org/project/uploads/5/57/Predicted_ncRNA_7K.gff">Predicted ncRNAs, 7K set</a>
 
 </div>
 </td>
