@@ -4,7 +4,7 @@
 
 <head>
  <link rel="stylesheet" href="/css/modencode.css">
- <title>Integrative Worm Paper Companion Page</title>
+ <title>Integrative Fly Paper Companion Page</title>
  <script type="text/javascript" src="/js/yahoo-dom-event.js"></script>
  <script type="text/javascript" src="/js/balloon.js"></script>
  <script type="text/javascript" src="/js/modencode.js"> </script>
@@ -28,130 +28,263 @@
 
 <h3>Figures</h3>
 
-<h4>Figure 1: Project Overview</h4> 
+<h4>Figure 1: Overview of the Drosophila modENCODE project</h4> 
 
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Dataset_matrix.xls">Datasets overview</a></li>
+<li><a href=""></a></li>
 </ul>
-<h4>Figure 2: Systematic annotation of protein-coding and non-coding transcripts</h4>
-<h5>Part A: Male-specific 21aa ORFs</h5>
+<h4>Figure 2: Examples of novel coding and non-coding genes and structures</h4>
+<h5>Part A: Male-specific transcript encoding two short polypeptides</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:PutativeCodingTranscripts.txt">Novel transcripts with complete or incomplete conserved ORFs</a></li>
-</ul>
-<h6>DCC Submission Description & Download Pages</h6>
-<h5>Part B: X-inactivation RNA structures</h5>
-<h6>Aggregated Data Files:</h6>
-<ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Read_through_candidates.gff3">Positions of stop-codon read-through candidates</a></li>
+<li><a href=""></a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages</h6>
-<h5>Part C: Coding-exon miRNA</h5>
+<h5>Part B: New non-coding transcript with evolutionarily conserved RNA secondary structure</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Structured_ncRNAs.txt">Noncoding RNAseq transcripts with conserved RNA secondary structure</a></li>
+<li><a href=""></a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part C: Example of a new miRNA derived from a protein-coding exon</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href=""></a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages</h6>
 
 <h4>Figure 3: Chromatin-based annotation of functional elements</h4>
-<h5>Part A: Chromatin marks associated with coding and non-coding elements</h5>
+<h5>Part A: Chromatin properties associated with different classes of functional elements</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Promoter_predictions.gff3">Novel promoter predictions based on chromatin signatures</a></li>
+<li><a href=""></a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages</h6>
-<h5>Part B</h5>
+<h5>Part B: Example of a new transcript predicted by chromatin signatures and supported by cDNA evidence</h5>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part C: Intergenic H3K36me1 chromatin signatures predict replication activity</h5>
 <h6>Aggregated Data Files:</h6>
 <h6>DCC Submission Description & Download Pages</h6>
 
-<h4>Figure 4: De novo discovery of chromatin states</h4>
+
+<h4>Figure 4: Discovery and characterization of chromatin states and their functional enrichments</h4>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:9-state_chromatin_annotations.zip">Genome annotated using the 9-state chromatin model</a></li>
-<li><a href="http://wiki.modencode.org/project/index.php/File:30-state_chromatin_annotations.zip">Genome annotated using the 30-state chromatin model</a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
 </ul>
 <h6>DCC Submission Description & Download Pages</h6>
 
-<h4>Figure 5: Combinatorial patterns of transcription factor binding</h4>
-<h5>Part A: Extensive overlap between pairs of transcription factors reveals two clusters</h5>
+<h4>Figure 5: High-Occupancy Target regions</h4>
+<h5>Part A: Pairwise clustering of TFs</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Predicted_TFBS.gff3">Predicted TFBS</a></li>
-<li><a href="http://wiki.modencode.org/project/index.php/File:HOT_Regions.gff3">HOT regions</a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
 </ul>
-<h5>Part B: Each cluster contains factors enriched for both high-occupancy and lower-occupancy regions</h5>
+<h5>Part B: TF overlap with complexity classes</h5>
 <h6>Aggregated Data Files:</h6>
-<h5>Part C: Motif enrichments reveal candidate TFs both upstream and downstream of HOT region establishment</h5>
-<h6>Aggregated Data Files:</h6>
-
-
-<h4>Figure 6: Genome fraction associated with diverse functional elements</h4>
-<h5>Part A: Increase in genome coverage with additional types of elements</h5>
-<h6>Aggregated Data Files:</h6>
-<h5>Part B: Fraction of genome multiply covered by elements of the same type and of multiple types</h5>
-<h6>Aggregated Data Files:</h6>
-<h5>Part C: Example region 2L:11930000-12010000</h5>
+<h5>Part C: Motif enrichments at varying complexity classes</h5>
 <h6>Aggregated Data Files:</h6>
 
 
-<h4>Figure 7: Properties of the physical regulatory network</h4>
-<h5>Part A: Hierarchical nature of the physical regulatory network</h5>
+<h4>Figure 6: Genome coverage by modENCODE datasets</h4>
+<h5>Part A: Coverage of total genome vs conserved genome</h5>
+<h6>Aggregated Data Files:</h6>
+<h5>Part B: Level of multiple coverage</h5>
+<h6>Aggregated Data Files:</h6>
+<h5>Part C: Example of increase single and multiple coverage</h5>
+<h6>Aggregated Data Files:</h6>
+
+
+<h4>Figure 7: Properties of the physical and functional regulatory network</h4>
+<h5>Part A: Hierarchical view of mixed ChIP-based/miRNA physical regulatory network</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:PRN-allEdges.txt">Machine-parseable version of ChIP-based physical regulatory network(pRN) combined with miRNA regulations</a></li>
+<li><a href=""></a></li>
 </ul>
-<h5>Part B: Regulatory network motifs associated with TF and miR targeting</h5>
+<h5>Part B: Network motifs in mixed TF/miRNA regulatory network</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:PRN-summary.xls">Summary of connectivity properties of pRN</a></li>
-<li><a href="http://wiki.modencode.org/project/index.php/File:Fig7b-Sup.zip">Lists of all motif instances for the 8 motifs shown in Figure 7b</a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
 </ul>
-
-<h4>Figure 8: Gene function prediction</h4>
-<h5>Part A: Expression clusters show functional and motif enrichments</h5>
-<h6>Aggregated Data Files:</h6>
-<ul>
-<li><a href="http://wiki.modencode.org/project/uploads/e/e0/FRNDatasets.zip">Feature-specific datasets for functional network reconstruction</a></li>
-</ul>
-<h5>Part B: Expression clusters show functional and motif enrichments</h5>
-<h6>Aggregated Data Files:</h6>
-<ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:FRN.txt">Functional regulatory network</a></li>
-</ul>
-<h5>Part C: Expression clusters show functional and motif enrichments</h5>
-<h6>Aggregated Data Files:</h6>
-
-<h5>Part D: Predicting nervous system development genes</h5>
-<h6>Aggregated Data Files:</h6>
-<ul>
-<li><a href="http://www.broadinstitute.org/~sroy/flynet/suppdatasets/supp8d.tgz">Predicted GO processes of genes at different FDR thresholds</a></li>
-</ul>
-<h5>Part E: Predicting TBD genes</h5>
+<h5>Part C: Comparison of regulatory networks constructed from different datasets</h5>
 <h6>Aggregated Data Files:</h6>
 
 
+<h4>Figure 8: Gene function prediction from co-expression and co-regulation patterns</h4>
+<h5>Part A: Clusters of co-expressed genes and associated gene ontology terms</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href=""></a></li>
+</ul>
+<h5>Part B: Example predictive power for selected GO process categories</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href=""></a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part C: Example of gene function prediction in nervous system development</h5>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part D: Example of gene function prediction in nervous system development</h5>
+<h6>Aggregated Data Files:</h6>
+<ul>
+<li><a href=""></a></li>
+</ul>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part E: Example of gene function prediction in nervous system development</h5>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
 
-<h4>Figure 9: Predicting gene/region activity patterns</h4>
-<h5>Part A: Regulatory motifs predictive of developmental time-course gene expression changes</h5>
+
+
+<h4>Figure 9: Predicting activity patterns of genes and regions</h4>
+<h5>Part A: Predicting stage-specific regulators associated with developmental expression changes</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Developmental_regulators.txt">Genes implicated as regulators of key developmental events</a></li>
+<li><a href=""></a></li>
 </ul>
-<h5>Part B: TF expression changes associated with chromatin changes in predicted target regions</h5>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part B: Chromatin changes associated with TF expression changes reveal cell-type specific activators and repressors</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php?title=Special:Upload&wpDestFile=Gene_expression_model_chromatin.tar.gz">Gene expression model based on chromatin marks</a></li> 
+<li><a href=""></a></li> 
 </ul>
-<h5>Part C: Chromatin marks predictive of gene expression state</h5>
+<h6>DCC Submission Description & Download Pages</h6>
+<h5>Part C: Predicting gene expression levels from the expression of inferred regulators</h5>
 <h6>Aggregated Data Files:</h6>
 <ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:9Csuppdata.tgz">Supplementary Dataset S9C:Gene expression model based on regulator binding</a></li>
+<li><a href=""></a></li>
 </ul>
 
 <h4>Supplementary Figures</h4>
+<h4>Figure S1: Conserved RNA secondary structures</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S2: Genome-wide correlation of chromatin marks with patterns of physical properties</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S3: Detecting transcribed regions based on enrichment of histone marks</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S4: Predictive model of active promoters in S2 cells</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S5: Early origin activity, replication timing and cohesin binding in >10 kb H3K36me1 intergenic regions</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S6: Data analysis used for annotation of chromatin states</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S7: ORC is enriched at HOT spots</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S8: Fraction of constrained and unconstrained bases in modENCODE datasets</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S9: Density correlation amongst broadly grouped modENCODE datasets</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S10: Chromatin State Recovery with Increasing Subsets of Marks</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S11: Heatmap of TF-TF and miR-TF interactions</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S12: Heatmap showing expression, motif-enrichment and GO-enrichment for each cluster</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S13: Precision-recall curves of feature specific and functional regulatory network</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S14A: Co-expression and co-regulation of known and novel members of nervous system development</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S14: Fold-enrichment of tissues among novel and known members of a GO process category</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S15: Information on Developmental Time Course Expression Splits Identified by DREM</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S16: Squared error, correlation coefficients and Regulators of 1487 predictable genes</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S17: Squared error, correlation coefficients and Regulators of 324 unpredictable genes</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4>Figure S18: Cumulative distribution of correlations of individual gene time courses obtained from the two developmental RNAseq datasets</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+
+
+<h4>Supplementary Tables</h4>
+<h4> Table S1: Drosophila cell lines characterized by modENCODE</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4> Table S2: Protein symbols used in the paper</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4> Table S3: cis-NAT-siRNA production in Drosophila melanogaster</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4> Table S4: ChIP data sources used to create the pRN</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4> Table S5: Number of genes and GO process terms at different FDRs</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
+<h4> Table S6: Relative performance of different networks for predicting expression of target genes</h4>
+<h6>Aggregated Data Files:</h6>
+<h6>DCC Submission Description & Download Pages</h6>
+
 
 <h4>Supplementary Files</h4>
+<h4>Data S1: Novel transcripts with complete or incomplete conserved ORFs</h4>
+<h4>Data S2: Positions of stop-codon read-through candidates</h4>
+<h4>Data S3: Noncoding RNAseq transcripts with conserved RNA secondary structure</h4>
+<h4>Data S4: Novel promoter predictions based on chromatin signatures</h4>
+<h4>Data S5: Genome annotated using the 9-state chromatin model</h4>
+<h4>Data S6: Genome annotated using the 30-state chromatin model</h4>
+<h4>Data S7: Predicted TFBS</h4>
+<h4>Data S8: HOT regions</h4>
+<h4>Data S9: Machine-parseable version of ChIP-based physical regulatory network(pRN) combined with miRNA regulations</h4>
+<h4>Data S10: Summary of connectivity properties of pRN</h4>
+<h4>Data S11: Lists of all motif instances for the 8 motifs shown in Figure 7b</h4>
+<h4>Data S12: Feature-specific datasets for functional network reconstruction</h4>
+<h4>Data S13: Functional regulatory network</h4>
+<h4>Data S14: Gene coexpression clusters</h4>
+<h4>Data S15: Function prediction of all genes</h4>
+<h4>Data S16: Genes predicted as regulators of key developmental events</h4>
+<h4>Data S17: Gene expression model based on regulator binding</h4>
+
   
       </div>
     </td>
