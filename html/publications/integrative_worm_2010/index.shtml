@@ -29,7 +29,7 @@
 <h3>Figures</h3>
 
 <h4>Figure 1: Overview of modENCODE Worm Data Sets</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
@@ -37,7 +37,7 @@
 </ul>
 
 <h4>Figure 2: Transcriptome Features, Gene Models & Alternative Splicing</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 <h5>Part A</h5>
 <ul>
 <li><a href="http://wiki.modencode.org/project/index.php/File:Aggregate_1003.integrated_transcripts.ucsc_browser.ws190.gff.gz ">Source Data - Aggregate Integrated Transcripts </a></li>
@@ -136,7 +136,7 @@
 </ul>
 
 <h4>Figure 3: Expression & Binding Dynamics</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h5>Part A</h5>
 <h6>DCC Submission Description & Download Pages</h6>
@@ -194,7 +194,7 @@
 </ul>
 
 <h4>Figure 4: Non-protein-coding RNA</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>Aggregated Data Files:</h6>
 <ul>
@@ -206,7 +206,7 @@
 </ul>
 
 <h4>Figure 5: Transcription Factor Binding</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>DCC Submission Description & Download Pages</h6>
 <ul>
@@ -278,7 +278,7 @@
 </ul>
 
 <h4>Figure 6: Highly Occupied Target (HOT) Regions</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
@@ -373,7 +373,7 @@
 </ul>
 
 <h4>Figure 7: Integrated Regulatory Network</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>Aggregated Data Files</h6>
 <ul>
@@ -433,7 +433,7 @@
 </ul>
 
 <h4>Figure 8: Chromosome-scale domains of chromatin organization</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
@@ -472,7 +472,7 @@
 </ul>
 
 <h4>Figure 9: Chromatin Patterns around Genes</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 <h6>DCC Submission Description & Download Pages:</h6>
 <ul>
@@ -509,10 +509,222 @@
 </ul>
 
 <h4>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
+<h6>Aggregated Data</h6>
+http://wiki.modencode.org/project/index.php/File:S34toS43HOT.tgz">HOT data used to build supplement figures S34 to S42 (.bed format)
+<h6>DCC Submission Description & Download Pages</h6>
+
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000155">Histone_H3_N2_L3_(AB1791_H3_N2_L3_new)</a></li>
+
+ 
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000100">Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000164">Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
+       
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000157">Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li> 
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000160">Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000109">Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000105">Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB)</a></li>  
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000024">POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB)</a></li>
+   
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000093">Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB)</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000151">Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3)</a></li>
+    
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000153">Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM)</a></li>
+ 
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000290">POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000349">Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000139">Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
+    
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000168">Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000147">Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
+ 
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000351">Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000121">Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000335">Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000131">Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000135">Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000297">DPY-27_N2_L4(JL00001_DPY27_N2_L4)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000327">DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000329">SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000238">DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000245">MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000299">DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000061">HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000331">MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000345">MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000304">SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000084">Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000170">Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000143">Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000072">Snyder_ALR-1_GFP_L2</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000136"></a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000226">Snyder_CEH-14_GFP_L2</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000155">Snyder_CEH-30_GFP_lemb</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000204">Snyder_DAF16_GFP_L4YA</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000000">Snyder_DPY27_GFP_emb</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000121">Snyder_EGL5_GFP_L3</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000161">Snyder_EGL-27_GFP_L1</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000255">Snyder_ELT-3_GFP_L1</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000021">Snyder_EOR-1_GFP_L3</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000109">Snyder_GEI11_GFP_L4</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000054">Snyder_HLH-1_GFP_emb</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000030">Snyder_HLH-8_GFP_L3</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000038">Snyder_LIN-11_GFP_L2</a></li>
+    
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000143">Snyder_LIN-13_GFP_emb</a></li>
+   
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000249">Snyder_LIN-15B_GFP_L3</a></li>
+       
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000060">Snyder_LIN-39_GFP_L3</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000216">Snyder_MAB5_GFP_L3</a></li>
+       
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000243">Snyder_MDL-1_GFP_L1</a></li>
+  
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000237">Snyder_MEP-1_GFP_emb</a></li>
+  
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000066">Snyder_NHR-6_GFP_L2</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000149">Snyder_NHR-105_GFP_L3</a></li>
+
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000103">Snyder_PES1_GFP_L4</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000179">Snyder_PHA4_GFP_emb</a></li>
+    
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000186">Snyder_PHA4_GFP_FedL1</a></li>
+       
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000115">Snyder_PHA4_GFP_L2</a></li>
+    
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000132">Snyder_PHA4_GFP_lemb</a></li>
+  
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000182">Snyder_PHA4_StarvedL1_GFP</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000235">Snyder_PHA4_GFP_YA</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000173">Snyder_PQM-1_GFP_L3</a></li>
+      
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000167">Snyder_SKN-1_GFP_L1</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000090">Snyder_N2_POLII_L1</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000092">Snyder_N2_POLII_L2</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000094">Snyder_N2_POLII_L3</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
+ 
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000100">Snyder_N2_POLII_YA</a></li>
+ 
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
+ 
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000086">Snyder_N2_POLII_lemb</a></li>
+
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000046">Snyder_UNC-130_GFP_L1</a></li>
 
 <h4>Figure 11: Relative proportion of different annotations among constrained sequences</h4>
-<h5>Analysis completed using WormBase version WS190</h5>
+<h5>Analysis completed using WormBase version WSXXX</h5>
 
 
 
