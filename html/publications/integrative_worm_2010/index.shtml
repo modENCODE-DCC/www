@@ -26,7 +26,7 @@
 
 <h3>Companion Page for modENCODE Integrative Worm Paper</h3>
 
-<h4><a href="http://">modENCODE data file formats</h4>
+<h4><a href="http://">modENCODE data file formats</a> </h4>
 A guide to the data file formats, which describes WIG file format, GFF3 format, and provides an introduction on how to upload and view them on WormBase, modENCODE and UCSC browsers.
 Link coming soon. 
 
@@ -415,11 +415,12 @@ Link coming soon.
 <h4>Figure 10: Integrated Statistical Models Predicting Regulation and Expression from Chromatin Features</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
 <h6>Aggregated Data</h6>
-http://wiki.modencode.org/project/index.php/File:S34toS43HOT.tgz">HOT data used to build supplement figures S34 to S42 (.bed format)
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S34toS43HOT.tgz">HOT data used to build supplement figures S34 to S42 (.bed format)</a></li>
+</ul>
+
 <h6>Source experimental data</h6>
-
-
-
+<ul>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000155">Histone_H3_N2_L3_(AB1791_H3_N2_L3_new)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000100">Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB)</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000164">Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
@@ -511,12 +512,19 @@ http://wiki.modencode.org/project/index.php/File:S34toS43HOT.tgz">HOT data used 
 
 <h4>Figure S1: ChIP-chip and ChIP-seq comparision</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000078">Snyder_N2_POLII_eemb</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=208000096">Snyder_N2_POLII_L4</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000310">Pol_II_CTD_N2_EEMB_(ABAB817_8WG16_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=205000290">POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4)</a></li>
 
 <h4>Figure S2: Correlation of RNA expression levels for Young Adult between RNA-seq and tiling array platforms</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNAseq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018511">young adult 25dC 42hrs post-L1 N2 tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNAseq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
 </ul>
 
 <h4>Figure S3: Numbers of RNA-seq Reads</h4>
