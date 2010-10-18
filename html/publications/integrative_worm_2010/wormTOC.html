@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-1-transitional.dtd">
+
+
+<!-- layout.jsp -->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+
+
+  
+
+  <head>
+
+<!-- for google webmaster -->
+<meta name="google-site-verification" content="" />
+
+<!-- for yahoo -->
+<META name="y_key" content="" />
+
+<!-- for microsoft -->
+<meta name="msvalidate.01" content="" />
+
+<base href="http://intermine.modencode.org/release-18/layout.jsp" />
+
+
+<!-- htmlHead.jsp -->
+
+<link href="" rel="alternate" type="application/rss+xml" title="modMine | News" />
+
+<link rel="stylesheet" type="text/css" href="/release-18/css/webapp.css"/>
+<link rel="stylesheet" type="text/css" href="/release-18/css/inlineTagEditor.css"/>
+<link rel="stylesheet" type="text/css" href="/release-18/css/resultstables.css" />
+
+<link rel="stylesheet" type="text/css" href="/release-18/css/begin.css"/>
+<link rel="stylesheet" type="text/css" href="/release-18/themes/blue/theme.css"/>
+
+<script type="text/javascript" src="/release-18/js/jquery-1.3.2.min.js"></script>
+
+
+  <script type="text/javascript" src="/release-18/js/jQuery.roundCorners-1.1.1.js"></script>
+  <script type="text/javascript" src="/release-18/js/excanvas.js"></script>
+
+<script type="text/javascript">
+  jQuery.noConflict();
+</script>
+
+
+<script type="text/javascript" src="/release-18/js/prototype.js"></script>
+
+<script type="text/javascript" src="/release-18/dwr/interface/AjaxServices.js"></script>
+<script type="text/javascript" src="/release-18/dwr/engine.js"></script>
+<script type="text/javascript" src="/release-18/dwr/util.js"></script>
+<script type="text/javascript" src="/release-18/js/imdwr.js"></script>
+<script type="text/javascript" src="/release-18/js/imutils.js"></script>
+<script type="text/javascript" src="/release-18/js/inlineTagEditor.js"></script>
+
+<script type="text/javascript" src="/release-18/js/date.js"></script>
+<script type="text/javascript" src="/release-18/js/tagSelect.js"></script>
+<script type="text/javascript" src="/release-18/js/table.js"></script>
+<!--[if lt IE 7.]>
+  <script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+<meta content="microarray, bioinformatics, drosophila, c.elegans, genomics" name="keywords"/>
+<meta content="Integrated database for Drosophila melanogaster and Caenorhabditis elegans genomics" name="description"/>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/>
+
+<title>
+  
+    
+    
+      modMine: Home
+    
+  
+</title>
+<!-- /htmlHead.jsp -->
+
+  </head>
+
+  <body>
+
+  <!-- Check if the current page has fixed layout -->
+
+  <!-- Page header -->
+<!-- headMenu.jsp -->
+
+<!-- Header container -->
+<div align="center" id="headercontainer">
+
+  <!-- Header -->
+    <div id="topnav">
+
+      <a href="http://blog.modencode.org">modENCODE blog</a>
+
+    </div>
+  
+  <div id="header">
+    <a href="http://intermine.modencode.org" alt="Home" rel="NOFOLLOW"><img id="logo" src="model/images/logo.png" width="45px" height="43px" alt="Logo" /></a>
+    <h1><a href="http://intermine.modencode.org/">modMine</a></h1>
+
+    <p id="version">v 18 17Jul2010</p>
+    <p>A data warehouse for the modENCODE project</p>
+  </div>
+
+    <!-- Tab Menu -->
+  
+  <div id="menucontainer">
+    <ul id="nav">
+      <li id="home" class="activelink">
+
+        <a href="/release-18/begin.do">
+          Home
+        </a>
+      </li>
+      <li id="templates"  >
+         <a href="/release-18/templates.do">
+          Templates
+        </a>
+      </li>
+      <li id="bags" >
+
+        <a href="/release-18/bag.do">
+          Lists
+        </a>
+      </li>
+      <li id="query"  >
+        <a href="/release-18/customQuery.do">
+          QueryBuilder&nbsp;
+        </a>
+      </li>
+
+  <li id="experiments"  >
+    <a href="/release-18/projects.do">
+      Projects
+    </a>
+  </li>
+
+      <li id="category"  >
+        <a href="/release-18/dataCategories.do">
+          Data
+        </a>
+
+      </li>
+      <li id="mymine"  >
+        <a href="/release-18/mymine.do">
+          MyMine
+        </a>
+      </li>
+    </ul>
+    <ul id="loginbar">
+        <li>
+
+
+&nbsp;&nbsp;
+<a href="http://intermine.modencode.org/help/tour/start.html" onclick="javascript:window.open('http://intermine.modencode.org/help/tour/start.html','_help','toolbar=0,scrollbars=1,location=1,statusbar=1,menubar=0,resizable=1,width=800,height=600');return false">Take a tour</a>
+
+</li>
+        <li>|</li>
+        
+        <li>
+
+    <a href="/release-18/login.do?returnto=%2Fbegin.do" rel="NOFOLLOW">
+      
+      Log in
+    </a>
+
+</li>
+    </ul>
+  </div>
+    <!-- Submenu section -->
+  <div id="submenu" class="submenu">
+    <div id="submenudiv">
+      <div id="quicksearch">
+
+<!-- quickSearch.jsp -->
+
+
+
+
+<script type="text/javascript">
+function updateExample(i) {
+  if (isUpdatedByUser(jQuery('#quickSearchInput').val())) {
+	 return;
+  }
+  if (i==0) {
+     jQuery('#quickSearchInput').val('e.g zen, Q9V4E1');
+  } else if (i==1) {
+	 jQuery('#quickSearchInput').val('e.g. gene orthologue');
+  } else {
+     jQuery('#quickSearchInput').val('e.g. transcription factors');
+  }
+  jQuery('#quickSearchInput').css("color", "#666");
+  jQuery('#quickSearchInput').css("fontStyle","italic");
+}
+
+function isUpdatedByUser(value) {
+  if (value == 'e.g zen, Q9V4E1' || value == 'e.g. gene orthologue' || value == 'e.g. transcription factors' || value == '') {
+	  return false;
+  } else {
+	  return true;
+  }
+}
+
+function clearElement(e) {
+   var value =document.getElementById('quickSearchInput').value;
+   if( value == 'e.g zen, Q9V4E1' || value == 'e.g. gene orthologue' || value == 'e.g. transcription factors') {
+      e.value = "";
+      jQuery('#quickSearchInput').css("color", "#000");
+      jQuery('#quickSearchInput').css("fontStyle","normal");
+   }
+}
+
+</script>
+
+<form name="quickSearchForm" method="post" action="/release-18/quickSearchAction.do" style="display:inline;">
+  Search
+  <select name="quickSearchType" id="quickSearchType" onchange="updateExample(selectedIndex);" style="font-size:1em;">
+  <option value="ids" selected>Identifiers</option>
+  <option value="tpls" >Templates&nbsp;&nbsp;</option>
+
+  <option value="bgs" >Lists</option>
+  </select>
+for
+<input style="width:150px;color:#666;font-style:italic;font-size:1em" type="text" id="quickSearchInput" name="value" value="e.g zen, Q9V4E1" onFocus="clearElement(this);" />
+<input type="submit" value="Go">
+</form>
+<!-- /quickSearch.jsp -->
+
+      </div>
+        <ul id="submenulist">
+        
+ 
+        
+          <li>
+
+            <a href="http://blog.modencode.org/modmine/help">modMine help</a>
+          </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</div>
+<!-- /headMenu.jsp -->
+
+
+  <div id="pagecontentcontainer" align="center">
+
+    
+    
+    
+      <div id="pagecontentmax">
+    
+    
+
+  <div id="navtrail">
+
+  <!-- contact us -->
+
+    <p id="contactUsLink" style="display:none;" class="alignleft">
+    <a href="#" onclick="showContactForm();return false;">Contact Us</a>
+    </p>
+
+
+    <!-- Nav trail -->
+  
+  
+    <p class="alignright">
+    <a href="http://intermine.modencode.org">modMine</a>
+    
+      &nbsp;&gt;&nbsp;<a href="/release-18/begin.do">Home</a>
+      
+
+&nbsp;&nbsp;
+<a href="http://intermine.modencode.org/help/begin.html" onclick="javascript:window.open('http://intermine.modencode.org/help/begin.html','_help','toolbar=0,scrollbars=1,location=1,statusbar=1,menubar=0,resizable=1,width=800,height=600');return false">?</a>
+
+  
+  
+
+
+
+</p>
+
+  
+ </div>
+
+<div style="clear: both;"></div>
+
+       
+      
+
+
+
+
+
+<!-- errorMessagesContainers.jsp -->
+<link rel="stylesheet" type="text/css" href="css/errorMessages.css"/>
+<div>
+    <div class="topBar errors" id="error_msg" style="display:none"><span style="float:right;padding:0;margin:0"><img src="images/close.png" alt="Dismiss" title="Dismiss" style="cursor:pointer;" onclick="javascript:jQuery('#error_msg').hide();"></span></div>
+    <div class="topBar messages" id="msg" style="display:none"><span style="float:right;padding:0;margin:0"><img src="images/close.png" alt="Dismiss" title="Dismiss" style="cursor:pointer;" onclick="javascript:jQuery('#msg').hide();"></span></div>
+    <div class="topBar lookupReport" id="lookup_msg" style="display:none"><span style="float:right;padding:0;margin:0"><img src="images/close.png" alt="Dismiss" title="Dismiss" style="cursor:pointer;" onclick="javascript:jQuery('#lookup_msg').hide();"></span></div>
+
+    <noscript>
+      <div class="topBar errors">
+        Your browser does not have JavaScript enabled. Some parts of this website may require JavaScript to function correctly
+      </div>
+      <br/>
+    </noscript>
+
+</div>
+<!-- /errorMessagesContainers.jsp -->
+
+
+
+
+      
+      
+
+
+
+
+<!-- contextHelp.jsp -->
+<div id="ctxHelpDiv"
+  
+    style="display:none"
+  
+>
+  <div class="topBar contextHelp"> 
+    <table width="100%" cellspacing="0" border="0" cellpadding="0">
+    <tr>
+      <td valign="top">
+
+        <div id="ctxHelpTxt"></div>
+      </td>
+      <td align="right" valign="top">
+        
+          <a href="#" onclick="javascript:document.getElementById('ctxHelpDiv').style.display='none';return false">
+            <img border="0" src="images/cross.gif" title="x"/>
+          </a>
+        
+      </td>
+    </tr>
+    </table>
+
+  </div>
+  <br/>
+</div>
+<!-- /contextHelp.jsp -->
+
+
+
+<!-- begin.jsp -->
+
+
+<link rel="stylesheet" href="model/css/frontpage_sections.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+<div class="body">
+
+
+<!-- The projects section -->
+<div class="body">
+
+<table cellpadding="0" cellspacing="0" border="0" class="projects" id="projects">
+<tr><a name="index">
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#1"  title="Go to category: Gene structure" >Gene structure
+<img src="images/right-arrow.gif" /></a></td>
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#2"  title="Go to category: mRNA expression profiling" >mRNA expression profiling
+<img src="images/right-arrow.gif" /></a></td>
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#3"  title="Go to category: ncRNA expression profiling" >ncRNA expression profiling
+<img src="images/right-arrow.gif" /></a></td>
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#4"  title="Go to category: Transcription factor binding sites" >Transcription factor binding sites
+<img src="images/right-arrow.gif" /></a></td>
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#5"  title="Go to category: Histone modification and replacement" >Histone modification and replacement
+<img src="images/right-arrow.gif" /></a></td>
+
+<td><a href="http://www.modencode.org/publications/integrative_worm_2010/wormTOC.html#6"  title="Go to category: Chromatin structure" >Chromatin structure
+
+<img src="images/right-arrow.gif" /></a></td>
+
+</a></tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" class="projects" id="projects">
+
+<tr><th>&nbsp;</th><th><h4><a name="1">Gene structure</a></h4></th><th>&nbsp;</th></tr>
+
+  <tr>
+  <td >
+    
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=SL Acceptor Site Confirmation in C. elegans">SL Acceptor Site Confirmation in C. elegans</a></h4>
+
+  
+
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Green</b> 
+
+<br>
+
+  
+    
+    
+      This experiment has <b>1 data submission</b>.
+    
+    
+  
+
+
+    
+    
+       It has produced <b>1207 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>inner forward primer</b>, <b>inner reverse primer</b>, <b>outer forward primer</b>, <b>outer reverse primer</b> and <b>strain</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      SL1AcceptorSite:&nbsp;933
+      
+      
+     <br>  
+      TranscriptRegion:&nbsp;1453
+      
+      
+     <br>  
+      SL2AcceptorSite:&nbsp;43
+      
+      
+     <br>  
+      EST:&nbsp;1405
+     <br>  
+      
+      
+    
+      
+
+<p/>
+
+     
+       
+         
+           1 GBrowse track
+         
+         
+       
+<br></br>
+     
+
+     
+
+      
+      1207 
+      
+        
+        
+        entries 
+        
+      
+      in Trace Archive
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=SL Acceptor Site Confirmation in C. elegans"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+</tr>
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Encyclopedia of C. elegans 3'UTRs and their regulatory elements">Encyclopedia of C. elegans 3'UTRs and their regulatory elements</a></h4>
+
+  
+Project:The 3' UTRome &nbsp;&nbsp;(Fabio Piano)&nbsp;&nbsp;
+Labs: 
+    <b>Kim</b>, <b>Piano</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>40 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>3099 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>strain</b>, <b>temperature</b> and <b>tissue</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      Gene:&nbsp;20220
+      
+      
+     <br>  
+      Exon:&nbsp;21355
+      
+      
+     <br>  
+      PolyASignalSequence:&nbsp;27135
+      
+      
+     <br>  
+      MRNA:&nbsp;31137
+      
+      
+     <br>  
+      ThreePrimeRACEClone:&nbsp;2700
+      
+      
+     <br>  
+      PolyASite:&nbsp;35382
+      
+      
+     <br>  
+      CDS:&nbsp;23792
+      
+      
+     <br>  
+      EST:&nbsp;2694
+      
+      
+     <br>  
+      ThreePrimeRST:&nbsp;2700
+      
+      
+     <br>  
+      ThreePrimeUST:&nbsp;2700
+      
+      
+     <br>  
+      ThreePrimeUTR:&nbsp;24055
+     <br>  
+      
+      
+    
+      
+
+<p/>
+
+     
+
+     
+
+      
+      379 
+      
+        
+        
+        entries 
+        
+      
+      in dbEST
+      <br></br>
+      
+      26 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+      2694 
+      
+        
+        
+        entries 
+        
+      
+      in Trace Archive
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Encyclopedia of C. elegans 3'UTRs and their regulatory elements"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Intron Confirmation in C. elegans">Intron Confirmation in C. elegans</a></h4>
+
+  
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Green</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>6 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>3426 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>inner forward primer</b>, <b>inner reverse primer</b>, <b>outer forward primer</b>, <b>outer reverse primer</b>, <b>reverse primer</b> and <b>strain</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      Intron:&nbsp;10284
+      
+      
+     <br>  
+      EST:&nbsp;6855
+     <br>  
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           11 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      884 
+      
+        
+        
+        entries 
+        
+      
+      in dbEST
+      <br></br>
+
+      
+      2542 
+      
+        
+        
+        entries 
+        
+      
+      in Trace Archive
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Intron Confirmation in C. elegans"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+  <tr>
+  <td >
+
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions">Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions</a></h4>
+
+  
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Waterston</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>53 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>20 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>exposure time</b>, <b>food</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      TSS:&nbsp;314286
+      
+      
+     <br>  
+      Exon:&nbsp;4458116
+      
+      
+     <br>  
+      OverlappingESTSet:&nbsp;1611337
+      
+      
+     <br>  
+      MRNA:&nbsp;25028
+      
+      
+     <br>  
+      Transcript:&nbsp;1071311
+      
+      
+     <br>  
+      SL1AcceptorSite:&nbsp;253226
+      
+      
+     <br>  
+      PolyASite:&nbsp;238179
+      
+      
+     <br>  
+      Intron:&nbsp;2859156
+      
+      
+     <br>  
+      CDS:&nbsp;387696
+      
+      
+     <br>  
+      TranscriptionEndSite:&nbsp;258882
+      
+      
+     <br>  
+      SL2AcceptorSite:&nbsp;66411
+     <br>  
+      
+      
+    
+       with 6826759 expression levels.
+    
+      
+
+<p/>
+
+     
+       
+         
+         
+           38 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      20 
+      
+        
+        
+        entries 
+        
+      
+      in SRA
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+<tr><th>&nbsp;</th><th><h4><a name="2">mRNA expression profiling</a></h4></th><th>&nbsp;</th></tr>
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Identification of transcribed sequences under pathogenic bacterial growth conditions with expression profile maps">Identification of transcribed sequences under pathogenic bacterial growth conditions with expression profile maps</a></h4>
+
+  
+
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Reinke</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>6 data submissions</b>. 
+    
+  
+
+
+    
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>exposure time</b>, <b>food</b> and <b>strain</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      TranscriptRegion:&nbsp;261696
+     <br>  
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           6 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+
+<a href="/release-18/experiment.do?experiment=Identification of transcribed sequences under pathogenic bacterial growth conditions with expression profile maps"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Identification of tissue and stage-specific transcribed sequences with expression profile maps">Identification of tissue and stage-specific transcribed sequences with expression profile maps</a></h4>
+
+  
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Miller</b>, <b>Reinke</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>40 data submissions</b>. 
+    
+  
+
+
+    
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>antibody</b>, <b>strain</b>, <b>temperature</b> and <b>tissue</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      TranscriptRegion:&nbsp;1630565
+     <br>  
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           40 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+
+<a href="/release-18/experiment.do?experiment=Identification of tissue and stage-specific transcribed sequences with expression profile maps"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions">Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions</a></h4>
+
+  
+
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Waterston</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>53 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>20 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>exposure time</b>, <b>food</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      TSS:&nbsp;314286
+      
+      
+     <br>  
+      Exon:&nbsp;4458116
+      
+      
+     <br>  
+      OverlappingESTSet:&nbsp;1611337
+      
+      
+     <br>  
+      MRNA:&nbsp;25028
+      
+      
+     <br>  
+      Transcript:&nbsp;1071311
+      
+      
+     <br>  
+      SL1AcceptorSite:&nbsp;253226
+      
+      
+     <br>  
+      PolyASite:&nbsp;238179
+      
+      
+     <br>  
+      Intron:&nbsp;2859156
+      
+      
+     <br>  
+      CDS:&nbsp;387696
+      
+      
+     <br>  
+      TranscriptionEndSite:&nbsp;258882
+      
+      
+     <br>  
+      SL2AcceptorSite:&nbsp;66411
+     <br>  
+      
+      
+    
+       with 6826759 expression levels.
+    
+      
+
+<p/>
+
+     
+       
+         
+         
+           38 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      20 
+      
+        
+        
+        entries 
+        
+      
+      in SRA
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Definition of comprehensive set of C. elegans transcripts and expression for various stages and conditions"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+<tr><th>&nbsp;</th><th><h4><a name="3">ncRNA expression profiling</a></h4></th><th>&nbsp;</th></tr>
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Identification of small RNAs in C. elegans">Identification of small RNAs in C. elegans</a></h4>
+
+  
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Slack</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>7 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>7 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b> and <b>strain</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+    
+      
+<p/>
+
+     
+
+     
+
+      
+      7 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Identification of small RNAs in C. elegans"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Changes in expression of small RNAs during aging in C. elegans">Changes in expression of small RNAs during aging in C. elegans</a></h4>
+
+  
+Project:The C. elegans Transcriptome &nbsp;&nbsp;(Robert Waterston)&nbsp;&nbsp;
+Labs: 
+    <b>Slack</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>15 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>5 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>days post-L4</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      MiRNA:&nbsp;1705
+     <br>  
+      
+      
+    
+       with 1342 expression levels.
+    
+      
+<p/>
+
+     
+
+     
+
+      
+      5 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Changes in expression of small RNAs during aging in C. elegans"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Small RNA expression in C. elegans embryos">Small RNA expression in C. elegans embryos</a></h4>
+
+  
+Project:The 3' UTRome &nbsp;&nbsp;(Fabio Piano)&nbsp;&nbsp;
+Labs: 
+    <b>Rajewsky</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>6 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>6 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>fixation state</b>, <b>fixative</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+    
+      
+<p/>
+
+     
+
+     
+
+      
+      6 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Small RNA expression in C. elegans embryos"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+<tr><th>&nbsp;</th><th><h4><a name="4">Transcription factor binding sites</a></h4></th><th>&nbsp;</th></tr>
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=ChIP-Seq Identification of C. elegans TF Binding Sites">ChIP-Seq Identification of C. elegans TF Binding Sites</a></h4>
+
+  
+Project:Regulatory Elements in C. elegans &nbsp;&nbsp;(Michael Snyder)&nbsp;&nbsp;
+
+Labs: 
+    <b>Snyder</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>49 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>65 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>strain</b>, <b>target gene</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      BindingSite:&nbsp;275520
+     <br>  
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           114 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      65 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+
+<a href="/release-18/experiment.do?experiment=ChIP-Seq Identification of C. elegans TF Binding Sites"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+</tr>
+
+<tr><th>&nbsp;</th><th><h4><a name="5">Histone modification and replacement</a></h4></th><th>&nbsp;</th></tr>
+
+
+  <tr>
+  <td >
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Chromatin ChIP-chip">Chromatin ChIP-chip</a></h4>
+
+  
+Project:Chromatin Function &nbsp;&nbsp;(Jason Lieb)&nbsp;&nbsp;
+
+Labs: 
+    <b>Ahringer</b>, <b>Desai</b>, <b>Lieb</b>, <b>Strome</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>78 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>84 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>antibody</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+      BindingSite:&nbsp;48517
+     <br>  
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           69 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      1 
+      
+        
+         entry
+        
+        
+      
+      in ArrayExpress
+      <br></br>
+      
+      83 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Chromatin ChIP-chip"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+<tr><th>&nbsp;</th><th><h4><a name="6">Chromatin structure</a></h4></th><th>&nbsp;</th></tr>
+
+ 
+
+
+  <tr>
+  <td >
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Nucleosome mapping">Nucleosome mapping</a></h4>
+
+  
+Project:Chromatin Function &nbsp;&nbsp;(Jason Lieb)&nbsp;&nbsp;
+Labs: 
+    <b>Lieb</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>2 data submissions</b>. 
+    
+  
+
+
+    
+       It has produced <b>1 entry in public repositories</b>.
+    
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>strain</b> and <b>temperature</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           2 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      1 
+      
+        
+         entry
+        
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Nucleosome mapping"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+  <tr>
+  <td >
+    
+       
+        <img border="0" class="arrow" src="model/images/f_vvs.png" title="fly"/><br>
+      
+      
+    
+      
+       
+        <img border="0" class="arrow" src="model/images/w_vvs.png" title="worm"/><br>
+      
+     
+  </td>
+</td>
+
+  
+  
+  <td><h4><a href="/release-18/experiment.do?experiment=Genome-wide Chromatin Profiling">Genome-wide Chromatin Profiling</a></h4>
+
+  
+Project:Histone Variants &nbsp;&nbsp;(Steven Henikoff)&nbsp;&nbsp;
+Labs: 
+    <b>Henikoff</b> 
+
+<br>
+
+  
+    
+    
+    
+      This experiment has <b>36 data submissions</b>. 
+    
+  
+
+
+    
+    
+       It has produced <b>47 entries in public repositories</b>.
+    
+
+
+
+
+      
+       
+         
+         
+           The experimental factors are
+         
+         
+       <b>developmental stage</b>, <b>biochemical fraction</b>, <b>cell line</b>, <b>extraction time</b>, <b>sodium chloride concentration</b> and <b>strain</b>.
+     
+
+</td>
+
+<td>
+
+      
+      
+    
+      
+<p/>
+
+     
+       
+         
+         
+           34 GBrowse tracks
+         
+       
+<br></br>
+     
+
+     
+
+      
+      47 
+      
+        
+        
+        entries 
+        
+      
+      in GEO
+      <br></br>
+      
+     
+
+
+<a href="/release-18/experiment.do?experiment=Genome-wide Chromatin Profiling"><img src="model/images/get_data_button.png" alt="Get Data" style="align:middle"></a>
+
+</td>
+
+
+</tr>
+
+
+
+
+</table>
+
+
+
+</div>
+
+
+
+
+
+<!-- links to all subs -->
+
+<table cellspacing="4"><tr>
+
+<td>    
+
+<a href="/release-18/loadQuery.do?skipBuilder=true&amp;query=%0A++%3Cquery+name%3D%22%22+model%3D%22genomic%22%0A++++view%3D%22Submission.title+Submission.DCCid+Submission.design+Submission.factorName+Submission.publicReleaseDate%22%0A++++sortOrder%3D%22Submission.title%22%3E%0A++%3Cnode+path%3D%22Submission%22+type%3D%22Submission%22%3E%0A++%3C%2Fnode%3E%0A++%3Cnode+path%3D%22Submission.organism%22+type%3D%22Organism%22%3E%0A++%3Cconstraint+op%3D%22LOOKUP%22+value%3D%22Caenorhabditis+elegans%22+description%3D%22%22%0A++++identifier%3D%22%22+code%3D%22A%22+extraValue%3D%22%22%3E%0A++%3C%2Fconstraint%3E%0A++%3C%2Fnode%3E%0A++%3C%2Fquery%3E%0A&amp;trail=%7Cquery&amp;method=xml" title=""><span>
+   All worm submissions
+    
+      <img border="0" class="arrow" src="images/right-arrow.gif" title="-&gt;"/>
+    
+
+  </span></a>
+
+</td>
+
+  </tr></table>
+
+
+</div>
+</div>
+
+      
+      
+
+
+
+
+
+
+<!-- errorMessages.jsp -->
+<tiles:importAttributes/>
+
+
+<script type="text/javascript" charset="utf-8">
+
+var haserrors=0;
+var haslookup=0;
+var hasmessages=0;
+    
+
+<!-- ERRORS -->
+
+
+<!-- LOOKUP & PORTAL -->
+
+
+
+
+<!-- ERRORS II -->
+
+
+<!-- MESSAGES -->
+
+
+<!-- MESSAGES II -->
+
+
+if(haserrors) {
+    jQuery('#error_msg').fadeIn(2000);
+}
+if(hasmessages) {
+    jQuery('#msg').fadeIn(2000);
+}
+if(haslookup) {
+    jQuery('#lookup_msg').fadeIn(2000);
+}
+
+</script>
+
+
+<!-- /errorMessages.jsp -->
+
+
+      
+    
+
+
+
+<!-- footer.jsp -->
+
+<br/><br/><br/>
+
+<div class="body" align="center" style="clear:both">
+
+      <c:if test="true">
+        <div id="contactFormDivButton">
+          <im:vspacer height="11"/>
+          <div class="contactButton">
+             <a href="#" onclick="showContactForm();return false">
+               <b>Questions?  Comments?  Click here!</b>
+             </a>
+
+          </div>
+        </div>
+
+      <div id="contactFormDiv" style="display:none;">
+            <im:vspacer height="11"/>
+              
+
+
+
+
+<!-- feedbackForm.jsp -->
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/contactForm.css"/>
+
+<div class="body">
+  <form name="contactForm" method="post" action="/release-18/contactAction.do" id="contactForm">
+  <table cellspacing="0" cellpadding="3" border="0">
+  <tr>
+    <td align="right">Your name:</td>
+    <td>
+      <input type="text" name="name" size="40" value="" id="fbname" />
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right">Your email address:</td>
+    <td><span id="monkey"></span></td>
+  </tr>
+  <tr>
+    <td align="right">Subject:</td>
+    <td><input type="text" name="subject" size="40" value="" /></td>
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">Message:</td>
+    <td><textarea name="message" cols="80" rows="10" style="width: 100%" id="fbcomment">
+
+
+
+---- Current page: ----
+
+/release-18/begin.do</textarea></td>
+  </tr>
+  <tr>
+    <td align="center"><input type="submit" value="Submit" /></td>
+  </tr>
+  </table>
+
+  </form>
+</div>
+
+      <script language="JavaScript">
+      <!--
+     jQuery('#monkey').html('<input type=\"text\" name=\"monkey\" size=\"40\"/>');
+      //-->
+      </script>
+
+
+<!-- /feedbackForm.jsp -->
+
+
+        </div>
+      </c:if>
+
+<br/>
+<div>modMine is funded by the <a href="http://www.nih.gov/" target="_new">NIH</a></div>
+
+</div>
+
+<!-- /footer.jsp -->
+
+
+      
+
+    
+
+    
+    
+        <script type="text/javascript">
+            document.write(unescape("%3Cscript src='http://www.google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            var pageTracker = _gat._getTracker('UA-4121742-2');
+            pageTracker._initData();
+            pageTracker._trackPageview();
+        </script>
+    
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        display("contactUsLink", true);
+    });
+    </script>
+
+    
+  </div>
+</body>
+</html>
+<!-- /layout.jsp -->
+
