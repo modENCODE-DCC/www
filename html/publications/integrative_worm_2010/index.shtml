@@ -266,13 +266,13 @@ Link coming soon.
 <h5>Part B</h5>
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a><li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
 </ul>
 
 <h5>Part C and D</h5>
 <h6>Additional Data Sources</h6>
 <ul>
-<li><a href="doi:10.1016/j.cell.2009.08.044">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
+<li><a href="http://www.cell.com/abstract/S0092-8674(09)01118-0">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
 </ul>
 
 
@@ -529,6 +529,27 @@ Link coming soon.
 
 <h4>Figure S3: Numbers of RNA-seq Reads</h4>
 <h5>Analysis completed using WormBase version WS170</h5>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+</ul>
 
 <h4>Figure S4: Density plots of 20,051 genes in WormBase190</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
