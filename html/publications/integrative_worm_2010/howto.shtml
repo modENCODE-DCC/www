@@ -1,0 +1,35 @@
+CTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="/css/modencode.css">
+ <title>modENCODE Integrative Worm Paper Companion Page - How to access modENCODE data</title>
+ <script type="text/javascript" src="/js/yahoo-dom-event.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/balloon.js">intermine.modencode.org</script>
+ <script type="text/javascript" src="/js/modencode.js"> </script>
+ <script type="text/javascript">var balloon = new Balloon;</script>
+</head>
+
+<body vlink="black" link="black">
+
+
+<table width="100%">
+  <tr valign="top">
+    <td width="160px">
+      <!--#include virtual="/menu.html" -->
+    </td>
+
+    <td align="left">
+      <!--#include virtual="/banner.html" -->
+      <div id="main">
+
+<h3>How to access modENCODE data</h3>
+
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
