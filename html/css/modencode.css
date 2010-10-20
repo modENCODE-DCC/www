@@ -3,10 +3,18 @@ html, body {
   font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif; font-size: 10
 0%; /* NN4 */}
 
+.indent {
+  font-size: 80%;
+  padding:10px,2px;
+  position:relative;
+  left:60px;
+}
+
 .PI {
   font-size: 80%;
   padding:10px,2px;
 }
+
 
 .subSection {
  width:100%;
