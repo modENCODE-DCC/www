@@ -93,7 +93,7 @@ desk</a>.
 -->
 
 
-<td width="50%" rowspan=5 align="center" valign="top">
+<td width="50%" rowspan=6 align="center" valign="top">
 <!-- RSS include -->
 <script type="text/javascript" src="http://output92.rssinclude.com/output?type=js&id=26991&hash=212f97fee05f00fd35e811d2d8e09aed"></script>
 
@@ -109,17 +109,23 @@ D. pseudoobscura </a>
 <br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_dmoj/?source=fly_dmoj" target="_blank">
 D. mojavensis </a>
 </span>
-<!--
-<br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/fly_preview/" target="_blank"> or preview unreleased submissions</a></font>
--->
 
 <tr><td align="right">
 <a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">
-<img src="/img/wgb_vs.png" alt="C.elegans" border=3 /></a>
+<img src="./img/wgb_vs.png" alt="C.elegans" border=3 /></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/worm" target="_blank">Browse worm genome</a>
 <!--
 <br><font size=-1> <a href="http://gbrowse.oicr.on.ca/fgb2/gbrowse/worm_preview/" target="_blank"> or preview unreleased submissions</a></font>
 -->
+
+<tr><td align="right">
+<a href="http://genome.ucsc.edu" target="_blank">
+<img src="./img/compgen_vs.png" alt="Comparative Genomics @ UCSC" border=3 /></a>
+<td bgcolor=#eeeeee><b><a href="http://genome.ucsc.edu" target="_blank">Comparative Genomics</a><br>
+<a class=list id=FlyAlignment href="http://hgdownload.cse.ucsc.edu/goldenPath/dm3/multiz15way/">MAF fly alignments</a><br>
+<a class=list id=WormAlignment href="http://hgdownload.cse.ucsc.edu/goldenPath/ce6/multiz6way/">MAF nematode alignments</a><br>
+
+
 <tr><td align="right">
 <a href="http://submit.modencode.org/submit/bulk_download" target="_blank">
 <!-- <a href="http://intermine.modencode.org/query/begin.do#index" target="_blank"> -->
