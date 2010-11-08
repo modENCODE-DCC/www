@@ -24,20 +24,20 @@
       <!--#include virtual="/banner.html" -->
       <div id="main">
 
-<h3>modENCODE data file formats</h3>
+<h3>modENCODE data file formats and quick start guide</h3>
 
 
 If you clicked on a link provided from the integrative worm paper companion page, you probably arrived at a page like this: (screen capture)
 
 <img src="/img/step2.jpg" border=0 alt="modmine example"/>
 
-This experiment summary page provides all the available information about the experiment and resulting data. There are 2 choices for getting straight to the data:
+<p>This experiment summary page provides all the available information about the experiment and resulting data. There are 2 choices for getting straight to the data:
 <ol>
 <li> Click on the "GBrowse tracks" link - this will load a new window with gbrowse displaying the data as a track. You can use Gbrowse to navigate the dataset, compare with other datasets, export track views and customize your viewing preferences.</li> 
 
 <li>There is a list of "Data files" > right click and save as to download the data file. This can be used as input to your own analysis and can always be viewed later using gbrowse at modencode.org, wormbase or ucsc.</li> 
 </ol>
-
+</p>
 <h3>Summary of accessing modencode data and modmine resources</h3>
 
 modENCODE data can be viewed using several different options. It can be viewed using the modencode, WormBase and UCSC gbrowsers. 
