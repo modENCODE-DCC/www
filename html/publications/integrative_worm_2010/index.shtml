@@ -35,47 +35,70 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 
 <h4>Figure 1: Transcriptome Features and Alternative Splicing</h4>
 <h5>Analysis completed using WormBase version WS209 and WS170</h5>
-<h5>Parts A, B and D</h5>
+<h5>Parts A and B</h5>
 <h6>Interpreted data:</h6>
 <ul>
 <li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+<h6>External data source</h6>
+<li><a href=http://genome.cshlp.org/content/19/4/657.long">Genome Res. 2009 Apr;19(4):657-66</a></li>
 </ul>
 
 
 <h6>Source experimental data</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments </a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001888">RNA-seq - embryo him-8 20dC post-L1 sequences & alignments 2346</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001970">RNA-seq - soma-only mid-L4 25dC 36hrs post-L1 JK1107 sequences & alignments 2583</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001879">RNA-seq - Adult spe-9 23dC 8days post-L4 molt sequences & alignment 2345</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001949">RNA-seq - pathogen Harposporium 25dC 24hr exposure post-adulthood N2 sequences & alignments 2580</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001960">RNA-seq - pathogen Harposporium control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2581</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001965">RNA-seq - pathogen Smacescens 25dC 24hr exposure post-adulthood N2 sequences & alignment 2582</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001974">RNA-seq - pathogen Smacescens control OP50 25dC 24hr exposure post-adulthood N2 sequences & alignments 2584</a></li>
 </ul>
 
 
 <h5>Part C</h5>
+<h6>Interpreted data:</h6>
+<ul>
+<li><a href="http://submit.modencode.org/submit/public/get_file/2934/extracted/Aggregate_1003.integrated_transcripts.ws170.gff3">Aggregate Integrated Transcripts</a></li>
+</ul>
 <h6>Source experimental data</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001853">RNA-seq - late embryo 20dC 4.5hrs post-early embryo sequences & alignments 2324</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
 </ul>
+
+<h5>Part D</h5>
+<h6>Source experimental data</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001867">RNA-seq - mid-L1 20dC 4hrs post-L1 sequences & alignments 2326</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001872">RNA-seq - lin-35(n745) mid-L1 25dC 4.0hrs post-L1 sequences & alignments 2343</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001905">RNA-seq - mid-L2 25dC 14 hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001925">RNA-seq - dauer entry daf-2 25dC 48hrs post-L1 sequences & alignments 2347</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001894">RNA-seq - dauer daf-2 25dC 91hrs post-L1 sequences & alignments 2349</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001900">RNA-seq - dauer exit daf-2 25dC 91hrs 15dC 12hrs post-L1 sequences & alignments 2351</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2353</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001915">RNA-seq - mid-L4 25dC 36hrs post-L1 sequences & alignments 2354</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001860">RNA-seq - male mid-L4 dpy28(y1);him-8(e1489) 25dC 30hrs post-L1 sequences & alignments 2325</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001920">RNA-seq - Young Adult 25dC 46hrs post-L1 sequences & alignment 2387</a></li>
+</ul>
+
 
 <h4>Figure 2: Expression & Binding Dynamics</h4>
 <h5>Analysis completed using WormBase version WS180</h5>
@@ -119,6 +142,8 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 
 <h4>Figure 3: Highly Occupied Target (HOT) Regions</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
+
+<h5>Part A and B</h5>
 
 <h6>Interpreted data</h6>
 <ul>
@@ -178,13 +203,36 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
 </ul>
 
-<h5>Part B</h5>
+<h5>Part C</h5>
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018434">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018447">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018442">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018615">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018620">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018437">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018422">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018497">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018477">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018597">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018472">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018482">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018467">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018462">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018511">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
 </ul>
 
-<h5>Part C and D</h5>
 <h6>Additional Data Sources</h6>
 <ul>
 <li><a href="http://www.cell.com/abstract/S0092-8674(09)01118-0">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
@@ -967,30 +1015,31 @@ Graphics only, no data used
 
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">embryo panneural tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018447">embryo AVA neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018615">embryo germline precursor cells tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">embryo coelomocytes tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018620">embryo hypodermal cells tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">embryo intestine tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018434">embryo all cells reference tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">L2 panneural tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">L2 A-class neuron tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">L2 GABA neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">L2 coelomocytes tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">L2 body wall muscle tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018472">L2 excretory cell tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018434">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018447">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018442">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018615">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018620">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018437">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018422">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018497">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018477">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018597">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018472">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018482">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018467">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018462">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018511">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
 </ul>
 
 <h4>Figure S29: HOT regions are broadly expressed</h4>
@@ -1002,30 +1051,32 @@ Graphics only, no data used
 </ul>
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">embryo panneural tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018447">embryo AVA neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018615">embryo germline precursor cells tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">embryo coelomocytes tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018620">embryo hypodermal cells tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">embryo intestine tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018434">embryo all cells reference tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">L2 panneural tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">L2 A-class neuron tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">L2 GABA neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">L2 coelomocytes tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">L2 body wall muscle tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018472">L2 excretory cell tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018434">embryo all cells reference tiling array 456</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018447">embryo AVA neurons tiling array 459</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018442">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018487">embryo dopaminergic neurons tiling array 467</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018615">embryo germline precursor cells tiling array 661</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018620">embryo hypodermal cells tiling array 662</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018437">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018422">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018519">gonad from young adult 20dC 42hrs post-L1 N2 tiling array 481</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018497">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018477">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018597">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018472">L2 excretory cell tiling array 464</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018482">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018602">L2 glutamate receptor expressing neurons tiling array 658</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018467">L2 intestine tiling array 463</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018462">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018587">L3-L4 dopaminergic neuron tiling array 655</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018452">L3-L4 PVD & OLL neurons tiling array 460</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018528">soma-only mid-L4 25dC 36hrs post-L1 JK1107 tiling array 485</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018511">young adult 25dC 42hrs post-L1 N2 tiling array 475</a></li>
+<li><a href="http://intermine.modencode.org/release-18/objectDetails.do?id=246018610">Young Adult Cephalic sheath (CEPsh) tiling array 660</a></li>
+
 </ul>
 <h6>Additional Data Sources</h6>
 <ul>
@@ -1302,11 +1353,11 @@ Graphics only, no data used
 
 
 
-<h4>Figure S38: Modeling accuracy of models involving either all features or individual features</h4>
+<h4>Figure S38: TF binding and chromatin features</h4>
 <h5>Analysis completed using WormBase version WS182</h5>
 
 
-<h4>Figure S38: Correlations between whole-genome transcription factor binding signals and chromatin features</h4>
+<h5>Part A: Correlations between whole-genome transcription factor binding signals and chromatin features</h5>
 <h5>Analysis completed using WormBase version WS182</h5>
 
 <h6>Source experimental data:</h6>
@@ -1347,19 +1398,17 @@ Graphics only, no data used
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
 </ul>
 
-
-
-<h4>Figure S38: Distinguishing binding peaks of different TFs</h4>
+<h5>Part B: Modeling accuracy of models involving either all features or individual features</h5>
 <h5>Analysis completed using WormBase version WS182</h5>
+
+
 
 <h4>Figure S39: Machine learning procedure for modeling TF binding peaks</h4>
 Graphics only, no data used
 
 
-<h4>Figure S39: Developmental stage-specific models</h4>
-<h5>Analysis completed using WormBase version WS182</h5>
 
-<h4>Figure S40: Modeling accuracy of integrative models</h4>
+<h4>Figure S40: TF binding model accuracy</h4>
 <h5>Analysis completed using WormBase version WS182</h5>
 <h6>Source experimental data:</h6>
 <ul>
@@ -1435,63 +1484,117 @@ Graphics only, no data used
 
 <h3>Supplementary Tables</h3>
 
-<h4>Supplement Table 1: C. elegans genes not identified as transcribed in 19 polyA RNA-seq samples</h5>
+<h4>Supplement Table 1: Data overview for RNA sequencing and expression tiling arrays</h5>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 2: Develpmental stages and tissue samples of small RNA-seq and tiling array experiments.</h4>
+<h4>Supplement Table 1b: ChIP-chip, ChIP-seq, and other chromatin-characterization experiments</h5>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 3: Summary of cell and stage specific tiling array results</h4>
+<h4>Supplement Table 1c: Inferred genomic elements</h5>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 4: Different types of known ncRNAs in the gold standard set</h4>
-Interpreted data: The miRNAs are collected from miRBase 14, and other ncRNAs are collected from WormBase 200. 
-<br/>
-Source experimental data:
-<br/>
-<h4>Supplement Table 5: Annotated regions used for the training of machine learning methods,  tiling array TARs</h4>
+
+
+<h4>Supplement Table 2a: Sources of polyA sites in final integrated transcript set</h4>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 6: Performance of our integrated method on tiling array TARs with three different ways to define element classes in the gold-standard set</h4>
+<h4>Supplement Table 2b: C. elegans genes not identified as “transcribed” in 19 polyA RNA-seq samples</h4>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 7: Annotated and novel tiling array TARs going into set-21521 of ncRNAs</h4>
+
+<h4>Supplement Table 3: Developmental stages and tissue samples of small RNA-seq and tiling array experiments</h4>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 8: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq -, and numbers of targeted coding and non-coding genes.</h4>
-Interpreted data: 1,061 annotated ncRNAs were collected from Wormbase 200 and miRBase 14.
+
+<h4>Supplement Table 4: Summary of cell and stage specific tiling array results</h4>
+Interpreted data: 
 <br/>
 Source experimental data:
 <br/>
-<h4>Supplement Table 9: GO analysis of genes associated with HOT regions</h4>
-Interpreted data:
-<br/>
-Source experimental data:
-<h4>Supplement Table 10: Expression correlation of tanscription factors with target genes and non-target genes.</h4>
-Interpreted data:
-<br/>
-Source experimental data:
-<h4>Supplement Table 11: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the ag1003 transcript set</h4>
-Interpreted data:
-<br/>
-Source experimental data:
-<h4>Supplement Table 12: Overlap of 3.4 Mb of residual constrained blocks with various genomic elements.</h4>
+
+<h4>Supplement Table 5: Different types of known ncRNAs</h4>
 Interpreted data:
 <br/>
 Source experimental data:
 <br/>
+<h4>Supplement Table 6: Annotated regions used for the training of machine learning methods (21K- set) – tiling array TARs</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 7: Performance of our integrated method (21K-set) on tiling array TARsa with three different ways to define element classes in the gold-standard set</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 8: Annotated and novel tiling array TARs going into 21K-set of ncRNAs</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+<h4>Supplement Table 9: Co-expression clusters of coding transcripts and novel ncRNA candidates (7K-set)</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<h4>Supplement Table 10: Total mapped reads, numbers of peaks bound by each of 23 factors (22 TFs and one dosage compensation factor, 28 experiments in total) from ChIP-seq</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+
+<h4>Supplement Table 11: GO analysis of genes associated with HOT regions</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+
+<h4>Supplement Table 12: Expression correlation of transcription factors with target genes and non- target genes</h4>
+Interpreted data:
+<br/>
+Source experimental data:
+<br/>
+
+
+<h4>Supplement Table 13: Overview of PicTar-predicted miRNA target sites within 3'UTRs of the aggregated integrated transcript set</h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 14: Overlap of 4.1 Mb of residual constrained blocks with various genomic elements</h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 15: Sample comparison of C. elegans and human TF binding regions </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 16: Sample comparison of C. elegans and human transcription </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
+<h4>Supplement Table 17: Table of Wormbase versions used </h4>
+Interpreted data: 
+<br/>
+Source experimental data:
+<br/>
+
 
 <h3>Supplementary Files</h3>
 
