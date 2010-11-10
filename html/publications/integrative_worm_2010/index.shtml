@@ -106,37 +106,37 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 <h5>Parts A and B</h5>
 <h6>Source experimental data</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1 </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2 </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3 </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4 </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018684">early embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018686">late embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018689">L1 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018690">L2 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018691">L3 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018693">L4 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018680">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018684">early embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2855</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018686">late embryo N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2857</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018689">L1 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2860</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018690">L2 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2861</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018691">L3 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2862</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018693">L4 N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2863</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018680">Young Adult N2 integrated transcripts from RNA-seq, mRNA/EST, RTPCR, mass-spec, polyA sites, and SLs 2851</a></li>
 </ul>
 
 <h5>Part C</h5>
 <h6>Source experimental data</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">embryo panneural tiling array </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2) </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">embryo coelomocytes tiling array </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">embryo intestine tiling array </a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">L2 A-class neuron tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">L2 panneural tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">L2 GABA neurons tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">L2 body wall muscle tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">L2 coelomocytes tiling array</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018582">embryo A-class motor neurons tiling array 654</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018422">embryo panneural tiling array 455</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018492">embryo GABA motor neurons tiling array 468</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018502">embryo body wall muscle tiling array (v2) 470</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018442">embryo coelomocytes tiling array 458</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018437">embryo intestine tiling array 457</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018497">L2 A-class neuron tiling array 469</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018462">L2 panneural tiling array 462</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018482">L2 GABA neurons tiling array 466</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018477">L2 body wall muscle tiling array 465</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018597">L2 coelomocytes tiling array 657</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246018467">L2 intestine tiling array 463</a></li>
 </ul>
 
 
