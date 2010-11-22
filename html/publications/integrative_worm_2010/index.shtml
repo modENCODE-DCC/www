@@ -152,55 +152,55 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000179">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000182">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000186">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000188">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000191">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000193">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000195">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000201">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000204">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000213">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000216">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000224">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000000">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000021">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000030">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000038">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000046">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000054">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000060">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000066">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000078">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000086">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000090">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000092">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000094">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000096">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000100">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000103">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000109">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000115">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000121">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000127">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000130">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000132">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000235">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000237">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000243">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000249">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000143">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000255">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000261">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000149">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000155">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000161">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000167">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000173">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
 </ul>
 
 <h5>Part C</h5>
@@ -304,38 +304,40 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 
 <h6>Source experimental data:</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000386">ChIP-chip - Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000051">ChIP-chip - Histone_H3K4me3_from_N2_L3_larvae_(AR0169_H3K4me3_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000183">ChIP-chip - Histone_H3K9me1_N2_EEMB_(AB9045_H3K9ME1291918_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000376">ChIP-chip - Histone_H3K9me1_N2_L3_(AB9045_H3K9ME1291918_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000191">ChIP-chip - Histone_H3K27ac_N2_EEMB_(WA30634849_H3K27AC_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000378">ChIP-chip - Histone_H3K27ac_N2_L3_(AB4729_H3K27AC361571_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000353">ChIP-chip - Histone_H3K36me1_N2_EEMB_(AB9048_H3K36ME1206009_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000382">ChIP-chip - Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000361">ChIP-chip - Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000357">ChIP-chip - Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB)</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001910">RNA-seq - mid-L3 25dC 25hrs post-L1 sequences & alignments 2352</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=246001841">RNA-seq - early embryo sequences & alignments 2321</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000187">ChIP-chip - Histone_H3K4me1_N2_EEMB_(AB8895_H3K4ME1733246_N2_EEMB) 2726</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000386">ChIP-chip - Histone_H3K4me1_N2_L3_(AB8895_H3K4ME1733246_N2_L3) 2775</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000051">ChIP-chip - Histone_H3K4me3_from_N2_L3_larvae_(AR0169_H3K4me3_N2_L3) 176</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000183">ChIP-chip - Histone_H3K9me1_N2_EEMB_(AB9045_H3K9ME1291918_N2_EEMB) 2646</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000376">ChIP-chip - Histone_H3K9me1_N2_L3_(AB9045_H3K9ME1291918_N2_L3) 2770</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000191">ChIP-chip - Histone_H3K27ac_N2_EEMB_(WA30634849_H3K27AC_N2_EEMB) 2727</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000378">ChIP-chip - Histone_H3K27ac_N2_L3_(AB4729_H3K27AC361571_N2_L3) 2771</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000353">ChIP-chip - Histone_H3K36me1_N2_EEMB_(AB9048_H3K36ME1206009_N2_EEMB) 2604</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 2338</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000382">ChIP-chip - Histone_H4K8ac_N2_L3_(AB15823_H4K8AC487128_N2_L3) 2774</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000361">ChIP-chip - Histone_H4_Tetra_ac_N2_EEMB_(LPAR109_H4TETRAAC109_N2_EEMB) 2766</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000357">ChIP-chip - Histone_H3K20me1_N2_EEMB_(AB9051_H4K20ME1104513_N2_EEMB) 2765</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3171">ChIP-chip - HK00013_H3K27ME31E7_N2_EEMB</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3179">ChIP-chip - UP07448_H3K27ME124439_N2_EEMB</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3181">ChIP-chip - AB15823_H4K8AC487128_N2_EEMB</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3182">ChIP-chip - MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3203">3203 </a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3205">3205</a></li>
 </ul>
 
 <h4>Figure 6: Chromatin Patterns around Genes</h4>
@@ -373,6 +375,8 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 <li><a href="http://submit.modencode.org/submit/public/download/3179">ChIP-chip - UP07448_H3K27ME124439_N2_EEMB</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3181">ChIP-chip - AB15823_H4K8AC487128_N2_EEMB</a></li>
 <li><a href="http://submit.modencode.org/submit/public/download/3182">ChIP-chip - MP07329_H4K16ACDAM1612187_N2_EEMB</a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3203">3203 </a></li>
+<li><a href="http://submit.modencode.org/submit/public/download/3205">3205</a></li>
 </ul>
 
 <h4>Figure 7: Statistical Models Predicting TF-binding and Gene Expression from Chromatin Features </h4>
@@ -384,40 +388,40 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 
 <h6>Source experimental data</h6>
 <ul>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000155">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000100">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB)</a></li> 
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000109">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000105">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB)</a></li>  
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000024">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000093">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000151">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000153">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000290">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000297">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000327">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000329">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000238">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000245">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000299">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000061">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000331">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000345">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000304">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB)</a></li>
-<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3)</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000155">ChIP-chip - Histone_H3_N2_L3_(AB1791_H3_N2_L3_new) 2409</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000100">ChIP-chip - Histone_H3_N2_EEMB_2_(AB1791_H3609253_N2_EEMB) 2313</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000164">ChIP-chip - Histone_H3K79me3_N2_EEMB_(AB2621_H3K79ME3361576_N2_EEMB) 2443</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000157">ChIP-chip - Histone_H3K79me1_N2_EEMB_(AB2886_H3K79ME1361912_N2_EEMB) 2410</a></li> 
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000160">ChIP-chip - Histone_H3K79me2_N2_EEMB_(AB3594_H3K79ME2346021_N2_EEMB) 2442</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000109">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(AB8898_H3K9ME3339901_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000105">ChIP-chip - Histone_H3K36me2_N2_EEMB_(AB9049_H3K36ME2608457_N2_EEMB) 909</a></li>  
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000024">ChIP-chip - POL-2_CTD_Mixed_Embryos (ABAB5408_4H8_N2_MXEMB) 174</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000093">ChIP-chip - Histone_H3_N2_EEMB_1_(AR0144_H3144_N2_EEMB) 2312</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000151">ChIP-chip - Histone_H3_N2_L3_2_(AR0144_H3144_N2_L3) 2407</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000153">ChIP-chip - Histone_H3_N2_L3_1_(AR0144_H3144_N2_L3_LM) 2408</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000290">ChIP-chip - POL-2_N2_L4_(CVMMS126R_8WG16_N2_L4) 599</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000349">ChIP-chip - Histone_H3K36me3_N2_EEMB_(HK00001_H3K36ME313C9_N2_EEMB) 973</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000139">ChIP-chip - Histone_H3K36me3_N2_L3_(HK00001_H3K36ME313C9_N2_L3) 2401</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000168">ChIP-chip - Histone_H3K9me2_N2_EEMB_(HK00008_H3K9ME26D11_N2_EEMB) 2444</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000147">ChIP-chip - Histone_H3K9me2_N2_L3_(HK00008_H3K9ME26D11_N2_L3) 2406</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000351">ChIP-chip - Histone_H3K9me3_N2_EEMB_2_(HK00009_H3K9ME32F3_N2_EEMB) 2339</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000121">ChIP-chip - Histone_H3K9me3_N2_L3_(HK00009_H3K9ME32F3_N2_L3) 2398</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000335">ChIP-chip - Histone_H3K36me2_N2_EEMB_(HK00012_H3K36ME22C3_N2_EEMB) 909</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000131">ChIP-chip - Histone_H3K36me2_N2_L3_(HK00012_H3K36ME22C3_N2_L3) 2399</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000135">ChIP-chip - Histone_H3K27me3_N2_L3_(HK00013_H3K27ME31E7_N2_L3) 2400</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000297">ChIP-chip - DPY-27_N2_L4(JL00001_DPY27_N2_L4) 630</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000327">ChIP-chip - DPY27_YPT47(V;X)_MXEMB(JL00001_DPY27_YPT47_MXEMB) 696</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000329">ChIP-chip - SDC3_YPT47(V;X)_MXEMB(JL00002_SDC3_YPT47_MXEMB) 701</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000238">ChIP-chip - DPY-26_N2_Mixed_Embryos_(JL00003_DPY26_N2_MXEMB) 334</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000245">ChIP-chip - MIX-1_N2_Mixed_Embryos_(JL00004_MIX1_N2_MXEMB) 336</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000299">ChIP-chip - DPY-28_N2_MXEMB_(JL00012_DPY28_N2_MXEMB) 644</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000061">ChIP-chip - HCP-3_CENP-A_Mixed_Embryos_(OD00001_HCP3_N2_MXEMB) 194</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000331">ChIP-chip - MRG-1_N2_EEMB_(SDQ0790_MRG1_N2_EEMB) 897</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000345">ChIP-chip - MES-4_N2_EEMB_(SDQ0791_MES4_N2_EEMB) 911</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000304">ChIP-chip - SDC-2_N2_MXEMB_(SDQ3146_SDC2_N2_MXEMB) 645</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000084">ChIP-chip - Histone_H3K4me3_N2_EEMB_(WA30534819_H3K4ME3_N2_EEMB) 2311</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000170">ChIP-chip - Histone_H3K4me2_N2_EEMB_(WA30834809_H3K4ME2_N2_EEMB) 2445</a></li>
+<li><a href="http://intermine.modencode.org/query/objectDetails.do?id=205000143">ChIP-chip - Histone_H3K4me2_N2_L3_(WA30834809_H3K4ME2_N2_L3) 2402</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000072">ChIP-seq - ALR-1_GFP_L2</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000136">ChIP-seq - BLMP-1_GFP_L1</a></li>
 <li><a href="http://intermine.modencode.org/query/objectDetails.do?id=208000226">ChIP-seq - CEH-14_GFP_L2</a></li>
