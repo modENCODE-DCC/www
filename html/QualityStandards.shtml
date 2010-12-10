@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+ <link rel="stylesheet" href="css/modencode.css">
+ <title>The modENCODE Project</title>
+ <script type="text/javascript" src="js/yahoo-dom-event.js"></script>
+ <script type="text/javascript" src="js/modencode.js"> </script>
+</head>
+
+<body vlink='black' link='black' onload="setActiveLink('Contact')">
+
+<table width="100%">
+<tr valign=top>
+<td>
+
+<!--#include virtual="./menu.html" -->
+
+<td align=left>
+
+<!--#include virtual="./banner.html" -->
+
+<div id="main">
+  
+  
+  <h3>modENCODE Data Quality Standards</h3>
+
+<h4>Chromatin Immunoprecipitation</h4>
+<a href="http://wiki.modencode.org/project/index.php/File:30MAY2010_mod-ENCODE_TF_Chrom_Data_Standards.doc">CHIP</a>
+
+<h4>Whole Transcriptome Shotgun Sequencing (RNA-seq)</h4>
+<a href="http://wiki.modencode.org/project/index.php/RNA-seq_Best_Practices">RNA-seq</a>
+
+
+<h4>RNA-Binding Protein Immunoprecipitation (RIP)</h4>
+<a href="http://wiki.modencode.org/project/uploads/3/36/RIP_Standards_23AUG2010.doc">RIP</a>
+
+<p></p>
+
+
+<!--#include virtual="./footer.html" -->
