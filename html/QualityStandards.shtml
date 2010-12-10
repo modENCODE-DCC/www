@@ -25,18 +25,34 @@
   
   
   <h3>modENCODE Data Quality Standards</h3>
+These documents describe project-wide
+quality control standards applied to specific modENCODE experiment types.
 
-<h4>Chromatin Immunoprecipitation</h4>
-<a href="http://wiki.modencode.org/project/index.php/File:30MAY2010_mod-ENCODE_TF_Chrom_Data_Standards.doc">CHIP</a>
-
-<h4>Whole Transcriptome Shotgun Sequencing (RNA-seq)</h4>
-<a href="http://wiki.modencode.org/project/index.php/RNA-seq_Best_Practices">RNA-seq</a>
-
-
-<h4>RNA-Binding Protein Immunoprecipitation (RIP)</h4>
-<a href="http://wiki.modencode.org/project/uploads/3/36/RIP_Standards_23AUG2010.doc">RIP</a>
+<ul>
+<li>QC Standards for chromatin IP 
+<a href="./docs/qcStandards/30MAY2010_mod-ENCODE_TF_Chrom_Data_Standards.doc">
+(<b>ChIP-chip</b> and <b>ChIP-seq</b>)
+</a>
+</li>
+<li>QC Standards for 
+whole genome shotgun sequencing 
+<a href="./docs/qcStandards/rna-seq.doc">
+(<b>RNA-seq</b>)
+</a>
+</li>
+<li>QC Standards for 
+RNA-binding protein immunoprecipitation
+<a href="./docs/qcStandards/RIP_Standards_23AUG2010.doc">
+(<b>RIP</b>)
+</a>
+</li>
+</ul>
 
 <p></p>
-
+<!-- original docs
+<a href="http://wiki.modencode.org/project/index.php/File:30MAY2010_mod-ENCODE_TF_Chrom_Data_Standards.doc">
+<a href="http://wiki.modencode.org/project/index.php/RNA-seq_Best_Practices">
+<a href="http://wiki.modencode.org/project/uploads/3/36/RIP_Standards_23AUG2010.doc">
+-->
 
 <!--#include virtual="./footer.html" -->
