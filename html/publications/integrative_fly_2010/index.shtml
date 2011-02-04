@@ -1636,23 +1636,23 @@ Text only
 
 <h3>DATASETS</h3>
 <ul>
-<li><a href="../files/fly/DataS1.pdf">DataS1.pdf</a></li>
-<li><a href="../files/fly/DataS2.php">DataS2.php</a></li>
-<li><a href="../files/fly/DataS3.gff">DataS3.gff</a></li>
-<li><a href="../files/fly/DataS4.gff">DataS4.gff</a></li>
-<li><a href="../files/fly/DataS5.zip">DataS5.zip</a></li>
-<li><a href="../files/fly/DataS6.zip">DataS6.zip</a></li>
-<li><a href="../files/fly/DataS7.zip">DataS7.zip</a></li>
-<li><a href="../files/fly/DataS8.gff">DataS8.gff</a></li>
-<li><a href="../files/fly/DataS9.txt">DataS9.txt</a></li>
-<li><a href="../files/fly/DataS10.xls">DataS10.xls</a></li>
-<li><a href="../files/fly/DataS11.zip">DataS11.zip</a></li>
-<li><a href="../files/fly/DataS12.gff">DataS12.gff</a></li>
-<li><a href="../files/fly/DataS13.gff">DataS13.gff</a></li>
-<li><a href="../files/fly/DataS14.gff">DataS14.gff</a></li>
-<li><a href="../files/fly/DataS15.gff">DataS15.gff</a></li>
-<li><a href="../files/fly/DataS16.txt">DataS16.txt</a></li>
-<li><a href="../files/fly/DataS17.gff">DataS17.gff</a></li>
+<li><a href="../files/fly/DataS1.pdf">DataS1: Listing of all modENCODE data sets and accession numbers</a></li>
+<li><a href="../files/fly/DataS2.php">DataS2: Novel transcripts with complete or incomplete conserved ORFs</a></li>
+<li><a href="../files/fly/DataS3.gff">DataS3: Noncoding RNA-seq transcripts with conserved RNA secondary structure</a></li>
+<li><a href="../files/fly/DataS4.gff">DataS4: Novel promoter predictions based on chromatin signatures</a></li>
+<li><a href="../files/fly/DataS5.zip">DataS5: Genome annotated using the 9-state chromatin model</a></li>
+<li><a href="../files/fly/DataS6.zip">DataS6: Genome annotated using the 30-state chromatin model</a></li>
+<li><a href="../files/fly/DataS7.zip">DataS7: Predicted TFBS</a></li>
+<li><a href="../files/fly/DataS8.gff">DataS8: HOT regions</a></li>
+<li><a href="../files/fly/DataS9.txt">DataS9: Machine-parseable version of ChIP-based physical regulatory network (pRN) combined with miRNA regulations</a></li>
+<li><a href="../files/fly/DataS10.xls">DataS10: Summary of connectivity properties of pRN</a></li>
+<li><a href="../files/fly/DataS11.zip">DataS11: Lists of all motif instances for the 8 motifs shown in Figure 7B</a></li>
+<li><a href="../files/fly/DataS12.gff">DataS12: Feature-specific data sets for functional network reconstruction</a></li>
+<li><a href="../files/fly/DataS13.gff">DataS13: Functional regulatory network</a></li>
+<li><a href="../files/fly/DataS14.gff">DataS14: Gene co-expression clusters</a></li>
+<li><a href="../files/fly/DataS15.gff">DataS15: Function prediction of all genes</a></li>
+<li><a href="../files/fly/DataS16.txt">DataS16: Genes predicted as regulators of key developmental events</a></li>
+<li><a href="../files/fly/DataS17.gff">DataS17: Gene expression model based on regulator binding</a></li>
 </ul>
 
 
