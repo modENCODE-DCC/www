@@ -1649,10 +1649,10 @@ Text only
 <li><a href="../files/fly/DataS11.zip">DataS11: Lists of all motif instances for the 8 motifs shown in Figure 7B</a></li>
 <li><a href="../files/fly/DataS12.gff">DataS12: Feature-specific data sets for functional network reconstruction</a></li>
 <li><a href="../files/fly/DataS13.gff">DataS13: Functional regulatory network</a></li>
-<li><a href="../files/fly/DataS14.gff">DataS14: Gene co-expression clusters</a></li>
-<li><a href="../files/fly/DataS15.gff">DataS15: Function prediction of all genes</a></li>
+<li><a href="../files/fly/DataS14.tgz">DataS14: Gene co-expression clusters</a></li>
+<li><a href="../files/fly/DataS15.zip">DataS15: Function prediction of all genes</a></li>
 <li><a href="../files/fly/DataS16.txt">DataS16: Genes predicted as regulators of key developmental events</a></li>
-<li><a href="../files/fly/DataS17.gff">DataS17: Gene expression model based on regulator binding</a></li>
+<li><a href="../files/fly/DataS17.tgz">DataS17: Gene expression model based on regulator binding</a></li>
 </ul>
 
 
