@@ -1636,8 +1636,8 @@ Text only
 
 <h3>DATASETS</h3>
 <ul>
-<li><a href="../files/fly/DataS1.pdf">DataS1: Listing of all modENCODE data sets and accession numbers</a></li>
-<li><a href="../files/fly/DataS2.php">DataS2: Novel transcripts with complete or incomplete conserved ORFs</a></li>
+<li><a href="../files/fly/DataS1.txt">DataS1: Listing of all modENCODE data sets and accession numbers</a></li>
+<li><a href="../files/fly/DataS2.txt">DataS2: Novel transcripts with complete or incomplete conserved ORFs</a></li>
 <li><a href="../files/fly/DataS3.gff">DataS3: Noncoding RNA-seq transcripts with conserved RNA secondary structure</a></li>
 <li><a href="../files/fly/DataS4.gff">DataS4: Novel promoter predictions based on chromatin signatures</a></li>
 <li><a href="../files/fly/DataS5.zip">DataS5: Genome annotated using the 9-state chromatin model</a></li>
