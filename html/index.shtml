@@ -126,10 +126,16 @@ Understanding worm and fly chromatin modification data.</a>
 <img src="/img/dgb_vs.png" alt="D.melanogaster"/></a>
 <td bgcolor=#eeeeee><b><a href="http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/fly" target="_blank">Browse D. melanogaster genome</a>
 <span class=indent>
-<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_dp/?source=fly_dp" target="_blank">
+<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_dp" target="_blank">
 D. pseudoobscura </a>
-<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_dmoj/?source=fly_dmoj" target="_blank">
+<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_dmoj" target="_blank">
 D. mojavensis </a>
+<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_ananas" target="_blank">
+D. ananassae </a>
+<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_virilis" target="_blank">
+D. virilis </a>
+<br><a href="http://modencode.oicr.on.ca/fgb2/gbrowse/fly_yakuba" target="_blank">
+D. yakuba </a>
 </span>
 
 <tr><td align="right">
