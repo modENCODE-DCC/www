@@ -101,6 +101,18 @@ Understanding worm and fly chromatin modification data.</a>
 
 <div id="main">
 
+<form name="input" action="http://intermine.modencode.org/query/keywordSearchResults.do?searchTerm=" method="get">
+<fieldset>
+<legend>modENCODE data:</legend>
+<b>Quick search:</b> <input type="text" name="searchTerm" value="" />
+<input type="submit" value="Submit" />
+</form> 
+<font size=-1><i>
+e.g. eve, embryo, zen, allele, ced-9, chip-seq
+</i></font>
+</fieldset>
+
+
 <div>
 <table width="100%" cellspacing=10>
 <tr><td width="10%" align="right">
