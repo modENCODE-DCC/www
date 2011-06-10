@@ -105,7 +105,7 @@ Understanding worm and fly chromatin modification data.</a>
 <fieldset>
 <legend>modENCODE data:</legend>
 <b>Quick search:</b> <input type="text" name="searchTerm" value="" />
-<input type="submit" value="Submit" />
+<input type="submit" value="Find" />
 </form> 
 <font size=-1><i>
 e.g. eve, embryo, zen, allele, ced-9, chip-seq
