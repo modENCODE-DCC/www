@@ -143,6 +143,68 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 <h4>Figure 3: Integrated Regulatory Network</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
 
+<h6>Interpreted data</h6>
+<ul>
+<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Integrated Regulatory Network Analysis</a></li>
+</ul>
+<h6>Source experimental data:</h6>
+<ul>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
+<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
+</ul>
+
+
+<h4>Figure 4:Highly Occupied Target (HOT) Regions</h4>
+<h5>Analysis completed using WormBase version WS170</h5>
+
+
 <h5>Part A and B</h5>
 
 <h6>Interpreted data</h6>
@@ -238,66 +300,6 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 <li><a href="http://www.cell.com/abstract/S0092-8674(09)01118-0">X. Liu et al., Analysis of Cell Fate from Single-Cell Gene Expression Profiles in C. elegans. Cell 139, 623-633 (2009).</a></li>
 </ul>
 
-
-<h4>Figure 4:Highly Occupied Target (HOT) Regions</h4>
-<h5>Analysis completed using WormBase version WS170</h5>
-
-<h6>Interpreted data</h6>
-<ul>
-<li><a href="http://wiki.modencode.org/project/index.php/File:S23ws190.tgz">Integrated Regulatory Network Analysis</a></li>
-</ul>
-<h6>Source experimental data:</h6>
-<ul>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_582&class=Submission">ChIP-seq - PHA4_GFP_emb 582</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_584&class=Submission">ChIP-seq - PHA4_StarvedL1_GFP 584</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_585&class=Submission">ChIP-seq - PHA4_GFP_FedL1 585</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_586&class=Submission">ChIP-seq - PHA4_POLII_emb 586</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_587&class=Submission">ChIP-seq - PHA4_POLII_FedL1 587</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_588&class=Submission">ChIP-seq - PHA4_StarvedL1_POLII 588</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_589&class=Submission">ChIP-seq - AMA1_GFP_L4YA 589</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_590&class=Submission">ChIP-seq - AMA1_POLII_L4YA 590</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_591&class=Submission">ChIP-seq - DAF16_GFP_L4YA 591</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_592&class=Submission">ChIP-seq - DAF16_POLII_L4YA 592</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_593&class=Submission">ChIP-seq - MAB5_GFP_L3 593</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_594&class=Submission">ChIP-seq - MAB5_POLII_L3 594</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_734&class=Submission">ChIP-seq - CEH-14_GFP_L2 734</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2416&class=Submission">ChIP-seq - DPY27_GFP_emb 2416</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2417&class=Submission">ChIP-seq - EOR-1_GFP_L3 2417</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2418&class=Submission">ChIP-seq - HLH-8_GFP_L3 2418</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2429&class=Submission">ChIP-seq - LIN-11_GFP_L2 2429</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2430&class=Submission">ChIP-seq - UNC-130_GFP_L1 2430</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2431&class=Submission">ChIP-seq - HLH-1_GFP_emb 2431</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2432&class=Submission">ChIP-seq - LIN-39_GFP_L3 2432</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2433&class=Submission">ChIP-seq - NHR-6_GFP_L2 2433</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2434&class=Submission">ChIP-seq - ALR-1_GFP_L2 2434</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2435&class=Submission">ChIP-seq - N2_POLII_eemb 2435</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2436&class=Submission">ChIP-seq - N2_POLII_lemb 2436</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2437&class=Submission">ChIP-seq - N2_POLII_L1 2437</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2438&class=Submission">ChIP-seq - N2_POLII_L2 2438</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2439&class=Submission">ChIP-seq - N2_POLII_L3 2439</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2440&class=Submission">ChIP-seq - N2_POLII_L4 2440</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2441&class=Submission">ChIP-seq - N2_POLII_YA 2441</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2450&class=Submission">ChIP-seq - PES1_GFP_L4 2450</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2451&class=Submission">ChIP-seq - GEI11_GFP_L4 2451</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2452&class=Submission">ChIP-seq - PHA4_GFP_L2 2452</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2453&class=Submission">ChIP-seq - EGL5_GFP_L3 2453</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2596&class=Submission">ChIP-seq - EOR-1_POLII_L3 2596</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2597&class=Submission">ChIP-seq - HLH-8_POLII_L3 2597</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2598&class=Submission">ChIP-seq - PHA4_GFP_lemb 2598</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2599&class=Submission">ChIP-seq - PHA4_GFP_YA 2599</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2600&class=Submission">ChIP-seq - MEP-1_GFP_emb 2600</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2601&class=Submission">ChIP-seq - MDL-1_GFP_L1 2601</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2610&class=Submission">ChIP-seq - LIN-15B_GFP_L3 2610</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2612&class=Submission">ChIP-seq - BLMP-1_GFP_L1 2612</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2613&class=Submission">ChIP-seq - LIN-13_GFP_emb 2613</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2614&class=Submission">ChIP-seq - ELT-3_GFP_L1 2614</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2616&class=Submission">ChIP-seq - EGL5_POLII_L3 2616</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2617&class=Submission">ChIP-seq - NHR-105_GFP_L3 2617</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2620&class=Submission">ChIP-seq - CEH-30_GFP_lemb 2620</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2621&class=Submission">ChIP-seq - EGL-27_GFP_L1 2621</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2622&class=Submission">ChIP-seq - SKN-1_GFP_L1 2622</a></li>
-<li><a href="http://intermine.modencode.org/query/portal.do?externalid=modENCODE_2623&class=Submission">ChIP-seq - PQM-1_GFP_L3 2623</a></li>
-</ul>
 
 <h4>Figure 5: Chromosome-scale Domains of Chromatin Organization</h4>
 <h5>Analysis completed using WormBase version WS170</h5>
