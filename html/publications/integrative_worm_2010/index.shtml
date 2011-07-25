@@ -140,7 +140,7 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 </ul>
 
 
-<h4>Figure 3: Highly Occupied Target (HOT) Regions</h4>
+<h4>Figure 3: Integrated Regulatory Network</h4>
 <h5>Analysis completed using WormBase version WS190</h5>
 
 <h5>Part A and B</h5>
@@ -239,7 +239,7 @@ A guide to the data file formats, which describes WIG file format, GFF3 format, 
 </ul>
 
 
-<h4>Figure 4: Integrated Regulatory Network</h4>
+<h4>Figure 4:Highly Occupied Target (HOT) Regions</h4>
 <h5>Analysis completed using WormBase version WS170</h5>
 
 <h6>Interpreted data</h6>
